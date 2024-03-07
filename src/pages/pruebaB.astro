@@ -1,0 +1,25 @@
+---
+import client from "../lib/apollo-client";
+import gql from "graphql-tag";
+
+const { data, loading } = await client.query({
+  query: gql`
+    query ContenidoHome {
+      contenidoHome(id: "gt48kwY21RKmCe9q2DtM0") {
+        tituloContenidosRelevanciaAlta
+        tituloPrincipal
+        tituloContenidosRelevanciaMedia
+        descripcionContenidosRelevanciaMedia
+        tituloContenidosRelevanciaBaja
+        descripcionContenidosRelevanciaBaja
+        tituloInternaCategorias
+        descripcionInternaCategorias
+      }
+    }
+  `,
+});
+
+console.log(data);
+---
+
+<p>hola2</p>

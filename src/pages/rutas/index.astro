@@ -1,0 +1,46 @@
+---
+export async function getStaticPaths() {
+  const response = await fetch(
+    "https://graphql.contentful.com/content/v1/spaces/y3qdch79qxiw/environments/master",
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        authorization: "Bearer kJnowSU145qeU6n7NqQbuZaoZyEhmcnYQSnfh0WcV7A",
+      },
+      body: JSON.stringify({
+        query: `query MyQuery {
+  allContentfulContenido {
+    edges {
+      node {
+        id
+        contenido_home {
+          id
+          tituloContenidosRelevanciaAlta
+          tituloContenidosRelevanciaBaja
+          tituloContenidosRelevanciaMedia
+          tituloInternaCategorias
+          tituloPrincipal
+        }
+      }
+    }
+  }
+}`,
+      }),
+    }
+  );
+
+  const data = await response?.json();
+  console.log("hola2", data);
+
+  return [contentData]?.map(({ slug, title, text }) => {
+    return {
+      params: { slug },
+      props: { title, text },
+    };
+  });
+}
+const { contentData } = Astro.props;
+---
+
+<preview>{contentData}</preview>

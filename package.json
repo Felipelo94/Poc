@@ -1,0 +1,27 @@
+{
+  "name": "poc-astro",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.9.6",
+    "@astrojs/react": "^3.0.10",
+    "@contentful/rich-text-html-renderer": "^16.3.5",
+    "@types/react": "^18.2.63",
+    "@types/react-dom": "^18.2.20",
+    "astro": "^4.4.13",
+    "contentful": "^10.7.0",
+    "graphql": "^16.8.1",
+    "graphql-tag": "^2.12.6",
+    "graphql-yoga": "^5.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.71.1"
+  }
+}
