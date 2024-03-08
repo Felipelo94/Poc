@@ -1,0 +1,23 @@
+---
+import { contentfulClient } from "../lib/contentful";
+import { Debug } from "astro:components";
+
+const entries = await contentfulClient.getEntries({
+  content_type: "contenidoHome",
+});
+
+const highRelevancyData = entries.items[0].fields.contenidosRelevanciaAlta;
+const highRelevancyDataCompany =
+  entries.items[0].fields.contenidosRelevanciaAltaEmpresas;
+const lowRlevancyData = entries.items[0].fields.contenidosRelevanciaBaja;
+const mediumRelevancyData = entries.items[0].fields.contenidosRelevanciaMedia;
+const mediumRelevancyDataCompany =
+  entries.items[0].fields.contenidosRelevanciaMediaEmpresas;
+const featuredContent = entries.items[0].fields.contenidosDestacados;
+---
+
+<html>
+  <body>
+    <Debug {entries.items[0].fields} />
+  </body>
+</html>
