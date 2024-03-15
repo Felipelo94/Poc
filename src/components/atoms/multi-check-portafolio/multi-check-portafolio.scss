@@ -1,0 +1,126 @@
+@import '../../../assets/styles/variables.scss';
+
+.Portafolio-title {
+  font-family: $primary-font;
+  font-weight: bold;
+  font-size: 18px;
+  display: block;
+  color: $base-blue;
+}
+
+.Portafolio-subtitle {
+  font-family: $primary-font;
+  font-weight: bold;
+  color: $portfolio-gray;
+  font-size: 18px;
+  display: block;
+}
+
+.control-compare {
+  .portfolio-list {
+    margin-top: 20px;
+    margin-left: -60px;
+    margin-right: 20px;
+    column-count: 2;
+    column-gap: 40px;
+    .portfolio-compare {
+      padding-bottom: 0px;
+      width: 300px;
+      margin-left: 60px;
+    }
+  }
+  .button-compare {
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 18px;
+    font-style: normal;
+    font-weight: normal;
+    padding: 10px 26px;
+    text-decoration: none;
+    font-family: $secondary-font;
+    align-items: flex-end;
+    text-align: center;
+    border-radius: 4px;
+    background: $base-yellow;
+    color: $dark-text;
+    border: none;
+    margin-left: 55px;
+  }
+  .button-close-modal {
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-style: none;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 1585px) {
+  .control-compare {
+    margin-left: 10px;
+    .portfolio-list {
+      margin-left: -20px;
+      .portfolio-compare {
+        margin-left: 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1260px) {
+  .control-compare {
+    margin-left: 5px;
+    .portfolio-compare {
+      margin-left: 10px;
+    }
+  }
+}
+
+@media (max-width: 1219px) {
+  .control-compare {
+    .portfolio-list {
+      column-count: 1;
+      margin-left: 0px;
+      .portfolio-compare {
+        .MuiButtonBase-root {
+          width: 40px !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 755px) {
+  .portfolio-list {
+    margin: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .control-compare {
+    .ReactModal__Content .ReactModal__Content--after-open {
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .portfolio-compare {
+      margin-left: 0;
+    }
+    .portfolio-list {
+      margin-left: -40px;
+      padding-left: 0;
+      margin-right: 0;
+      padding-right: 0;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .control-compare {
+    .button-compare {
+      margin-top: 20px;
+      margin-left: 30px;
+    }
+  }
+}

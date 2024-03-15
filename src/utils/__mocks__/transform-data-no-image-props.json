@@ -1,0 +1,226 @@
+{
+  "allContentfulContenidoEducativo": {
+    "edges": [
+      {
+        "node": {
+          "lineaDeProducto": "lineaDeProductoTest",
+          "contenido": {
+            "textoCallToActionBite": "callToActionTextTest",
+            "categoriaCliente": "clientCategoryTest",
+            "descripcioncorta": "shortDescTest",
+            "textoIntroductorio": "introductoryTextTest",
+            "tituloCorto": "shortTitleTest",
+            "updatedAt": "01/01/2000",
+            "urlSeo": "https://test.com",
+            "tipoDeCliente": "clientTypeTest",
+            "imagenpequena": null,
+            "Tema": "subjectTest",
+            "contentful_id": "000",
+            "edadygenero": "Hombre 0"
+          }
+        }
+      }
+    ]
+  },
+  "allContentfulOfertaDiferencial": {
+    "edges": [
+      {
+        "node": {
+          "lineaDeProducto": "lineaDeProductoTest",
+          "contenido": [
+            {
+              "textoCallToActionBite": "callToActionTextTest",
+              "categoriaCliente": "clientCategoryTest",
+              "descripcioncorta": "shortDescTest",
+              "textoIntroductorio": "introductoryTextTest",
+              "tituloCorto": "shortTitleTest",
+              "updatedAt": "01/01/2000",
+              "urlSeo": "https://test.com",
+              "tipoDeCliente": "clientTypeTest",
+              "imagenpequena": null,
+              "Tema": "subjectTest",
+              "contentful_id": "000",
+              "edadygenero": "Hombre 0"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "allContentfulOfertaComplementaria": {
+    "edges": [
+      {
+        "node": {
+          "lineaDeProducto": "lineaDeProductoTest",
+          "contenido": {
+            "textoCallToActionBite": "callToActionTextTest",
+            "categoriaCliente": "clientCategoryTest",
+            "descripcioncorta": "shortDescTest",
+            "textoIntroductorio": "introductoryTextTest",
+            "tituloCorto": "shortTitleTest",
+            "updatedAt": "01/01/2000",
+            "urlSeo": "https://test.com",
+            "tipoDeCliente": "clientTypeTest",
+            "imagenpequena": null,
+            "Tema": "subjectTest",
+            "contentful_id": "000",
+            "edadygenero": "Hombre 0"
+          }
+        }
+      }
+    ]
+  },
+  "allContentfulCorporativoYAccionistas": {
+    "edges": [
+      {
+        "node": {
+          "lineaDeProducto": "lineaDeProductoTest",
+          "contenido": [
+            {
+              "textoCallToActionBite": "callToActionTextTest",
+              "categoriaCliente": "clientCategoryTest",
+              "descripcioncorta": "shortDescTest",
+              "textoIntroductorio": "introductoryTextTest",
+              "tituloCorto": "shortTitleTest",
+              "updatedAt": "01/01/2000",
+              "urlSeo": "https://test.com",
+              "tipoDeCliente": "clientTypeTest",
+              "imagenpequena": null,
+              "Tema": "subjectTest",
+              "contentful_id": "000",
+              "edadygenero": "Hombre 0"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "allContentfulLeyesYDecretos": {
+    "edges": [
+      {
+        "node": {
+          "lineaDeProducto": "lineaDeProductoTest",
+          "contenido": [
+            {
+              "textoCallToActionBite": "callToActionTextTest",
+              "categoriaCliente": "clientCategoryTest",
+              "descripcioncorta": "shortDescTest",
+              "textoIntroductorio": "introductoryTextTest",
+              "tituloCorto": "shortTitleTest",
+              "updatedAt": "01/01/2000",
+              "urlSeo": "https://test.com",
+              "tipoDeCliente": "clientTypeTest",
+              "imagenpequena": null,
+              "Tema": "subjectTest",
+              "contentful_id": "000",
+              "edadygenero": "Hombre 0"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "allContentfulProducto": {
+    "edges": [
+      {
+        "node": {
+          "lineaDeProducto": "lineaDeProductoTest"
+        }
+      }
+    ]
+  },
+  "allContentfulActualidadDeInversiones": {
+    "edges": [
+      {
+        "node": {
+          "urlSeo": "https://test.com",
+          "imagen": null,
+          "contenidoCorporativo": {
+            "TextoCallToActionBite": {
+              "TextoCallToActionBite": "callToActionTextTest"
+            },
+            "TituloCortoBite": "shortTitleBiteTest",
+            "TextoIntroductorioBite": "introductoryBiteTextTest"
+          },
+          "descripcion": "descTest",
+          "updatedAt": "01/01/2000",
+          "categoriaCliente": "clientCategoryTest",
+          "lineaDeProducto": "lineaDeProductoTest",
+          "tipoDeCliente": "clientTypeTest",
+          "Tema": "subjectTest",
+          "Relevancia": "relevanceTest",
+          "contentful_id": "000"
+        }
+      }
+    ]
+  },
+  "allContentfulBeneficio": {
+    "edges": [
+      {
+        "node": {
+          "lineaDeProducto": "lineaDeProductoTest",
+          "contenido": {
+            "textoCallToActionBite": "callToActionTextTest",
+            "categoriaCliente": "clientCategoryTest",
+            "descripcioncorta": "shortDescTest",
+            "textoIntroductorio": "introductoryTextTest",
+            "tituloCorto": "shortTitleTest",
+            "updatedAt": "01/01/2000",
+            "urlSeo": "https://test.com",
+            "tipoDeCliente": "clientTypeTest",
+            "imagenpequena": null,
+            "Tema": "subjectTest",
+            "contentful_id": "000",
+            "edadygenero": "Hombre 0"
+          }
+        }
+      }
+    ]
+  },
+  "allContentfulNovedad": {
+    "edges": [
+      {
+        "node": {
+          "lineaDeProducto": "lineaDeProductoTest",
+          "contenido": {
+            "textoCallToActionBite": "callToActionTextTest",
+            "categoriaCliente": "clientCategoryTest",
+            "descripcioncorta": "shortDescTest",
+            "textoIntroductorio": "introductoryTextTest",
+            "tituloCorto": "shortTitleTest",
+            "updatedAt": "01/01/2000",
+            "urlSeo": "https://test.com",
+            "tipoDeCliente": "clientTypeTest",
+            "imagenpequena": null,
+            "Tema": "subjectTest",
+            "contentful_id": "000",
+            "edadygenero": "Hombre 0"
+          }
+        }
+      }
+    ]
+  },
+  "allContentfulCampana": {
+    "edges": [
+      {
+        "node": {
+          "lineaDeProducto": "lineaDeProductoTest",
+          "contenido": {
+            "textoCallToActionBite": "callToActionTextTest",
+            "categoriaCliente": "clientCategoryTest",
+            "descripcioncorta": "shortDescTest",
+            "textoIntroductorio": "introductoryTextTest",
+            "tituloCorto": "shortTitleTest",
+            "updatedAt": "01/01/2000",
+            "urlSeo": "https://test.com",
+            "tipoDeCliente": "clientTypeTest",
+            "imagenpequena": null,
+            "Tema": "subjectTest",
+            "contentful_id": "000",
+            "edadygenero": "Hombre 0"
+          }
+        }
+      }
+    ]
+  }
+}

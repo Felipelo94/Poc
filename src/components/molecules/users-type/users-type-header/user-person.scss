@@ -1,0 +1,19 @@
+@import '../../../../assets/styles/variables.scss';
+
+.icon-type-person {
+  & path {
+    fill: $gray-text;
+  }
+  &--selected,
+  &--dark {
+    & path {
+      fill: $base-blue;
+    }
+  }
+  &-inversion,
+  &-inversion--dark {
+    & path {
+      fill: $dark-gray;
+    }
+  }
+}

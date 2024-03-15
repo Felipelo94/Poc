@@ -1,0 +1,146 @@
+@import "../../../../assets/styles/variables.scss";
+
+.animated-menu-hamburger {
+  width: 100%;
+  position: fixed;
+  background-color: #FAFBFC;
+  display: flex;
+  top: 0;
+  bottom: 0;
+  z-index: 20;
+  animation-name: open-menu;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-duration: 0.2s;
+}
+
+.container-menu-hamburger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: white;
+  padding: 11px 0px;
+  float: right;
+  z-index: 12;
+  width: 100%;
+  overflow-y: scroll;
+
+  &-list {
+    margin: 0px 0px 34px 0px;
+  }
+
+  &-header {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 25px;
+    margin: 32px 16px 16px 16px;
+  }
+
+  &-call-to-action {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 21px;
+
+    &-a {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+
+      &-img {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+      }
+
+      &-text {
+        font-family: $secondary-font;
+        font-style: normal;
+        line-height: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        align-items: center;
+        -webkit-text-decoration-line: none;
+        text-decoration-line: none;
+      }
+    }
+  }
+}
+
+.container-menu-info-user-transaciones {
+  margin-top: 24px;
+  margin-bottom: 16px;
+
+  .button-container__button--secondary-border,
+  .button-container__button--primary {
+    padding: 8px 16px;
+    line-height: 24px;
+    border-radius: 4px;
+    width: 100%;
+    justify-content: center;
+    margin: 0 16px;
+  }
+}
+
+.container-user-accessibility {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px;
+
+  .header-types {
+    margin: 0;
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .btn-hamburger-ripper {
+    right: 20px;
+  }
+
+  .container-menu-hamburger {
+    &-call-to-action {
+      margin-right: 7px;
+    }
+  }
+}
+
+@keyframes open-menu {
+  from {
+    opacity: 0;
+    transform: scale(-0.75, 0.75) translate3d(-100px, -70px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(-1, 1) translate3d(0, 0, 0);
+  }
+}

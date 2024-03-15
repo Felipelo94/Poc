@@ -1,0 +1,34 @@
+[
+  {
+    "value": "CC",
+    "name": "Cédula de ciudadanía"
+  },
+  {
+    "value": "CE",
+    "name": "Cédula de extranjería"
+  },
+  {
+    "value": "CD",
+    "name": "Carné diplomático"
+  },
+  {
+    "value": "NIT",
+    "name": "NIT"
+  },
+  {
+    "value": "PAS",
+    "name": "Pasaporte"
+  },
+  {
+    "value": "PE",
+    "name": "Permiso especial de permanencia"
+  },
+  {
+    "value": "RCN",
+    "name": "Registro civil de nacimiento"
+  },
+  {
+    "value": "TI",
+    "name": "Tarjeta de identidad"
+  }
+]

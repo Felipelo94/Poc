@@ -1,0 +1,93 @@
+@import '../../../assets/styles/variables.scss';
+
+.container-modal {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  float: right;
+  z-index: 34;
+  width: 100%;
+  overflow: auto;
+
+  @media (min-width: $desktop-small-width) {
+    &-content {
+      &-header {
+        padding: 16px;
+
+        &-close {
+          margin-top: 24px;
+        }
+      }
+    }
+  }
+
+  &-content {
+    position: absolute;
+    background: white;
+    -webkit-box-shadow: 0px 2px 4px rgba(149, 150, 153, 0.2),
+      0px 1px 10px rgba(149, 150, 153, 0.12),
+      0px 4px 5px rgba(149, 150, 153, 0.14);
+    box-shadow: 0px 2px 4px rgba(149, 150, 153, 0.2),
+      0px 1px 10px rgba(149, 150, 153, 0.12),
+      0px 4px 5px rgba(149, 150, 153, 0.14);
+    border-radius: 4px;
+
+    &-header {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      background: white;
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
+      justify-content: flex-end;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+
+      &-icon {
+        width: 24px;
+        height: 24px;
+      }
+
+      &-tittle {
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 20px;
+        color: $dark-text;
+        margin: 0;
+      }
+
+      &-close {
+        margin-top: 16px;
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+      }
+    }
+
+    &-body {
+      background: $light-background;
+      height: 100%;
+      padding: 16px;
+
+      &-frame {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  &__figure {
+    margin: 0;
+  }
+}
+

@@ -1,0 +1,563 @@
+@import '../../../../assets/styles/variables.scss';
+
+.bite-resposive-container {
+  width: 300px;
+  height: 310px;
+  background: white;
+  border-radius: 4px 4px 24px 4px;
+  -webkit-box-shadow: 0px 8px 10px rgba(149, 150, 153, 0.2),
+    0px 6px 30px rgba(149, 150, 153, 0.12),
+    0px 16px 24px rgba(149, 150, 153, 0.14);
+  box-shadow: 0px 8px 10px rgba(149, 150, 153, 0.2),
+    0px 6px 30px rgba(149, 150, 153, 0.12),
+    0px 16px 24px rgba(149, 150, 153, 0.14);
+  margin: 0px 30px 0px 30px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+
+  &-imagen {
+    position: relative;
+    bottom: 75px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    &-img {
+      -webkit-box-shadow: 0px 8px 10px rgba(149, 150, 153, 0.2),
+        0px 6px 30px rgba(149, 150, 153, 0.12),
+        0px 16px 24px rgba(149, 150, 153, 0.14);
+      box-shadow: 0px 8px 10px rgba(149, 150, 153, 0.2),
+        0px 6px 30px rgba(149, 150, 153, 0.12),
+        0px 16px 24px rgba(149, 150, 153, 0.14);
+      border-radius: 4px 4px 24px 4px;
+    }
+  }
+
+  &-label-new {
+    position: absolute;
+    width: 44px;
+    margin-left: 177px;
+    background: $base-yellow;
+    border-radius: 4px;
+    color: $dark-text;
+    font-family: $secondary-font;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+    z-index: 1;
+    margin-top: -72px;
+  }
+
+  &-info {
+    position: relative;
+    bottom: 60px;
+
+    &-title {
+      font-family: $primary-font;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 25px;
+      text-align: center;
+      color: $base-blue;
+      height: 71px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &-title-dark {
+      color: $dark-text;
+      font-family: $primary-font;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 25px;
+      text-align: center;
+      height: 71px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &-subtitle {
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 22px;
+      text-align: center;
+      color: $gray-text;
+      margin: 0 16px;
+      max-height: 65px;
+      min-height: 44px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  &-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    bottom: 25px;
+  }
+}
+
+.bite-resposive-container-small-block {
+  cursor: pointer !important;
+  width: 300px;
+  height: 232px;
+  background: white;
+  border-radius: 4px 4px 24px 4px;
+  -webkit-box-shadow: 0px 2px 4px rgba(149, 150, 153, 0.2),
+    0px 1px 10px rgba(149, 150, 153, 0.12),
+    0px 4px 5px rgba(149, 150, 153, 0.14);
+  box-shadow: 0px 2px 4px rgba(149, 150, 153, 0.2),
+    0px 1px 10px rgba(149, 150, 153, 0.12),
+    0px 4px 5px rgba(149, 150, 153, 0.14);
+  margin: 0px 30px 0px 15px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+
+  &-imagen {
+    position: relative;
+    bottom: 75px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    & .image-container {
+      position: relative;
+      border-radius: 0px 0px 24px 0px;
+      -moz-border-radius: 0px 0px 24px 0px;
+      -webkit-border-radius: 0px 0px 24px 0px;
+    }
+
+    & > div > div > img {
+      height: 120px;
+      width: 120px;
+      -webkit-filter: grayscale(1);
+      filter: grayscale(1);
+    }
+
+    &-img {
+      background: white;
+      -webkit-box-shadow: 0px 8px 10px rgba(149, 150, 153, 0.2),
+        0px 6px 30px rgba(149, 150, 153, 0.12),
+        0px 16px 24px rgba(149, 150, 153, 0.14);
+      box-shadow: 0px 8px 10px rgba(149, 150, 153, 0.2),
+        0px 6px 30px rgba(149, 150, 153, 0.12),
+        0px 16px 24px rgba(149, 150, 153, 0.14);
+      border-radius: 4px 4px 24px 4px;
+      padding: 15px;
+    }
+  }
+
+  &-info {
+    position: relative;
+    bottom: 60px;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+
+    &-title {
+      font-family: $primary-font;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 25px;
+      text-align: center;
+      color: $base-blue;
+      margin: 0px 16px;
+      height: 30px;
+
+      & span {
+        position: relative;
+      }
+    }
+
+    &-title-dark {
+      color: $dark-text;
+      font-family: $primary-font;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 25px;
+      text-align: center;
+      margin: 0px 16px;
+      height: 30px;
+
+      & span {
+        position: relative;
+      }
+    }
+
+    &-subtitle {
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 22px;
+      text-align: center;
+      color: $gray-text;
+      margin: 0px 16px;
+      height: 42px;
+
+      & span {
+        position: relative;
+      }
+    }
+  }
+
+  &-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    bottom: 50px;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+  }
+}
+
+.bite-resposive-container-small {
+  cursor: pointer !important;
+  width: 300px;
+  height: 232px;
+  background: white;
+  border-radius: 4px 4px 24px 4px;
+  -webkit-box-shadow: 0px 2px 4px rgba(149, 150, 153, 0.2),
+    0px 1px 10px rgba(149, 150, 153, 0.12),
+    0px 4px 5px rgba(149, 150, 153, 0.14);
+  box-shadow: 0px 2px 4px rgba(149, 150, 153, 0.2),
+    0px 1px 10px rgba(149, 150, 153, 0.12),
+    0px 4px 5px rgba(149, 150, 153, 0.14);
+  margin: 0px 30px 0px 15px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  -webkit-animation-name: Realce-inv;
+  /* Safari 4.0 - 8.0 */
+
+  -webkit-animation-fill-mode: forwards;
+  /* Safari 4.0 - 8.0 */
+  animation-name: Realce-inv;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+
+  &-imagen {
+    position: relative;
+    bottom: 75px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    & .image-container {
+      position: relative;
+      -webkit-animation-name: Realce-inv;
+      /* Safari 4.0 - 8.0 */
+
+      -webkit-animation-fill-mode: forwards;
+      /* Safari 4.0 - 8.0 */
+      animation-name: Realce-inv;
+      -webkit-animation-duration: 0.5s;
+      animation-duration: 0.5s;
+      animation-fill-mode: forwards;
+      border-radius: 0px 0px 24px 0px;
+      -moz-border-radius: 0px 0px 24px 0px;
+      -webkit-border-radius: 0px 0px 24px 0px;
+    }
+
+    &-img {
+      background: white;
+      -webkit-box-shadow: 0px 8px 10px rgba(149, 150, 153, 0.2),
+        0px 6px 30px rgba(149, 150, 153, 0.12),
+        0px 16px 24px rgba(149, 150, 153, 0.14);
+      box-shadow: 0px 8px 10px rgba(149, 150, 153, 0.2),
+        0px 6px 30px rgba(149, 150, 153, 0.12),
+        0px 16px 24px rgba(149, 150, 153, 0.14);
+      border-radius: 4px 4px 24px 4px;
+      padding: 15px;
+    }
+  }
+
+  &-info {
+    position: relative;
+    bottom: 60px;
+
+    &-title {
+      font-family: $primary-font;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 25px;
+      text-align: center;
+      color: $base-blue;
+      margin: 0px 16px;
+      height: 30px;
+
+      & span {
+        position: relative;
+        -webkit-animation-name: Realce-inv;
+        /* Safari 4.0 - 8.0 */
+
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-name: Realce-inv;
+        -webkit-animation-duration: 0.5s;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+      }
+    }
+
+    &-title-dark {
+      color: $dark-text;
+      font-family: $primary-font;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 25px;
+      text-align: center;
+      margin: 0px 16px;
+      height: 30px;
+
+      & span {
+        position: relative;
+        -webkit-animation-name: Realce-inv;
+        /* Safari 4.0 - 8.0 */
+
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-name: Realce-inv;
+        -webkit-animation-duration: 0.5s;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+      }
+    }
+
+    &-subtitle {
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 22px;
+      text-align: center;
+      color: $gray-text;
+      margin: 0px 16px;
+      height: 42px;
+
+      & span {
+        position: relative;
+        -webkit-animation-name: Realce-inv;
+        /* Safari 4.0 - 8.0 */
+
+        -webkit-animation-fill-mode: forwards;
+        /* Safari 4.0 - 8.0 */
+        animation-name: Realce-inv;
+        -webkit-animation-duration: 0.5s;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+      }
+    }
+  }
+
+  &-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    bottom: 50px;
+  }
+
+  @media (min-width: $desktop-small-width) {
+    &:hover {
+      -webkit-box-shadow: 0px 8px 10px rgba(149, 150, 153, 0.2),
+        0px 6px 30px rgba(149, 150, 153, 0.12),
+        0px 16px 24px rgba(149, 150, 153, 0.14);
+      box-shadow: 0px 8px 10px rgba(149, 150, 153, 0.2),
+        0px 6px 30px rgba(149, 150, 153, 0.12),
+        0px 16px 24px rgba(149, 150, 153, 0.14);
+      position: relative;
+      -webkit-animation-name: Realce;
+      /* Safari 4.0 - 8.0 */
+
+      -webkit-animation-fill-mode: forwards;
+      /* Safari 4.0 - 8.0 */
+      animation-name: Realce;
+      -webkit-animation-duration: 0.5s;
+      animation-duration: 0.5s;
+      animation-fill-mode: forwards;
+    }
+
+    &:hover .button-container-secondary {
+      background: $base-blue;
+      color: white;
+    }
+
+    &:hover .button-container-secondary-dark {
+      background: $dark-text;
+      color: white;
+    }
+
+    &:hover .bite-resposive-container-small-info-subtitle span {
+      position: relative;
+      -webkit-animation-name: Realce;
+      -webkit-animation-fill-mode: forwards;
+      animation-name: Realce;
+      -webkit-animation-duration: 0.5s;
+      animation-duration: 0.5s;
+      animation-fill-mode: forwards;
+    }
+
+    &:hover .bite-resposive-container-small-info-title span {
+      position: relative;
+      -webkit-animation-name: Realce;
+      -webkit-animation-fill-mode: forwards;
+      animation-name: Realce;
+      -webkit-animation-duration: 0.5s;
+      animation-duration: 0.5s;
+      animation-fill-mode: forwards;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+    }
+
+    &:hover .bite-resposive-container-small-info-title-dark span {
+      position: relative;
+      -webkit-animation-name: Realce;
+      -webkit-animation-fill-mode: forwards;
+      animation-name: Realce;
+      -webkit-animation-duration: 0.5s;
+      animation-duration: 0.5s;
+      animation-fill-mode: forwards;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+    }
+
+    &:hover .image-container {
+      -webkit-box-shadow: 0px 12px 15px rgba(0, 0, 0, 0.16);
+      box-shadow: 0px 12px 15px rgba(0, 0, 0, 0.16);
+      position: relative;
+      -webkit-animation-name: Realce;
+      -webkit-animation-fill-mode: forwards;
+      animation-name: Realce;
+      -webkit-animation-duration: 0.5s;
+      animation-duration: 0.5s;
+      animation-fill-mode: forwards;
+    }
+  }
+}
+
+@-webkit-keyframes Realce {
+  from {
+    transform: translatey(0);
+  }
+
+  to {
+    transform: translatey(10px);
+  }
+}
+
+@keyframes Realce {
+  from {
+    transform: translatey(0);
+  }
+
+  to {
+    transform: translatey(10px);
+  }
+}
+
+@-webkit-keyframes Realce-inv {
+  from {
+    transform: translatey(10px);
+  }
+
+  to {
+    transform: translatey(0);
+  }
+}
+
+@keyframes Realce-inv {
+  from {
+    transform: translatey(10px);
+  }
+
+  to {
+    transform: translatey(0);
+  }
+}
+
+@-webkit-keyframes Realce-back {
+  from {
+    transform: translatey(10px);
+  }
+
+  to {
+    transform: translatey(0);
+  }
+}
+
+@keyframes Realce-back {
+  from {
+    transform: translatey(10px);
+  }
+
+  to {
+    transform: translatey(0);
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .bite-resposive-container:active .button-container__button--secondary {
+    color: white;
+  }
+
+  .bite-resposive-container-small .button-container__button--secondary-dark {
+    background: $dark-text;
+    color: white;
+  }
+
+  .bite-resposive-container .button-container__button--secondary-dark {
+    color: white;
+  }
+}

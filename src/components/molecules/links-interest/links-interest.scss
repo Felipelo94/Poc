@@ -1,0 +1,31 @@
+.links-interest-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  &-tarjetas {
+    max-width: 730px;
+    margin: 16px 113px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 1;
+    & > a > .bite-graph-container {
+      margin: 0px 16px 32px 0px;
+    }
+    & > #container-parrafo-content {
+      margin: 16px 0px;
+    }
+  }
+  &-image {
+    z-index: 0;
+  }
+}
+
+@media (max-width: "1024px") {
+  .links-interest-container {
+    &-tarjetas {
+      margin: 16px;
+    }
+  }
+}

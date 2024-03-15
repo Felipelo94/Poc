@@ -1,0 +1,142 @@
+@import '../../../assets/styles/mixins.scss';
+@import '../../../assets/styles/variables.scss';
+
+.portfolio-card {
+  $self: &;
+  width: 273px;
+  height: 372px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px 4px 24px 4px;
+  box-shadow: 0 1px 1px rgba(149, 150, 153, 0.12), 0 2px 1px rgba(149, 150, 153, 0.12), 0 1px 3px rgba(149, 150, 153, 0.2);
+  background-color: white;
+  border: 0;
+  position: relative;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  text-decoration: none;
+
+  &:hover {
+    cursor: pointer;
+
+    #{$self}__information {
+      animation-name: move-up;
+      animation-timing-function: linear;
+      animation-duration: 0.4s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+    }
+
+    #{$self}__description {
+      display: initial;
+      animation-name: fade-in-description;
+      animation-timing-function: linear;
+      animation-duration: 0.4s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+    }
+
+    #{$self}__button {
+      background-color: $base-blue;
+      color: white;
+    }
+  }
+
+  &__label {
+    width: fit-content;
+    height: 19px;
+    background-color: $base-yellow;
+    border-radius: 4px;
+    padding: 0 2px;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    color: $dark-text;
+    position: absolute;
+    left: 6px;
+    top: 5px;
+  }
+
+  &__image {
+    width: 100%;
+    height: 174px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  &__information {
+    position: absolute;
+    background: white;
+    top: 174px;
+    width: 100%;
+    height: 190px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-top: 4px solid $base-yellow;
+  }
+
+  &__title {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: $base-blue;
+  }
+
+  &__description {
+    text-align: left;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 400;
+    color: $gray-text;
+    overflow: hidden;
+    margin-bottom: 8px;
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 28px;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: $base-blue;
+    background: none;
+    border: 1px solid $base-blue;
+    border-radius: 4px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+@keyframes move-up {
+  from {
+    top: 174px;
+    height: 190px;
+  }
+  to {
+    top: 114px;
+    height: 254px;
+  }
+}
+
+@keyframes fade-in-description {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

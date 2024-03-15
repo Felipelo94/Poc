@@ -1,0 +1,64 @@
+@import "../../../assets/styles/variables.scss";
+
+.category-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  cursor: pointer;
+  width: 100%;
+}
+
+.categoryContainerImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 90px;
+  padding-top: 0.5rem;
+}
+
+.categoryImage {
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  height: 60px;
+  width: 60px;
+  z-index: 10;
+}
+
+.categoryText {
+  align-self: center;
+  margin-top: 8px;
+  text-align: center;
+  font-family: $secondary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: $base-blue;
+}
+
+@media all and (max-width: 650px) {
+  .category-container {
+    -ms-flex-preferred-size: 33%;
+    flex-basis: 33%;
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .categoryContainerImg {
+    padding-top: 19px;
+  }
+
+  .categoryText {
+    margin-bottom: 31px;
+    padding: 16px 12px 0px 12px;
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "titulo": "Privilegios Protección",
+    "url": "https://www.proteccion.com/privilegios?utm_source=boton_enlacesinteres&utm_medium=referido&utm_campaign=Talentosihay_privilegios&utm_content=clics-sitio-web",
+    "classGtm": "gtmHomeMenuPrivilegiosProteccion"
+  },
+  {
+    "titulo": "Talento Sí Hay",
+    "url": "/talento-si-hay/",
+    "classGtm": "gtmHomeMenuTalentoSiHay"
+  },
+  {
+    "titulo": "Actualización de datos",
+    "url": "https://protecciond2.b2clogin.com/ProteccionD2.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1A_signup_signin&client_id=bd03433b-5f81-4765-996d-1a9b3341f91d&nonce=defaultNonce&redirect_uri=https%3A%2F%2Fwww.proteccion.com%2Fwps%2Fportal%2Fproteccion%2Fweb%2Fhome%2Fingreso-empresas-empleadores&scope=openid&response_type=id_token&prompt=login",
+    "classGtm": "gtmHomeMenuTalentoSiHay"
+  }
+]

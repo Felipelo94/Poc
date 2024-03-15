@@ -1,0 +1,196 @@
+@import "../../../assets/styles/variables.scss";
+@import "../../../assets/styles/global.scss";
+
+.container-menu-heading {
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  &__logo {
+    margin-top: 8px;
+    margin-left: 16px;
+  }
+  &__button-close {
+    border-radius: 50px 0px 0px 50px;
+    width: 55px;
+    height: 46px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+.container-menu-info-user {
+  &-title {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: bold;
+    color: $dark-text;
+    margin: 12px 16px 16px 16px;
+    line-height: 25px;
+    font-size: 22px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    &-value {
+      margin-right: 8px;
+    }
+  }
+  &-category {
+    margin: 0px 16px 32px 16px;
+  }
+  &-change {
+    .mega-menu-container-info-user-name-image {
+      path {
+        fill: #00aec7;
+      }
+    }
+    &-subtitle {
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 22px;
+      color: $dark-text;
+    }
+    &-notIsUser {
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      -webkit-text-decoration-line: underline;
+      text-decoration-line: underline;
+      color: $base-blue;
+      span:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.profiling-user-type-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  padding: 0 16px;
+  margin-bottom: 32px;
+  .profiling-user-type {
+    @extend .unstyled-button;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: none;
+    cursor: pointer;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: unset;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    padding: 0;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    margin-right: 28px;
+    &:last-child {
+      margin-right: 0;
+    }
+    &__text {
+      font-size: 15px;
+      font-family: $secondary-font;
+    }
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .container-menu-info-user {
+    &-name {
+      width: 100%;
+    }
+    &-containerType {
+      width: 48px;
+      margin-top: 20px;
+      margin-left: 0px;
+      & > .header-types {
+        margin: 0px 16px;
+      }
+    }
+  }
+  .container-menu-info-user-transaciones {
+    & > a > .button-container {
+      & > .button-container__button--primary {
+        width: 100%;
+      }
+      & > .button-container__button--primary-dark {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (min-width: $desktop-small-width) {
+  .container-menu-info-user-name {
+    & > div {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      & > span {
+        margin: 0px 20px;
+      }
+    }
+  }
+  .container-menu-info-user-tuor-guia {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 361px) {
+  .profiling-user-type-container {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    .profiling-user-type {
+      -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+    }
+  }
+}

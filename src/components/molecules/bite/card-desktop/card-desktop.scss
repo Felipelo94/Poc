@@ -1,0 +1,90 @@
+@import "../../../../assets/styles/variables.scss";
+
+.card-desktop-container {
+  background: white;
+  border: 1px solid $light-border;
+  box-sizing: border-box;
+  border-radius: 4px;
+  max-width: 755px;
+  padding: 24px 24px 24px 16px;
+  &-title {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 29px;
+    color: $base-blue;
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  &-aporte {
+    display: flex;
+    justify-content: flex-start;
+    &-title {
+      font-family: $primary-font;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 18px;
+      display: flex;
+      align-items: center;
+      color: $dark-text;
+      margin-bottom: 13px;
+      &-two {
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        color: $dark-text;
+      margin-left: 8px;
+
+      }
+    }
+    &-subtitle {
+      font-family: $primary-font;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 18px;
+      display: flex;
+      align-items: center;
+      color: $gray-text;
+      margin-bottom: 5px;
+    }
+    &-value {
+      font-family: $primary-font;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 38px;
+      display: flex;
+      align-items: center;
+      color: $gray-text;
+    }
+  }
+}
+
+
+@media (max-width: $desktop-small-width) {
+  .card-desktop-container {
+  &-title {
+    margin-bottom: 32px;
+  }
+  &-aporte {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    &-title {
+      margin-bottom: 13px;
+      flex-wrap: wrap;
+      &-two {
+        margin-left: 0px;
+      }
+    }
+  }
+}
+}

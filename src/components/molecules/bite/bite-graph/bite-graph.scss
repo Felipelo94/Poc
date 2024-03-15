@@ -1,0 +1,88 @@
+@import "../../../../assets/styles/variables.scss";
+
+.bite-graph-container {
+  -webkit-box-shadow: 0px 2px 4px rgba(149, 150, 153, 0.2),
+    0px 1px 10px rgba(149, 150, 153, 0.12),
+    0px 4px 5px rgba(149, 150, 153, 0.14);
+          box-shadow: 0px 2px 4px rgba(149, 150, 153, 0.2),
+    0px 1px 10px rgba(149, 150, 153, 0.12),
+    0px 4px 5px rgba(149, 150, 153, 0.14);
+  background: white;
+  border-radius: 4px 4px 24px 4px;
+  width: 322px;
+  height: 215px;
+  margin: 0px 16px 32px 16px;
+  &-title {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: $dark-text;
+    padding: 16px;
+    width: 290px;
+    height: 80px;
+  }
+  &-text {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: $gray-text;
+    padding: 0px 16px;
+    width: 290px;
+    min-height: 88px;
+  }
+  &-botton {
+    padding: 0px 16px;
+    cursor: pointer;
+    &-a {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      &-text {
+        font-family: $secondary-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 22px;
+        -webkit-text-decoration-line: underline;
+                text-decoration-line: underline;
+        color: $base-blue;
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 330px) {
+  .bite-graph-container {
+    width: 90%;
+    &-title {
+      width: 90%;
+    }
+    &-text {
+      width: 90%;
+    }
+  }
+}
+
+.bite-graph-container:hover {
+  -webkit-box-shadow: 0px 12px 15px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 12px 15px rgba(0, 0, 0, 0.16);
+}
+
+#tabs-menu-best-inversion {
+  margin: 0px 16px;
+  
+}

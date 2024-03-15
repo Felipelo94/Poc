@@ -1,0 +1,143 @@
+@import "../../../assets/styles/variables.scss";
+
+.container {
+  cursor: pointer;
+  border-radius: 79px 79px 79px 79px;
+  -moz-border-radius: 79px 79px 79px 79px;
+  -webkit-border-radius: 79px 79px 79px 79px;
+  border: 1px solid $base-blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 40px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-left: 0px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+.container-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-left: 0px;
+  margin-right: 24px;
+  margin-bottom: 9px;
+}
+
+@media (min-width: $desktop-small-width) {
+.container:hover {
+  background-color: #335cb3;
+  color: white;
+}
+}
+
+.container:hover .labelSubCategory {
+  color: white !important;
+}
+
+.labelSubCategory {
+  margin: 8px 16px 8px;
+  font-family: $secondary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.containerSelect {
+  background: $base-blue;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  color: white !important
+}
+
+@media (min-width: $desktop-small-width) {
+  .container-icon {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 9px;
+    margin-bottom: 9px;
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .container {
+    margin-bottom: 24px;
+    margin-right: 21px;
+  }
+  .labelSubCategory {
+    margin: 8px 16px 8px;
+
+    text-align: left;
+    text-align: center;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .container {
+    margin-right: 0px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
+  .labelSubCategory {
+    margin: 8px 16px 8px;
+
+    text-align: center;
+  }
+}
+
+.toltip-subcategory {
+  font-family: $secondary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  color: $dark-text;
+  max-width: 433px;
+  width: 100%;
+}
+
+a.subcatecoriesContainer {
+  text-decoration: none;
+  color: $base-blue;
+}
+
+.labelSubCategory-pension {
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  margin-top: 0;
+  text-align: center;
+  font-family: $secondary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: $base-blue;
+  margin-bottom: 31px;
+}
+
+@media (max-width: $mobile-width) {
+  .labelSubCategory-pension {
+    padding: 16px 20px 0px 20px;
+  }
+}

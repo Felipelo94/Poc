@@ -1,0 +1,277 @@
+@import "../assets/styles/variables.scss";
+
+.internal-corporativo-accionista-container {
+  scroll-behavior: smooth;
+
+  &-section-introduction,
+  &-section-share,
+  &-section-content-proxy,
+  &-section-call-to-action {
+    margin-left: 129px;
+    margin-right: 128px;
+  }
+
+  &-section-introduction {
+    .introduction-container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin-top: 57px;
+
+      .introduction-container-text-title {
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 38px;
+        color: $base-blue;
+        margin-bottom: 16px;
+      }
+
+      .introduction-container-text-description {
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px !important;
+        line-height: 25px;
+        margin: 0px;
+        color: $gray-text;
+      }
+    }
+  }
+
+  &-section-meal {
+    margin: 48px 124px;
+
+    .container-meal {
+      margin: 0px;
+
+      #container-meal-content-anchor {
+        width: 94px !important;
+      }
+
+      .container-meal-content {
+        width: 100%;
+
+        .container-internal-item-accordion {
+          margin-bottom: 16px;
+
+          &:last-child {
+            margin-bottom: 0px;
+          }
+
+          .item-acordion-title-internal {
+            font-weight: normal;
+          }
+        }
+
+        .item-acordion-container {
+          margin-left: 0px;
+        }
+
+        .item-acordion-container-title-active,
+        .item-acordion-container-title-inactive {
+          border-radius: 2px;
+          text-transform: none;
+          font-family: $primary-font;
+        }
+
+        .item-acordion-container-title-width {
+          width: 100%;
+          margin-right: 16px;
+        }
+
+        .item-acordion-container-title-active {
+          border: 1px solid $base-blue;
+          background-color: white !important;
+          color: $base-blue !important;
+
+          & > svg > path {
+            fill: $base-blue;
+          }
+        }
+
+        .item-acordion-container-title-inactive {
+          border: 1px solid $light-border;
+        }
+
+        .container-meal-content-mobile {
+          margin-left: 12px;
+          padding-left: 12px;
+          margin-bottom: 40px;
+          border-left: 1px solid $base-blue;
+        }
+      }
+    }
+  }
+
+  &-section-share {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    align-items: center;
+
+    .internal-corporativo-accionista-section-share-component {
+      position: relative;
+    }
+  }
+
+  &-section-more-content {
+    margin-left: 130px;
+    margin-right: 127px;
+
+    .more-content {
+      margin: 0px;
+
+      #TitleSesion-container-title-big {
+        font-size: 26px !important;
+      }
+    }
+  }
+
+  .Internal-leyes-y-decretos-container-LongText {
+    padding: 0;
+
+    .container-meal {
+      margin: 0 14px;
+    }
+  }
+
+  .container-internal-content-component-call-to-action {
+    margin: 0 30px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .internal-corporativo-accionista-container {
+    &-section-introduction,
+    &-section-share,
+    &-section-call-to-action,
+    &-section-meal {
+      max-width: 1366px;
+      margin: auto;
+    }
+
+    &-section-more-content {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    &-section-meal {
+      margin-top: 48px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .internal-corporativo-accionista-container {
+    &-section-introduction {
+      .introduction-container {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+      }
+
+      .introduction-container > * {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+      }
+
+      .introduction-container > * + * {
+        margin-left: 76px;
+      }
+    }
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .internal-corporativo-accionista-container {
+    .container-internal-content-component-call-to-action {
+      margin: 0 16px;
+    }
+
+    &-section-introduction {
+      .introduction-container {
+        margin-top: 80px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+
+        .introduction-container-text-description {
+          font-size: 16px;
+          line-height: 18px;
+        }
+
+        .introduction-container-image {
+          margin-bottom: 15px;
+        }
+      }
+    }
+
+    &-section-share {
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+
+      .container-internal-content-componente-share {
+        margin: 0px;
+        margin-bottom: 32px;
+      }
+    }
+
+    &-section-introduction,
+    &-section-share,
+    &-section-meal,
+    &-section-more-content,
+    &-section-call-to-action,
+    &-section-content-proxy {
+      margin-left: 16px;
+      margin-right: 16px;
+    }
+
+    &-section-meal {
+      margin: 32px 16px;
+      margin-bottom: 0px;
+
+      #call-to-action-meal {
+        margin: 0px !important;
+      }
+
+      .container-meal-mobile {
+        .item-acordion-container {
+          margin: 0px;
+        }
+
+        .item-acordion-container-title-active,
+        .item-acordion-container-title-inactive {
+          border-radius: 2px;
+          text-transform: none;
+
+          .item-acordion-title- {
+            font-weight: normal;
+            font-family: $secondary-font;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 20px;
+          }
+        }
+
+        .item-acordion-container-title-active {
+          background-color: $base-blue !important;
+        }
+      }
+    }
+  }
+}

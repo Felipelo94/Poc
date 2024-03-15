@@ -1,0 +1,34 @@
+@import '../../../assets/styles/variables.scss';
+
+.amcharts-range-selector-range-wrapper{
+  font-family: $primary-font;
+  font-size: 1em;
+}
+
+.amcharts-range-selector-range-wrapper input {
+  font-size: 1em;
+  font-family: $primary-font;
+}
+
+
+.amcharts-range-selector-title{
+  font-family: $primary-font;
+  font-size: 1em;
+}
+.amcharts-range-selector-period-button{
+  font-family: $primary-font;
+  font-weight: bold;
+  background-color: $selector-gray;
+  border-radius: 3px;
+  color: #e3d829;
+  border: none;
+  &:hover{
+    background-color: $base-yellow;
+    color: $selector-gray; 
+  }
+  &:focus{
+    background-color: $base-yellow;
+    color: $selector-gray;
+  }
+}
+

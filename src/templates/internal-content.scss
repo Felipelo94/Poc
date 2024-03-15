@@ -1,0 +1,422 @@
+@import "../assets/styles/variables.scss";
+
+.container-see-more-internal {
+  display: flex;
+  justify-content: center;
+  padding: 56px 0px 60px 0px;
+  background: transparent;
+}
+
+.header-body-content {
+  margin-top: -35px !important;
+}
+
+.container-internal-bite {
+  width: 33%;
+  padding-right: 15px;
+}
+
+.container-internal-content {
+  background: white;
+
+  &-componente {
+    &-header {
+      margin: 0px 98px;
+
+      &.soluciones-header {
+        margin: 0px;
+      }
+    }
+
+    @media (min-width: "1500px") {
+      &-header {
+        max-width: 1280px;
+        margin: auto;
+
+        &.soluciones-header {
+          margin: auto;
+        }
+      }
+      & > div > div > div > div > #container-header-step-by-step-container {
+        & > #container-header-step-by-step-container-StepByStep {
+          & > div > .step-by-step {
+            & > .container-step-by-step {
+              & > .container-step-by-step-tags {
+                max-width: 1280px;
+                margin: auto;
+              }
+
+              & > div {
+                & > .container-step-by-step-parrafos {
+                  max-width: 1280px;
+                  margin: auto;
+                }
+              }
+            }
+
+            & > .container-step-by-step-call-to-action {
+              max-width: 1280px;
+              margin: auto;
+            }
+          }
+        }
+      }
+    }
+
+    &-internal-bite {
+      margin: 0px 90px;
+      @media (min-width: "1500px") {
+        max-width: 1500px;
+        margin: 0 auto;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        & > .container-internal-content-componente-internal-bite-menu {
+          width: 85%;
+        }
+      }
+    }
+
+    &-content {
+      margin: 0px 100px;
+    }
+
+    &-like {
+      margin: 0px 98px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      @media (max-width: $responsive-width) {
+        flex-wrap: wrap;
+      }
+
+      @media (min-width: "1500px") {
+        max-width: 1240px;
+        width: 100%;
+        margin: auto;
+      }
+      position: relative;
+    }
+
+    &-share {
+      background: transparent;
+      border: none;
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 25px;
+      display: flex;
+      margin: 33px 0px;
+      color: $gray-text;
+      @media (min-width: $desktop-small-width) {
+        justify-content: center;
+      }
+      align-items: center;
+
+      &-active {
+        background: url("../assets/images/icons/Icon-hover-share-redes-sociales.svg");
+        width: 36px;
+        height: 36px;
+        background-repeat: no-repeat;
+        padding: 6px 4px;
+
+        & > path {
+          fill: $base-blue;
+        }
+      }
+
+      &-inactive {
+        width: 36px;
+        height: 36px;
+        padding: 6px 4px;
+      }
+
+      &-inactive:hover {
+        background: url("../assets/images/icons/Icon-hover-share-redes-sociales.svg");
+        width: 36px;
+        height: 36px;
+        background-repeat: no-repeat;
+        padding: 6px 4px;
+
+        & > path {
+          fill: $base-blue;
+        }
+      }
+
+      cursor: pointer;
+
+      &-component {
+        @media (min-width: $desktop-small-width) {
+          position: absolute;
+          right: 0;
+          bottom: 80px;
+        }
+        @media (max-width: $desktop-small-width) {
+          &.share-animation-active {
+            position: fixed;
+            display: flex;
+            top: 0px;
+            bottom: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 34;
+            width: 100%;
+            overflow: auto;
+            align-items: flex-end;
+          }
+          &.share-animation-inactive {
+            position: fixed;
+            display: flex;
+            bottom: 0;
+            right: 0;
+            z-index: 34;
+            width: 100%;
+            overflow: auto;
+            align-items: flex-end;
+          }
+        }
+      }
+    }
+  }
+
+  &-more-content {
+    background: $light-background;
+    padding: 20px 0px 60px 0px;
+  }
+}
+
+.separator {
+  border-bottom: 1px solid #dfdfdf;
+  height: 1px;
+  margin: 0px 98px;
+  @media (min-width: $desktop-small-width) {
+    margin: 0px;
+  }
+}
+
+.bread-crumbs {
+  border-bottom: 1px solid #dfdfdf;
+  height: 1px;
+}
+
+p > .MuiTypography-root {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+@media (min-width: "1500px") {
+  .responsive-mobile-internas {
+    margin: 0;
+    max-width: 100%;
+  }
+}
+
+.container-internal-content-componente-header-banner {
+  position: relative;
+  width: 100%;
+}
+
+.container-internal-content-componente-header-menu {
+  margin-top: 24px;
+}
+
+@media (min-width: "1500px") {
+  .container-internal-content-componente-header-banner {
+    position: relative;
+    margin: 0px auto;
+    width: 1240px;
+  }
+}
+
+@media (min-width: "769px") and (max-width: $desktop-small-width) {
+  .container-internal-bite {
+    width: 30%;
+    margin-right: 15px;
+
+    & > #internal-bite-container {
+      & > #internal-bite {
+        width: 100%;
+
+        & > #internal-bite__text {
+          & > #internal-bite__text-value {
+            margin: 12px 16px;
+          }
+        }
+      }
+    }
+  }
+  .container-internal-content {
+    &-more-content {
+      background: white;
+      padding: 56px 0px 58px 0px;
+
+      & > .slick-slider {
+        margin-bottom: 0px !important;
+
+        & > .slick-list {
+          padding: 0px !important;
+
+          & > .slick-track {
+            margin-top: 75px;
+
+            & > .slick-slide {
+              margin-bottom: 12px;
+            }
+          }
+        }
+
+        & > .slick-dots {
+          margin-bottom: 0px !important;
+
+          & > .carusel-container-dots {
+            margin-bottom: 0px !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: "1200px") {
+  .container-internal-content-more-content
+  > .slick-slider
+  > .slick-list
+  > .slick-track {
+    margin-top: 75px;
+
+    &
+    > .slick-slide
+    > div
+    > .link-see-more
+    > .container-see-more-youcantmiss
+    > .container-see-more
+    > .container-see-more-icon
+    > .imgBtn-img {
+      margin-left: -42px;
+    }
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .container-internal-bite {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  #calles-salida-container-bite {
+    &-1 {
+      display: -webkit-box !important;
+      display: -ms-flexbox !important;
+      display: flex !important;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+
+    &-2 {
+      display: -webkit-box !important;
+      display: -ms-flexbox !important;
+      display: flex !important;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+  }
+  .container-internal-content-componente-header-menu {
+    margin-top: 0px;
+
+    & > .conatiner-best-menu {
+      margin-top: 36px;
+    }
+  }
+  .container-internal-content {
+    &-componente {
+      margin-bottom: 24px;
+      padding-top: 10px;
+
+      &-header {
+        margin: 0px 15px;
+      }
+
+      &-internal-bite {
+        & > .d-flex {
+          display: block !important;
+        }
+
+        height: 100%;
+        margin: 0px;
+
+        &-menu {
+          margin: 0px 0px 0px 16px !important;
+        }
+      }
+
+      &-like {
+        margin: 0px;
+
+        & > .like-container {
+          margin: 16px;
+        }
+
+        & > .container-internal-content-componente-share {
+          margin: 16px;
+        }
+      }
+    }
+
+    &-more-content {
+      background: $light-background;
+      padding: 56px 0px 58px 0px;
+
+      & > .slick-slider {
+        margin-bottom: 0px !important;
+
+        & > .slick-list {
+          padding: 0px !important;
+
+          & > .slick-track {
+            margin-top: 75px;
+
+            & > .slick-slide {
+              margin-bottom: 30px;
+
+              & > div {
+                & > .link-see-more {
+                  & > .container-see-more-youcantmiss {
+                    & > .container-see-more {
+                      & > .container-see-more-icon {
+                        & > .imgBtn-img {
+                          margin-left: -42px;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        & > .slick-dots {
+          margin-bottom: 0px !important;
+
+          & > .carusel-container-dots {
+            margin-bottom: 0px !important;
+          }
+        }
+      }
+    }
+  }
+
+  .separator {
+    margin: 0px 16px;
+  }
+}

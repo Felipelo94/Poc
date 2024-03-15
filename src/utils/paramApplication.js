@@ -1,0 +1,48 @@
+const URL_SERVICES = process.env.URI_BACK
+const MAPS_KEY = process.env.MAPS_KEY
+const SHOW_SURVEY_SITE = process.env.SHOW_SURVEY_SITE
+const URL_LOGIN_AFILIADOS = process.env.URL_LOGIN_AFILIADOS
+const URL_LOGIN_EMPRESAS = process.env.URL_LOGIN_EMPRESAS
+const API_BACK = process.env.API_BACK
+const PATH_PREFIX = process.env.PATH_PREFIX
+const NAME_S3 = process.env.AWS_BUCKET_NAME
+const DAY_TAG_NEW = process.env.DAY_TAG_NEW
+const URI_SALESFORCE = process.env.URI_SALESFORCE
+const OID_SALESFORCE = process.env.OID_SALESFORCE
+const HOURS_TO_UPDATE_MENU_OPTIONS_CACHE =
+  process.env.HOURS_TO_UPDATE_MENU_OPTIONS_CACHE
+const KEY_SITE_CAPTCHA = process.env.KEY_SITE_CAPTCHA
+const URI_WOLKVOX = process.env.URI_WOLKVOX
+const PROD_ID_WOLKVOX = process.env.PROD_ID_WOLKVOX
+const URL_PRONTO = process.env.URL_PRONTO
+const HASH_PRONTO = process.env.HASH_PRONTO
+const mercadosmundialesnew = process.env.mercadosmundialesnew
+const cifras = process.env.cifras
+const API_BACK_PORTFOLIOS = process.env.API_BACK_PORTFOLIOS
+const URL_PORTFOLIOS_LIST = process.env.URL_PORTFOLIOS_LIST
+const URL_PORTFOLIO_UNIT_VALUE = process.env.URL_PORTFOLIO_UNIT_VALUE
+
+module.exports = {
+  URL_SERVICES,
+  MAPS_KEY,
+  PATH_PREFIX,
+  NAME_S3,
+  SHOW_SURVEY_SITE,
+  URL_LOGIN_AFILIADOS,
+  URL_LOGIN_EMPRESAS,
+  API_BACK,
+  DAY_TAG_NEW,
+  URI_SALESFORCE,
+  OID_SALESFORCE,
+  KEY_SITE_CAPTCHA,
+  URI_WOLKVOX,
+  PROD_ID_WOLKVOX,
+  URL_PRONTO,
+  HASH_PRONTO,
+  HOURS_TO_UPDATE_MENU_OPTIONS_CACHE,
+  mercadosmundialesnew,
+  cifras,
+  URL_PORTFOLIO_UNIT_VALUE,
+  URL_PORTFOLIOS_LIST,
+  API_BACK_PORTFOLIOS
+}

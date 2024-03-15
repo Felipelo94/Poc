@@ -1,0 +1,53 @@
+@import '../../../assets/styles/variables.scss';
+
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 32px;
+
+  &__text {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: $gray-text;
+  }
+
+  &__box {
+    width: 100%;
+    height: 40px;
+    padding: 8px 12px;
+    background: $base-white;
+    border: 1px solid $light-border;
+    border-radius: 3px;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: $gray-text;
+
+    &::placeholder {
+      color: $neutral-500;
+    }
+
+    &--error {
+      border-color: #e62323;
+    }
+  }
+
+  &__error-message {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #e62323;
+  }
+}

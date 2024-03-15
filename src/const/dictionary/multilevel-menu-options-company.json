@@ -1,0 +1,481 @@
+[
+  {
+    "id": 46,
+    "order": 1,
+    "url": "",
+    "description": "Accesos Rápidos",
+    "parentId": null,
+    "category": "Pensión",
+    "subcategory": "ALL",
+    "typeCustomer": 2,
+    "suboptions": [
+      {
+        "id": 163,
+        "order": 1,
+        "url": "https://www.proteccion.com/empresas/zona-transaccional",
+        "description": "Actualiza tus datos",
+        "parentId": 46,
+        "category": "Pensión",
+        "subcategory": "ALL",
+        "typeCustomer": 2,
+        "suboptions": []
+      },
+      {
+        "id": 164,
+        "order": 2,
+        "url": "https://www.proteccion.com/wps/proxy/https/portalempresas.proteccion.com.co:10084/liquidar-y-pagar-ces",
+        "description": "Pague Cesantías",
+        "parentId": 46,
+        "category": "Pensión",
+        "subcategory": "ALL",
+        "typeCustomer": 2,
+        "suboptions": []
+      },
+      {
+        "id": 165,
+        "order": 3,
+        "url": "https://www.proteccion.com/wps/portal/proteccion/web/lo-nuevo/afiliados/generar-historia-laboral",
+        "description": "Historia Laboral",
+        "parentId": 46,
+        "category": "Pensión",
+        "subcategory": "ALL",
+        "typeCustomer": 2,
+        "suboptions": []
+      },
+      {
+        "id": 166,
+        "order": 4,
+        "url": "https://www.proteccion.com/wps/portal/proteccion/web/home/home-afiliados-pensionados/certifacil#/certificados",
+        "description": "Certificados de Afiliación",
+        "parentId": 46,
+        "category": "Pensión",
+        "subcategory": "ALL",
+        "typeCustomer": 2,
+        "suboptions": []
+      },
+      {
+        "id": 167,
+        "order": 5,
+        "url": "https://protecciond2.b2clogin.com/ProteccionD2.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1A_signup_signin&client_id=bd03433b-5f81-4765-996d-1a9b3341f91d&nonce=defaultNonce&redirect_uri=https%3A%2F%2Fwww.proteccion.com%2Fwps%2Fportal%2Fproteccion%2Fweb%2Fhome%2Fingreso-empresas-empleadores&scope=openid&response_type=id_token&prompt=login",
+        "description": "Certificados de la Empresa",
+        "parentId": 46,
+        "category": "Pensión",
+        "subcategory": "ALL",
+        "typeCustomer": 2,
+        "suboptions": []
+      },
+      {
+        "id": 168,
+        "order": 6,
+        "url": "https://www.proteccion.com/recepcionDocumentos/",
+        "description": "Entrega de documentos",
+        "parentId": 46,
+        "category": "Pensión",
+        "subcategory": "ALL",
+        "typeCustomer": 2,
+        "suboptions": []
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "order": 2,
+    "url": "/canales/sitio-web",
+    "description": "Canales de Servicio",
+    "parentId": null,
+    "category": "Pensión",
+    "subcategory": "ALL",
+    "typeCustomer": 2,
+    "suboptions": []
+  },
+  {
+    "id": 48,
+    "order": 3,
+    "url": "https://www.proteccion.com/afiliacion/empresas?utm_source=Menu&utm_medium=NuevoPortal&utm_campaign=AfiliacionDigitalEmpresas",
+    "description": "Afíliate a Pensión",
+    "parentId": null,
+    "category": "Pensión",
+    "subcategory": "ALL",
+    "typeCustomer": 2,
+    "suboptions": []
+  },
+  {
+    "id": 49,
+    "order": 4,
+    "url": "",
+    "description": "Tenemos para ti",
+    "parentId": null,
+    "category": "Pensión",
+    "subcategory": "ALL",
+    "typeCustomer": 2,
+    "suboptions": [
+      {
+        "id": 187,
+        "order": 1,
+        "url": "https://www.proteccion.com/contenidos/regala-proteccion/",
+        "description": "Regala Protección",
+        "parentId": 49,
+        "category": "Pensión",
+        "subcategory": "ALL",
+        "typeCustomer": 2,
+        "suboptions": []
+      },
+      {
+        "id": 169,
+        "order": 2,
+        "url": "https://www.proteccion.com/wps/portal/proteccion/web/privilegios-proteccion/",
+        "description": "Privilegios Protección",
+        "parentId": 49,
+        "category": "Pensión",
+        "subcategory": "ALL",
+        "typeCustomer": 2,
+        "suboptions": []
+      },
+      {
+        "id": 170,
+        "order": 3,
+        "url": "https://www.proteccion.com/universidad",
+        "description": "Universidad Protección",
+        "parentId": 49,
+        "category": "Pensión",
+        "subcategory": "ALL",
+        "typeCustomer": 2,
+        "suboptions": []
+      },
+      {
+        "id": 171,
+        "order": 4,
+        "url": "/talento-si-hay/",
+        "description": "Talento Sí Hay",
+        "parentId": 49,
+        "category": "Pensión",
+        "subcategory": "ALL",
+        "typeCustomer": 2,
+        "suboptions": []
+      },
+      {
+        "id": 172,
+        "order": 5,
+        "url": "https://www.proteccion.com/eventos",
+        "description": "Eventos Protección",
+        "parentId": 49,
+        "category": "Pensión",
+        "subcategory": "ALL",
+        "typeCustomer": 2,
+        "suboptions": []
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "order": 5,
+    "url": "https://www.proteccion.com/contenidos/gobierno-corporativo/",
+    "description": "Corporativo y Accionistas",
+    "parentId": null,
+    "category": "Pensión",
+    "subcategory": "ALL",
+    "typeCustomer": 2,
+    "suboptions": []
+  },
+  {
+    "id": 36,
+    "order": 1,
+    "url": "",
+    "description": "Accesos Rápidos",
+    "parentId": null,
+    "category": "Cesantías",
+    "subcategory": "ALL",
+    "typeCustomer": 2,
+    "suboptions": [
+      {
+        "id": 148,
+        "order": 1,
+        "url": "https://www.proteccion.com/empresas/zona-transaccional",
+        "description": "Actualiza tus datos",
+        "parentId": 36,
+        "category": "Cesantías",
+        "subcategory": "ALL",
+        "typeCustomer": 2,
+        "suboptions": []
+      },
+      {
+        "id": 149,
+        "order": 2,
+        "url": "https://assets.ctfassets.net/y3qdch79qxiw/2uMRPieAlpqWspSBjkk4WZ/5e875d559a9e77d78b470078b26fa764/__C__mo_liquidar_y_pagar_Cesant__as_.pdf",
+        "description": "Liquide y Pague Cesantías",
+        "parentId": 36,
+        "category": "Cesantías",
+        "subcategory": "ALL",
+        "typeCustomer": 2,
+        "suboptions": []
+      },
+      {
+        "id": 150,
+        "order": 3,
+        "url": "/empresa/cesantias/calculadora-cesantias/",
+        "description": "Calcula tus Cesantías",
+        "parentId": 36,
+        "category": "Cesantías",
+        "subcategory": "ALL",
+        "typeCustomer": 2,
+        "suboptions": []
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "order": 2,
+    "url": "/canales/sitio-web",
+    "description": "Canales de Servicio",
+    "parentId": null,
+    "category": "Cesantías",
+    "subcategory": "ALL",
+    "typeCustomer": 2,
+    "suboptions": []
+  },
+  {
+    "id": 38,
+    "order": 3,
+    "url": "https://www.proteccion.com/afiliacion/empresas?utm_source=Menu&utm_medium=NuevoPortal&utm_campaign=AfiliacionDigitalEmpresas",
+    "description": "Afíliate a Pensión",
+    "parentId": null,
+    "category": "Cesantías",
+    "subcategory": "ALL",
+    "typeCustomer": 2,
+    "suboptions": []
+  },
+  {
+    "id": 39,
+    "order": 4,
+    "url": "",
+    "description": "Tenemos para ti",
+    "parentId": null,
+    "category": "Cesantías",
+    "subcategory": "ALL",
+    "typeCustomer": 2,
+    "suboptions": [
+      {
+        "id": 186,
+        "order": 1,
+        "url": "https://www.proteccion.com/contenidos/regala-proteccion/",
+        "description": "Regala Protección",
+        "parentId": 39,
+        "category": "Cesantías",
+        "subcategory": "ALL",
+        "typeCustomer": 2,
+        "suboptions": []
+      },
+      {
+        "id": 151,
+        "order": 2,
+        "url": "https://www.proteccion.com/wps/portal/proteccion/web/privilegios-proteccion/",
+        "description": "Privilegios Protección",
+        "parentId": 39,
+        "category": "Cesantías",
+        "subcategory": "ALL",
+        "typeCustomer": 2,
+        "suboptions": []
+      },
+      {
+        "id": 152,
+        "order": 3,
+        "url": "https://www.proteccion.com/universidad",
+        "description": "Universidad Protección",
+        "parentId": 39,
+        "category": "Cesantías",
+        "subcategory": "ALL",
+        "typeCustomer": 2,
+        "suboptions": []
+      },
+      {
+        "id": 153,
+        "order": 4,
+        "url": "/talento-si-hay/",
+        "description": "Talento Sí Hay",
+        "parentId": 39,
+        "category": "Cesantías",
+        "subcategory": "ALL",
+        "typeCustomer": 2,
+        "suboptions": []
+      },
+      {
+        "id": 154,
+        "order": 5,
+        "url": "https://www.proteccion.com/eventos",
+        "description": "Eventos Protección",
+        "parentId": 39,
+        "category": "Cesantías",
+        "subcategory": "ALL",
+        "typeCustomer": 2,
+        "suboptions": []
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "order": 5,
+    "url": "https://www.proteccion.com/contenidos/gobierno-corporativo/",
+    "description": "Corporativo y Accionistas",
+    "parentId": null,
+    "category": "Cesantías",
+    "subcategory": "ALL",
+    "typeCustomer": 2,
+    "suboptions": []
+  },
+  {
+    "id": 41,
+    "order": 1,
+    "url": "",
+    "description": "Accesos Rápidos",
+    "parentId": null,
+    "category": "Ahorro",
+    "subcategory": "ALL",
+    "typeCustomer": 2,
+    "suboptions": [
+      {
+        "id": 155,
+        "order": 1,
+        "url": "https://www.proteccion.com/empresas/zona-transaccional",
+        "description": "Actualiza tus datos",
+        "parentId": 41,
+        "category": "Ahorro",
+        "subcategory": "ALL",
+        "typeCustomer": 2,
+        "suboptions": []
+      },
+      {
+        "id": 156,
+        "order": 2,
+        "url": "https://www.proteccion.com/wps/proxy/https/portalempresas.proteccion.com.co:10084/liquidar-y-pagar-ces",
+        "description": "Pague Cesantías",
+        "parentId": 41,
+        "category": "Ahorro",
+        "subcategory": "ALL",
+        "typeCustomer": 2,
+        "suboptions": []
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "order": 2,
+    "url": "/canales/sitio-web",
+    "description": "Canales de Servicio",
+    "parentId": null,
+    "category": "Ahorro",
+    "subcategory": "ALL",
+    "typeCustomer": 2,
+    "suboptions": []
+  },
+  {
+    "id": 43,
+    "order": 3,
+    "url": "https://www.proteccion.com/afiliacion/empresas?utm_source=Menu&utm_medium=NuevoPortal&utm_campaign=AfiliacionDigitalEmpresas",
+    "description": "Afíliate a Pensión",
+    "parentId": null,
+    "category": "Ahorro",
+    "subcategory": "ALL",
+    "typeCustomer": 2,
+    "suboptions": []
+  },
+  {
+    "id": 44,
+    "order": 4,
+    "url": "",
+    "description": "Tenemos para ti",
+    "parentId": null,
+    "category": "Ahorro",
+    "subcategory": "ALL",
+    "typeCustomer": 2,
+    "suboptions": [
+      {
+        "id": 185,
+        "order": 1,
+        "url": "https://www.proteccion.com/contenidos/regala-proteccion/",
+        "description": "Regala Protección",
+        "parentId": 44,
+        "category": "Ahorro",
+        "subcategory": "ALL",
+        "typeCustomer": 2,
+        "suboptions": []
+      },
+      {
+        "id": 157,
+        "order": 2,
+        "url": "https://www.proteccion.com/contenidos/empresa/ahorro/ahorro/toma-el-control/",
+        "description": "Toma el Control",
+        "parentId": 44,
+        "category": "Ahorro",
+        "subcategory": "ALL",
+        "typeCustomer": 2,
+        "suboptions": []
+      },
+      {
+        "id": 158,
+        "order": 3,
+        "url": "https://qiip.com.co/",
+        "description": "Finanzas con qiip",
+        "parentId": 44,
+        "category": "Ahorro",
+        "subcategory": "ALL",
+        "typeCustomer": 2,
+        "suboptions": []
+      },
+      {
+        "id": 159,
+        "order": 4,
+        "url": "/talento-si-hay/",
+        "description": "Talento Sí Hay",
+        "parentId": 44,
+        "category": "Ahorro",
+        "subcategory": "ALL",
+        "typeCustomer": 2,
+        "suboptions": []
+      },
+      {
+        "id": 160,
+        "order": 5,
+        "url": "https://www.proteccion.com/universidad",
+        "description": "Universidad Protección",
+        "parentId": 44,
+        "category": "Ahorro",
+        "subcategory": "ALL",
+        "typeCustomer": 2,
+        "suboptions": []
+      },
+      {
+        "id": 161,
+        "order": 6,
+        "url": "https://www.proteccion.com/wps/portal/proteccion/web/privilegios-proteccion/",
+        "description": "Privilegios Protección",
+        "parentId": 44,
+        "category": "Ahorro",
+        "subcategory": "ALL",
+        "typeCustomer": 2,
+        "suboptions": []
+      },
+      {
+        "id": 162,
+        "order": 7,
+        "url": "https://www.proteccion.com/eventos",
+        "description": "Eventos Protección",
+        "parentId": 44,
+        "category": "Ahorro",
+        "subcategory": "ALL",
+        "typeCustomer": 2,
+        "suboptions": []
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "order": 5,
+    "url": "https://www.proteccion.com/contenidos/gobierno-corporativo/",
+    "description": "Corporativo y Accionistas",
+    "parentId": null,
+    "category": "Ahorro",
+    "subcategory": "ALL",
+    "typeCustomer": 2,
+    "suboptions": []
+  }
+]

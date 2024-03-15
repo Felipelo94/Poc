@@ -1,0 +1,212 @@
+@import "../../../assets/styles/variables.scss";
+@import "../../../assets/styles/mixins.scss";
+
+.header-search-container {
+  margin: 10px 0px 21px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  z-index: 10;
+
+  &-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    position: relative;
+    left: -24px;
+    cursor: pointer;
+  }
+
+  > input {
+    width: 359px;
+    height: 40px;
+    background: white;
+    border: 1px solid $light-border;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 9.5px 15px 12.5px;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  > input:focus {
+    outline: none !important;
+    border-color: $border-blue;
+    -webkit-box-shadow: 0 0 10px $border-blue;
+    box-shadow: 0 0 10px $border-blue;
+  }
+
+  & .SelectComponent-container-active {
+    width: 100%;
+  }
+}
+
+.container-salesforce {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+
+  &-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+
+  &-title {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 34px;
+    color: $base-blue;
+    margin-bottom: 16px;
+  }
+
+  &-description {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: $dark-text;
+    margin: 0px;
+  }
+
+  &__information-alert {
+    width: 345px;
+    padding: 5px 8px 5px 5px;
+    margin-top: 12px;
+    border-radius: 4px;
+    background-color: #ebf6fd;
+    display: flex;
+    gap: 9px;
+    align-items: center;
+  }
+
+  &__information-text {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    color: #224b77;
+  }
+
+  &__select {
+    width: 321px;
+
+    @include to($desktop-small-width) {
+      width: 100%;
+    }
+  }
+
+  &-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 40px;
+  }
+
+  &-input-left {
+    margin-right: 32px;
+  }
+
+  &-select {
+    width: 321px;
+    height: 40px;
+    background: white;
+    border: 1px solid $light-border;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 8px 12px 8px 12px;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: $gray-text;
+  }
+
+  &-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 32px;
+  }
+
+  &__button {
+    height: 48px;
+    width: 200px;
+    border-radius: 4px;
+    background: $light-border;
+    border-color: transparent;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #626277;
+
+    &-active {
+      background: $base-yellow;
+      color: $base-blue;
+
+      &:hover {
+        background: #F5F548;
+      }
+    }
+
+    &-investment-active {
+      background: $base-yellow;
+      color: $dark-text;
+
+      &:hover {
+        background: #F5F548;
+      }
+    }
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .container-salesforce {
+    margin-bottom: 10px;
+
+    .input-container-input {
+      width: 100%;
+    }
+
+    &-row {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin-bottom: 40px;
+    }
+
+    &-input-left {
+      margin-right: 0px;
+      margin-bottom: 40px;
+    }
+
+    &-btn {
+      margin-bottom: 16px;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@import "../../../assets/styles/variables.scss";
+
+.container-video-adviser {
+  margin: 0px 129px 32px 129px;
+  & > .container-modal {
+    right: 0;
+    & > .container-modal-content {
+      @media (min-width: $desktop-small-width) {
+        overflow: hidden !important;
+      }
+    }
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .container-video-adviser {
+    margin: 32px 16px 64px 16px;
+  }
+}

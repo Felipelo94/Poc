@@ -1,0 +1,148 @@
+@import "../../../assets/styles/variables.scss";
+
+.title {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  color: $dark-text;
+  padding-bottom: 35px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.subCategories {
+  justify-content: start;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 34px;
+  & > .menudes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .title {
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    line-height: 29px;
+    margin-bottom: 16px;
+  }
+
+  #Subcategories {
+    margin-top: 7px;
+  }
+
+  .subCategories {
+    margin-bottom: 24px;
+    margin-right: 21px;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .title {
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    width: 177px;
+    line-height: 29px;
+  }
+
+  #Subcategories {
+    margin-top: 7px;
+  }
+
+  .subCategories {
+    margin-bottom: 1px;
+    margin-right: 0px;
+    justify-content: space-between;
+  }
+
+  .subcatecoriesContainer {
+    width: 100%;
+  }
+}
+
+.Sub-category-active {
+  width: 100%;
+}
+@media (max-width: $desktop-small-width) {
+  .Sub-category-active {
+    background-image: url("../../../assets/images/icon-bgcategoria.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  #Sub-category-0 {
+    margin-left: 0px !important;
+  }
+
+  #Sub-category-1 {
+    margin-left: 0px !important;
+  }
+
+  #Sub-category-2 {
+    margin-left: 0px !important;
+  }
+
+  #Sub-category-3 {
+    margin-left: 0px !important;
+  }
+}
+
+@media (max-width: "376px") {
+  .subCategories {
+    & > .menudes {
+      justify-content: left !important;
+    }
+  }
+}

@@ -1,0 +1,64 @@
+@import "../../../../assets/styles/internal-pages-global.scss";
+@import "../../../../assets/styles/variables.scss";
+
+.container-introduction-section {
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    margin-top: 32px;
+    margin-bottom: 48px;
+    & > * {
+      -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+    }
+    & > * + * {
+      margin-left: 51px;
+    }
+    &-title {
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 38px;
+        color: $dark-text;
+        margin-bottom: 16px;
+      }
+    &-description {
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 25px;
+        color: $gray-text;
+        margin: 0;
+    }
+}
+
+@media (min-width: 1025px) {
+    .container-introduction-section {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+}
+  
+@media (max-width: $desktop-small-width) {
+    .container-introduction-section {
+        margin-top: 72px;
+    }
+}
+  
+@media (max-width: 320px) {
+    .container-introduction-sectiona {
+        height: auto !important;
+    }
+}

@@ -1,0 +1,103 @@
+@import "../../../assets/styles/variables.scss";
+.container-step-tour-guide {
+  display: flex;
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  &-header {
+    height: 28px;
+    background: white;
+    display: flex;
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox; /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    margin: 26px 29px 26px 26px;
+    &-title {
+      margin-top: 4px;
+      margin-left: 18px;
+      color: $dark-text;
+      font-family: $primary-font;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 20px;
+    }
+
+    &-close {
+      right: 28px;
+      top: 33px;
+      position: absolute;
+      cursor: pointer;
+    }
+  }
+  &-body {
+    background: $light-background;
+    padding: 0px 24px 0px 24px;
+    height: inherit;
+    border-radius: 0px 0px 4px 4px;
+    &-description {
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 22px;
+      color: $dark-text;
+      margin-top: 60px;
+      margin-bottom: 34px;
+    }
+    &-btns {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
+      justify-content: flex-end;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-line-pack: center;
+      align-content: center;
+      margin-bottom: 16px;
+    }
+    > .progressContainer {
+      margin-right: 0px;
+      margin-top: 24px;
+      > progress {
+        width: 104px;
+      }
+    }
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .container-step-tour-guide {
+    display: block;
+    &-header {
+      margin: 10px 8px;
+      height: 28px;
+      &-close {
+        top: 18px;
+      }
+    }
+    &-body {
+      padding: 0px 12px 0px 12px;
+      max-height: 184px;
+      height: auto;
+      &-description {
+        margin: 0px;
+      }
+      > .progressContainer {
+        display: none;
+      }
+    }
+  }
+}

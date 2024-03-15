@@ -1,0 +1,89 @@
+@import "../../../assets/styles/variables.scss";
+#servicio-chat {
+  width: 94px;
+  height: 48px;
+  z-index: 7;
+  display: block;
+  right: 128px;
+  visibility: visible;
+  cursor: pointer;
+  
+}
+
+.flotante {
+  position: fixed;
+  float: left;
+  bottom: 0px;
+}
+
+.no-flotante{
+  position: relative;
+  float: right;
+  top: -48px;
+  bottom: 0;
+
+}
+
+.no-internasflotante{
+  position: absolute;
+  float: right;
+  top: -48px;
+  bottom: 0px;
+
+}
+.chat-pronto-img{
+  margin: 4px 8px 3px 8px;
+}
+#servicio-chat .flotante-pronto {
+  display: block;
+  /*height: 69px;*/
+  bottom: 50px;
+  text-align: center; 
+  border-radius: 4px 4px 0px 0px;
+}
+
+#servicio-chat .flotante-pronto a h3 {
+
+  font-family: $secondary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  margin-right: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+
+  /* Primary/500 */
+
+  color: $base-blue;
+}
+
+#servicio-chat .flotante-pronto a.chat {
+  font-size: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#servicio-chat .flotante-pronto a.chat:before {
+  background-image: url(../../../assets/images/sprite_nuevoHome.svg);
+
+  vertical-align: middle;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 4.724em 59em;
+  background-position: 0 -11em;
+  width: 4.724em;
+  height: 6.0649999999999995em;
+  margin-right: 5px;
+  margin-top: -12px;
+  margin-left: 12px;
+}
+
+.gtmLateralChat {
+  text-decoration: none;
+}

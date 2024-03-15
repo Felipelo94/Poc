@@ -1,0 +1,13 @@
+@import "../../../assets/styles/variables.scss";
+
+.content-widget-container {
+  margin: 0px 98px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+ 
+  @media (max-width: $desktop-small-width) {
+    margin: 0px 16px;
+    margin-bottom: 24px;
+    
+  }
+}

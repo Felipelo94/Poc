@@ -1,0 +1,198 @@
+@import "../../../assets/styles/variables.scss";
+
+.error-explorer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+
+  &-info {
+    padding: 32px 112px;
+    max-width: 800px;
+
+    &-title {
+      &-header {
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 34px;
+        color: $base-blue;
+        -webkit-box-flex: 0;
+        -ms-flex: none;
+        flex: none;
+        -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+        order: 0;
+        -ms-flex-positive: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+      }
+
+      &-descripcion {
+        font-family: $secondary-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 22px;
+        color: $gray-text;
+        -webkit-box-flex: 0;
+        -ms-flex: none;
+        flex: none;
+        -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+        order: 0;
+        -ms-flex-positive: 0;
+        flex-grow: 0;
+        margin: 12px 10px 32px 10px;
+      }
+    }
+
+    &-recomendado {
+      cursor: pointer;
+      -webkit-box-shadow: 0px 1px 1px rgba(149, 150, 153, 0.12),
+      0px 2px 1px rgba(149, 150, 153, 0.12),
+      0px 1px 3px rgba(149, 150, 153, 0.2);
+      box-shadow: 0px 1px 1px rgba(149, 150, 153, 0.12),
+      0px 2px 1px rgba(149, 150, 153, 0.12),
+      0px 1px 3px rgba(149, 150, 153, 0.2);
+      border-top: 4px solid $base-yellow;
+      background: white;
+      border-radius: 4px 4px 16px 4px;
+
+      & > div {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: 16px 28px;
+
+        & > svg {
+          width: 100px;
+        }
+      }
+
+      &-chrome {
+        &-title {
+          font-family: $primary-font;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 22px;
+          line-height: 25px;
+          color: $dark-text;
+          -webkit-box-flex: 0;
+          -ms-flex: none;
+          flex: none;
+          -webkit-box-ordinal-group: 1;
+          -ms-flex-order: 0;
+          order: 0;
+          -ms-flex-positive: 0;
+          flex-grow: 0;
+          margin: 0px 10px;
+          margin-bottom: 8px;
+        }
+
+        &-descripcion {
+          font-family: $secondary-font;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 15px;
+          line-height: 22px;
+          color: $gray-text;
+          -webkit-box-flex: 0;
+          -ms-flex: none;
+          flex: none;
+          -webkit-box-ordinal-group: 1;
+          -ms-flex-order: 0;
+          order: 0;
+          -ms-flex-positive: 0;
+          flex-grow: 0;
+          margin: 0px 10px;
+        }
+
+        &-link {
+          font-family: $secondary-font;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 15px;
+          line-height: 22px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+          color: $base-blue;
+          margin-top: 25px;
+        }
+      }
+    }
+
+    &-other {
+      &-navegador {
+        margin-top: 16px;
+        max-width: 400px;
+
+        &-icon {
+          cursor: pointer;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between;
+          width: 100%;
+
+          & > .error-explorer-container-info-recomendado-chrome-link {
+            margin-top: 0;
+          }
+
+          &-title {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+
+            & > span {
+              margin-left: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &-title {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 29px;
+    color: $dark-text;
+    padding-bottom: 16px;
+  }
+
+  &-sub-title {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 29px;
+    color: $dark-text;
+    padding-top: 32px;
+  }
+}

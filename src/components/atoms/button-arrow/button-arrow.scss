@@ -1,0 +1,153 @@
+@import "../../../assets/styles/variables.scss";
+
+.container-button-arrow {
+  position: absolute;
+  left: 394px;
+  margin-top: 21px;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  &-shadow {
+    background: grey;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    left: 394px;
+    margin-top: 70px;
+  }
+
+  &-spin-btn {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-animation: spinArrow 0.3s linear; /* Safari 4+ */ /* Fx 5+ */ /* Opera 12+ */
+    animation: spinArrow 0.3s linear;
+  }
+
+  &-spin-btn-reverse {
+    -webkit-animation: spinArrowReverse 0.3s linear; /* Safari 4+ */ /* Fx 5+ */ /* Opera 12+ */
+    animation: spinArrowReverse 0.3s linear;
+  }
+}
+@-webkit-keyframes spinArrow {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(180deg);
+  }
+}
+
+@keyframes spinArrow {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+}
+@-webkit-keyframes spinArrowReverse {
+  from {
+    -webkit-transform: rotate(180deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+@keyframes spinArrowReverse {
+  from {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .container-button-arrow {
+    left: 50% !important;
+    margin-top: -40px !important;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    &-shadow {
+      left: 50% !important;
+      margin-top: -40px !important;
+    }
+    &-spin-btn {
+      -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      transform: rotate(180deg);
+    }
+  }
+
+  @keyframes spinArrow {
+    from {
+      -webkit-transform: rotate(90deg);
+      transform: rotate(90deg);
+    }
+    to {
+      -webkit-transform: rotate(270deg);
+      transform: rotate(270deg);
+    }
+  }
+  @-webkit-keyframes spinArrow {
+    from {
+      -webkit-transform: rotate(90deg);
+    }
+    to {
+      -webkit-transform: rotate(270deg);
+    }
+  }
+
+  @keyframes spinArrowReverse {
+    from {
+      -webkit-transform: rotate(270deg);
+      transform: rotate(270deg);
+    }
+    to {
+      -webkit-transform: rotate(90deg);
+      transform: rotate(90deg);
+    }
+  }
+  @-webkit-keyframes spinArrowReverse {
+    from {
+      -webkit-transform: rotate(270deg);
+    }
+    to {
+      -webkit-transform: rotate(90deg);
+    }
+  }
+}
+
+@media (min-width: "1300px") {
+  .container-button-arrow {
+    position: relative;
+    left: 20px !important;
+    top: 73px;
+  }
+  #container-button-arrow-shadow {
+    top: 80px !important;
+  }
+  .internal-SidePointBar-container {
+    position: relative;
+    bottom: 84px;
+  }
+}

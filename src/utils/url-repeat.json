@@ -1,0 +1,1319 @@
+{
+  "allContentfulOfertaDiferencial": {
+    "edges": [
+      {
+        "node": {
+          "contenido": {
+            "tituloCorto": "Afiliación 100% Digital",
+            "updatedAt": "2020-07-07T19:51:08.037Z",
+            "imagenpequena": {
+              "fluid": {
+                "src": "//images.ctfassets.net/y3qdch79qxiw/2CUSX7aRUxEYEAoLYn4IuK/eceb371f082d42521f513a4b7ec17bad/AfiliaciondigitalHOME.png?w=800&q=50"
+              },
+              "file": { "fileName": "AfiliaciondigitalHOME.png" }
+            },
+            "textoIntroductorio": "¡Afíliate a Pensión Obligatoria en segundos!",
+            "urlSeo": "campana/afiliacion-pension",
+            "contentful_id": "2KGDTXOz5HAsxrnsqW6IEa",
+            "textoCallToActionBite": "Ver más"
+          }
+        }
+      }
+    ]
+  },
+  "allContentfulLeyesYDecretos": {
+    "edges": [
+      {
+        "node": {
+          "contenido": {
+            "tituloCorto": "Afiliación 100% Digital",
+            "updatedAt": "2020-07-07T19:51:08.037Z",
+            "imagenpequena": {
+              "fluid": {
+                "src": "//images.ctfassets.net/y3qdch79qxiw/2CUSX7aRUxEYEAoLYn4IuK/eceb371f082d42521f513a4b7ec17bad/AfiliaciondigitalHOME.png?w=800&q=50"
+              },
+              "file": { "fileName": "AfiliaciondigitalHOME.png" }
+            },
+            "textoIntroductorio": "¡Afíliate a Pensión Obligatoria en segundos!",
+            "urlSeo": "campana/afiliacion-pension",
+            "contentful_id": "2KGDTXOz5HAsxrnsqW6IEa",
+            "textoCallToActionBite": "Ver más"
+          }
+        }
+      }
+    ]
+  },
+  "allContentfulCorporativoYAccionistas": {
+    "edges": [
+      {
+        "node": {
+          "contenido": {
+            "tituloCorto": "Afiliación 100% Digital",
+            "updatedAt": "2020-07-07T19:51:08.037Z",
+            "imagenpequena": {
+              "fluid": {
+                "src": "//images.ctfassets.net/y3qdch79qxiw/2CUSX7aRUxEYEAoLYn4IuK/eceb371f082d42521f513a4b7ec17bad/AfiliaciondigitalHOME.png?w=800&q=50"
+              },
+              "file": { "fileName": "AfiliaciondigitalHOME.png" }
+            },
+            "textoIntroductorio": "¡Afíliate a Pensión Obligatoria en segundos!",
+            "urlSeo": "campana/afiliacion-pension",
+            "contentful_id": "2KGDTXOz5HAsxrnsqW6IEa",
+            "textoCallToActionBite": "Ver más"
+          }
+        }
+      }
+    ]
+  },
+  "allContentfulInformes": {
+    "edges": []
+  },
+  "allContentfulCampana": {
+    "edges": [
+      {
+        "node": {
+          "contenido": {
+            "tituloCorto": "Afiliación 100% Digital",
+            "updatedAt": "2020-07-07T19:51:08.037Z",
+            "imagenpequena": {
+              "fluid": {
+                "src": "//images.ctfassets.net/y3qdch79qxiw/2CUSX7aRUxEYEAoLYn4IuK/eceb371f082d42521f513a4b7ec17bad/AfiliaciondigitalHOME.png?w=800&q=50"
+              },
+              "file": { "fileName": "AfiliaciondigitalHOME.png" }
+            },
+            "textoIntroductorio": "¡Afíliate a Pensión Obligatoria en segundos!",
+            "urlSeo": "campana/afiliacion-pension",
+            "contentful_id": "2KGDTXOz5HAsxrnsqW6IEa",
+            "textoCallToActionBite": "Ver más"
+          }
+        }
+      }
+    ]
+  },
+  "allContentfulNovedad": {
+    "edges": [
+      {
+        "node": {
+          "contenido": {
+            "tituloCorto": "Ejemplo contenido pensiones NOVEDAD",
+            "textoIntroductorio": "Estar bien informado te permitirá tomar las mejores decisiones",
+            "urlSeo": "mitos-realidades-sistema-pensional",
+            "contentful_id": "7cevJhYJOiJLWaaKM5nswj",
+            "updatedAt": "2020-07-21T13:36:50.348Z",
+            "textoCallToActionBite": "Quiero conocer más",
+            "imagenpequena": {
+              "fluid": {
+                "src": "//images.ctfassets.net/y3qdch79qxiw/1dc4II56AI42NHarhUoRAH/d587758f8f6e0f34c67007b8d4616e86/CT3C7-imagen_tarjeta_que_son.png?w=800&q=50"
+              },
+              "file": { "fileName": "CT3C7-imagen_tarjeta_que_son.png" }
+            }
+          }
+        }
+      },
+      {
+        "node": {
+          "contenido": {
+            "tituloCorto": "¡Disfruta de nuestra alianza con Vecindario!",
+            "textoIntroductorio": "Empieza HOY a proyectar tus sueños",
+            "urlSeo": "novedad/vecindario-proteccion",
+            "contentful_id": "3idU9aEVdgtfAmNIgyFBWM",
+            "updatedAt": "2020-06-23T20:12:31.305Z",
+            "textoCallToActionBite": "Quiero conocer más",
+            "imagenpequena": {
+              "fluid": {
+                "src": "//images.ctfassets.net/y3qdch79qxiw/1ldmLN37VVuBR93FGMxjMh/401fa22bcc120b0cf883f9a47de95e8a/foto2.png?w=800&q=50"
+              },
+              "file": { "fileName": "foto2.png" }
+            }
+          }
+        }
+      },
+      {
+        "node": {
+          "contenido": {
+            "tituloCorto": "¡Estamos comprometidos con un futuro sostenible!",
+            "textoIntroductorio": "El futuro sostenible lo hacemos conservando nuestros recursos",
+            "urlSeo": "novedad/futuro-sostenible",
+            "contentful_id": "6SOdfejKD5VT2a7pb4fiTy",
+            "updatedAt": "2020-06-23T20:02:00.663Z",
+            "textoCallToActionBite": "Quiero conocer más",
+            "imagenpequena": {
+              "fluid": {
+                "src": "//images.ctfassets.net/y3qdch79qxiw/1Onv1Lj8Mn74P5WFGuJIaE/5d1878cfcb429675795b49d3da28901b/CT3C2-Todos-los-usuarios_Vivienda_Cua__nto-ahorrar-AJUSTADO.jpg?w=800&q=50"
+              },
+              "file": {
+                "fileName": "CT3C2-Todos-los-usuarios_Vivienda_Cuánto-ahorrar-AJUSTADO.jpg"
+              }
+            }
+          }
+        }
+      },
+      {
+        "node": {
+          "contenido": {
+            "tituloCorto": "Retira en línea tus Cesantías para educación",
+            "textoIntroductorio": "¡Es muy fácil! Aquí te contamos cómo puedes hacerlo",
+            "urlSeo": "cesantias/novedad/retiro-online-educacion",
+            "contentful_id": "2fvYudDKy1jmtbBZS5Cywo",
+            "updatedAt": "2020-07-07T20:04:15.328Z",
+            "textoCallToActionBite": "Quiero conocer más",
+            "imagenpequena": {
+              "fluid": {
+                "src": "//images.ctfassets.net/y3qdch79qxiw/1jTXd0Bt7y6YDOVmq4Cj22/c24f16f2591bc900ff69e3697921ffc9/Que__-son-los-intereses-de-las-cesanti__as-max.jpeg?w=800&q=50"
+              },
+              "file": {
+                "fileName": "Qué-son-los-intereses-de-las-cesantías-max.jpeg"
+              }
+            }
+          }
+        }
+      },
+      {
+        "node": {
+          "contenido": {
+            "tituloCorto": "Retiro por Disminución de Ingresos",
+            "textoIntroductorio": "Conoce de qué se trata y consulta los requisitos",
+            "urlSeo": "cesantias/retiro-cesantias/disminucion-ingresos",
+            "contentful_id": "2LTgDjm1j1nHnUz3fNTj2d",
+            "updatedAt": "2020-07-07T20:04:28.928Z",
+            "textoCallToActionBite": "¡Conoce más aquí!",
+            "imagenpequena": {
+              "fluid": {
+                "src": "//images.ctfassets.net/y3qdch79qxiw/1zFYSlhuMTZIZxdD80s5Sy/efcf8a41d00cd5cda8b2fe29171bd73b/Cua__nto-debes-ahorrar-para-invertir-tus-cesanti__as-en-educacio__n-max.jpeg?w=800&q=50"
+              },
+              "file": {
+                "fileName": "Cuánto-debes-ahorrar-para-invertir-tus-cesantías-en-educación-max.jpeg"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "allContentfulBeneficio": {
+    "edges": [
+      {
+        "node": {
+          "contenido": {
+            "urlSeo": "cesantias/por-que-estar-proteccion",
+            "contentful_id": "4SFZQxJCVrRBME6lLqdVSW",
+            "imagenpequena": {
+              "fluid": {
+                "src": "//images.ctfassets.net/y3qdch79qxiw/2uwLOKJVxyW69MVIqzFRGg/1a79420954e2ca33b0a6d942d3e708c2/CT1C4-Todos-los-pu__blicos_Cesanti__as_Por-que__-Proteccio__n-AJUSTADO.png?w=800&q=50"
+              },
+              "file": {
+                "fileName": "CT1C4-Todos-los-públicos_Cesantías_Por-qué-Protección-AJUSTADO.png"
+              }
+            },
+            "tituloCorto": "¿Por qué estar en Protección?",
+            "updatedAt": "2020-07-07T19:59:15.496Z",
+            "textoCallToActionBite": "Quiero conocer más",
+            "textoIntroductorio": "Acompañamos a millones de clientes en el logro de sus sueños",
+            "descripcioncorta": "En Protección, queremos acompañarte y queremos ser tu aliado para que hagas realidad tus sueños."
+          }
+        }
+      }
+    ]
+  },
+  "allContentfulProducto": {
+    "edges": [
+      {
+        "node": {
+          "titulo": "Pensión Obligatoria",
+          "contentful_id": "3Do4hL0V01gzUMDUCXlB0D",
+          "contenido": [
+            {
+              "categoriaCliente": [
+                {
+                  "descripcion": "Pensión de Invalidez o Sobrevivencia",
+                  "contentful_id": "nCqE4RiPTxgo0ayMwnilO"
+                },
+                {
+                  "descripcion": "Pensión Obligatoria",
+                  "contentful_id": "6FaTOsdYE9K5BqX58y0c5F"
+                }
+              ],
+              "textoIntroductorio": "Seguramente has oído hablar de pensiones, pero… ¿sabes qué son?",
+              "descripcioncorta": "Seguramente has oído hablar de pensiones, pero… ¿sabes qué son? Aquí te contamos",
+              "tituloCorto": "¿Qué son las Pensiones Obligatorias?",
+              "textoCallToActionBite": "Quiero conocer más",
+              "updatedAt": "2020-07-09T22:28:15.991Z",
+              "urlSeo": "que-son-pensiones",
+              "contentful_id": "2A4xaLqC0nUCjuED0TNa9E",
+              "imagenpequena": {
+                "file": {
+                  "fileName": "Cuáles-son-los-certificados-de-tus-cesantías-max.jpeg"
+                },
+                "fluid": {
+                  "src": "//images.ctfassets.net/y3qdch79qxiw/50xHt5WM4RUTYhuGb7rSPz/453f4a6e7f241b18406d3827a32b064a/Cua__les-son-los-certificados-de-tus-cesanti__as-max.jpeg?w=800&q=50"
+                }
+              }
+            },
+            {
+              "categoriaCliente": [
+                {
+                  "descripcion": "Pensión de Invalidez o Sobrevivencia",
+                  "contentful_id": "nCqE4RiPTxgo0ayMwnilO"
+                },
+                {
+                  "descripcion": "Pensión Obligatoria",
+                  "contentful_id": "6FaTOsdYE9K5BqX58y0c5F"
+                }
+              ],
+              "textoIntroductorio": "Conoce aquí algunas de las diferencias que existen",
+              "descripcioncorta": "Alcanzar a pensionarte de manera anticipada, cotizar 150 semanas menos, y tener la posibilidad de generar rendimientos, son solo algunas de las ventajas que ofrecen los Fondos Privados (AFP)",
+              "tituloCorto": "Diferencias entre Fondos Privados y Colpensiones",
+              "textoCallToActionBite": "Quiero conocer más",
+              "updatedAt": "2020-07-09T23:29:52.877Z",
+              "urlSeo": "diferencias-regimenes",
+              "contentful_id": "2ilVwq892IjQZLSsqthDnU",
+              "imagenpequena": {
+                "file": { "fileName": "para_que_se_retiran_max.jpg" },
+                "fluid": {
+                  "src": "//images.ctfassets.net/y3qdch79qxiw/5W1v97vzRKSefJSGsiRLh6/ef636a59699dc13eefc5b6460624ccd2/para_que_se_retiran_max.jpg?w=800&q=50"
+                }
+              }
+            },
+            {
+              "categoriaCliente": [
+                {
+                  "descripcion": "Pensión de Invalidez o Sobrevivencia",
+                  "contentful_id": "nCqE4RiPTxgo0ayMwnilO"
+                },
+                {
+                  "descripcion": "Pensión Obligatoria",
+                  "contentful_id": "6FaTOsdYE9K5BqX58y0c5F"
+                }
+              ],
+              "textoIntroductorio": "Estar bien informado te permitirá tomar las mejores decisiones",
+              "descripcioncorta": "Estar bien informado te permitirá tomar las mejores decisiones. Conoce aquí algunos de los mitos más comunes que giran en torno al sistema pensional colombiano. ¡Elige lo mejor para ti!",
+              "tituloCorto": "Mitos y realidades. Sistema pensional colombiano",
+              "textoCallToActionBite": "Quiero conocer más",
+              "updatedAt": "2020-07-09T23:43:30.104Z",
+              "urlSeo": "mitos-realidades-sistema-pensional",
+              "contentful_id": "6VuZ65EGUHchKosppLsVGX",
+              "imagenpequena": {
+                "file": { "fileName": "CT3C7-imagen_tarjeta_que_son.png" },
+                "fluid": {
+                  "src": "//images.ctfassets.net/y3qdch79qxiw/1dc4II56AI42NHarhUoRAH/d587758f8f6e0f34c67007b8d4616e86/CT3C7-imagen_tarjeta_que_son.png?w=800&q=50"
+                }
+              }
+            },
+            {
+              "categoriaCliente": [
+                {
+                  "descripcion": "Pensión de Invalidez o Sobrevivencia",
+                  "contentful_id": "nCqE4RiPTxgo0ayMwnilO"
+                },
+                {
+                  "descripcion": "Pensión Obligatoria",
+                  "contentful_id": "6FaTOsdYE9K5BqX58y0c5F"
+                }
+              ],
+              "textoIntroductorio": "Estar bien informado te permitirá tomar las mejores decisiones",
+              "descripcioncorta": "Estar bien informado te permitirá tomar las mejores decisiones. Conoce aquí algunos de los mitos más comunes que giran en torno al sistema pensional colombiano. ¡Elige lo mejor para ti!",
+              "tituloCorto": "Ejemplo contenido pensiones PRODUCTO",
+              "textoCallToActionBite": "Quiero conocer más",
+              "updatedAt": "2020-07-21T13:36:20.394Z",
+              "urlSeo": "mitos-realidades-sistema-pensional",
+              "contentful_id": "6azIetRFUQIJDJ3Dwby0CY",
+              "imagenpequena": {
+                "file": { "fileName": "CT3C7-imagen_tarjeta_que_son.png" },
+                "fluid": {
+                  "src": "//images.ctfassets.net/y3qdch79qxiw/1dc4II56AI42NHarhUoRAH/d587758f8f6e0f34c67007b8d4616e86/CT3C7-imagen_tarjeta_que_son.png?w=800&q=50"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "node": {
+          "titulo": "Cesantías",
+          "contentful_id": "W2zNnmbYol9hf1OXMVGgR",
+          "contenido": [
+            {
+              "categoriaCliente": [
+                {
+                  "descripcion": "Cesante",
+                  "contentful_id": "5fP153BoelxfRsusePVnBU"
+                },
+                {
+                  "descripcion": "Empleado",
+                  "contentful_id": "2L498woyc1TQ1A3SpyUpxA"
+                },
+                {
+                  "descripcion": "Independiente",
+                  "contentful_id": "vt2OB7OniS8zFEgAS1qNz"
+                }
+              ],
+              "textoIntroductorio": "Conoce todo lo que debes saber acerca de las Cesantías",
+              "descripcioncorta": "Conoce todo lo que debes saber acerca de las Cesantías y comienza a ahorrar en Protección",
+              "tituloCorto": "¿Qué son las Cesantías?",
+              "textoCallToActionBite": "Quiero saber más",
+              "updatedAt": "2020-07-03T20:24:35.418Z",
+              "urlSeo": "cesantias/que-son",
+              "contentful_id": "4r5NXg7eIYv1aKFEHT3Brk",
+              "imagenpequena": {
+                "file": { "fileName": "Cesantías_Qué-son-AJUSTADO.png" },
+                "fluid": {
+                  "src": "//images.ctfassets.net/y3qdch79qxiw/11cUclDEKWST8cE0l6uWmN/37a67446431e104f77629e6ba6298650/Cesanti__as_Que__-son-AJUSTADO.png?w=800&q=50"
+                }
+              }
+            },
+            {
+              "categoriaCliente": [
+                {
+                  "descripcion": "Cesante",
+                  "contentful_id": "5fP153BoelxfRsusePVnBU"
+                },
+                {
+                  "descripcion": "Empleado",
+                  "contentful_id": "2L498woyc1TQ1A3SpyUpxA"
+                },
+                {
+                  "descripcion": "Independiente",
+                  "contentful_id": "vt2OB7OniS8zFEgAS1qNz"
+                }
+              ],
+              "textoIntroductorio": "Conoce todos los requisitos para beneficiarte de este mecanismo",
+              "descripcioncorta": "Conoce todos los requisitos para beneficiarte de este mecanismo mientras encuentras un nuevo empleo",
+              "tituloCorto": "Acceder al Mecanismo de Protección al Cesante",
+              "textoCallToActionBite": "Saber más",
+              "updatedAt": "2020-07-06T13:51:55.864Z",
+              "urlSeo": "cesantias/mecanismo-proteccion-cesante/como-acceder",
+              "contentful_id": "2kmCv1McS9VqjAtfkiE7jj",
+              "imagenpequena": {
+                "file": {
+                  "fileName": "CT13C2--Todos_Cesantías_Mecanismo-de-protección-al-cesante_Requisitos-AJUSTADO.png"
+                },
+                "fluid": {
+                  "src": "//images.ctfassets.net/y3qdch79qxiw/7itIkQ9vagteLDfTkeIYng/85b2d91a6539fa57a9c0594ba230543a/CT13C2--Todos_Cesanti__as_Mecanismo-de-proteccio__n-al-cesante_Requisitos-AJUSTADO.png?w=800&q=50"
+                }
+              }
+            },
+            {
+              "categoriaCliente": [
+                {
+                  "descripcion": "Empleado",
+                  "contentful_id": "2L498woyc1TQ1A3SpyUpxA"
+                },
+                {
+                  "descripcion": "Independiente",
+                  "contentful_id": "vt2OB7OniS8zFEgAS1qNz"
+                },
+                {
+                  "descripcion": "Cesante",
+                  "contentful_id": "5fP153BoelxfRsusePVnBU"
+                }
+              ],
+              "textoIntroductorio": "Conoce algunos objetivos en los que puedes destinar tus Cesantías",
+              "descripcioncorta": "Existen algunos casos específicos en los que podrás utilizar tus Cesantías. Entérate aquí de qué se trata",
+              "tituloCorto": "¿Para qué son las Cesantías?",
+              "textoCallToActionBite": "Quiero conocer más",
+              "updatedAt": "2020-07-07T19:58:54.938Z",
+              "urlSeo": "cesantias/para-que-son-ces",
+              "contentful_id": "7djopz1nxdiCKov302YZMa",
+              "imagenpequena": {
+                "file": {
+                  "fileName": "CT1C2-Empleado_Independiente_Cesantías_Para-qué-son-AJUSTADO.png"
+                },
+                "fluid": {
+                  "src": "//images.ctfassets.net/y3qdch79qxiw/2aGTDh6GG89lRvCPEEPZj5/89efd8a623ef1249d667cef4f16222b3/CT1C2-Empleado_Independiente_Cesanti__as_Para-que__-son-AJUSTADO.png?w=800&q=50"
+                }
+              }
+            },
+            {
+              "categoriaCliente": [
+                {
+                  "descripcion": "Cesante",
+                  "contentful_id": "5fP153BoelxfRsusePVnBU"
+                },
+                {
+                  "descripcion": "Empleado",
+                  "contentful_id": "2L498woyc1TQ1A3SpyUpxA"
+                },
+                {
+                  "descripcion": "Independiente",
+                  "contentful_id": "vt2OB7OniS8zFEgAS1qNz"
+                }
+              ],
+              "textoIntroductorio": "Ingresa y conoce aquí de qué se trata",
+              "descripcioncorta": "¿Perdiste tu empleo? El Gobierno cuenta con un programa con el que podrás aprovechar tus Cesantías, y encaminarte a un nuevo trabajo ",
+              "tituloCorto": "¿Qué es el Mecanismo de Protección al Cesante?",
+              "textoCallToActionBite": "Conocer más",
+              "updatedAt": "2020-07-07T20:02:23.856Z",
+              "urlSeo": "cesantias/mecanismo-proteccion-cesante",
+              "contentful_id": "23qtpJMSM4YNIyqXuq6rXe",
+              "imagenpequena": {
+                "file": {
+                  "fileName": "CT13C1--Todos_Cesantías_Mecanismo-de-protección-al-cesante-AJUSTADO.png"
+                },
+                "fluid": {
+                  "src": "//images.ctfassets.net/y3qdch79qxiw/7L2JUn4EJPju64Xx9dZbMI/53d965bb22dacb4a19ab81ea11b47916/CT13C1--Todos_Cesanti__as_Mecanismo-de-proteccio__n-al-cesante-AJUSTADO.png?w=800&q=50"
+                }
+              }
+            },
+            {
+              "categoriaCliente": [
+                {
+                  "descripcion": "Cesante",
+                  "contentful_id": "5fP153BoelxfRsusePVnBU"
+                },
+                {
+                  "descripcion": "Empleado",
+                  "contentful_id": "2L498woyc1TQ1A3SpyUpxA"
+                },
+                {
+                  "descripcion": "Independiente",
+                  "contentful_id": "vt2OB7OniS8zFEgAS1qNz"
+                }
+              ],
+              "textoIntroductorio": "Este ahorro tiene unos intereses",
+              "descripcioncorta": "¿Sabías que este ahorro tiene unos intereses que puedes disfrutar? Conoce más sobre ellos.",
+              "tituloCorto": "¿Qué son los intereses de las Cesantías?",
+              "textoCallToActionBite": "Quiero saber más",
+              "updatedAt": "2020-07-07T20:03:35.216Z",
+              "urlSeo": "cesantias/intereses/que-son",
+              "contentful_id": "4NUxp2FHGN657j83IS6iTO",
+              "imagenpequena": {
+                "file": {
+                  "fileName": "CT12C1-Empleado-_-Cesante_Cesantías_Intereses-AJUSTADO.png"
+                },
+                "fluid": {
+                  "src": "//images.ctfassets.net/y3qdch79qxiw/1oBRikD3x6XdIkOfx7yj6s/8d8c5a3a69a88e705f14a8d772e3119a/CT12C1-Empleado-_-Cesante_Cesanti__as_Intereses-AJUSTADO.png?w=800&q=50"
+                }
+              }
+            },
+            {
+              "categoriaCliente": [
+                {
+                  "descripcion": "Cesante",
+                  "contentful_id": "5fP153BoelxfRsusePVnBU"
+                },
+                {
+                  "descripcion": "Empleado",
+                  "contentful_id": "2L498woyc1TQ1A3SpyUpxA"
+                }
+              ],
+              "textoIntroductorio": "Aportes a Cesantías y quiénes deben hacerlo",
+              "descripcioncorta": "Conoce aquí qué son los aportes a Cesantías, quiénes deben hacerlo y cuál es el procedimiento para realizarlo.",
+              "tituloCorto": "¿Qué son los aportes a Cesantías?",
+              "textoCallToActionBite": "Quiero saber más",
+              "updatedAt": "2020-07-07T20:03:03.855Z",
+              "urlSeo": "cesantias/aportes/que-son",
+              "contentful_id": "7s2xq7rgMj4ktUt3bHhjok",
+              "imagenpequena": {
+                "file": {
+                  "fileName": "CT9C1-Empleado-y-cesante_Quién-AJUSTADO.png"
+                },
+                "fluid": {
+                  "src": "//images.ctfassets.net/y3qdch79qxiw/5jbtMZygbqarwJ1FJolSF5/1b43d724f452a79291aa87e2a9ab836c/CT9C1-Empleado-y-cesante_Quie__n-AJUSTADO.png?w=800&q=50"
+                }
+              }
+            },
+            {
+              "categoriaCliente": [
+                {
+                  "descripcion": "Cesante",
+                  "contentful_id": "5fP153BoelxfRsusePVnBU"
+                },
+                {
+                  "descripcion": "Empleado",
+                  "contentful_id": "2L498woyc1TQ1A3SpyUpxA"
+                }
+              ],
+              "textoIntroductorio": "Conoce el tratamiento tributario de las Cesantías",
+              "descripcioncorta": "Conoce el tratamiento tributario de las Cesantías",
+              "tituloCorto": "¿Cómo declaran Cesantías los trabajadores?",
+              "textoCallToActionBite": "Quiero conocer más",
+              "updatedAt": "2020-07-07T19:52:24.454Z",
+              "urlSeo": "cesantias/beneficios-tributarios/como-declaran-trabajadores",
+              "contentful_id": "3u6HxJ6dKz4VcqryPX4PQS",
+              "imagenpequena": {
+                "file": {
+                  "fileName": "CT5C1-Todos-los-públicos_Cesantías_Declaración-AJUSTADO.png"
+                },
+                "fluid": {
+                  "src": "//images.ctfassets.net/y3qdch79qxiw/27fu6jPdHmWmF60jhSplnb/de19eec337054c9245fbda95101ff6cc/CT5C1-Todos-los-pu__blicos_Cesanti__as_Declaracio__n-AJUSTADO.png?w=800&q=50"
+                }
+              }
+            },
+            {
+              "categoriaCliente": [
+                {
+                  "descripcion": "Independiente",
+                  "contentful_id": "vt2OB7OniS8zFEgAS1qNz"
+                },
+                {
+                  "descripcion": "Empleado",
+                  "contentful_id": "2L498woyc1TQ1A3SpyUpxA"
+                },
+                {
+                  "descripcion": "Cesante",
+                  "contentful_id": "5fP153BoelxfRsusePVnBU"
+                }
+              ],
+              "textoIntroductorio": "Conoce los beneficios tributarios que puedes obtener",
+              "descripcioncorta": "Conoce los beneficios tributarios que obtienes al realizar un ahorro voluntario como trabajador independiente",
+              "tituloCorto": "Beneficios tributarios al ahorrar tus Cesantías",
+              "textoCallToActionBite": "Quiero conocer más",
+              "updatedAt": "2020-07-03T19:44:00.826Z",
+              "urlSeo": "cesantias/beneficios-tributarios/ahorrar-cesantias",
+              "contentful_id": "5z89TWtWdNGkWGhQG8x6PR",
+              "imagenpequena": {
+                "file": {
+                  "fileName": "CT5C2-Todos-los-públicos_Cesantías_Independientes-AJUSTADO.png"
+                },
+                "fluid": {
+                  "src": "//images.ctfassets.net/y3qdch79qxiw/M0VQ1Sx4cVqefzA6RTdV5/1cfe9870d9b3ca5a8c8c144f20028a5e/CT5C2-Todos-los-pu__blicos_Cesanti__as_Independientes-AJUSTADO.png?w=800&q=50"
+                }
+              }
+            },
+            {
+              "categoriaCliente": [
+                {
+                  "descripcion": "Cesante",
+                  "contentful_id": "5fP153BoelxfRsusePVnBU"
+                },
+                {
+                  "descripcion": "Empleado",
+                  "contentful_id": "2L498woyc1TQ1A3SpyUpxA"
+                },
+                {
+                  "descripcion": "Independiente",
+                  "contentful_id": "vt2OB7OniS8zFEgAS1qNz"
+                }
+              ],
+              "textoIntroductorio": "¿Qué son estos Portafolios? Conoce aquí de qué se trata",
+              "descripcioncorta": "¿Sabías que existen dos Portafolios para tus Cesantías? Conoce aquí de qué se tratan los portafolios Corto Plazo y Largo Plazo, y elige la mejor forma de administrarlos.",
+              "tituloCorto": "Portafolios Corto Plazo y Largo Plazo Cesantías",
+              "textoCallToActionBite": "Quiero conocer más",
+              "updatedAt": "2020-07-07T20:03:48.006Z",
+              "urlSeo": "cesantias/portafolios/corto-largo-plazo",
+              "contentful_id": "635Er8TYNjTJSRJChKa5R9",
+              "imagenpequena": {
+                "file": {
+                  "fileName": "CT6C1-Todos-los-públicos_Cesantías_Portafolios_Qué-son-AJUSTADO.png"
+                },
+                "fluid": {
+                  "src": "//images.ctfassets.net/y3qdch79qxiw/4qluYPx8h2Wlw1AtjZZDE7/41fb9cb37411a5fb1e99694057ff7347/CT6C1-Todos-los-pu__blicos_Cesanti__as_Portafolios_Que__-son-AJUSTADO.png?w=800&q=50"
+                }
+              }
+            },
+            {
+              "categoriaCliente": [
+                {
+                  "descripcion": "Cesante",
+                  "contentful_id": "5fP153BoelxfRsusePVnBU"
+                },
+                {
+                  "descripcion": "Empleado",
+                  "contentful_id": "2L498woyc1TQ1A3SpyUpxA"
+                },
+                {
+                  "descripcion": "Independiente",
+                  "contentful_id": "vt2OB7OniS8zFEgAS1qNz"
+                }
+              ],
+              "textoIntroductorio": "Elige para tus Cesantías, un Portafolio acorde con tus metas.",
+              "descripcioncorta": "Al ahorrar tus Cesantías tienes la posibilidad de elegir el portafolio de inversión que más te convenga: Largo Plazo o Corto Plazo. Esta es una decisión de gran importancia, y para elegir debes tener claro los objetivos que quieres alcanzar con este ahorro",
+              "tituloCorto": "¿Por qué y cómo cambiar de portafolio?",
+              "textoCallToActionBite": "Quiero conocer más",
+              "updatedAt": "2020-07-07T19:59:43.828Z",
+              "urlSeo": "cesantias/portafolios/porque-como-cambiar",
+              "contentful_id": "27WBmPnOOJ5KodhWSeurj9",
+              "imagenpequena": {
+                "file": { "fileName": "portafolio-max.jpg" },
+                "fluid": {
+                  "src": "//images.ctfassets.net/y3qdch79qxiw/7b1WR8x6gU3qgvjn57e2Pv/9f7c416c8c33eb9d15b6100bf5f3fed5/portafolio-max.jpg?w=800&q=50"
+                }
+              }
+            },
+            {
+              "categoriaCliente": [
+                {
+                  "descripcion": "Cesante",
+                  "contentful_id": "5fP153BoelxfRsusePVnBU"
+                },
+                {
+                  "descripcion": "Empleado",
+                  "contentful_id": "2L498woyc1TQ1A3SpyUpxA"
+                },
+                {
+                  "descripcion": "Independiente",
+                  "contentful_id": "vt2OB7OniS8zFEgAS1qNz"
+                }
+              ],
+              "textoIntroductorio": "Ingresa y conoce de qué se trata ",
+              "descripcioncorta": "¿Sabías que puedes pignorar tus Cesantías para respaldar los préstamos realizados por los empleadores? ",
+              "tituloCorto": "¿Qué es la pignoración de Cesantías?",
+              "textoCallToActionBite": "Quiero conocer más",
+              "updatedAt": "2020-07-07T20:02:39.466Z",
+              "urlSeo": "cesantias/pignoracion-embargo-inmovilizacion/que-signfica-pignorar",
+              "contentful_id": "18hr0YhTRaMvseK8PEOYOS",
+              "imagenpequena": {
+                "file": {
+                  "fileName": "CT7C1-Todos-los-usuarios_Pignoración-AJUSTADO.png"
+                },
+                "fluid": {
+                  "src": "//images.ctfassets.net/y3qdch79qxiw/2txmAXSTQ4IMql24NRDeqK/a5b2da43622190de01db18903f387355/CT7C1-Todos-los-usuarios_Pignoracio__n-AJUSTADO.png?w=800&q=50"
+                }
+              }
+            },
+            {
+              "categoriaCliente": [
+                {
+                  "descripcion": "Cesante",
+                  "contentful_id": "5fP153BoelxfRsusePVnBU"
+                },
+                {
+                  "descripcion": "Empleado",
+                  "contentful_id": "2L498woyc1TQ1A3SpyUpxA"
+                },
+                {
+                  "descripcion": "Independiente",
+                  "contentful_id": "vt2OB7OniS8zFEgAS1qNz"
+                }
+              ],
+              "textoIntroductorio": "Conoce algunos motivos que pueden llevar al embargo de Cesantías",
+              "descripcioncorta": "Entérate aquí cuales son las circunstancias que pueden llevar al embargo de tus Cesantías.",
+              "tituloCorto": "¿Qué es el embargo de las Cesantías?",
+              "textoCallToActionBite": "Quiero conocer más",
+              "updatedAt": "2020-07-07T20:02:02.155Z",
+              "urlSeo": "cesantias/pignoracion-embargo-inmovilizacion/que-es-embargo",
+              "contentful_id": "3oZGRnArFGxmoyDVrAoeLX",
+              "imagenpequena": {
+                "file": {
+                  "fileName": "CT7C2-Todos-los-usuarios_Embargo-AJUSTADO.png"
+                },
+                "fluid": {
+                  "src": "//images.ctfassets.net/y3qdch79qxiw/4Poiqo1pXjXBXH8ngNvsh4/2b7e4f0ddd54de95824b37459ab7f4b4/CT7C2-Todos-los-usuarios_Embargo-AJUSTADO.png?w=800&q=50"
+                }
+              }
+            },
+            {
+              "categoriaCliente": [
+                {
+                  "descripcion": "Cesante",
+                  "contentful_id": "5fP153BoelxfRsusePVnBU"
+                },
+                {
+                  "descripcion": "Empleado",
+                  "contentful_id": "2L498woyc1TQ1A3SpyUpxA"
+                },
+                {
+                  "descripcion": "Independiente",
+                  "contentful_id": "vt2OB7OniS8zFEgAS1qNz"
+                }
+              ],
+              "textoIntroductorio": "Ingresa y conoce aquí de qué se trata",
+              "descripcioncorta": "Si quieres utilizar tus Cesantías para postularte al subsidio de vivienda que otorga el Gobierno nacional, puedes inmovilizar tus Cesantías.",
+              "tituloCorto": "¿En qué consiste inmovilizar las Cesantías?",
+              "textoCallToActionBite": "Quiero conocer más",
+              "updatedAt": "2020-07-07T19:57:56.437Z",
+              "urlSeo": "cesantias/pignoracion-embargo-inmovilizacion/en-que-consiste-inmovilizar",
+              "contentful_id": "51QUG2hfA3ftt3L2koBTnE",
+              "imagenpequena": {
+                "file": {
+                  "fileName": "CT7C3-Todos-los-usuarios_Inmovilización-AJUSTADO.png"
+                },
+                "fluid": {
+                  "src": "//images.ctfassets.net/y3qdch79qxiw/2F84HVJ0G0WfyJIoqHso0v/7b7233bd3d2a8aefb2bf9c3d036afb04/CT7C3-Todos-los-usuarios_Inmovilizacio__n-AJUSTADO.png?w=800&q=50"
+                }
+              }
+            },
+            {
+              "categoriaCliente": [
+                {
+                  "descripcion": "Cesante",
+                  "contentful_id": "5fP153BoelxfRsusePVnBU"
+                },
+                {
+                  "descripcion": "Empleado",
+                  "contentful_id": "2L498woyc1TQ1A3SpyUpxA"
+                },
+                {
+                  "descripcion": "Independiente",
+                  "contentful_id": "vt2OB7OniS8zFEgAS1qNz"
+                }
+              ],
+              "textoIntroductorio": "Conoce si estás afiliado, tu fecha de vinculación y tu ahorro",
+              "descripcioncorta": "Los certificados de Cesantías son ese soporte que necesitarás en caso de querer demostrar que estás afiliado a Protección, la fecha de tu vinculación y el ahorro que tienes.",
+              "tituloCorto": "¿Cuáles son los certificados de Cesantías?",
+              "textoCallToActionBite": "Quiero saber más",
+              "updatedAt": "2020-07-07T19:56:52.073Z",
+              "urlSeo": "cesantias/certificados",
+              "contentful_id": "3pYpjw2sFa2PdHkmqZIJND",
+              "imagenpequena": {
+                "file": {
+                  "fileName": "CT8C1-Todos-los-públicos_Cesantías_Certificados-AJUSTADO.png"
+                },
+                "fluid": {
+                  "src": "//images.ctfassets.net/y3qdch79qxiw/3IC1KSzhmXhVkyMFv7mw4y/ffda6345d6fc833928c36e13a66472cf/CT8C1-Todos-los-pu__blicos_Cesanti__as_Certificados-AJUSTADO.png?w=800&q=50"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "allContentfulContenidoEducativo": {
+    "edges": [
+      {
+        "node": {
+          "titulo": "*URL REPETIDA - ENSAYO MITOS Y REALIDADES",
+          "contentful_id": "ADkcUcwe533VwBEpuP45X",
+          "contenido": {
+            "tituloCorto": "*URL REPETIDA mitos y realidades. ENSAYO",
+            "textoCallToActionBite": "Quiero conocer más",
+            "textoIntroductorio": "Estar bien informado te permitirá tomar las mejores decisiones",
+            "urlSeo": "mitos-realidades-sistema-pensional-contendioeduc",
+            "contentful_id": "6CcVkU6W0dt5uRQJ4M91eb",
+            "updatedAt": "2020-07-27T17:13:17.128Z",
+            "descripcioncorta": "Estar bien informado te permitirá tomar las mejores decisiones. Conoce aquí algunos de los mitos más comunes que giran en torno al sistema pensional colombiano. ¡Elige lo mejor para ti!",
+            "imagenpequena": {
+              "file": { "fileName": "CT3C7-imagen_tarjeta_que_son.png" },
+              "fluid": {
+                "src": "//images.ctfassets.net/y3qdch79qxiw/1dc4II56AI42NHarhUoRAH/d587758f8f6e0f34c67007b8d4616e86/CT3C7-imagen_tarjeta_que_son.png?w=800&q=50"
+              }
+            },
+            "categoriaCliente": [
+              {
+                "descripcion": "Pensión de Invalidez o Sobrevivencia",
+                "contentful_id": "nCqE4RiPTxgo0ayMwnilO"
+              },
+              {
+                "descripcion": "Pensión Obligatoria",
+                "contentful_id": "6FaTOsdYE9K5BqX58y0c5F"
+              }
+            ]
+          },
+          "lineaDeProducto": {
+            "nombre": "Pensiones Obligatorias",
+            "contentful_id": "45FVyiIWU70wBqFgR750SE"
+          }
+        }
+      },
+      {
+        "node": {
+          "titulo": "mitos y realidades. Ensayo contenido educativo",
+          "contentful_id": "3qYemHGavoCFhsvEMeqp6S",
+          "contenido": {
+            "tituloCorto": "mitos y realidades. Ensayo contenido educativo",
+            "textoCallToActionBite": "Quiero conocer más",
+            "textoIntroductorio": "Estar bien informado te permitirá tomar las mejores decisiones",
+            "urlSeo": "mitos-realidades-sistema-pensional-contendioeduc",
+            "contentful_id": "ixxKMebxvMfDmOvqutmqz",
+            "updatedAt": "2020-07-13T21:35:52.962Z",
+            "descripcioncorta": "Estar bien informado te permitirá tomar las mejores decisiones. Conoce aquí algunos de los mitos más comunes que giran en torno al sistema pensional colombiano. ¡Elige lo mejor para ti!",
+            "imagenpequena": {
+              "file": { "fileName": "CT3C7-imagen_tarjeta_que_son.png" },
+              "fluid": {
+                "src": "//images.ctfassets.net/y3qdch79qxiw/1dc4II56AI42NHarhUoRAH/d587758f8f6e0f34c67007b8d4616e86/CT3C7-imagen_tarjeta_que_son.png?w=800&q=50"
+              }
+            },
+            "categoriaCliente": [
+              {
+                "descripcion": "Pensión de Invalidez o Sobrevivencia",
+                "contentful_id": "nCqE4RiPTxgo0ayMwnilO"
+              },
+              {
+                "descripcion": "Pensión Obligatoria",
+                "contentful_id": "6FaTOsdYE9K5BqX58y0c5F"
+              }
+            ]
+          },
+          "lineaDeProducto": {
+            "nombre": "Pensiones Obligatorias",
+            "contentful_id": "45FVyiIWU70wBqFgR750SE"
+          }
+        }
+      },
+      {
+        "node": {
+          "titulo": "¿Cómo retirar tus cesantías para educación?",
+          "contentful_id": "4jKwpbcEJKLEVUyvXyOSKo",
+          "contenido": {
+            "tituloCorto": "¿Cómo retirar tus Cesantías para educación?",
+            "textoCallToActionBite": "Quiero conocer más",
+            "textoIntroductorio": "Es momento de estudiar eso que siempre has querido",
+            "urlSeo": "cesantias/como-usarlas/educacion/como-retirar",
+            "contentful_id": "4uGSN1xPgVwNbzFH6li4fI",
+            "updatedAt": "2020-07-07T19:55:07.900Z",
+            "descripcioncorta": "Es momento de estudiar eso que siempre has querido, pon en marcha tus proyectos educativos. Conoce aquí cómo retirar tus cesantías para educación.",
+            "imagenpequena": {
+              "file": {
+                "fileName": "CT4C7-Todos_Cesantías_Retiro-educación-AJUSTADO.png"
+              },
+              "fluid": {
+                "src": "//images.ctfassets.net/y3qdch79qxiw/4b2oYhTP6WEW8nc3MGeu38/5062c11f717142a6d0238d6f4cec16d3/CT4C7-Todos_Cesanti__as_Retiro-educacio__n-AJUSTADO.png?w=800&q=50"
+              }
+            },
+            "categoriaCliente": [
+              {
+                "descripcion": "Cesante",
+                "contentful_id": "5fP153BoelxfRsusePVnBU"
+              },
+              {
+                "descripcion": "Empleado",
+                "contentful_id": "2L498woyc1TQ1A3SpyUpxA"
+              }
+            ]
+          },
+          "lineaDeProducto": {
+            "nombre": "Cesantías",
+            "contentful_id": "7pUsqgXajww2lAjS8Z8Ult"
+          }
+        }
+      },
+      {
+        "node": {
+          "titulo": "¿Qué errores evitar a la hora de usar tus cesantías para educación?",
+          "contentful_id": "kM0QkyxBYxPsqIqubUAEy",
+          "contenido": {
+            "tituloCorto": "¡Evita estos errores! Cesantías para educación",
+            "textoCallToActionBite": "Quiero conocer más",
+            "textoIntroductorio": "Consejos para el uso de tus Cesantías",
+            "urlSeo": "cesantias/como-usarlas/educacion/que-errores-evitar",
+            "contentful_id": "KzKMI2ncK81ThfXtLx2qJ",
+            "updatedAt": "2020-07-07T20:00:27.540Z",
+            "descripcioncorta": "Te presentamos algunos consejos que puedes aplicar para el correcto uso de tus Cesantías para educación.",
+            "imagenpequena": {
+              "file": {
+                "fileName": "CT4C3-Todos-los-usuarios_Cesantías_Errores-comunes-AJUSTADO.png"
+              },
+              "fluid": {
+                "src": "//images.ctfassets.net/y3qdch79qxiw/Wye5GV9jANEuiOzbqz6TZ/99d006ef6a309f2804af2ad72694eb1f/CT4C3-Todos-los-usuarios_Cesanti__as_Errores-comunes-AJUSTADO.png?w=800&q=50"
+              }
+            },
+            "categoriaCliente": [
+              {
+                "descripcion": "Cesante",
+                "contentful_id": "5fP153BoelxfRsusePVnBU"
+              },
+              {
+                "descripcion": "Empleado",
+                "contentful_id": "2L498woyc1TQ1A3SpyUpxA"
+              },
+              {
+                "descripcion": "Independiente",
+                "contentful_id": "vt2OB7OniS8zFEgAS1qNz"
+              }
+            ]
+          },
+          "lineaDeProducto": {
+            "nombre": "Cesantías",
+            "contentful_id": "7pUsqgXajww2lAjS8Z8Ult"
+          }
+        }
+      },
+      {
+        "node": {
+          "titulo": "Tips para invertir tus Cesantias en educación",
+          "contentful_id": "65i65OtKdDLmSZXYKJyT6N",
+          "contenido": {
+            "tituloCorto": "Tips para invertir tus Cesantías en educación",
+            "textoCallToActionBite": "Quiero conocer más",
+            "textoIntroductorio": "Queremos acompañarte para que cumplas tus sueños de educación",
+            "urlSeo": "cesantias/como-retirarlas/vivienda/cuanto-ahorrar",
+            "contentful_id": "xLPj9BcW9h0dBe2PAE2st",
+            "updatedAt": "2020-07-07T20:04:48.569Z",
+            "descripcioncorta": "En Protección queremos acompañarte para que cumplas todos tus sueños. Conoce aquí algunos tips para aprovechar tus Cesantías.",
+            "imagenpequena": {
+              "file": {
+                "fileName": "CT4C1-Empleado---Cesante---Independiente_Cesantías_Cómo-usarlas-para-educación-AJUSTADO.png"
+              },
+              "fluid": {
+                "src": "//images.ctfassets.net/y3qdch79qxiw/1ye3DqDt9muqpYeOW1evgA/9b47c2add60d757444c4e6fc2dfd0b08/CT4C1-Empleado---Cesante---Independiente_Cesanti__as_Co__mo-usarlas-para-educacio__n-AJUSTADO.png?w=800&q=50"
+              }
+            },
+            "categoriaCliente": [
+              {
+                "descripcion": "Cesante",
+                "contentful_id": "5fP153BoelxfRsusePVnBU"
+              },
+              {
+                "descripcion": "Empleado",
+                "contentful_id": "2L498woyc1TQ1A3SpyUpxA"
+              },
+              {
+                "descripcion": "Independiente",
+                "contentful_id": "vt2OB7OniS8zFEgAS1qNz"
+              }
+            ]
+          },
+          "lineaDeProducto": {
+            "nombre": "Cesantías",
+            "contentful_id": "7pUsqgXajww2lAjS8Z8Ult"
+          }
+        }
+      },
+      {
+        "node": {
+          "titulo": "¿Qué errores evitar a la hora de usar tus Cesantías para vivienda?",
+          "contentful_id": "2WBURMnPPcoB3CxEeyPKei",
+          "contenido": {
+            "tituloCorto": "Evita estos errores: Cesantías para vivienda",
+            "textoCallToActionBite": "Quiero conocer más",
+            "textoIntroductorio": "Conoce algunos errores comunes que debes evitar",
+            "urlSeo": "cesantias/como-usarlas/vivienda/cesante-independiente/que-errores-evitar",
+            "contentful_id": "1kio5mE1HZTJgBKSl89vM4",
+            "updatedAt": "2020-07-07T20:01:43.202Z",
+            "descripcioncorta": "En el camino para la adquisición o mejora de vivienda puedes incurrir en algunas equivocaciones. Aprende cómo evitarlas.",
+            "imagenpequena": {
+              "file": {
+                "fileName": "CT3C6-Cesantes-e-independientes_Vivienda_Errores-AJUSTADO.png"
+              },
+              "fluid": {
+                "src": "//images.ctfassets.net/y3qdch79qxiw/37oEStvij5MDA8cNSeZFCn/21834b63d375089e55e250bdaf4c9ae6/CT3C6-Cesantes-e-independientes_Vivienda_Errores-AJUSTADO.png?w=800&q=50"
+              }
+            },
+            "categoriaCliente": [
+              {
+                "descripcion": "Independiente",
+                "contentful_id": "vt2OB7OniS8zFEgAS1qNz"
+              }
+            ]
+          },
+          "lineaDeProducto": {
+            "nombre": "Cesantías",
+            "contentful_id": "7pUsqgXajww2lAjS8Z8Ult"
+          }
+        }
+      },
+      {
+        "node": {
+          "titulo": "¿Cómo usar tus cesantías para vivienda?",
+          "contentful_id": "6EENkCBRl5BGJBjsFqENSB",
+          "contenido": {
+            "tituloCorto": "¿Cómo usar tus Cesantías para vivienda?",
+            "textoCallToActionBite": "Quiero conocer más",
+            "textoIntroductorio": "Te presentamos algunas recomendaciones",
+            "urlSeo": "cesantias/como-usarlas/vivienda/independiente",
+            "contentful_id": "2Ft5SGyqMyQUeG4v9myhFN",
+            "updatedAt": "2020-07-07T19:55:47.901Z",
+            "descripcioncorta": "Tus Cesantías en Protección son el primer paso para alcanzar tus sueños de vivienda nueva o remodelar la que ya tienes.",
+            "imagenpequena": {
+              "file": {
+                "fileName": "CT3C5-Cesante-e-independiente_Vivienda_Cómo-usarlas-AJUSTADO.png"
+              },
+              "fluid": {
+                "src": "//images.ctfassets.net/y3qdch79qxiw/211iVEe6WywsH3bkp6diz0/24d776819a8a3df46474c298830d5551/CT3C5-Cesante-e-independiente_Vivienda_Co__mo-usarlas-AJUSTADO.png?w=800&q=50"
+              }
+            },
+            "categoriaCliente": [
+              {
+                "descripcion": "Independiente",
+                "contentful_id": "vt2OB7OniS8zFEgAS1qNz"
+              }
+            ]
+          },
+          "lineaDeProducto": {
+            "nombre": "Cesantías",
+            "contentful_id": "7pUsqgXajww2lAjS8Z8Ult"
+          }
+        }
+      },
+      {
+        "node": {
+          "titulo": "¿Cómo retirar tus cesantías para vivienda?",
+          "contentful_id": "35GsTHLUHjY3EBlebb2rIa",
+          "contenido": {
+            "tituloCorto": "¿Cómo retirar tus cesantías para vivienda?",
+            "textoCallToActionBite": "Quiero conocer más",
+            "textoIntroductorio": "Conoce aquí los requisitos para el retiro de tus Cesantías",
+            "urlSeo": "cesantias/como-usarlas/vivienda/empleado/como-retirar",
+            "contentful_id": "79LsoJM15aohsQfgoMMt9O",
+            "updatedAt": "2020-07-07T19:55:27.620Z",
+            "descripcioncorta": "Tus Cesantías en Protección son el primer paso para alcanzar tus sueños de vivienda nueva o remodelar la que ya tienes.",
+            "imagenpequena": {
+              "file": {
+                "fileName": "CT3C4-Empleado_Vivienda_Retiro-AJUSTADO.png"
+              },
+              "fluid": {
+                "src": "//images.ctfassets.net/y3qdch79qxiw/53FZItBbJT3d2qUailJ9ri/34157f56697be5c70831e3de0559b874/CT3C4-Empleado_Vivienda_Retiro-AJUSTADO.png?w=800&q=50"
+              }
+            },
+            "categoriaCliente": [
+              {
+                "descripcion": "Cesante",
+                "contentful_id": "5fP153BoelxfRsusePVnBU"
+              },
+              {
+                "descripcion": "Empleado",
+                "contentful_id": "2L498woyc1TQ1A3SpyUpxA"
+              }
+            ]
+          },
+          "lineaDeProducto": {
+            "nombre": "Cesantías",
+            "contentful_id": "7pUsqgXajww2lAjS8Z8Ult"
+          }
+        }
+      },
+      {
+        "node": {
+          "titulo": "¿Qué errores evitar a la hora de usar tus cesantías para vivienda?",
+          "contentful_id": "214WFNGGgTib6kLwFWYcVQ",
+          "contenido": {
+            "tituloCorto": "¡Evita estos errores! Cesantías para vivienda",
+            "textoCallToActionBite": "Quiero conocer más",
+            "textoIntroductorio": "Aprende cómo evitar algunos errores comunes",
+            "urlSeo": "cesantias/como-usarlas/vivienda/empleado/errores-evitar-momento-usar",
+            "contentful_id": "1lU7ujH1P0evSyaSAiFCLu",
+            "updatedAt": "2020-07-07T20:00:43.194Z",
+            "descripcioncorta": "Cuando estás en el proceso de compra de vivienda, algunas veces se comenten errores. Estos son algunos de los más comunes que debes evitar:",
+            "imagenpequena": {
+              "file": {
+                "fileName": "CT3C3-Empleados_Vivienda_Errores-AJUSTADO.png"
+              },
+              "fluid": {
+                "src": "//images.ctfassets.net/y3qdch79qxiw/2DwYbbqVLBrOT00IGcYPGH/2e0acaa91fe4cef1c84a6708feacb5ba/CT3C3-Empleados_Vivienda_Errores-AJUSTADO.png?w=800&q=50"
+              }
+            },
+            "categoriaCliente": [
+              {
+                "descripcion": "Empleado",
+                "contentful_id": "2L498woyc1TQ1A3SpyUpxA"
+              },
+              {
+                "descripcion": "Cesante",
+                "contentful_id": "5fP153BoelxfRsusePVnBU"
+              }
+            ]
+          },
+          "lineaDeProducto": {
+            "nombre": "Cesantías",
+            "contentful_id": "7pUsqgXajww2lAjS8Z8Ult"
+          }
+        }
+      },
+      {
+        "node": {
+          "titulo": "¿Cómo ahorrar tus Cesantías para vivienda?",
+          "contentful_id": "5CdGqVxjofIu9SDkxfwfEV",
+          "contenido": {
+            "tituloCorto": "¿Cómo ahorrar tus Cesantías para vivienda?",
+            "textoCallToActionBite": "Quiero conocer más",
+            "textoIntroductorio": "Haz un plan de ahorro y alcanza el sueño de vivienda",
+            "urlSeo": "cesantias/como-usarlas/vivienda/como-ahorrar",
+            "contentful_id": "6skla3FWYh4i9LophEbi8G",
+            "updatedAt": "2020-07-07T19:52:02.918Z",
+            "descripcioncorta": "Si tu sueño es conseguir vivienda o mejorar la que ya tienes, te contamos cómo hacer un plan de ahorro para alcanzarlo.",
+            "imagenpequena": {
+              "file": {
+                "fileName": "CT3C1-Empleados_Vivienda_Cómo-usarlas-AJUSTADO.png"
+              },
+              "fluid": {
+                "src": "//images.ctfassets.net/y3qdch79qxiw/5tjU31I6BsJXDlVRu7bTZV/77c44ff4349ffcf03abdbc3524b76951/CT3C1-Empleados_Vivienda_Co__mo-usarlas-AJUSTADO.png?w=800&q=50"
+              }
+            },
+            "categoriaCliente": [
+              {
+                "descripcion": "Cesante",
+                "contentful_id": "5fP153BoelxfRsusePVnBU"
+              },
+              {
+                "descripcion": "Empleado",
+                "contentful_id": "2L498woyc1TQ1A3SpyUpxA"
+              }
+            ]
+          },
+          "lineaDeProducto": {
+            "nombre": "Cesantías",
+            "contentful_id": "7pUsqgXajww2lAjS8Z8Ult"
+          }
+        }
+      },
+      {
+        "node": {
+          "titulo": "¿Dónde puedo retirar mis Cesantías?",
+          "contentful_id": "1gagtTMNyzVkFmONZUTHbb",
+          "contenido": {
+            "tituloCorto": "¿Dónde puedo retirar mis Cesantías?",
+            "textoCallToActionBite": "Quiero conocer más",
+            "textoIntroductorio": "¿Ya decidiste la meta que quieres cumplir con tus Cesantías?",
+            "urlSeo": "cesantias/como-usarlas/como-retirarlas/empleado-cesante",
+            "contentful_id": "34Yl1Lbb9kwskG0a3VgjI3",
+            "updatedAt": "2020-07-07T19:57:26.543Z",
+            "descripcioncorta": "¿Ya decidiste la meta que quieres cumplir con tus Cesantías? ¡Conoce aquí cómo puedes retirarlas!",
+            "imagenpequena": {
+              "file": {
+                "fileName": "CT2C3-Empleados_Cesantías_Cómo-retirar-las-cesantías_Cómo-retirar-AJUSTADO.png"
+              },
+              "fluid": {
+                "src": "//images.ctfassets.net/y3qdch79qxiw/3mRuHO8xEQBR9anMQcDkfc/bbc1f801edf4a7415353a81086cfd91b/CT2C3-Empleados_Cesanti__as_Co__mo-retirar-las-cesanti__as_Co__mo-retirar-AJUSTADO.png?w=800&q=50"
+              }
+            },
+            "categoriaCliente": [
+              {
+                "descripcion": "Cesante",
+                "contentful_id": "5fP153BoelxfRsusePVnBU"
+              },
+              {
+                "descripcion": "Empleado",
+                "contentful_id": "2L498woyc1TQ1A3SpyUpxA"
+              }
+            ]
+          },
+          "lineaDeProducto": {
+            "nombre": "Cesantías",
+            "contentful_id": "7pUsqgXajww2lAjS8Z8Ult"
+          }
+        }
+      },
+      {
+        "node": {
+          "titulo": "¿Cómo retirar tus Cesantías?",
+          "contentful_id": "5h8Q4pFToba5sLPZf6mybv",
+          "contenido": {
+            "tituloCorto": "¿Cómo retirar tus Cesantías?",
+            "textoCallToActionBite": "Quiero conocer más",
+            "textoIntroductorio": "¿Eres afiliado independiente? Conoce cómo retirar tus Cesantías",
+            "urlSeo": "cesantias/como-usarlas/como-retirarlas/voluntario-independiente",
+            "contentful_id": "58AtRI5ZqBJGlcbCIPRjaM",
+            "updatedAt": "2020-06-24T13:48:38.894Z",
+            "descripcioncorta": "Si eres afiliado voluntario o independiente, puedes hacer el retiro de tus Cesantías en www.proteccion.com, con tu usuario y clave, sin necesidad de autorización de empleadores o validaciones de requisitos adicionales.",
+            "imagenpequena": {
+              "file": {
+                "fileName": "CT2C5-Independientes_Cesantías_Cómo-retirar-las-cesantías_Cómo-AJUSTADO.png"
+              },
+              "fluid": {
+                "src": "//images.ctfassets.net/y3qdch79qxiw/4IPN6XoNn3oRd3BmxAjmnT/7edda30093d83f47cd1307853074df35/CT2C5-Independientes_Cesanti__as_Co__mo-retirar-las-cesanti__as_Co__mo-AJUSTADO.png?w=800&q=50"
+              }
+            },
+            "categoriaCliente": [
+              {
+                "descripcion": "Independiente",
+                "contentful_id": "vt2OB7OniS8zFEgAS1qNz"
+              }
+            ]
+          },
+          "lineaDeProducto": {
+            "nombre": "Cesantías",
+            "contentful_id": "7pUsqgXajww2lAjS8Z8Ult"
+          }
+        }
+      },
+      {
+        "node": {
+          "titulo": "¿Cómo retirar tus Cesantías?",
+          "contentful_id": "5h8Q4pFToba5sLPZf6mybv",
+          "lineaDeProducto": {
+            "nombre": "Cesantías",
+            "contentful_id": "7pUsqgXajww2lAjS8Z8Ult"
+          }
+        }
+      },
+      {
+        "node": {
+          "titulo": "Extractos de Cesantías, ¿qué son y cómo leerlos?",
+          "contentful_id": "6YXhOyzaixyOlbzSaYwthX",
+          "contenido": {
+            "tituloCorto": "Extractos de Cesantías, ¿qué son y cómo leerlos?",
+            "textoCallToActionBite": "Quiero saber más",
+            "textoIntroductorio": "Hazle seguimiento a tu ahorro de Cesantías",
+            "urlSeo": "cesantias/extractos/como-leerlos",
+            "contentful_id": "UtvpGfgcpx7MxtxehglAd",
+            "updatedAt": "2020-07-07T19:58:12.463Z",
+            "descripcioncorta": "Los extractos de Cesantías son comunicaciones periódicas que contienen información acerca de los movimientos de tu cuenta individual durante un periodo determinado de tiempo. Entenderlo, te permitirá hacer seguimiento a tu ahorro.",
+            "imagenpequena": {
+              "file": { "fileName": "CT3C7-imagen_tarjeta_que_son.png" },
+              "fluid": {
+                "src": "//images.ctfassets.net/y3qdch79qxiw/1dc4II56AI42NHarhUoRAH/d587758f8f6e0f34c67007b8d4616e86/CT3C7-imagen_tarjeta_que_son.png?w=800&q=50"
+              }
+            },
+            "categoriaCliente": [
+              {
+                "descripcion": "Cesante",
+                "contentful_id": "5fP153BoelxfRsusePVnBU"
+              },
+              {
+                "descripcion": "Empleado",
+                "contentful_id": "2L498woyc1TQ1A3SpyUpxA"
+              },
+              {
+                "descripcion": "Independiente",
+                "contentful_id": "vt2OB7OniS8zFEgAS1qNz"
+              }
+            ]
+          },
+          "lineaDeProducto": {
+            "nombre": "Cesantías",
+            "contentful_id": "7pUsqgXajww2lAjS8Z8Ult"
+          }
+        }
+      },
+      {
+        "node": {
+          "titulo": "¿Cómo obtener tus extractos de Cesantías?",
+          "contentful_id": "25GPKs1Uph6JhkvDlkghFW",
+          "contenido": {
+            "tituloCorto": "¿Cómo obtener tus extractos de Cesantías?",
+            "textoCallToActionBite": "Conocer más",
+            "textoIntroductorio": "Estos te permiten estar informado acerca de tu ahorro",
+            "contentful_id": "7dZqpgEfBvYgEPLkmCwYRR",
+            "updatedAt": "2020-06-23T14:14:11.891Z",
+            "descripcioncorta": "Los extractos de Cesantías son comunicaciones periódicas que contienen información acerca de los movimientos de tu cuenta individual durante un periodo determinado de tiempo. Conoce aquí cómo puedes descargarlos",
+            "imagenpequena": {
+              "file": {
+                "fileName": "CT10C2-Todos-los-públicos_Cesantías_Extractos_Cómo-descargarlos-AJUSTADO.png"
+              },
+              "fluid": {
+                "src": "//images.ctfassets.net/y3qdch79qxiw/1zghPXN0VjQHiXu2F57hvE/bb17e88b2ef7e2954b0192de9d0c12a5/CT10C2-Todos-los-pu__blicos_Cesanti__as_Extractos_Co__mo-descargarlos-AJUSTADO.png?w=800&q=50"
+              }
+            },
+            "categoriaCliente": [
+              {
+                "descripcion": "Cesante",
+                "contentful_id": "5fP153BoelxfRsusePVnBU"
+              },
+              {
+                "descripcion": "Empleado",
+                "contentful_id": "2L498woyc1TQ1A3SpyUpxA"
+              },
+              {
+                "descripcion": "Independiente",
+                "contentful_id": "vt2OB7OniS8zFEgAS1qNz"
+              }
+            ]
+          },
+          "lineaDeProducto": {
+            "nombre": "Cesantías",
+            "contentful_id": "7pUsqgXajww2lAjS8Z8Ult"
+          }
+        }
+      }
+    ]
+  },
+  "allContentfulLineaDeNegocio": {
+    "edges": [
+      {
+        "node": {
+          "nombre": "Inversión",
+          "textoIntroductorioBite": "¡Haz realidad tus proyectos! Conoce Protección Inversiones"
+        }
+      },
+      {
+        "node": {
+          "nombre": "Pensiones Voluntarias",
+          "textoIntroductorioBite": "Conoce cómo podrás manejar tus ahorros para alcanzar tus metas."
+        }
+      },
+      {
+        "node": {
+          "nombre": "Pensiones Obligatorias",
+          "textoIntroductorioBite": "Conoce cómo podrás tener tranquilidad en tu etapa de jubilación"
+        }
+      },
+      {
+        "node": {
+          "nombre": "Cesantías",
+          "textoIntroductorioBite": "Conoce cómo podrás manejar tus ahorros para alcanzar tus metas"
+        }
+      }
+    ]
+  }
+}

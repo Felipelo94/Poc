@@ -1,0 +1,216 @@
+@import "../assets/styles/variables.scss";
+
+.Internal-talento-si-hay-container {
+  @media (min-width: "1500px") {
+    &-big {
+      max-width: 1280px;
+      margin: auto;
+      & > .container-internal-content-more-content {
+        & > .more-content {
+          margin: 0 130px;
+        }
+      }
+    }
+  }
+  &-big {
+    & > .container-internal-content-more-content {
+      & > .more-content {
+        @media (min-width: "1024px") {
+          margin: 0 130px;
+        }
+      }
+    }
+  }
+
+  background: white;
+  &-banner {
+    position: relative;
+    width: 100%;
+    & > img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &-header {
+    margin: 48px 114px;
+  }
+
+  .container-internal-content-bread-crumb {
+    height: 66px;
+  }
+
+  &-podcats {
+    margin: 96px 113px;
+    &-title {
+      font-family: $primary-font;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 34px;
+      color: $base-blue;
+      margin-bottom: 16px;
+    }
+    &-descripcion {
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 22px;
+      color: $dark-gray;
+      margin-bottom: 20px;
+    }
+    &-reproductor {
+      box-shadow: 0px 4px 5px rgba(149, 150, 153, 0.14),
+        0px 1px 10px rgba(149, 150, 153, 0.12),
+        0px 2px 4px rgba(149, 150, 153, 0.2);
+      border-radius: 4px 4px 24px 0px;
+      padding: 16px 12px;
+    }
+  }
+  &-like {
+    margin: 0px 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: $responsive-width) {
+      flex-wrap: wrap;
+    }
+
+    @media (min-width: "1500px") {
+      max-width: 1240px;
+      width: 100%;
+      margin: auto;
+    }
+    position: relative;
+  }
+  .bite-graph-container-text {
+    color: $dark-gray !important;
+  }
+}
+
+.internal-talento-si-hay-container {
+  &--inversion {
+    .header-talent-component-header-title,
+    .Internal-talento-si-hay-container-podcats-title {
+      color: $dark-text;
+    }
+    .header-talent-component-header-descripcion,
+    .Internal-talento-si-hay-container-podcats-descripcion {
+      color: $gray-text;
+    }
+  }
+}
+
+@media (min-width: "1500px") {
+  .Internal-talento-si-hay-container {
+    &-banner {
+      position: relative;
+      margin: 0px auto;
+      width: 1240px;
+    }
+  }
+}
+
+@media (max-width: "1024px") {
+  .Internal-talento-si-hay-container {
+    &-header {
+      margin: 16px;
+    }
+
+    .container-internal-content-bread-crumb {
+      height: 39px;
+    }
+
+    &-StepByStep {
+      & > div > .container-step-by-step > #container-step-by-step-title > div {
+        & > .container-step-by-step-title > .item-acordion-container {
+          margin-right: 0;
+          margin-left: 0;
+          z-index: 3;
+          & > #item-acordion-container-title {
+            margin: 16px;
+          }
+          & > div > div > .container-step-by-step-content-mobile {
+            margin: 16px;
+
+            & > .container-step-by-step-content-mobile-container {
+              & > .container-step-by-step-content-value-parrafo {
+                margin: 0px;
+              }
+            }
+          }
+        }
+      }
+    }
+    &-podcats {
+      margin: 30px 0px;
+      &-title {
+        margin: 16px;
+      }
+      &-descripcion {
+        margin: 16px;
+      }
+      &-reproductor {
+        margin-top: 24px;
+      }
+    }
+    &-like {
+      margin: 0px;
+      & > .like-container {
+        margin: 16px;
+      }
+      & > .Internal-talento-si-hay-like-container-share {
+        margin: 16px;
+        & > .container-internal-content-componente-share {
+          margin: 0;
+        }
+      }
+    }
+  }
+  .internal-talento-si-hay-container {
+    &--inversion {
+      .header-talent-component-header-title,
+      .Internal-talento-si-hay-container-podcats-title {
+        color: $dark-text;
+      }
+      .header-talent-component-header-descripcion {
+        color: $gray-text;
+      }
+    }
+  }
+}
+
+.Internal-talento-si-hay-container-StepByStep {
+  .container-step-by-step-parrafos-contenido > p {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: $dark-gray;
+  }
+}
+
+.internal-talento-si-hay-container--inversion {
+  .Internal-talento-si-hay-container-StepByStep {
+    .container-step-by-step.background-conteful-active {
+      background: $light-background;
+    }
+    .container-step-by-step-parrafos-contenido > p {
+      color: $gray-text;
+    }
+  }
+}
+
+.podcast-links {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 20px 0 0;
+  padding-bottom: "10px";
+  flex-wrap: wrap;
+  &-item {
+    cursor: pointer;
+    margin-left: 10px;
+  }
+}

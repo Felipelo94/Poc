@@ -1,0 +1,583 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`menupizza renders correctly  1`] = `
+<div>
+  <div
+    id="isServices"
+    style={
+      Object {
+        "position": "absolute",
+        "visibility": "hidden",
+      }
+    }
+  >
+    <label>
+      false
+    </label>
+  </div>
+  <div
+    className="container-menus-hambuger d-flex"
+    style={
+      Object {
+        "height": "100px",
+        "position": "absolute",
+        "width": "28%",
+        "zIndex": 7,
+      }
+    }
+  >
+    <div
+      className="menu-pizza-closed menu-pizza-closed-buttton-true   gtmHomeSupMenu "
+    >
+      <div
+        className="menu-pizza-closed-buttton gtmHomeSupMenu"
+        data-tut="reactour__menu"
+        id="btn-abrir"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="presentation"
+      >
+        <div
+          className="menu-pizza-closed-title gtmHomeSupMenu"
+        >
+          <span
+            className=""
+          >
+            Menú
+          </span>
+        </div>
+        <div
+          alt="Ícono menú"
+          className=""
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+          title="Ícono menú"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`menupizza renders correctly  2`] = `
+<div
+  className="container-menu-pizza menu-pizza-closed-buttton-false"
+  style={
+    Object {
+      "overflow": "visible",
+    }
+  }
+>
+  <div>
+    <div
+      className="container-menu-info-user-nameBig container-menu-info-user-title"
+      id="container-menu-info-user-nameBig container-menu-info-user-title"
+    >
+      <div
+        className="breakpoint__md-up container-menu-info-user-name d-flex flex-row"
+        style={Object {}}
+      >
+        <div
+          className="breakpoint__md-up "
+          style={Object {}}
+        >
+          <span
+            id="container-menu-info-user-nameBig container-menu-info-user-title-value"
+            style={
+              Object {
+                "float": "left",
+              }
+            }
+          >
+            xxxxxxxxxxxxxxxxxxxxxxxx
+          </span>
+        </div>
+        <div
+          className="breakpoint__md-up "
+          style={Object {}}
+        >
+          <div
+            alt="x de cierre"
+            className=""
+            id="btn-cerrar"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            role="presentation"
+            style={
+              Object {
+                "float": "right",
+                "marginBottom": "12px",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+    <a
+      href="/"
+    >
+      <div
+        className="container-menu-info-user-change gtmHomeMenuNoSoy"
+        id="container-menu-info-user-change"
+      >
+        <div
+          className="container-menu-info-user-change-notIsUser gtmHomeMenuNoSoy"
+          id="isNotUser"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="presentation"
+        >
+          <span
+            className="gtmHomeMenuNoSoy"
+          >
+            Quiero personalizar mi contenido
+          </span>
+        </div>
+      </div>
+    </a>
+    <div
+      className="container-menu-info-user-change"
+      id="container-menu-info-user-change"
+    >
+      <div
+        className="container-menu-info-user-change-subtitle"
+        id="container-menu-info-user-change-subtitle"
+      />
+    </div>
+  </div>
+  <div
+    className="gtmHomeMenuSolucionesUnClic"
+    id="gtmHomeMenuSolucionesUnClic"
+    onClick={[Function]}
+    role="presentation"
+  >
+    <div
+      className="peperoni-container-modal container-buton-open-test-1 container-buton-open-1 gtmHomeMenuSolucionesUnClic"
+      id="Soluciones"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "position": "absolute",
+          "zIndex": 1,
+        }
+      }
+    />
+  </div>
+  <div
+    className="gtmHomeMenuCanalesDeServicio"
+    id="gtmHomeMenuCanalesDeServicio"
+    onClick={[Function]}
+    role="presentation"
+  >
+    <div
+      className="peperoni-container-modal container-buton-open-test-2 container-buton-open-1 gtmHomeMenuCanalesDeServicio"
+      id="Soluciones"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "position": "absolute",
+          "zIndex": 1,
+        }
+      }
+    />
+  </div>
+  <div
+    className="gtmHomeMenuAfiliateProteccion"
+    id="gtmHomeMenuAfiliateProteccion"
+    onClick={[Function]}
+    role="presentation"
+  >
+    <div
+      className="peperoni-container-modal container-buton-open-test-3 container-buton-open-1 gtmHomeMenuAfiliateProteccion"
+      id="Soluciones"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "position": "absolute",
+          "zIndex": 1,
+        }
+      }
+    />
+  </div>
+  <div
+    className="gtmHomeMenuTenemosParaTi"
+    id="button-open-modal-comntainer"
+    onClick={[Function]}
+    role="presentation"
+  >
+    <div
+      className="peperoni-container-modal container-buton-open-test-4 container-buton-open-2 gtmHomeMenuTenemosParaTi"
+      id="Explora"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "position": "absolute",
+          "zIndex": 1,
+        }
+      }
+    />
+  </div>
+  <div
+    className="container-menu-pizza-peperoni"
+  >
+    <ul
+      className="container-menu-pizza-peperoni-circle-container"
+    >
+      <li
+        className="container-menu-pizza-peperoni-circle-container-peperoni-0"
+      >
+        <div
+          className="peperoni-container green gtmHomeMenuCanalesDeServicio"
+          id="peperoni-container-Canales-de-Servicio"
+          style={Object {}}
+        >
+          <a
+            className="peperoni-container-link gtmHomeMenuCanalesDeServicio peperoni-container-modal-test-over-0"
+            href="http://localhost/undefined//canales/?c=31JYCa3KmNmAmNH2Pj5Zxm"
+            id="peperoni-container-link"
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <div
+              className="peperoni-container green-title gtmHomeMenuCanalesDeServicio"
+              id="peperoni-container"
+            >
+              <img
+                alt="icono de Canales de Servicio"
+                src="SvgrURL"
+              />
+              <span
+                className="gtmHomeMenuCanalesDeServicio"
+                id="peperoni-container-text"
+              >
+                Canales de Servicio
+              </span>
+            </div>
+          </a>
+        </div>
+      </li>
+      <li
+        className="container-menu-pizza-peperoni-circle-container-peperoni-1"
+      >
+        <div
+          className="peperoni-container green gtmHomeMenuSolucionesUnClic"
+          id="peperoni-container-Soluciones-a-un-clic"
+          style={Object {}}
+        >
+          <a
+            className="peperoni-container-link gtmHomeMenuSolucionesUnClic peperoni-container-modal-test-over-1"
+            href="https://www.proteccion.com/gratitud"
+            id="peperoni-container-link"
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <div
+              className="peperoni-container green-title gtmHomeMenuSolucionesUnClic"
+              id="peperoni-container"
+            >
+              <img
+                alt="icono de Soluciones a un clic"
+                src="SvgrURL"
+              />
+              <span
+                className="gtmHomeMenuSolucionesUnClic"
+                id="peperoni-container-text"
+              >
+                Soluciones a un clic
+              </span>
+            </div>
+          </a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`menupizza renders correctly without props 1`] = `
+<div>
+  <div
+    id="isServices"
+    style={
+      Object {
+        "position": "absolute",
+        "visibility": "hidden",
+      }
+    }
+  >
+    <label>
+      false
+    </label>
+  </div>
+  <div
+    className="container-menus-hambuger d-flex"
+    style={
+      Object {
+        "height": "100%",
+        "position": "fixed",
+        "width": "100%",
+        "zIndex": 12,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "backgroundColor": "#FAFBFC",
+          "bottom": "0px",
+          "display": "flex",
+          "opacity": 0,
+          "position": "fixed",
+          "top": "0px",
+          "transform": "translateX(100px) translateY(-70px) scaleX(-0.75) scaleY(0.75) translateZ(0)",
+          "width": "100%",
+          "zIndex": 20,
+        }
+      }
+    >
+      <div
+        className="container-menu-hamburger"
+        style={
+          Object {
+            "transform": "scaleX(-1)",
+          }
+        }
+      >
+        <button
+          className="container-button-menu-shadow  ripple btn-hamburger-ripper"
+        />
+        <div>
+          <div
+            className="container-menu-info-user-nameSmall container-menu-info-user-title"
+            id="container-menu-info-user-nameBig container-menu-info-user-title"
+          >
+            <div
+              className="breakpoint__md-up container-menu-info-user-name d-flex flex-row"
+              style={Object {}}
+            >
+              <div
+                className="breakpoint__md-up "
+                style={Object {}}
+              >
+                <span
+                  id="container-menu-info-user-nameBig container-menu-info-user-title-value"
+                  style={
+                    Object {
+                      "float": "left",
+                    }
+                  }
+                >
+                  ¡Hola!
+                </span>
+              </div>
+              <div
+                className="breakpoint__md-up "
+                style={Object {}}
+              >
+                <div
+                  alt="x de cierre"
+                  className="spin-btn "
+                  id="btn-cerrar"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="presentation"
+                  style={
+                    Object {
+                      "float": "right",
+                      "marginBottom": "12px",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+          <a
+            href="/"
+          >
+            <div
+              className="container-menu-info-user-change gtmHomeMenuNoSoy"
+              id="container-menu-info-user-change"
+            >
+              <div
+                className="container-menu-info-user-change-notIsUser gtmHomeMenuNoSoy"
+                id="isNotUser"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="presentation"
+              >
+                <span
+                  className="gtmHomeMenuNoSoy"
+                >
+                  No soy 
+                </span>
+              </div>
+            </div>
+          </a>
+          <div
+            className="container-menu-info-user-change"
+            id="container-menu-info-user-change"
+          >
+            <div
+              className="container-menu-info-user-change-subtitle"
+              id="container-menu-info-user-change-subtitle"
+            />
+          </div>
+        </div>
+        <div
+          className="container-menu-hamburger-list"
+        >
+          <div
+            className="line-subitem"
+          />
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className="container-menu-item-hamburger-container "
+              id="container-menu-item-hamburger-container"
+            >
+              <div
+                className="container-menu-item-hamburger "
+                id="solucionesaunclic"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="presentation"
+                style={
+                  Object {
+                    "background": "#FAFBFC",
+                  }
+                }
+              >
+                <span
+                  id="solucionesaunclic-url"
+                  style={
+                    Object {
+                      "display": "none",
+                    }
+                  }
+                >
+                  https://www.proteccion.com/gratitud
+                </span>
+                <h4
+                  className="container-menu-item-hamburger-tittle "
+                  id="container-menu-item-hamburger-tittle"
+                  style={
+                    Object {
+                      "color": "#0B2987",
+                      "width": "80%",
+                    }
+                  }
+                >
+                  Soluciones a un clic
+                </h4>
+              </div>
+              <div
+                className="line-subitem"
+                id="line-subitem"
+              />
+            </div>
+          </div>
+          <div
+            className=""
+            style={Object {}}
+          >
+            <div
+              className="container-menu-item-hamburger-container "
+              id="container-menu-item-hamburger-container"
+            >
+              <div
+                className="container-menu-item-hamburger "
+                id="canalesdeservicio"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="presentation"
+                style={
+                  Object {
+                    "background": "#FAFBFC",
+                  }
+                }
+              >
+                <span
+                  id="canalesdeservicio-url"
+                  style={
+                    Object {
+                      "display": "none",
+                    }
+                  }
+                >
+                  /canales/?c=31JYCa3KmNmAmNH2Pj5Zxm
+                </span>
+                <h4
+                  className="container-menu-item-hamburger-tittle "
+                  id="container-menu-item-hamburger-tittle"
+                  style={
+                    Object {
+                      "color": "#0B2987",
+                      "width": "80%",
+                    }
+                  }
+                >
+                  Canales de Servicio
+                </h4>
+              </div>
+              <div
+                className="line-subitem"
+                id="line-subitem"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="container-menu-hamburger-call-to-action"
+          id="container-menu-hamburger-call-to-action"
+          style={
+            Object {
+              "justifyContent": "space-between",
+              "margin": "0px 16px 34px 16px",
+            }
+          }
+        >
+          <a
+            className="container-menu-hamburger-call-to-action-a"
+            href="https://www.proteccion.com/wps/portal/proteccion/web/cesantias/personas"
+            id="container-menu-hamburger-call-to-action-a"
+            target="_blank"
+          >
+            <div
+              className="container-menu-hamburger-call-to-action-a-img gtmHomeSupVolvSitAnt"
+              id="container-menu-hamburger-call-to-action-a-img"
+            >
+              <div
+                alt="image de refresh"
+                className="gtmHomeSupVolvSitAnt"
+              />
+            </div>
+            <div
+              className="container-menu-hamburger-call-to-action-a-text gtmHomeSupVolvSitAnt"
+              id="container-menu-hamburger-call-to-action-a-text"
+            >
+              <span
+                className="gtmHomeSupVolvSitAnt"
+              >
+                Volver al sitio anterior
+              </span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,92 @@
+@import "./../../../assets/styles/variables.scss";
+
+.container-content-question {
+  &-parrafo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 8px 90px;
+    &-value {
+      padding-left: 24px;
+      margin-left: 24px;
+      padding-right: 24px;
+      border-left: 1px solid $base-blue;
+    }
+    &-parrafos{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%;
+      margin-top: 28px;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      &> .item-acordion-container {
+        .item-acordion-container-title-active {
+          border: 1px solid $base-blue !important;
+          box-sizing: border-box !important;
+          border-radius: 2px !important;
+          font-weight: 400;
+          font-style: normal;
+          margin-bottom: 16px;
+          text-transform: none !important;
+        }
+        .item-acordion-container-title-inactive{
+          border: 1px solid $light-border;
+          box-sizing: border-box;
+          border-radius: 2px;
+          font-weight: 400;
+          font-style: normal;
+          margin-bottom: 16px;
+          text-transform: none !important;
+        }
+      }
+    }
+  }
+  &-imagen{
+    margin-top: 48px;
+    margin-bottom: 48px; 
+    margin-right: 87px;
+    position: sticky;
+    top: 20%;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  &-call-to-action{
+    margin: 8px 90px;
+  }
+}
+@media (max-width: $desktop-small-width) {
+  .container-content-question {
+    &-parrafo {
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin: 8px 16px;
+      &-parrafos{
+        &> .item-acordion-container {
+          margin-left: 0px;
+          margin-right: 0px;
+        }
+      }
+    }
+    &-imagen{
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 48px 0px 40px 0px;
+      width: 100%;
+      position: relative;
+    }
+
+  &-call-to-action {
+  margin: 8px 16px;
+}
+
+}
+}

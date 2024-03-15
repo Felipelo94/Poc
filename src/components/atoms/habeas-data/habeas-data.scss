@@ -1,0 +1,40 @@
+@import '../../../assets/styles/variables.scss';
+.container-habeas-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  & > .MuiButtonBase-root {
+    padding: 0px 10px 0px 0px !important;
+  }
+  & > svg {
+    color: $base-blue !important;
+  }
+
+  &-input {
+    height: 20px;
+    width: 24px;
+    background: white;
+    & > .MuiButtonBase-root {
+      & > .MuiIconButton-label {
+        & > .MuiSvgIcon-root {
+          color: $base-blue !important;
+        }
+      }
+    }
+  }
+
+  &-text {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: $dark-text;
+    margin: 0px;
+  }
+}
+
+.MuiIconButton-label {
+  justify-content: normal !important;
+}

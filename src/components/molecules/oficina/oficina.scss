@@ -1,0 +1,44 @@
+@import "../../../assets/styles/variables.scss";
+.container-oficinas {
+  background-color: white !important;
+  &-internal-breadcrumb {
+    border-top: $light-border solid 1px;
+    border-bottom: $light-border solid 1px;
+  }
+
+  & > .container-modal {
+    right: 0;
+    & > .container-modal-content {
+      @media (min-width: $desktop-small-width) {
+        overflow: hidden !important;
+      }
+    }
+  }
+}
+
+.info-modal-lineas-services {
+  font-family: $secondary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  color: $dark-text;
+}
+
+.container-tab-modal-oficina {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap;
+}
+
+.info-modal-lineas-services-text {
+  margin: 8px 8px 0px 8px;
+}
+
+@media (max-width: $desktop-small-width) {
+  .info-modal-lineas-services-text {
+    margin: 24px 24px 33px 24px;
+  }
+}

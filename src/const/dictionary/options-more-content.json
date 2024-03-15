@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Cesantías",
+    "link": "https://www.proteccion.com/wps/portal/proteccion/web/cesantias/personas#que-son",
+    "classGtm": "gtmHomeAdemParaTiCesantias",
+    "classGtmInterna": "gtmCesantiasMasContenCesantias",
+    "alt": "Ícono una sombrilla con el signo pesos, al darle clic lleva a las preguntas de perfilamiento de Cesantías"
+  },
+  {
+    "name": "Pensión",
+    "link": "https://www.proteccion.com/wps/portal/proteccion/web/nueva-zona-pensional",
+    "classGtm": "gtmHomeAdemParaTiPension",
+    "classGtmInterna": "gtmCesantiasMasContenPension",
+    "alt": "Ícono de un escudo con el signo pesos, al darle clic lleva a las preguntas de perfilamiento de Pensión"
+  },
+  {
+    "name": "Ahorro",
+    "link": "https://www.proteccion.com/wps/portal/proteccion/web/home/afiliarse",
+    "classGtm": "gtmHomeAdemParaTiAhorro",
+    "classGtmInterna": "gtmCesantiasMasContenAhorro",
+    "alt": "Ícono de un marranito con el signo pesos, al darle clic lleva a las preguntas de perfilamiento de Ahorro"
+  },
+  {
+    "name": "Inversión",
+    "link": "https://www.proteccion.com/wps/portal/proteccion/web/inversion/home/",
+    "classGtm": "gtmHomeAdemParaTiInversion",
+    "classGtmInterna": "gtmCesantiasMasContenInversion",
+    "alt": "Ícono de un gráfico con flecha ascendente, al darle clic lleva a las preguntas de perfilamiento de Inversión"
+  }
+]

@@ -1,0 +1,236 @@
+@import "../../../assets/styles/variables.scss";
+
+.isnotMargin {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  & > #item-acordion-container-title {
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+  & > div > div > #container-meal-content > div {
+    & > #container-parrafo-title {
+      margin-right: 16px;
+      margin-left: 16px;
+    }
+    & > #container-parrafo-content {
+      margin-right: 16px;
+      margin-left: 16px;
+    }
+    & > #simulator-mutuo-colombia-container {
+      & > #simulator-mutuo-colombia-container-minimum-salary {
+        margin-right: 16px;
+        margin-left: 16px;
+      }
+      & > #simulator-mutuo-colombia-container-minimum-salary-input {
+        margin-right: 16px;
+        margin-left: 16px;
+      }
+      & > #simulator-mutuo-colombia-container-minimum-salary-projection {
+        margin-right: 16px;
+        margin-left: 16px;
+      }
+    }
+  }
+}
+
+.item-acordion-container {
+  $self: &;
+
+  &-title {
+    width: 100%;
+    // max-width: 400px;
+    border: 0;
+
+    .item-acordion-title {
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: left;
+    }
+
+    &-inactive-icon {
+      min-height: 52px;
+      background: white;
+      color: $gray-text;
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding: 16px;
+      border-radius: 4px;
+      -webkit-box-shadow: 0px 5px 5px rgba(149, 150, 153, 0.2),
+        0px 3px 14px rgba(149, 150, 153, 0.12),
+        0px 8px 10px rgba(149, 150, 153, 0.14);
+      box-shadow: 0px 5px 5px rgba(149, 150, 153, 0.2),
+        0px 3px 14px rgba(149, 150, 153, 0.12),
+        0px 8px 10px rgba(149, 150, 153, 0.14);
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      margin: 12px 0px;
+      border: none;
+
+      & div {
+        max-width: 85%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+      }
+
+      & div div {
+        & > img {
+          padding: 0 8px;
+        }
+      }
+    }
+
+    &-active-icon {
+      color: $base-blue;
+      min-height: 52px;
+      background: white;
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 13px;
+      line-height: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding: 16px;
+      border-radius: 4px;
+      -webkit-box-shadow: 0px 5px 5px rgba(149, 150, 153, 0.2),
+        0px 3px 14px rgba(149, 150, 153, 0.12),
+        0px 8px 10px rgba(149, 150, 153, 0.14);
+      box-shadow: 0px 5px 5px rgba(149, 150, 153, 0.2),
+        0px 3px 14px rgba(149, 150, 153, 0.12),
+        0px 8px 10px rgba(149, 150, 153, 0.14);
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      border: none;
+
+      #{$self}--inversion & {
+        color: $dark-text;
+
+        svg path {
+          fill: $dark-text;
+        }
+      }
+
+      & div {
+        max-width: 85%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        justify-content: center;
+      }
+
+      & div div {
+        & > img {
+          background-repeat: no-repeat;
+          padding: 0 8px;
+        }
+      }
+
+      .item-acordion-title {
+        font-family: $secondary-font;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: left;
+      }
+    }
+
+    &-inactive {
+      min-height: 52px;
+      background: white;
+      color: $gray-text;
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding: 16px;
+      border-bottom: solid 1px $light-border;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+
+      & div {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 90%;
+      }
+    }
+
+    &-active {
+      min-height: 52px;
+      background: $base-blue;
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      color: white;
+      padding: 16px;
+      border-bottom: solid 1px $base-blue;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+
+      #{$self}--inversion & {
+        background: $dark-text;
+        font-size: 15px !important;
+      }
+
+      & div {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 90%;
+      }
+    }
+  }
+
+  .container-meal-content-mobile {
+    margin: 24px 16px 0 16px;
+  }
+}

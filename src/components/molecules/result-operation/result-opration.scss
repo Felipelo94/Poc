@@ -1,0 +1,54 @@
+@import "../../../assets/styles/variables.scss";
+.container-result-operation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  &-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 33px;
+  }
+  &-title {
+    color: $gray-text;
+    font-family: $primary-font;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    margin-right: 14px;
+  }
+  &-data {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 26px 0px 32px 0;
+    color: $dark-text;
+    font-family: $primary-font;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .container-result-operation {
+    &-header {
+      & > #container-tooltip {
+        position: relative !important;
+        top: -78px !important;
+        left: -145px !important;
+      }
+    }
+    &-data {
+      font-size: 42px;
+    }
+  }
+}

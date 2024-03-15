@@ -1,0 +1,47 @@
+@import "../../../assets/styles/variables.scss";
+@import "../../../assets/styles/global.scss";
+
+.letter-container {
+  @extend .unstyled-button;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0;
+  position: relative;
+  .letter {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+    color: $gray-text;
+    &--selected {
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 22px;
+      color: $base-blue;
+      -webkit-text-decoration-line: none;
+      text-decoration-line: none;
+    }
+  }
+  &--selected {
+    height: 24px;
+    width: 24px;
+    background-image: url(../../../assets/images/icons/bg-letter.svg);
+    background-repeat: no-repeat;
+  }
+  &--disabled {
+    cursor: not-allowed;
+    .letter {
+      -webkit-text-decoration-line: none;
+      text-decoration-line: none;
+    }
+  }
+}

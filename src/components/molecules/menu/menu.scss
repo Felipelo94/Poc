@@ -1,0 +1,459 @@
+@import "../../../assets/styles/variables.scss";
+
+@mixin on-circle($item-count, $circle-size, $item-size) {
+  position: absolute;
+  width: 229px;
+  height: 0px;
+  border-radius: 50%;
+  list-style: none;
+  border: solid 5px transparent;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(95deg);
+  transform: rotate(95deg);
+  top: -174px;
+  right: -125px;
+
+  > * {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -($item-size / 2);
+    width: $item-size;
+    height: $item-size;
+    $angle: (360 / $item-count);
+    $rot: 0;
+
+    @for $i from 1 through $item-count {
+      &:nth-of-type(#{$i}) {
+        -webkit-transform: rotate($rot * 1deg)
+          translate($circle-size / 2)
+          rotate($rot * -1deg);
+        -ms-transform: rotate($rot * 1deg)
+          translate($circle-size / 2)
+          rotate($rot * -1deg);
+        transform: rotate($rot * 1deg)
+          translate($circle-size / 2)
+          rotate($rot * -1deg);
+      }
+
+      $rot: $rot + $angle;
+    }
+  }
+  @-webkit-keyframes animation-opacity {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes animation-opacity {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
+.container-menus-pizza {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  border-radius: 0 0 0 100%;
+  z-index: 1;
+}
+
+.active-tour-guide {
+  width: 101px !important;
+  margin-top: -6px;
+  height: 75px !important;
+}
+
+.active-tour-guide-inv {
+  width: 101px !important;
+  margin-top: -6px;
+  height: 75px !important;
+}
+
+.active-menu-tour-guide {
+  margin-top: 11px !important;
+}
+
+@media (min-width: $desktop-small-width) {
+  @-webkit-keyframes fade-in-menu {
+    from {
+      right: -500px;
+    }
+
+    to {
+      right: 0px;
+    }
+  }
+  @keyframes fade-in-menu {
+    from {
+      right: -500px;
+    }
+
+    to {
+      right: 0px;
+    }
+  }
+
+  @-webkit-keyframes fade-out-menu {
+    from {
+      right: 0px;
+    }
+
+    to {
+      right: -500px;
+    }
+  }
+
+  @keyframes fade-out-menu {
+    from {
+      right: 0px;
+    }
+
+    to {
+      right: -500px;
+    }
+  }
+}
+
+.container-menus-pizza-click {
+  position: absolute;
+  right: 0;
+  width: 600px;
+  height: 560px;
+}
+
+.container-menus-hambuger {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 8;
+  overflow: hidden;
+}
+.container-menus-pizza-false {
+  position: absolute;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.menu-pizza-closed-buttton-false {
+  -webkit-animation: 0.3s fade-out-menu;
+  animation: 0.3s fade-out-menu;
+  overflow: hidden;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.menu-pizza-closed-buttton-true {
+  -webkit-animation: 0.3s fade-in-menu;
+  animation: 0.3s fade-in-menu;
+  overflow: hidden;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.container-menu-pizza {
+  width: 360px;
+  height: 250px;
+  background: white;
+  border-radius: 0 0 0 100%;
+  position: absolute;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-shadow: 0px 12px 15px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 12px 15px rgba(0, 0, 0, 0.16);
+  z-index: 8;
+}
+
+@-webkit-keyframes animation-menu-pizza-0 {
+  0% {
+    left: -50px;
+    opacity: 0;
+  }
+  100% {
+    left: 135px;
+    opacity: 1;
+  }
+}
+
+@keyframes animation-menu-pizza-0 {
+  0% {
+    left: -50px;
+    opacity: 0;
+  }
+  100% {
+    left: 135px;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes animation-menu-pizza-1 {
+  0% {
+    left: -50px;
+    top: -120px;
+    opacity: 0;
+  }
+  100% {
+    left: 135px;
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes animation-menu-pizza-1 {
+  0% {
+    left: -50px;
+    top: -120px;
+    opacity: 0;
+  }
+  100% {
+    left: 135px;
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes animation-menu-pizza-2 {
+  0% {
+    left: -10px;
+    top: -210px;
+    opacity: 0;
+  }
+  100% {
+    left: 135px;
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes animation-menu-pizza-2 {
+  0% {
+    left: -10px;
+    top: -210px;
+    opacity: 0;
+  }
+  100% {
+    left: 135px;
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes animation-menu-pizza-3 {
+  0% {
+    top: -250px;
+    opacity: 0;
+  }
+  100% {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes animation-menu-pizza-3 {
+  0% {
+    top: -250px;
+    opacity: 0;
+  }
+  100% {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+.menu-pizza-closed {
+  position: absolute;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: white;
+  border-radius: 27px 0px 0px 27px;
+  &-title {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: $base-blue;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: right;
+    -ms-flex-align: right;
+    align-items: right;
+    margin: 0px 10px;
+    margin-left: 16px;
+    cursor: pointer;
+  }
+  &-buttton {
+    width: 90px;
+    height: 52px;
+    border-right: none;
+    background: transparent;
+    &:focus-visible{  
+      text-decoration-line: underline;
+text-decoration-style: solid;
+
+    }
+    border-radius: 50px 0px 0px 50px;
+    border-top: 1px solid $base-blue;
+    border-bottom: 1px solid $base-blue;
+    border-left: 1px solid $base-blue;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    &-dark {
+      width: 90px;
+      height: 52px;
+      background: transparent;
+      border-radius: 50px 0px 0px 50px;
+      border-top: 1px solid $dark-text;
+      border-bottom: 1px solid $dark-text;
+      border-left: 1px solid $dark-text;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+  }
+  &-buttton-closed {
+    width: 48px;
+    height: 52px;
+    background: transparent;
+    border-radius: 50px 0px 0px 50px;
+    border-top: 1px solid $base-blue;
+    border-bottom: 1px solid $base-blue;
+    border-left: 1px solid $base-blue;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    &-dark {
+      & > .menu-pizza-closed-title {
+        & > .dark-mode-text {
+          & > svg {
+            & > path {
+              fill: $dark-text;
+            }
+          }
+        }
+      }
+      width: 48px;
+      height: 52px;
+      background: transparent;
+      border-radius: 50px 0px 0px 50px;
+      border-top: 1px solid $dark-text;
+      border-bottom: 1px solid $dark-text;
+      border-left: 1px solid $dark-text;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+  }
+}
+
+.container-button-menu-shadow {
+  background: #c9c9c9;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 37px;
+  top: 15px;
+  z-index: -1;
+}
+
+.container-button-menu-plus-shadow {
+  background: #c9c9c9;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 14px;
+  top: 12px;
+}
+
+@media (max-width: $desktop-small-width) {
+  .menu-pizza-closed {
+    margin-top: 9px;
+    &-buttton {
+      height: 46px;
+    }
+  }
+  .active-tour-guide-inv {
+    width: 98.6px !important;
+    height: 75px !important;
+  }
+  .active-tour-guide {
+    width: 98.6px !important;
+    height: 69px !important;
+    background: transparent !important;
+  }
+
+  .menu-pizza-closed-title {
+    margin: 0px;
+    margin-left: 0px;
+  }
+}
+
+.x-mode-dark {
+  & > path {
+    fill: white;
+  }
+}

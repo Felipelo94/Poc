@@ -1,0 +1,27 @@
+@import "../../../assets/styles/variables.scss";
+
+.container-content-video {
+  margin: 0px 98px;
+  margin-top: 48px;
+  &-parrafos {
+    margin-bottom: 30px;
+  }
+  &-call-to-action {
+    margin-top: 0px;
+    margin-bottom: 45px;
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .container-content-video {
+    margin: 0px 16px;
+    margin-top: 37px;
+    &-parrafos {
+      margin-bottom: 25px;
+    }
+    &-call-to-action {
+      margin-top: 32px;
+      margin-bottom: 45px;
+    }
+  }
+}

@@ -1,0 +1,80 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.3.15/slick.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.css");
+@import "../../../../assets/styles/variables.scss";
+
+.block-card {
+  cursor: not-allowed !important;
+}
+.street-exit-line {
+  border: none;
+  outline: none;
+  padding-top: 68px;
+
+  & > .bite-resposive-container {
+    & > .bite-resposive-container-imagen {
+      & > .image-container {
+        background: white;
+        -webkit-box-shadow: 0px 4px 5px rgba(149, 150, 153, 0.14),
+          0px 1px 10px rgba(149, 150, 153, 0.12),
+          0px 2px 4px rgba(149, 150, 153, 0.2);
+        box-shadow: 0px 4px 5px rgba(149, 150, 153, 0.14),
+          0px 1px 10px rgba(149, 150, 153, 0.12),
+          0px 2px 4px rgba(149, 150, 153, 0.2);
+        border-radius: 4px 4px 24px 4px;
+        & > .image-container__box {
+          & > .bite-resposive-container-imagen-img {
+            height: 120px;
+            width: 120px;
+            padding: 15px;
+            background: white;
+          }
+        }
+      }
+    }
+  }
+
+  & > .bite-resposive-container-small {
+    & > .bite-resposive-container-small-imagen {
+      & > .image-container {
+        background: white;
+        -webkit-box-shadow: 0px 4px 5px rgba(149, 150, 153, 0.14),
+          0px 1px 10px rgba(149, 150, 153, 0.12),
+          0px 2px 4px rgba(149, 150, 153, 0.2);
+        box-shadow: 0px 4px 5px rgba(149, 150, 153, 0.14),
+          0px 1px 10px rgba(149, 150, 153, 0.12),
+          0px 2px 4px rgba(149, 150, 153, 0.2);
+        border-radius: 4px 4px 24px 4px;
+      }
+    }
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .bite-resposive-container-small .button-container__button--secondary {
+    color: white;
+  }
+  .bite-resposive-container-small {
+    margin: 0px 8px 0px 8px;
+  }
+  .exit-street-container > .slick-slider > .slick-list > .slick-track {
+    margin-left: 22px;
+  }
+}
+
+@media (max-width: "320px") {
+  .bite-resposive-container-small {
+    margin: 0px 0px 0px 30px;
+  }
+  .exit-street-container > .slick-slider > .slick-list > .slick-track {
+    width: 1096px !important;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+#exit-street-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+}

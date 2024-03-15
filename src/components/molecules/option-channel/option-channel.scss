@@ -1,0 +1,77 @@
+@import "../../../assets/styles/variables.scss";
+
+.option-channel-container {
+  &-text {
+    width: 433px;
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: $dark-text;
+    margin-bottom: 24px;
+  }
+  &-call-to-action {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: $base-blue;
+    
+    &-item {
+      cursor: pointer;
+      &-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+      }
+    }
+
+    &-item-wtext{
+      cursor: pointer;
+      &-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+      }
+    }
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .option-channel-container {
+    &-text {
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+    &-call-to-action {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      &-item {
+        margin-bottom: 24px;
+      }
+
+      &-item-wtext {
+        width: 100%;
+        margin-bottom: 16px;
+      }
+    }
+  }
+}

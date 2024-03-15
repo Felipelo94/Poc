@@ -1,0 +1,145 @@
+@import '../../../assets/styles/variables.scss';
+@import '../../../assets/styles/mixins.scss';
+
+.companies-data-update-form {
+  margin: 0 16px;
+
+  &__title {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 29px;
+    color: $base-blue;
+    margin-top: 24px;
+
+    @include from(1024px) {
+      margin-top: 0;
+    }
+  }
+
+  &__subtitle {
+    margin-top: 8px;
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: $gray-text;
+  }
+
+  &__information-alert {
+    max-height: 46px;
+    max-width: 340px;
+    padding: 5px 8px 5px 5px;
+    margin: 8px 0 24px 0;
+    border-radius: 4px;
+    background-color: #ebf6fd;
+    display: flex;
+    gap: 9px;
+    align-items: center;
+
+    @include from(1024px) {
+      height: 32px;
+    }
+  }
+
+  &__information-icon {
+    width: 24px;
+  }
+
+  &__information-text {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    color: #224b77;
+  }
+
+  &__fields {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    @include from(1024px) {
+      grid-template-columns: 1fr 1fr;
+      column-gap: 16px;
+    }
+  }
+
+  &__card {
+    margin-bottom: 16px;
+    padding: 1px 16px;
+    background-color: #fafbfc;
+    width: 100%;
+    border-radius: 16px;
+    filter: drop-shadow(0px 4px 5px rgba(149, 150, 153, 0.14)) drop-shadow(0px 1px 10px rgba(149, 150, 153, 0.12)) drop-shadow(0px 2px 4px rgba(149, 150, 153, 0.2));
+
+    @include from(1024px) {
+      border-radius: 4px 4px 16px 4px;
+      filter: drop-shadow(0px 1px 1px rgba(149, 150, 153, 0.12)) drop-shadow(0px 2px 1px rgba(149, 150, 153, 0.12)) drop-shadow(0px 1px 3px rgba(149, 150, 153, 0.2));
+    }
+  }
+
+  &__card-title {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+    color: $base-blue;
+    margin-top: 23px;
+    margin-bottom: 16px;
+  }
+
+  &__link {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: $base-blue;
+    margin: 0 0 24px 32px;
+    display: block;
+  }
+
+  &__button {
+    width: 230px;
+    height: 40px;
+    background: #e3e829;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: $base-blue;
+    border: 0;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    margin-top: 24px;
+
+    &--disabled {
+      background: $light-border;
+      color: $gray-text;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__habeas-data-error-message {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #e62323;
+    margin-left: 32px;
+  }
+}

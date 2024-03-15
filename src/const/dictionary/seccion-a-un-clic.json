@@ -1,0 +1,12 @@
+[
+  {
+    "titulo": "Certifácil",
+    "url": "https://www.proteccion.com/wps/portal/proteccion/web/home/home-afiliados-pensionados/certifacil#/certificados",
+    "classGtm": "gtmHomeMenuCertifacil"
+  },
+  {
+    "titulo": "Pague Cesantías",
+    "url": "https://www.proteccion.com/wps/proxy/https/portalempresas.proteccion.com.co:10084/liquidar-y-pagar-ces",
+    "classGtm": "gtmHomeMenuPagueCesantias"
+  }
+]

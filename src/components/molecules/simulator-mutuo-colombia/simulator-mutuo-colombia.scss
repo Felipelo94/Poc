@@ -1,0 +1,260 @@
+@import "../../../assets/styles/variables.scss";
+
+.simulator-mutuo-colombia-container {
+  &-minimum-salary {
+    &-header {
+      font-family: $primary-font;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 25px;
+      display: flex;
+      align-items: center;
+      color: $gray-text;
+      margin-bottom: 31px;
+      position: relative;
+    }
+    &-content {
+      font-family: $primary-font;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 72px;
+      line-height: 38px;
+      display: flex;
+      align-items: center;
+      color: $dark-text;
+      height: 72px;
+    }
+    &-projection {
+      &-title {
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 34px;
+        display: flex;
+        align-items: center;
+        color: $base-blue;
+        margin-top: 24px;
+        margin-bottom: 16px;
+      }
+      &-subtitle {
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        color: $dark-text;
+        margin-bottom: 8px;
+      }
+      &-decripcion {
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+        color: $dark-text;
+        margin-bottom: 40px;
+      }
+      &-input {
+        &-input {
+          display: flex;
+          & > #ranger-cantainer {
+            & > div {
+              & > .button-range-container-alert {
+                margin-bottom: 40px;
+              }
+
+              & > input {
+                color: $gray-text;
+              }
+            }
+          }
+          &-info {
+            &-title {
+              font-family: $primary-font;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 16px;
+              line-height: 18px;
+              display: flex;
+              align-items: center;
+              color: $gray-text;
+              margin-bottom: 5px;
+            }
+            &-subtitle {
+              font-family: $primary-font;
+              font-style: normal;
+              font-weight: bold;
+              font-size: 34px;
+              line-height: 38px;
+              display: flex;
+              align-items: center;
+              color: $gray-text;
+            }
+          }
+        }
+      }
+    }
+    &-valorizacion {
+      box-shadow: 0px 1px 1px rgba(149, 150, 153, 0.12),
+        0px 2px 1px rgba(149, 150, 153, 0.12),
+        0px 1px 3px rgba(149, 150, 153, 0.2);
+      border-top: 4px $base-yellow solid;
+      border-radius: 4px 4px 16px 4px;
+      background: white;
+      padding: 24px 16px;
+      &-info {
+        &-title {
+          font-family: $primary-font;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 18px;
+          display: flex;
+          align-items: center;
+          color: $gray-text;
+          margin-bottom: 5px;
+        }
+        &-subtitle {
+          font-family: $primary-font;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 34px;
+          line-height: 38px;
+          display: flex;
+          align-items: center;
+          color: $gray-text;
+        }
+      }
+
+      &-ganancias {
+        display: flex;
+        &-item {
+          font-family: $secondary-font;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 15px;
+          line-height: 22px;
+          display: flex;
+          align-items: center;
+          color: $gray-text;
+          margin-right: 58px;
+          max-width: 312px;
+        }
+        &-value {
+          font-family: $primary-font;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 34px;
+          line-height: 38px;
+          display: flex;
+          align-items: center;
+          color: $base-blue;
+        }
+      }
+    }
+    &-botton {
+      margin-top: 32px;
+      margin-bottom: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .simulator-mutuo-colombia-container {
+    &-minimum-salary {
+      &-header {
+        margin-bottom: 23px;
+      }
+      &-content {
+        font-size: 48px;
+        line-height: 38px;
+        height: 48px;
+      }
+      &-projection {
+        &-title {
+          margin-top: 15px;
+          margin-bottom: 19px;
+        }
+        &-decripcion {
+          margin-bottom: 32px;
+        }
+        &-input {
+          &-input {
+            flex-wrap: wrap;
+            & > #ranger-cantainer {
+              & > div {
+                & > .button-range-container-alert {
+                  height: 100%;
+                  margin-bottom: 32px;
+                }
+              }
+            }
+            &-info {
+              &-subtitle {
+                margin-bottom: 32px;
+              }
+            }
+          }
+        }
+      }
+      &-valorizacion {
+        & > div {
+          flex-wrap: wrap;
+        }
+        &-info {
+          &-title {
+            display: flex;
+            align-items: center;
+          }
+        }
+
+        &-ganancias {
+          display: flex;
+          &-item {
+            font-family: $secondary-font;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 22px;
+            display: flex;
+            align-items: center;
+            color: $gray-text;
+            margin-right: 58px;
+            max-width: 312px;
+          }
+          &-value {
+            font-family: $primary-font;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 38px;
+            display: flex;
+            align-items: center;
+            color: $base-blue;
+          }
+        }
+      }
+      &-botton {
+        margin-top: 24px;
+        margin-bottom: 24px;
+        justify-content: center;
+        flex-wrap: wrap;
+        & > #button-container {
+          & > .button-container__button--primary {
+            width: 300px;
+          }
+          & > .button-container__button--secondary {
+            width: 300px;
+          }
+        }
+      }
+    }
+  }
+}

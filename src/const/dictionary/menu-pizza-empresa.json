@@ -1,0 +1,42 @@
+{
+  "allContentfulMenuPizza": {
+    "edges": [
+      {
+        "node": {
+          "titulo": "Explora",
+          "color": "blue",
+          "more": true,
+          "link": "",
+          "classGtm": "gtmHomeMenuExplora"
+        }
+      },
+      {
+        "node": {
+          "titulo": "Generar Clave Empresarial",
+          "color": "green",
+          "more": false,
+          "link": "https://www.proteccion.com/wps/portal/proteccion/web/home/home-empresas-empleadores/personalizacion-datos/solicite-clave",
+          "classGtm": "gtmHomeMenuHistoriaLaboral"
+        }
+      },
+      {
+        "node": {
+          "titulo": "Afíliate a Pensión",
+          "color": "green",
+          "more": false,
+          "link": "https://www.proteccion.com/afiliacion/empresas?utm_source=BotonAfiliarEmpleados&utm_medium=Portal&utm_campaign=AfiliacionDigitalEmpresas",
+          "classGtm": "gtmHomeMenuZonaTransaccional"
+        }
+      },
+      {
+        "node": {
+          "titulo": "Accesos rápidos",
+          "color": "green",
+          "more": true,
+          "link": "",
+          "classGtm": "gtmHomeMenuAccesosRapidos"
+        }
+      }
+    ]
+  }
+}

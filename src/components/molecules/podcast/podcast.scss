@@ -1,0 +1,16 @@
+@import "../../../assets/styles/variables.scss";
+.container-podcast {
+  width: 100%;
+  &-spotify {
+    height: 100%;
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .container-podcast {
+    width: 100%;
+    &-spotify {
+      height: auto;
+    }
+  }
+}

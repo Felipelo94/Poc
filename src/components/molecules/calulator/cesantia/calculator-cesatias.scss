@@ -1,0 +1,40 @@
+@import "../../../../assets/styles/variables.scss";
+.container-calculator-cesantias {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  @media (min-width: $desktop-small-width) {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20%;
+  }
+  
+ 
+  &-input {
+    margin-bottom: 32px;
+  }
+
+  &-result {
+    margin-top: 38px;
+    width: 325px;
+  }
+}
+
+@media (max-width: 769px) {
+  .container-calculator-cesantias {
+    width: 100%;
+    &-input {
+      margin-bottom: 24px;
+    }
+    &-result {
+      margin-top: 30px;
+      width: 100%;
+    }
+  }
+}

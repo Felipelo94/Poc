@@ -1,0 +1,41 @@
+@import "../../../../assets/styles/variables.scss";
+
+.footer-contact-information {
+  &__subtitle {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    color: $dark-text;
+    display: inline-block;
+    width: 100%;
+  }
+  &__caption {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    color: $gray-text;
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid $light-border;
+  }
+}
+
+.footer-desktop--dark-mode,
+.footer-mobile--dark-mode {
+  .footer-contact-information__caption {
+    color: #cbd1de;
+    border-bottom: 1px solid $dark-gray;
+  }
+  .footer-phone-number--border {
+    border-top: 1px solid $dark-gray;
+  }
+  .footer-phone-number__number {
+    color: #5cd9e3;
+  }
+}

@@ -1,0 +1,981 @@
+{
+  "allContentfulContenido": {
+    "edges": [
+      {
+        "node": {
+          "titulo": "¿Qué son los aportes a Cesantías?",
+          "tituloCorto": "¿Qué son los aportes a Cesantías?",
+          "textoCierre": null,
+          "categoriaCliente": [
+            {
+              "descripcion": "Cesante",
+              "contentful_id": "5fP153BoelxfRsusePVnBU",
+              "lineadenegocio": [{ "nombre": "Cesantías" }]
+            },
+            {
+              "descripcion": "Empleado",
+              "contentful_id": "2L498woyc1TQ1A3SpyUpxA",
+              "lineadenegocio": [{ "nombre": "Cesantías" }]
+            }
+          ],
+          "subtitulo": null,
+          "descripcioncorta": "Conoce aquí qué son los aportes a Cesantías, quiénes deben hacerlo y cuál es el procedimiento para realizarlo.",
+          "linkCallToAction": "https://www.proteccion.com/contenidos/cesantias/para-que-son-ces",
+          "textoCallToActionBite": "Quiero saber más",
+          "textoCallToAction": "Saber más",
+          "metatittleSeo": "¿Qué son los aportes a Cesantías?",
+          "descripcioncalltoaction": "Ahora que sabes qué son los aportes a Cesantías, cómo se liquidan y cuándo se consignan, te invitamos a conocer cómo puedes aprovecharlas para cumplir tus sueños de vivienda o educación.",
+          "tiempoDeLectura": "5",
+          "contentful_id": "7s2xq7rgMj4ktUt3bHhjok",
+          "imagenes": [
+            {
+              "fluid": {
+                "src": "//images.ctfassets.net/y3qdch79qxiw/5jbtMZygbqarwJ1FJolSF5/1b43d724f452a79291aa87e2a9ab836c/CT9C1-Empleado-y-cesante_Quie__n-AJUSTADO.png?w=800&q=50"
+              },
+              "file": {
+                "fileName": "CT9C1-Empleado-y-cesante_Quién-AJUSTADO.png"
+              }
+            }
+          ],
+          "infograficoMobile": null,
+          "infografico": null,
+          "cuerpocontenido": {
+            "json": {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "¿Qué son los aportes o pagos de Cesantías?\r\n",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "heading-6"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Estos aportes aplican tanto para ",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "empresas públicas como privadas",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": ". Cada año, el empleador debe consignarlas en un fondo de Cesantías, el cual es ",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "elegido libremente por el afiliado",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": ".\r\nEs importante tener en cuenta que el objetivo principal de estos aportes es entregar un auxilio monetario al trabajador al finalizar su relación laboral. Además,  te permitirá cumplir sueños de vivienda o educación. \r\n",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "¿Cuánto debe consignar el empleador?\r",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Las Cesantías corresponden a un ",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "mes de salario por cada año laborado",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": ". Si un trabajador lleva menos de un año en la empresa, se liquidará proporcionalmente al periodo laborado. \r\n",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "¿Cómo se liquidan?\r\n",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "heading-6"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Las Cesantías se calculan partiendo del último salario mensual del trabajador, a menos que haya tenido algún tipo de cambio durante los últimos tres meses. Si se trata de un salario variable, se tomará como base el promedio de lo devengado en el último año de servicios o en todo el tiempo de servicio si fuere menor de un año.",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "¿Es posible tener varias cuentas de Cesantías?\r",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Sí. El empleado puede elegir libremente a qué fondo consignar las cesantías, una persona que haya trabajado en 2 empresas, puede tener 2 cuentas en distintos fondos de cesantías.\r\n",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "¿Cuándo se deben consignar las Cesantías?\r\n",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "heading-6"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Las Cesantías se liquidan el 31 de diciembre de cada año. Según lo previsto por la ley, el empleador tiene plazo hasta el 14 de febrero del año siguiente para consignar las cesantías.\r\n",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "¿A dónde consignan los pagos?\r",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Las Cesantías son consignadas cada año por el empleador a un Fondo de Cesantías  como Protección.\r ",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Como empleado, puedes elegir el fondo en el que quieres que te consignen las cesantías. Si no lo haces, la empresa donde trabajas puede escoger por ti. \r\n",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "¿Qué pasa si el empleador se retrasa en el pago de las Cesantías?\r\n",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "heading-6"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Si un empleador no ha consignado las ",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "Cesantías al finalizar el 14 de febrero,",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": " deberá pagar un día de salario por cada día de retraso. A este pago se le conoce como sanción moratoria y está a cargo  del empleador que ha incumplido.\r Los fondos de Cesantías no son entes reguladores para el cálculo de esta sanción.",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                }
+              ],
+              "nodeType": "document"
+            }
+          },
+          "listadoVideos": null,
+          "urlSeo": "cesantias/aportes/que-son",
+          "keywordsSeo": {
+            "keywordsSeo": "pago de cesantias, pago de cesantias 2019, pago de cesantias directamente al empleado, como se calcula el pago de cesantias, cuanto me deben consignar de cesantias"
+          },
+          "metadescripcionSeo": {
+            "metadescripcionSeo": "Las cesantías corresponden a un mes de salario por un año trabajado, son consignadas por el empleador a un Fondo Privado como Protección. Conoce más datos aquí."
+          },
+          "nombreCallToActionTextoCierre": null,
+          "linkCallToActionTextoCierre": null
+        }
+      },
+      {
+        "node": {
+          "titulo": "¿En qué consiste inmovilizar las Cesantías?",
+          "tituloCorto": "¿En qué consiste inmovilizar las Cesantías?",
+          "textoCierre": null,
+          "categoriaCliente": [
+            {
+              "descripcion": "Cesante",
+              "contentful_id": "5fP153BoelxfRsusePVnBU",
+              "lineadenegocio": [{ "nombre": "Cesantías" }]
+            },
+            {
+              "descripcion": "Empleado",
+              "contentful_id": "2L498woyc1TQ1A3SpyUpxA",
+              "lineadenegocio": [{ "nombre": "Cesantías" }]
+            },
+            {
+              "descripcion": "Independiente",
+              "contentful_id": "vt2OB7OniS8zFEgAS1qNz",
+              "lineadenegocio": [{ "nombre": "Cesantías" }]
+            }
+          ],
+          "subtitulo": null,
+          "descripcioncorta": "Si quieres utilizar tus Cesantías para postularte al subsidio de vivienda que otorga el Gobierno nacional, puedes inmovilizar tus Cesantías.",
+          "linkCallToAction": "https://www.proteccion.com/contenidos/cesantias/como-usarlas/vivienda/como-ahorrar/",
+          "textoCallToActionBite": "Quiero conocer más",
+          "textoCallToAction": "¡Cuéntame más!",
+          "metatittleSeo": "¿En qué consiste inmovilizar las Cesantías?",
+          "descripcioncalltoaction": "Si tu sueño es conseguir vivienda propia o mejorar la que ya tienes, te contamos cómo hacer un plan de ahorro para alcanzarlo.",
+          "tiempoDeLectura": "5",
+          "contentful_id": "51QUG2hfA3ftt3L2koBTnE",
+          "imagenes": [
+            {
+              "fluid": {
+                "src": "//images.ctfassets.net/y3qdch79qxiw/2F84HVJ0G0WfyJIoqHso0v/7b7233bd3d2a8aefb2bf9c3d036afb04/CT7C3-Todos-los-usuarios_Inmovilizacio__n-AJUSTADO.png?w=800&q=50"
+              },
+              "file": {
+                "fileName": "CT7C3-Todos-los-usuarios_Inmovilización-AJUSTADO.png"
+              }
+            }
+          ],
+          "infograficoMobile": null,
+          "infografico": null,
+          "cuerpocontenido": {
+            "json": {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "¿Quién puede hacerlo?\r\n",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "heading-6"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Los afiliados a Cesantías, cuyo ingreso sea menor a 4 salarios mínimos mensuales y no tengan vivienda propia, tienen la posibilidad de postularse para recibir un subsidio familiar de vivienda. Para hacerlo, deben tener ahorrado el 10% del subsidio que esperan recibir, y dicho ahorro puede demostrarse con la inmovilización de las cesantías.\r\n",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "El subsidio familiar de vivienda es un aporte de dinero que, por disposición del Gobierno nacional, otorgan por una sola vez las Cajas de Compensación Familiar a través de sus Fondos de Vivienda de Interés Social a los afiliados y no afiliados, como un complemento al ahorro para la adquisición de vivienda nueva, construcción en sitio propio o mejoramiento de las condiciones básicas de una vivienda de interés social.\r\n",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "¿Cómo inmovilizarlas?\r\n",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "heading-6"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "El proceso es simple: basta con que el afiliado se acerque a cualquiera de las Oficinas de Servicio de Protección y allí indique el monto de las cesantías que quiere inmovilizar. Allí le expedirán un certificado que debe presentar ante la entidad en la que esté solicitando el subsidio de vivienda. \r\n",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "¿Cómo levantar la inmovilización de las Cesantías?",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "heading-6"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "\rHay tres escenarios en los que se podría necesitar el levantamiento de la medida de inmovilización de las Cesantías:\r\n",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Por asignación del subsidio: ",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": "Una vez le sea asignado el subsidio para el mejoramiento, ampliación o compra de vivienda, las Cesantías inmovilizadas se usarán para el pago a favor de la entidad para la cual fueron inmovilizadas, siempre y cuando el titular presente copia de la promesa de compraventa, contrato de construcción o mejoramiento y copia de la carta de asignación del subsidio.\r",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    }
+                  ],
+                  "nodeType": "unordered-list"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Por no asignación del subsidio: ",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": "El afiliado deberá contar con la autorización de la autoridad otorgante (ante la que estaba tramitando el subsidio), como la Caja de Compensación Familiar o la Caja de vivienda Popular. \r",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    }
+                  ],
+                  "nodeType": "unordered-list"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Por renuncia a la postulación del subsidio: ",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": "El afiliado tendrá que remitirse a la entidad ante la que estaba tramitando su postulación (como la Caja de Compensación Familiar) y solicitar una autorización escrita para levantar la inmovilización con la que estaba aspirando al subsidio.\r",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    }
+                  ],
+                  "nodeType": "unordered-list"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "italic" }],
+                      "value": "Si tus Cesantías están pignoradas, embargadas o inmovilizadas, y deseas hacer un retiro, comunícate con nuestra línea de atención al cliente",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [{ "type": "italic" }, { "type": "bold" }],
+                      "value": " 01 8000 52 8000.\r\n",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                }
+              ],
+              "nodeType": "document"
+            }
+          },
+          "listadoVideos": null,
+          "urlSeo": "cesantias/pignoracion-embargo-inmovilizacion/en-que-consiste-inmovilizar",
+          "keywordsSeo": {
+            "keywordsSeo": "embargo, pignoracion de cesantias, embargo de pensiones, credito con pignoracion de pensiones, prestamo con pignoracion de pensiones\t\t\t\n"
+          },
+          "metadescripcionSeo": {
+            "metadescripcionSeo": "Un paso del proceso de postulación al subsidio de vivienda que entrega el Gobierno, de eso se trata la inmovilización de cesantías. Amplía la información aquí."
+          },
+          "nombreCallToActionTextoCierre": null,
+          "linkCallToActionTextoCierre": null
+        }
+      },
+      {
+        "node": {
+          "titulo": "¿Qué errores evitar a la hora de usar tus Cesantías para vivienda?",
+          "tituloCorto": "Evita estos errores: Cesantías para vivienda",
+          "textoCierre": null,
+          "categoriaCliente": [
+            {
+              "descripcion": "Independiente",
+              "contentful_id": "vt2OB7OniS8zFEgAS1qNz",
+              "lineadenegocio": [{ "nombre": "Cesantías" }]
+            },
+            {
+              "descripcion": "Cesante",
+              "contentful_id": "5fP153BoelxfRsusePVnBU",
+              "lineadenegocio": [{ "nombre": "Cesantías" }]
+            },
+            {
+              "descripcion": "Empleado",
+              "contentful_id": "2L498woyc1TQ1A3SpyUpxA",
+              "lineadenegocio": [{ "nombre": "Cesantías" }]
+            }
+          ],
+          "subtitulo": null,
+          "descripcioncorta": "En el camino para la adquisición o mejora de vivienda puedes incurrir en algunas equivocaciones. Aprende cómo evitarlas.",
+          "linkCallToAction": "https://www.proteccion.com/contenidos/cesantias/como-usarlas/como-retirarlas/voluntario-independiente",
+          "textoCallToActionBite": "Quiero conocer más",
+          "textoCallToAction": "Quiero saber",
+          "metatittleSeo": "¿Qué errores evitar a la hora de usar tus Cesantías para vivienda?",
+          "descripcioncalltoaction": "Ahora que conoces estos tips y tienes tus metas definidas, entérate cómo puedes retirar tus Cesantías",
+          "tiempoDeLectura": "3",
+          "contentful_id": "1kio5mE1HZTJgBKSl89vM4",
+          "imagenes": [
+            {
+              "fluid": {
+                "src": "//images.ctfassets.net/y3qdch79qxiw/37oEStvij5MDA8cNSeZFCn/21834b63d375089e55e250bdaf4c9ae6/CT3C6-Cesantes-e-independientes_Vivienda_Errores-AJUSTADO.png?w=800&q=50"
+              },
+              "file": {
+                "fileName": "CT3C6-Cesantes-e-independientes_Vivienda_Errores-AJUSTADO.png"
+              }
+            }
+          ],
+          "infograficoMobile": null,
+          "infografico": null,
+          "cuerpocontenido": {
+            "json": {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "Retirar la totalidad de las Cesantías:",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "heading-6"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Procura conservar ahorradas una parte de tus cesantías. Este monto, que no tiene que ser muy alto, te servirá cuando definas qué proyecto de vivienda quieres comprar. \r\n\r\n",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "Ser poco constante con el ahorro:",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "heading-6"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "La compra de vivienda requiere planeación y disciplina financiera, por ello es importante contar con un ahorro. Tanto tus cesantías, como otros ahorros, por ejemplo aportes a pensiones voluntarias, podrán serte útiles  para el pago de la cuota inicial o  abonar al crédito.\r\n\r\n",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "Falta de presupuesto para gastos notariales e imprevistos:",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "heading-6"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "El valor publicado por las constructoras para sus inmuebles no incluye los gastos notariales para el registro del inmueble ya que estos corren por cuenta del comprador.",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Además, si deseas hacer algún tipo de mejora en la vivienda, esto podría implicar imprevistos por los que terminarás pagando. Por esto, debes contar con una parte del presupuesto destinada a esos gastos que podrían aparecer.\r\n\r\n",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "Desconocer mi capacidad de endeudamiento:",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "heading-6"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "En la mayoría de los casos, los créditos de vivienda cubren hasta el 70% del valor total del inmueble, así que tú tendrás que pagar por adelantado ese 30% restante.",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "De otra parte, por disposiciones de ley, el valor de la cuota de tu crédito de vivienda no podrá ser superior al 30% de los ingresos del grupo familiar, por ejemplo, si entre tú y tu pareja devengan ingresos por $3.200.000 pesos, el valor de la cuota que deberás pagar no podrá ser superior a los $960.000 pesos.\r\n\r\n",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "No asegurar el inmueble: ",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "heading-6"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Tu patrimonio es importante y si bien los bancos te exigirán que adquieras un seguro de vida y otro más para el inmueble, lo mejor es ampliar las coberturas. Revisa muy bien qué cubre tu seguro y si es posible amplía la cobertura para que tu casa esté cubierta ante cualquier eventualidad.\r\n",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                }
+              ],
+              "nodeType": "document"
+            }
+          },
+          "listadoVideos": null,
+          "urlSeo": "cesantias/como-usarlas/vivienda/cesante-independiente/que-errores-evitar",
+          "keywordsSeo": {
+            "keywordsSeo": "retiro de cesantias para mejora de vivienda, carta de retiro de cesantias para compra de vivienda, carta retiro de cesantias para reparaciones locativas, retiro de cesantias para mejora de vivienda familiar, carta retiro de cesantias para mejora de vivienda"
+          },
+          "metadescripcionSeo": {
+            "metadescripcionSeo": "Como cesante o independiente debes considerar los 5 errores a evitar al momento de usar tus cesantías para hacer realidad tu sueño de vivienda. Conoce más aquí."
+          },
+          "nombreCallToActionTextoCierre": null,
+          "linkCallToActionTextoCierre": null
+        }
+      }
+    ]
+  },
+  "allContentfulProducto": {
+    "edges": [
+      {
+        "node": {
+          "categoriaProducto": "Soluciones",
+          "titulo": "Mi Reserva",
+          "createdAt": "2020-08-14T17:50:20.964Z",
+          "contenido": [
+            {
+              "contentful_id": "12YCBJYldaKys0PKYZ1prN",
+              "urlSeo": "ahorro-mi-reserva"
+            }
+          ],
+          "contentful_id": "18bfSEqhamhiOHQeS35Wpw"
+        }
+      },
+      {
+        "node": {
+          "categoriaProducto": "Soluciones",
+          "titulo": "Siempre Activo",
+          "createdAt": "2020-09-17T16:46:03.872Z",
+          "contenido": [
+            {
+              "contentful_id": "2O1HpSHyL6B9iICv4muS9A",
+              "urlSeo": "ahorro-siempreactivo"
+            }
+          ],
+          "contentful_id": "6CyAjQdjyj6ktH9uokULY8"
+        }
+      },
+      {
+        "node": {
+          "categoriaProducto": "Soluciones",
+          "titulo": "Ahorro 100% Digital",
+          "createdAt": "2020-09-17T16:46:19.314Z",
+          "contenido": [
+            {
+              "contentful_id": "6qfrokQ9v5ZcznecbB6zJG",
+              "urlSeo": "ahorro-ahorrodigital"
+            }
+          ],
+          "contentful_id": "13fk4wY88IB1fA9aeOB0qM"
+        }
+      },
+      {
+        "node": {
+          "categoriaProducto": "Soluciones",
+          "titulo": "Planes Institucionales",
+          "createdAt": "2020-09-17T16:46:34.462Z",
+          "contenido": [
+            {
+              "contentful_id": "6M7Vwv19Lm4giGsetgGfhM",
+              "urlSeo": "ahorro-planesinstitucionales"
+            }
+          ],
+          "contentful_id": "4FMB0tMDCxi8pCb9IvpGj"
+        }
+      },
+      {
+        "node": {
+          "categoriaProducto": "Soluciones",
+          "titulo": "Protección Hijos",
+          "createdAt": "2020-09-17T16:44:43.521Z",
+          "contenido": [
+            {
+              "contentful_id": "4lvr3LTRUqP7Oq8jYzPhOa",
+              "urlSeo": "ahorro-hijos"
+            }
+          ],
+          "contentful_id": "017vFbXOC94MeBLY4R44tx"
+        }
+      },
+      {
+        "node": {
+          "categoriaProducto": "Soluciones",
+          "titulo": "+Protección",
+          "createdAt": "2020-09-17T16:44:25.268Z",
+          "contenido": [
+            {
+              "contentful_id": "2Bn0l3tKFkLtewkIZwWh1B",
+              "urlSeo": "ahorro-mas-proteccion"
+            }
+          ],
+          "contentful_id": "4dkf3aLiU6E11Wp5tbXqT3"
+        }
+      },
+      {
+        "node": {
+          "categoriaProducto": null,
+          "titulo": "Pensión Obligatoria",
+          "createdAt": "2020-07-09T22:29:09.603Z",
+          "contenido": [
+            {
+              "contentful_id": "2A4xaLqC0nUCjuED0TNa9E",
+              "urlSeo": "que-son-pensiones"
+            },
+            {
+              "contentful_id": "2ilVwq892IjQZLSsqthDnU",
+              "urlSeo": "diferencias-regimenes"
+            },
+            {
+              "contentful_id": "6VuZ65EGUHchKosppLsVGX",
+              "urlSeo": "mitos-realidades-sistema-pensional"
+            },
+            {
+              "contentful_id": "6azIetRFUQIJDJ3Dwby0CY",
+              "urlSeo": "mitos-realidades-sistema-pensional"
+            }
+          ],
+          "contentful_id": "3Do4hL0V01gzUMDUCXlB0D"
+        }
+      },
+      {
+        "node": {
+          "categoriaProducto": null,
+          "titulo": "Cesantías",
+          "createdAt": "2020-02-03T20:09:32.489Z",
+          "contenido": [
+            {
+              "contentful_id": "4r5NXg7eIYv1aKFEHT3Brk",
+              "urlSeo": "cesantias/que-son"
+            },
+            {
+              "contentful_id": "2kmCv1McS9VqjAtfkiE7jj",
+              "urlSeo": "cesantias/mecanismo-proteccion-cesante/como-acceder"
+            },
+            {
+              "contentful_id": "7djopz1nxdiCKov302YZMa",
+              "urlSeo": "cesantias/para-que-son-ces"
+            },
+            {
+              "contentful_id": "23qtpJMSM4YNIyqXuq6rXe",
+              "urlSeo": "cesantias/mecanismo-proteccion-cesante"
+            },
+            {
+              "contentful_id": "4NUxp2FHGN657j83IS6iTO",
+              "urlSeo": "cesantias/intereses/que-son"
+            },
+            {
+              "contentful_id": "7s2xq7rgMj4ktUt3bHhjok",
+              "urlSeo": "cesantias/aportes/que-son"
+            },
+            {
+              "contentful_id": "3u6HxJ6dKz4VcqryPX4PQS",
+              "urlSeo": "cesantias/beneficios-tributarios/como-declaran-trabajadores"
+            },
+            {
+              "contentful_id": "5z89TWtWdNGkWGhQG8x6PR",
+              "urlSeo": "cesantias/beneficios-tributarios/ahorrar-cesantias"
+            },
+            {
+              "contentful_id": "635Er8TYNjTJSRJChKa5R9",
+              "urlSeo": "cesantias/portafolios/corto-largo-plazo"
+            },
+            {
+              "contentful_id": "27WBmPnOOJ5KodhWSeurj9",
+              "urlSeo": "cesantias/portafolios/porque-como-cambiar"
+            },
+            {
+              "contentful_id": "18hr0YhTRaMvseK8PEOYOS",
+              "urlSeo": "cesantias/pignoracion-embargo-inmovilizacion/que-signfica-pignorar"
+            },
+            {
+              "contentful_id": "3oZGRnArFGxmoyDVrAoeLX",
+              "urlSeo": "cesantias/pignoracion-embargo-inmovilizacion/que-es-embargo"
+            },
+            {
+              "contentful_id": "51QUG2hfA3ftt3L2koBTnE",
+              "urlSeo": "cesantias/pignoracion-embargo-inmovilizacion/en-que-consiste-inmovilizar"
+            },
+            {
+              "contentful_id": "3pYpjw2sFa2PdHkmqZIJND",
+              "urlSeo": "cesantias/certificados"
+            }
+          ],
+          "contentful_id": "W2zNnmbYol9hf1OXMVGgR"
+        }
+      }
+    ]
+  }
+}

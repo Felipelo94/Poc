@@ -1,0 +1,350 @@
+{
+  "allContentfulContenidosPaginas": {
+    "edges": [
+      {
+        "node": {
+          "nombreTexto": "titulo-categorias",
+          "valorTexto": {
+            "internal": {
+              "content": "¿Qué quieres hacer hoy?"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "allContentfulLineaTelefonica": {
+    "edges": []
+  },
+  "allContentfulAsset": {
+    "edges": [
+      {
+        "node": {
+          "file": {
+            "url": "https://images.ctfassets.net/y3qdch79qxiw/500rS1be9G2UvPT0dgamkF/b54733974fcd9d8dec67e1850178255b/btn-footer-subir.svg"
+          },
+          "contentful_id": "500rS1be9G2UvPT0dgamkF"
+        }
+      },
+      {
+        "node": {
+          "file": {
+            "url": "https://images.ctfassets.net/y3qdch79qxiw/3MbnFxY5aAmCmZNdIJbxd/9de4b88f888c74b18015ffbc23f93932/btn-footer-bajar.svg"
+          },
+          "contentful_id": "3MbnFxY5aAmCmZNdIJbxd"
+        }
+      },
+      {
+        "node": {
+          "file": {
+            "url": "https://images.ctfassets.net/y3qdch79qxiw/5KXr1fNwNSoWrTb3E4AqIV/0f14250aa316d7102f43ea36fb703492/button_close_modal.svg"
+          },
+          "contentful_id": "5KXr1fNwNSoWrTb3E4AqIV"
+        }
+      },
+      {
+        "node": {
+          "file": {
+            "url": "https://images.ctfassets.net/y3qdch79qxiw/YZtfjs6gYCtucJScByKL7/a2748909024d4d9d9f4f6daf4e1cfa9b/modal_lineas_servicio.png"
+          },
+          "contentful_id": "YZtfjs6gYCtucJScByKL7"
+        }
+      }
+    ]
+  },
+  "allContentfulEnlaceInformativo": {
+    "edges": [
+      {
+        "node": {
+          "titulo": "Condiciones de uso de los canales de servicio al cliente",
+          "enlace": "https://www.proteccion.com/wps/portal/proteccion/web/home/general/condiciones-uso-canales-servicio"
+        }
+      },
+      {
+        "node": {
+          "titulo": "Trabaja con Nosotros",
+          "enlace": "https://empleos.sura-am.com/COLOMBIA-PROTECCION"
+        }
+      },
+      {
+        "node": {
+          "titulo": "Seguridad Financiera",
+          "enlace": "https://www.proteccion.com/wps/portal/proteccion/web/home/proteccion-conecta/zona-seguridad"
+        }
+      },
+      {
+        "node": {
+          "titulo": "Condiciones y términos de uso del sitio www.proteccion.com",
+          "enlace": "https://www.proteccion.com/wps/portal/proteccion/web/home/general/terminos-condiciones"
+        }
+      },
+      {
+        "node": {
+          "titulo": "Política de inversión",
+          "enlace": "https://www.proteccion.com/wps/portal/proteccion/web/home/corporativo-accionistas/gobierno-corporativo/politicas/politicas-inversion"
+        }
+      },
+      {
+        "node": {
+          "titulo": "Consumidor financiero",
+          "enlace": "https://www.proteccion.com/wps/portal/proteccion/web/home/proteccion-conecta/consumidor-financiero"
+        }
+      },
+      {
+        "node": {
+          "titulo": "Protección de datos personales",
+          "enlace": "https://www.proteccion.com/contenidos/persona/cesantias/ley-proteccion-datos-personales"
+        }
+      },
+      {
+        "node": {
+          "titulo": "Información de productos y servicios",
+          "enlace": "https://www.proteccion.com/contenidos/informacion-productos-servicios/"
+        }
+      },
+      {
+        "node": {
+          "titulo": "Fichas Técnicas",
+          "enlace": "https://proteccion.com/contenidos/portafolios-de-inversion/"
+        }
+      }
+    ]
+  },
+  "allContentfulCategoriasContenidos": {
+    "edges": [
+      {
+        "node": {
+          "orden": 1,
+          "titulo": "Quiero invertir",
+          "category": "Inversión",
+          "classGtm": "QuieroInvertir-",
+          "IsActivo": true,
+          "IsIcon": false,
+          "id": "e1825aaa-b1c4-50cd-ab37-6b44225c7b3b",
+          "imagen": {
+            "fluid": {
+              "src": "prehome-inversion"
+            }
+          },
+          "subCategorias": null,
+          "frase": null
+        }
+      },
+      {
+        "node": {
+          "orden": 2,
+          "titulo": "Quiero ahorrar",
+          "category": "Ahorro",
+          "classGtm": "QuieroAhorrar",
+          "IsActivo": true,
+          "IsIcon": false,
+          "id": "e1825aaa-b1c4-50cd-ab37-6b44225c7b3b",
+          "imagen": {
+            "fluid": {
+              "src": "prehome-ahorro"
+            }
+          },
+          "subCategorias": null,
+          "frase": null
+        }
+      },
+      {
+        "node": {
+          "orden": 3,
+          "titulo": "Saber sobre Pensiones",
+          "category": "Pensión",
+          "classGtm": "SaberSobrePensiones",
+          "IsActivo": true,
+          "IsIcon": false,
+          "id": "e1825aaa-b1c4-50cd-ab37-6b44225c7b3b",
+          "imagen": {
+            "fluid": {
+              "src": "prehome-pension"
+            }
+          },
+          "subCategorias": [
+            {
+              "titulo": "Pensión por Vejez",
+              "classGtm": "gtmCuentTipoPensionVejez",
+              "etiqueta": "pension-vejez",
+              "image": "prehome-pension-vejez",
+              "toltip": "Si quieres afiliarte a Pensión Obligatoria; estás construyendo tu pensión, o estás en proceso para solicitarla",
+              "age": true
+            },
+            {
+              "titulo": "Pensión por Invalidez",
+              "classGtm": "gtmCuentTipoPensionInvalidez",
+              "etiqueta": "pension-invalidez",
+              "image": "prehome-pension-invalidez",
+              "toltip": "Si perdiste más del 50% de la capacidad de trabajo a causa de un accidente o enfermedad que no sean de origen laboral",
+              "age": null
+            },
+            {
+              "titulo": "Pensión por Sobrevivencia",
+              "classGtm": "gtmCuentTipoPensionSobrevivencia",
+              "etiqueta": "sobrevivencia",
+              "image": "prehome-pension-sobre",
+              "toltip": "Si eres beneficiario en caso de fallecimiento de un familiar afiliado a Protección (cónyuge, compañero(a) permanente, hijo(a) o familiar dependientes)",
+              "age": null
+            },
+            {
+              "titulo": "Pensionado",
+              "classGtm": "gtmCuentTipoPensionado",
+              "etiqueta": "pensionado",
+              "image": "prehome-pension-pensionado",
+              "toltip": "Si te encuentras disfrutando de tu pensión",
+              "age": null
+            }
+          ],
+          "frase": "¿Qué tipo de Pensión quieres consultar?"
+        }
+      },
+      {
+        "node": {
+          "orden": 4,
+          "titulo": "Saber sobre Cesantías",
+          "category": "Cesantías",
+          "classGtm": "SaberSobreCesantias",
+          "IsActivo": true,
+          "IsIcon": false,
+          "id": "e1825aaa-b1c4-50cd-ab37-6b44225c7b3b",
+          "imagen": {
+            "fluid": {
+              "src": "prehome-cesantias"
+            }
+          },
+          "subCategorias": [
+            {
+              "titulo": "Empleado",
+              "classGtm": "gtmCuentCualEsTuEstLabSoyEmpleado",
+              "etiqueta": "Empleado",
+              "image": null,
+              "toltip": null,
+              "age": null
+            },
+            {
+              "titulo": "Cesante",
+              "classGtm": "gtmCuentCualEsTuEstLabEstoyDesemp",
+              "etiqueta": "Cesante",
+              "image": null,
+              "toltip": null,
+              "age": null
+            },
+            {
+              "titulo": "Independiente",
+              "classGtm": "gtmCuentCualEsTuEstLabSoyIndepend",
+              "etiqueta": "Independiente",
+              "image": null,
+              "toltip": null,
+              "age": null
+            }
+          ],
+          "frase": "¿Cuál es tu estado laboral?"
+        }
+      }
+    ]
+  },
+  "allContentfulCategoriasContenidosEmpresas": {
+    "edges": [
+      {
+        "node": {
+          "orden": 1,
+          "titulo": "Conocer sobre Pensiones",
+          "category": "Pensión",
+          "classGtm": "ConocerSobrePensiones",
+          "IsActivo": true,
+          "IsIcon": false,
+          "id": "e1825aaa-b1c4-50cd-ab37-6b44225c7b3b",
+          "imagen": {
+            "fluid": {
+              "src": "prehome-pension"
+            }
+          },
+          "subCategorias": [
+            {
+              "titulo": "Para mi como empleador",
+              "etiqueta": "empleador",
+              "image": null,
+              "toltip": null,
+              "age": null
+            },
+            {
+              "titulo": "Para mis  colaboradores",
+              "etiqueta": "colaboradores",
+              "image": null,
+              "toltip": null,
+              "age": null
+            }
+          ],
+          "frase": "La información que quieres consultar hoy es:"
+        }
+      },
+      {
+        "node": {
+          "orden": 2,
+          "titulo": "Conocer sobre Cesantías",
+          "category": "Cesantías",
+          "classGtm": "ConocerSobreCesantias",
+          "IsActivo": true,
+          "IsIcon": false,
+          "id": "e1825aaa-b1c4-50cd-ab37-6b44225c7b3b",
+          "imagen": {
+            "fluid": {
+              "src": "prehome-cesantias"
+            }
+          },
+          "subCategorias": [
+            {
+              "titulo": "Para mi como empleador",
+              "etiqueta": "empleador",
+              "image": null,
+              "toltip": null,
+              "age": null
+            },
+            {
+              "titulo": "Para mis  colaboradores",
+              "etiqueta": "colaboradores",
+              "image": null,
+              "toltip": null,
+              "age": null
+            }
+          ],
+          "frase": "La información que quieres consultar hoy es:"
+        }
+      },
+      {
+        "node": {
+          "orden": 3,
+          "titulo": "Conocer sobre Ahorro",
+          "category": "Ahorro",
+          "classGtm": "ConocerSobreAhorro",
+          "IsActivo": true,
+          "IsIcon": false,
+          "id": "e1825aaa-b1c4-50cd-ab37-6b44225c7b3b",
+          "imagen": {
+            "fluid": {
+              "src": "prehome-ahorro"
+            }
+          },
+          "subCategorias": [
+            {
+              "titulo": "Para mi como empleador",
+              "etiqueta": "empleador",
+              "image": null,
+              "toltip": null,
+              "age": null
+            },
+            {
+              "titulo": "Para mis  colaboradores",
+              "etiqueta": "colaboradores",
+              "image": null,
+              "toltip": null,
+              "age": null
+            }
+          ],
+          "frase": "La información que quieres consultar hoy es:"
+        }
+      }
+    ]
+  }
+}

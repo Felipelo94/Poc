@@ -1,0 +1,146 @@
+@import "../../../assets/styles/variables.scss";
+
+.like-container {
+  margin: 28px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  &-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  &-title {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: $gray-text;
+    margin-right: 20px;
+  }
+
+  &-like {
+    border: none;
+    background: transparent;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  &-comment {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    &-text {
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 22px;
+      color: $gray-text;
+      margin-top: 3px;
+    }
+
+    &-value {
+      background: white;
+      border: 1px solid $light-border;
+      box-sizing: border-box;
+      border-radius: 3px;
+      width: 100%;
+      height: 79px;
+      min-width: 368px;
+      padding: 8px 12px;
+
+      &::placeholder {
+        font-family: $secondary-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 22px;
+        color: #9da5be;
+      }
+    }
+
+    &-button {
+      margin-top: 32px;
+      margin-bottom: 32px;
+    }
+
+    &-radio {
+      filter: grayscale(1);
+      filter: hue-rotate(180deg);
+    }
+  }
+
+  &-active {
+    background: url("../../../assets/images/icons/Icon-hover-share-redes-sociales.svg");
+    width: 36px;
+    height: 36px;
+    background-repeat: no-repeat;
+    padding: 6px;
+    cursor: pointer;
+    & > path {
+      fill: $base-blue;
+    }
+  }
+  &-inactive {
+    width: 36px;
+    height: 36px;
+    padding: 6px;
+    cursor: pointer;
+  }
+  &-inactive:hover {
+    background: url("../../../assets/images/icons/Icon-hover-share-redes-sociales.svg");
+    width: 36px;
+    height: 36px;
+    background-repeat: no-repeat;
+    padding: 6px;
+    & > path {
+      fill: $base-blue;
+    }
+  }
+}
+
+.nolike {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+@media (max-width: $desktop-small-width) {
+  .like-container {
+    width: auto;
+    margin: 32px 0px;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    &-container {
+      margin: 0px 16px;
+    }
+    &-comment {
+      & > label {
+        width: 100%;
+      }
+      &-value {
+        min-width: 100%;
+      }
+    }
+  }
+}

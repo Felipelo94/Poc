@@ -1,0 +1,62 @@
+@import "../../../assets/styles/variables.scss";
+.LongText-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  &-parrafo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    &-imagen {
+      margin-top: 48px;
+      margin-right: 87px;
+    }
+  }
+}
+
+.imageDefault {
+  width: 512px;
+}
+
+@media (max-width: $desktop-small-width) {
+  .ContentProxy-container-long-text-btn {
+    margin: 48px 16px;
+  }
+  .imageDefault {
+    width: 100%;
+  }
+  .LongText-container {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    &-parrafo {
+      margin-left: 14px;
+      &-imagen {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin: 48px 0px 40px 0px;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (min-width: $desktop-small-width) {
+  .LongText-container-parrafo-imagen > div {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20%;
+    padding-bottom: 100px;
+    padding-top: 50px;
+  }
+}

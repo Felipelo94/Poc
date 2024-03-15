@@ -1,0 +1,25 @@
+@import '../../../../../assets/styles/variables.scss';
+
+.footer-content {
+  &__logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 24px 16px;
+    border-top: 1px solid $light-border;
+    .guarded-logo {
+      margin-top: 16px;
+    }
+  }
+}
+
+.footer-mobile--dark-mode {
+  .footer-content__logos {
+    border-top: 1px solid $dark-gray;
+  }
+
+  .footer-mobile__content {
+    background-color: #1e1c23;
+  }
+}

@@ -1,0 +1,152 @@
+@import "../../../assets/styles/variables.scss";
+
+.component-share-container {
+  background: white;
+  border-radius: 4px;
+  width: 170px;
+  box-shadow: 0px 8px 10px rgba(149, 150, 153, 0.14),
+    0px 3px 14px rgba(149, 150, 153, 0.12), 0px 5px 5px rgba(149, 150, 153, 0.2);
+  &-sesion {
+    display: flex;
+    justify-content: space-between;
+    &-close {
+background: transparent;
+border: none;
+
+      @media (min-width: $desktop-small-width) {
+        padding: 11px;
+      }
+
+      @media (max-width: $desktop-small-width) {
+        padding: 24px 32px;
+      }
+    }
+    &-text {
+      @media (min-width: $desktop-small-width) {
+        padding: 15px 24px;
+      }
+      @media (max-width: $desktop-small-width) {
+        padding: 24px 32px;
+      }
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 25px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: $dark-text;
+    }
+  }
+  &-copy {
+    display: flex;
+    padding: 0;
+    background: transparent;
+    border: none;
+    @media (min-width: $desktop-small-width) {
+      justify-content: space-between;
+    }
+    cursor: pointer;
+    &-icon {
+      padding: 2px 0px 14px 24px;
+    }
+    &-text {
+      padding: 2px 22px 14px 12px;
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 22px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: $gray-text;
+    }
+  }
+  &-red-social {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 30px;
+  }
+
+  &-animation-active {
+    animation: fade-in-share ease-in 0.5s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+  }
+
+  &-animation-inactive {
+    animation: fade-out-share ease-in 0.5s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: $desktop-small-width) {
+  @keyframes fade-in-share {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fade-out-share {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  @keyframes fade-in-share {
+    from {
+      height: 0px;
+    }
+    to {
+      height: 220px;
+    }
+  }
+
+  @keyframes fade-out-share {
+    from {
+      height: 220px;
+    }
+
+    to {
+      height: 0px;
+    }
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .component-share-container {
+    width: 100%;
+    background: white;
+    border-radius: 24px 24px 0px 0px;
+    &-copy {
+      &-icon {
+        padding: 2px 0px 14px 33px;
+      }
+      &-text {
+        padding: 2px 33px 14px 12px;
+      }
+    }
+  }
+}
+
+.Toastify {
+&__toast--dark{
+  background: white !important;
+  color: black !important;
+}
+  z-index: 90 !important;
+  &__progress-bar--dark {
+    background: $base-blue !important;
+  }
+}

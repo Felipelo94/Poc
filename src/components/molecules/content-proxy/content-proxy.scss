@@ -1,0 +1,197 @@
+@import "../../../assets/styles/variables.scss";
+.templateContenidoInterna {
+  &-container {
+    &-markdonw {
+      width: 100%;
+    }
+  }
+}
+.ContentProxy-container {
+  &-long-text {
+    margin: 0px 100px 50px 100px;
+    &-btn {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+  }
+  &-markdonw {
+    & > span {
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 22px;
+      color: #000000;
+    }
+    & > p {
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 22px;
+      color: #000000;
+    }
+    & > div {
+      font-family: $primary-font;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 34px;
+      color: $base-blue;
+      & > p {
+        font-family: $secondary-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 22px;
+        color: #000000;
+      }
+    }
+  }
+}
+
+.container-header-long-text {
+  position: relative;
+  &-value {
+    background: white;
+    padding: 48px 180px 32px;
+  }
+}
+
+.large-text-container-proxy {
+  margin: 0px 98px;
+}
+
+@media (min-width: $desktop-small-width) {
+  .templateContenidoInterna-container {
+    margin: 0px 100px;
+  }
+  .container-header-step-by-step {
+    position: relative;
+    &-value {
+      padding: 16px 180px 70px 180px;
+    }
+  }
+}
+@media (max-width: $desktop-small-width) {
+  .templateContenidoInterna-container {
+    margin: 0px 16px;
+  }
+  .ContentProxy-container {
+    &-long-text {
+      margin: 0px 16px 0px;
+    }
+  }
+  .container-header-step-by-step {
+    position: relative;
+    &-value {
+      background: $light-background;
+      padding: 48px 16px;
+    }
+  }
+  .container-header-long-text {
+    &-value {
+      background: white;
+      padding: 0px;
+      margin: 16px 20px;
+    }
+  }
+
+  .large-text-container-proxy {
+    margin: 0px 16px;
+  }
+
+  .template-contenido-glossary {
+    margin: 0px 16px !important;
+    flex-wrap: wrap;
+  }
+}
+
+.template-contenido-error {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.template-contenido-glossary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px 113px;
+  &-introduction {
+    @media (min-width: 1024px) {
+      .container-introduction-section {
+        margin-top: 64px;
+      }
+    }
+    @media (max-width: 1024px) {
+      .container-introduction-section {
+        margin-top: 64px;
+        margin-bottom: 32px;
+        .introduction-section__text {
+          margin-top: 12px;
+          .container-introduction-section-title {
+            margin-bottom: 12px;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 1024px) {
+    .LongText-container-parrafo {
+      margin-left: 0;
+    }
+  }
+}
+
+@media (min-width: $desktop-small-width) {
+  #large-text-container-proxy-title-sesion {
+    display: none;
+    padding: 48px 110px 32px;
+  }
+}
+
+@media (min-width: "1500px") {
+  .template-contenido-solutions {
+    width: 1240px;
+    margin: 0 auto;
+  }
+  .container-internal-content-componente {
+    .internal-page-section-margin {
+      max-width: 1240px;
+    }
+  }
+}
+
+.body-medium-small-fc-primary {
+  @extend .body-medium-small;
+  color: $base-blue;
+}
+
+.body-medium-small{
+  font-family: "Cabin-Medium", Helvetica, Arial, sans-serif;
+  font-size: 0.866rem;
+  line-height: 1.5em;
+}
+
+.body-regular-small-fc-medium {
+  @extend .body-regular-small;
+  color: $gray-text;
+}
+
+.body-regular-small{
+  font-family: "Cabin-Regular", Helvetica, Arial, sans-serif;
+  font-size: 0.866rem;
+  line-height: 1.5em;
+}

@@ -1,0 +1,62 @@
+@import "../../../../../assets/styles/variables.scss";
+
+.footer-footnote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 990px;
+  padding: 24px 0px;
+  &__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 756px;
+    .footnote-content {
+      &__browser-link {
+        margin-right: 12px;
+        height: 32px;
+        width: 32px;
+      }
+      &__browser-icon {
+        height: 32px;
+        width: 32px;
+        & path {
+          fill: $base-blue;
+        }
+      }
+      &__text {
+        font-family: $secondary-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 19px;
+        color: $dark-text;
+        margin: 0px;
+      }
+    }
+  }
+}
+
+.footer-desktop--dark-mode {
+  .footnote-content__text {
+    color: #cbd1de;
+    & > a {
+      color: #5cd9e3;
+    }
+  }
+  .footnote-content__browser-icon {
+    & path {
+      fill: #5cd9e3;
+    }
+  }
+}

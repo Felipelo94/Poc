@@ -1,0 +1,17 @@
+@import "../../../../assets/styles/global.scss";
+
+.guarded-logo {
+  @extend .unstyled-anchor;
+  &__logo {
+    height: 18px;
+  }
+}
+
+.footer-desktop--dark-mode,
+.footer-mobile--dark-mode {
+  .guarded-logo__logo {
+    & path {
+      fill: #cbd1de;
+    }
+  }
+}

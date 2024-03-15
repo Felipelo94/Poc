@@ -1,0 +1,247 @@
+@import '../../../assets/styles/variables.scss';
+
+.image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+
+  &--margin {
+    margin-bottom: 64px;
+  }
+
+  &__box img {
+    z-index: 2;
+    width: 100%;
+    height: auto;
+  }
+
+  &__figure {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__image-background {
+    width: 100%;
+    height: 430px;
+    position: absolute;
+
+    &-green {
+      width: 100%;
+      height: 119px;
+      position: absolute;
+      top: 87%;
+      background-repeat: no-repeat;
+      background-image: url('../../../assets/images/Burbujas-verdes.png');
+      z-index: 3;
+    }
+
+    &-aro-azul {
+      width: 100%;
+      height: 430px;
+      position: absolute;
+      background-repeat: no-repeat;
+      background-image: url('../../../assets/images/aro-azul.png');
+      top: 0%;
+      z-index: 2;
+    }
+
+    &-aro-negro {
+      width: 100%;
+      height: 430px;
+      position: absolute;
+      background-repeat: no-repeat;
+      background-image: url('../../../assets/images/aro-negro.png');
+      top: 0%;
+      z-index: 2;
+    }
+    &-burbuja-azul {
+      width: 100%;
+      height: 430px;
+      position: absolute;
+      background-repeat: no-repeat;
+      background-image: url('../../../assets/images/burbuja-azul.png');
+      top: -8%;
+      left: 18%;
+      z-index: 0;
+    }
+    &-burbuja-negra {
+      width: 100%;
+      height: 430px;
+      position: absolute;
+      background-repeat: no-repeat;
+      background-image: url('../../../assets/images/burbuja-negra.png');
+      top: -8%;
+      left: 18%;
+      z-index: 0;
+    }
+    &-burbuja-azul-claro {
+      width: 100%;
+      height: 430px;
+      position: absolute;
+      background-repeat: no-repeat;
+      background-image: url('../../../assets/images/burbuja_azul.png');
+      top: -5%;
+      z-index: 1;
+    }
+
+    &-burbuja-gris {
+      width: 100%;
+      height: 430px;
+      position: absolute;
+      background-repeat: no-repeat;
+      background-image: url('../../../assets/images/burbuja-gris.png');
+      top: -5%;
+      z-index: 1;
+    }
+    &-burbuja-puntos-calros {
+      width: 100%;
+      height: 430px;
+      position: absolute;
+      background-repeat: no-repeat;
+      background-image: url('../../../assets/images/puntos_calros.png');
+      top: -6%;
+      right: -14%;
+      z-index: 0;
+    }
+    &-burbuja-puntos-gris {
+      width: 100%;
+      height: 430px;
+      position: absolute;
+      background-repeat: no-repeat;
+      background-image: url('../../../assets/images/burbuja-puntos-gris.png');
+      top: -6%;
+      right: -14%;
+      z-index: 0;
+    }
+  }
+
+  &__box {
+    position: relative;
+  }
+
+  @supports ((-o-object-fit: cover) or (object-fit: cover)) {
+    &__box img {
+      z-index: 2;
+      height: 100%;
+      -o-object-fit: cover;
+      object-fit: cover;
+      -o-object-position: center center;
+      object-position: center center;
+    }
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .image-container {
+    &--margin {
+      margin-bottom: 32px;
+    }
+    &__box {
+      position: relative;
+    }
+
+    &__image-background {
+      width: 250px;
+      height: 250px;
+      position: absolute;
+    
+      &-green {
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        top: 85%;
+        background-repeat: no-repeat;
+        background-image: url('../../../assets/images/Burbujas-verdes-mobile.png');
+        z-index: 3;
+      }
+    
+      &-aro-azul {
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-image: url('../../../assets/images/aro-azul-mobile.png');
+        top: 0%;
+        z-index: 2;
+      }
+    
+      &-aro-negro {
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-image: url('../../../assets/images/aro-negro-mobile.png');
+        top: 0%;
+        z-index: 2;
+      }
+    
+      &-burbuja-azul {
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-image: url('../../../assets/images/burbuja-azul-mobile.png');
+        top: -8%;
+        left: 18%;
+        z-index: 0;
+      }
+    
+      &-burbuja-negra {
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-image: url('../../../assets/images/burbuja-negra-mobile.png');
+        top: -8%;
+        left: 18%;
+        z-index: 0;
+      }
+    
+      &-burbuja-azul-claro {
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-image: url('../../../assets/images/burbuja_azul-mobile.png');
+        top: -5%;
+        z-index: 1;
+      }
+    
+      &-burbuja-gris {
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-image: url('../../../assets/images/burbuja-gris-mobile.png');
+        top: -5%;
+        z-index: 1;
+      }
+    
+      &-burbuja-puntos-calros {
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-image: url('../../../assets/images/puntos_calros-mobile.png');
+        top: -6%;
+        right: -14%;
+        z-index: 0;
+      }
+    
+      &-burbuja-puntos-gris {
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-image: url('../../../assets/images/burbuja-puntos-gris-mobile.png');
+        top: -6%;
+        right: -14%;
+        z-index: 0;
+      }
+    }
+  }
+}

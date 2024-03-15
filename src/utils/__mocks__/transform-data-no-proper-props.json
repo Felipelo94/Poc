@@ -1,0 +1,242 @@
+{
+  "allContentfulContenidoEducativo": {
+    "edges": [
+      {
+        "node": {
+          "lineaDeProducto": "lineaDeProductoTest",
+          "contenido": {
+            "textoCallToActionBite": "callToActionTextTest",
+
+            "descripcioncorta": "shortDescTest",
+            "textoIntroductorio": "introductoryTextTest",
+            "tituloCorto": "shortTitleTest",
+            "updatedAt": "01/01/2000",
+            "urlSeo": null,
+            "tipoDeCliente": "clientTypeTest",
+            "imagenpequena": {},
+
+            "contentful_id": "000",
+            "edadygenero": "Hombre 0"
+          }
+        }
+      }
+    ]
+  },
+  "allContentfulOfertaDiferencial": {
+    "edges": [
+      {
+        "node": {
+          "lineaDeProducto": "lineaDeProductoTest",
+          "contenido": [
+            {
+              "textoCallToActionBite": "callToActionTextTest",
+
+              "descripcioncorta": "shortDescTest",
+              "textoIntroductorio": "introductoryTextTest",
+              "tituloCorto": "shortTitleTest",
+              "updatedAt": "01/01/2000",
+              "urlSeo": null,
+              "tipoDeCliente": "clientTypeTest",
+              "imagenpequena": {},
+
+              "contentful_id": "000",
+              "edadygenero": "Hombre 0"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "allContentfulOfertaComplementaria": {
+    "edges": [
+      {
+        "node": {
+          "lineaDeProducto": "lineaDeProductoTest",
+          "contenido": {
+            "textoCallToActionBite": "callToActionTextTest",
+
+            "descripcioncorta": "shortDescTest",
+            "textoIntroductorio": "introductoryTextTest",
+            "tituloCorto": "shortTitleTest",
+            "updatedAt": "01/01/2000",
+            "urlSeo": null,
+            "tipoDeCliente": "clientTypeTest",
+            "imagenpequena": {},
+
+            "contentful_id": "000",
+            "edadygenero": "Hombre 0"
+          }
+        }
+      }
+    ]
+  },
+  "allContentfulCorporativoYAccionistas": {
+    "edges": [
+      {
+        "node": {
+          "lineaDeProducto": "lineaDeProductoTest",
+          "contenido": [
+            {
+              "textoCallToActionBite": "callToActionTextTest",
+
+              "descripcioncorta": "shortDescTest",
+              "textoIntroductorio": "introductoryTextTest",
+              "tituloCorto": "shortTitleTest",
+              "updatedAt": "01/01/2000",
+              "urlSeo": null,
+              "tipoDeCliente": "clientTypeTest",
+              "imagenpequena": {},
+
+              "contentful_id": "000",
+              "edadygenero": "Hombre 0"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "allContentfulLeyesYDecretos": {
+    "edges": [
+      {
+        "node": {
+          "lineaDeProducto": "lineaDeProductoTest",
+          "contenido": [
+            {
+              "textoCallToActionBite": "callToActionTextTest",
+
+              "descripcioncorta": "shortDescTest",
+              "textoIntroductorio": "introductoryTextTest",
+              "tituloCorto": "shortTitleTest",
+              "updatedAt": "01/01/2000",
+              "urlSeo": null,
+              "tipoDeCliente": "clientTypeTest",
+              "imagenpequena": {},
+
+              "contentful_id": "000",
+              "edadygenero": "Hombre 0"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "allContentfulProducto": {
+    "edges": [
+      {
+        "node": {
+          "lineaDeProducto": "lineaDeProductoTest",
+          "contenido": [
+            {
+              "textoCallToActionBite": "callToActionTextTest",
+
+              "descripcioncorta": "shortDescTest",
+              "textoIntroductorio": "introductoryTextTest",
+              "tituloCorto": "shortTitleTest",
+              "updatedAt": "01/01/2000",
+              "urlSeo": null,
+              "tipoDeCliente": "clientTypeTest",
+              "imagenpequena": {},
+
+              "contentful_id": "000",
+              "edadygenero": "Hombre 0"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "allContentfulActualidadDeInversiones": {
+    "edges": [
+      {
+        "node": {
+          "urlSeo": null,
+          "imagen": {},
+          "contenidoCorporativo": {
+            "TextoCallToActionBite": {
+              "TextoCallToActionBite": "callToActionTextTest"
+            },
+            "TituloCortoBite": "shortTitleBiteTest",
+            "TextoIntroductorioBite": "introductoryBiteTextTest"
+          },
+          "descripcion": "descTest",
+          "updatedAt": "01/01/2000",
+
+          "lineaDeProducto": "lineaDeProductoTest",
+          "tipoDeCliente": "clientTypeTest",
+
+          "Relevancia": "relevanceTest",
+          "contentful_id": "000"
+        }
+      }
+    ]
+  },
+  "allContentfulBeneficio": {
+    "edges": [
+      {
+        "node": {
+          "lineaDeProducto": "lineaDeProductoTest",
+          "contenido": {
+            "textoCallToActionBite": "callToActionTextTest",
+
+            "descripcioncorta": "shortDescTest",
+            "textoIntroductorio": "introductoryTextTest",
+            "tituloCorto": "shortTitleTest",
+            "updatedAt": "01/01/2000",
+            "urlSeo": null,
+            "tipoDeCliente": "clientTypeTest",
+            "imagenpequena": {},
+
+            "contentful_id": "000",
+            "edadygenero": "Hombre 0"
+          }
+        }
+      }
+    ]
+  },
+  "allContentfulNovedad": {
+    "edges": [
+      {
+        "node": {
+          "lineaDeProducto": "lineaDeProductoTest",
+          "contenido": {
+            "textoCallToActionBite": "callToActionTextTest",
+
+            "descripcioncorta": "shortDescTest",
+            "textoIntroductorio": "introductoryTextTest",
+            "tituloCorto": "shortTitleTest",
+            "updatedAt": "01/01/2000",
+            "urlSeo": null,
+            "tipoDeCliente": "clientTypeTest",
+            "imagenpequena": {},
+
+            "contentful_id": "000",
+            "edadygenero": "Hombre 0"
+          }
+        }
+      }
+    ]
+  },
+  "allContentfulCampana": {
+    "edges": [
+      {
+        "node": {
+          "lineaDeProducto": "lineaDeProductoTest",
+          "contenido": {
+            "textoCallToActionBite": "callToActionTextTest",
+
+            "descripcioncorta": "shortDescTest",
+            "textoIntroductorio": "introductoryTextTest",
+            "tituloCorto": "shortTitleTest",
+            "updatedAt": "01/01/2000",
+            "urlSeo": null,
+            "tipoDeCliente": "clientTypeTest",
+            "imagenpequena": {},
+
+            "contentful_id": "000",
+            "edadygenero": "Hombre 0"
+          }
+        }
+      }
+    ]
+  }
+}

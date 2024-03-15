@@ -1,0 +1,68 @@
+@import '../../../../assets/styles/variables.scss';
+
+.RentabilidadesErrorCard {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  margin-bottom: 4rem;
+
+  &__card {
+    padding: 12px;
+    border-radius: 4px;
+    background-color: $base-white;
+    box-shadow: 0px 1px 5px rgba(149, 150, 153, 0.2),
+      0px 3px 1px rgba(149, 150, 153, 0.12),
+      0px 2px 2px rgba(149, 150, 153, 0.14);
+    margin-top: 16px;
+    border-top: 4px solid $base-yellow;
+
+    min-height: 279px;
+    margin-bottom: 1px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  &__alertIcon {
+    margin: 1.5rem 0;
+    display: inline-block;
+  }
+
+  &__title {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.466rem;
+    line-height: 25px;
+    color: $base-blue;
+  }
+
+  &__description {
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: $gray-text;
+    margin-top: 1.5rem;
+  }
+
+  &__backgroundIcon {
+    position: absolute;
+    bottom: -96px;
+    left: -96px;
+    opacity: 0.05;
+    display: inline-block;
+  }
+
+  &__icon {
+    width: 1em;
+    height: 1em;
+  }
+
+  @media (min-width: $responsive-width) {
+    &__backgroundIcon {
+      bottom: -64px;
+      left: -64px;
+    }
+  }
+}

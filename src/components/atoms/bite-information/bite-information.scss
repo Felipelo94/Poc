@@ -1,0 +1,76 @@
+@import "../../../assets/styles/variables.scss";
+.container-bite-information {
+  cursor: pointer;
+  &.active {
+    width: 100%;
+    height: 100%;
+    background: $light-background;
+    border-left: $base-blue solid 5px;
+  }
+  &-info {
+    margin: 24px;
+    &-title {
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 25px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      color: $dark-text;
+      margin-bottom: 16px;
+    }
+    &-oficina {
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 22px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start;
+      color: $dark-text;
+      margin: 0px 9px 12px 28px;
+      &-imagen {
+        margin-right: 9px;
+        margin-top: 2px;
+      }
+      &-direccion {
+        font-family: $secondary-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 22px;
+        color: $gray-text;
+        margin-left: 4px;
+      }
+    }
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .container-bite-information {
+    &-info {
+      margin: 24px 12px 0px 16px;
+      &-oficina {
+        margin: 0px 9px 12px 25px;
+        &-direccion {
+          padding-bottom: 12px;
+        }
+      }
+    }
+  }
+  .container-mobile-bite-information {
+    margin: 4px 16px 16px 4px !important;
+    &-oficina {
+      margin: 0px 0px 12px 8px !important;
+    }
+  }
+}

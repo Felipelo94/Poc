@@ -1,0 +1,61 @@
+@import "../../../../../assets/styles/variables.scss";
+
+.footer-content {
+  &__links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 32px 0px;
+    .footer-links {
+      width: 177px;
+      margin-right: 60px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      &__title {
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 20px;
+        color: $dark-text;
+        margin-bottom: 16px;
+      }
+      &__subtitle {
+        font-family: $secondary-font;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 19px;
+        color: $dark-text;
+        display: inline-block;
+        width: 100%;
+      }
+      &--large {
+        width: 273px;
+        margin-right: 0px;
+      }
+    }
+  }
+}
+
+.footer-desktop--dark-mode {
+  .footer-links__title {
+    color: white;
+  }
+  .footer-link {
+    color: #cbd1de;
+    &:hover {
+      color: #5cd9e3;
+    }
+  }
+}

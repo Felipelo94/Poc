@@ -1,0 +1,37 @@
+@import "../../../assets/styles/variables.scss";
+
+.container-application {
+  margin: 56px 100px 50px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  
+  &-contenido-call-to-action {
+    margin-bottom: 51px;
+  }
+  &-contenido {
+    width: 50%;
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .container-application {
+    margin: 40px 16px 48px 16px;
+    flex-wrap: wrap;
+    &-contenido {
+      width: 100%;
+    }
+    &-contenido-call-to-action {
+      margin-bottom: 48px;
+    }
+  }
+}
+
+@media (max-width: 769px) {
+  .container-application {
+    flex-direction: column;
+  }
+  .container-application-contenido {
+    width: 100%;
+  }
+}

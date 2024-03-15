@@ -1,0 +1,41 @@
+.container-content-audio {
+  &-reproductor {
+    margin: 8px 90px;
+    &-item {
+      margin-bottom: 24px;
+    }
+  }
+  &-descripcion{
+    margin: 8px 90px;
+    display: flex;
+    &-parrafo{
+      margin-right: 120px;
+    }
+  }
+  &-call-to-action{
+    margin: 8px 90px;
+  }
+}
+@media (max-width: 1024px) {
+  .container-content-audio {
+  &-reproductor {
+    margin: 8px 16px;
+    &-item {
+      margin-bottom: 24px;
+    }
+  }
+  &-descripcion{
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 8px 16px;
+    &-parrafo {
+  margin-right: 0;
+}
+
+  }
+  &-call-to-action {
+  margin: 8px 16px;
+}
+
+}
+}

@@ -1,0 +1,315 @@
+@import "../../../../assets/styles/variables.scss";
+
+.container-simulator-reserva {
+  padding: 48px 130px 48px 130px;
+
+  border-bottom: 1px solid #dfdfdf;
+  &-title {
+    color: $base-blue;
+    font-family: $primary-font;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0px;
+  }
+  &-paragraph {
+    color: $dark-text;
+    font-family: $secondary-font;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+  }
+  &-cards-info {
+    margin-top: 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    & > * {
+      -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+    }
+    &-item-img {
+      max-height: 100px;
+      margin-right: 12px;
+    }
+    &-item-desc {
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 22px;
+      color: $gray-text;
+    }
+    &-item-divider {
+      background: $light-border;
+      height: 130px;
+      margin: 0 20px;
+      width: 1px;
+    }
+  }
+  &-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 48px;
+    &-options {
+      width: 50%;
+      & > .container-menu-meal {
+        & > .MuiTabs-root {
+          & > .MuiTabs-scroller {
+            & > .MuiTabs-flexContainer {
+              & > .MuiButtonBase-root {
+                max-width: 321px !important;
+                min-height: 52px !important;
+              }
+            }
+          }
+        }
+      }
+      &-title {
+        color: $gray-text;
+        font-family: $primary-font;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px;
+        margin-bottom: 32px;
+      }
+    }
+
+    &-info {
+      & > .d-flex {
+        & > img {
+          width: 96px;
+          height: 96px;
+        }
+      }
+      .ranger-cantainer {
+        .d-flex {
+          .button-range-container {
+            &-label {
+              height: 2.7rem;
+            }
+          }
+        }
+      }
+      width: 50%;
+      margin: 0 auto;
+      &-item {
+        margin-top: 20px;
+        margin-left: 0px;
+        &-desc {
+          color: $gray-text;
+          font-family: $primary-font;
+          font-size: 22px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 25px;
+          letter-spacing: 0px;
+          text-align: left;
+          margin: 16px 0px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .container-simulator-reserva-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: $mobile-small-width) {
+  .container-simulator-reserva-content {
+    &-info{
+      .d-flex {
+        .button-range-container {
+          &-label {
+            height: auto !important;
+            max-height: 2.7rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: $desktop-small-width) {
+  .container-simulator-reserva-cards-info {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    .container-simulator-reserva-cards-info-item-divider {
+      display: none;
+    }
+  }
+  .container-simulator-result-header {
+    position: relative;
+    & > #container-tooltip {
+      position: relative !important;
+      & > #tooltip-container {
+        position: absolute;
+        bottom: 50px;
+        right: 0px;
+      }
+    }
+  }
+  .container-simulator {
+    &-goals-items {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      width: 100% !important;
+      & > .container {
+        min-width: 30%;
+        margin-right: 16px;
+      }
+    }
+
+    & > div {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      & > .ranger-cantainer {
+        margin-right: 0px !important;
+        margin-bottom: 32px;
+        .d-flex {
+          .button-range-container {
+            &-label {
+              height: 1.5rem;
+            }
+          }
+        }
+      }
+    }
+    &-result {
+      margin-top: 0px !important;
+      &-data {
+        margin: 24px 0px 24px 0 !important;
+        font-weight: bold !important;
+        font-size: 48px !important;
+        line-height: 38px !important;
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+        justify-content: center !important;
+      }
+      & > .button-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+      }
+    }
+    &-reserva {
+      padding: 0px 0px 48px 0px;
+      margin: 0px 18px 0px 18px;
+      border-bottom: none;
+      &-title {
+        color: $base-blue;
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 34px;
+      }
+      &-content {
+        margin-top: 8px;
+        padding-top: 16px;
+
+        &-options {
+          width: 50%;
+          margin-right: 0px;
+          & > .container-menu-meal {
+            margin-bottom: 12px !important;
+          }
+          &-title {
+            font-family: $primary-font;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 25px;
+            color: $gray-text;
+          }
+        }
+        &-info {
+          & > .container-simulator {
+            margin-top: 28px;
+          }
+          width: 50%;
+          margin: 0px 0px;
+          margin-top: 4px;
+          & > div > img {
+            width: 96px;
+            height: 96px;
+          }
+          &-item {
+            margin-left: 0px;
+            margin-top: 16px;
+            & > h2 {
+              font-family: $primary-font;
+              font-style: normal;
+              font-weight: bold;
+              font-size: 22px;
+              line-height: 25px;
+              color: $base-blue;
+            }
+            &-desc {
+              font-family: $primary-font;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 18px;
+              line-height: 20px;
+              color: $gray-text;
+              margin: 12px 0px;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $responsive-width) {
+  .container-simulator {
+    &-reserva {
+      &-content {
+        &-options {
+          width: 100%;
+          & > .container-menu-meal {
+            & > .MuiTabs-root {
+              & > .MuiTabs-scroller {
+                & > .MuiTabs-flexContainer {
+                  width: 100% !important;
+                  margin-left: 0px !important;
+                  & > .MuiButtonBase-root {
+                    max-width: 100% !important;
+                    min-height: 100% !important;
+                  }
+                }
+              }
+            }
+          }
+        }
+        &-info {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

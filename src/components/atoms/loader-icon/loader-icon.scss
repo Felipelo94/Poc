@@ -1,0 +1,40 @@
+@import '../../../assets/styles/variables.scss';
+
+.loader-spiner {
+  width: 80px;
+  height: 80px;
+  border: 4px solid $light-border;
+  border-top: 4px solid $base-blue;
+  border-radius: 100%;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  animation: LoaderIcon__spin 1s infinite linear;
+}
+
+.loader-spiner-dark {
+  width: 80px;
+  height: 80px;
+  border: 4px solid #dee2e6;
+  border-top: 4px solid #212529;
+  border-radius: 100%;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  animation: LoaderIcon__spin 1s infinite linear;
+}
+
+@keyframes LoaderIcon__spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

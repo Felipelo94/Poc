@@ -1,0 +1,227 @@
+@import "../../assets/styles/variables";
+
+.container-parrafo__title {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0px 0px 10px 0px;
+}
+
+.container-parrafo__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.container-parrafo__img {
+  margin-right: 12px;
+
+  &--nube {
+    width: 26px;
+    height: 24px;
+  }
+}
+
+.container-parrafo__a {
+  font-family: $secondary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+  color: $base-blue;
+}
+
+
+.container-parrafo__content {
+  font-family: $secondary-font;
+  font-style: normal;
+  font-weight: normal;
+  color: $gray-text;
+
+  & > b {
+    color: $dark-text;
+  }
+
+}
+
+.container-parrafo--button {
+  font-family: $secondary-font;
+  font-style: normal;
+  font-weight: normal;
+  color: $gray-text;
+  display: inline-block;
+
+  & > b {
+    color: $dark-text;
+  }
+}
+
+.container-parrafo__hr {
+  background: $base-yellow;
+  border-radius: 4px;
+  width: 169px;
+  height: 48px;
+  font-family: $secondary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  color: $base-blue;
+  text-decoration: none;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+ul.container-parrafo__content {
+  margin: 16px !important;
+
+  & > li {
+    color: #00a6b9;
+
+    & > p {
+      margin: 0;
+    }
+  }
+
+}
+
+.container-parrafo__content-quote {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 25px;
+  color: $dark-text;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
+
+  & > img {
+    margin: 30px 0px;
+    margin-right: 24px;
+  }
+
+  & > .container-parrafo__content {
+    font-size: 24px;
+    line-height: 25px;
+  }
+}
+
+.container-parrafo__imagen {
+  height: auto;
+  width: 100%;
+}
+
+@media (max-width: $desktop-small-width) {
+  .container-parrafo__content {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .container-parrafo__content-quote {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 25px;
+    color: $dark-text;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: end;
+
+    & > img {
+      margin: 15px 0px;
+      margin-right: 8px;
+    }
+
+    & > .container-parrafo__content {
+      font-size: 22px;
+      line-height: 25px;
+    }
+  }
+}
+
+.container-parrafo--tsh {
+  font-family: $secondary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: $base-blue;
+  padding: 8px 16px;
+  background: white;
+  border: 1px solid $base-blue;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 40px;
+  width: max-content;
+  margin: 8px;
+}
+
+.container-parrafo--tsh-black {
+  font-family: $secondary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: $dark-text;
+  background: white;
+  border: 1px solid $dark-text;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 40px;
+  width: max-content;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.container-parrafo__card-reports {
+  width: 322px;
+  height: 215px;
+  margin: 16px 14px 37px 0px;
+}

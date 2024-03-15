@@ -1,0 +1,130 @@
+@import "../../../assets/styles/variables.scss";
+
+.container-item-video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  width: 284px;
+  height: 116px;
+  background: white;
+  border-radius: 4px 4px 24px 4px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  -webkit-box-shadow: 0px 4px 5px rgba(149, 150, 153, 0.14),
+    0px 1px 10px rgba(149, 150, 153, 0.12), 0px 2px 4px rgba(149, 150, 153, 0.2);
+  box-shadow: 0px 4px 5px rgba(149, 150, 153, 0.14),
+    0px 1px 10px rgba(149, 150, 153, 0.12), 0px 2px 4px rgba(149, 150, 153, 0.2);
+  &-img {
+    margin: 8px;
+    width: 100px;
+    height: 100px;
+    border-radius: 4px 4px 4px 4px;
+  }
+  &-selected {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: pointer;
+    width: 284px;
+    height: 116px;
+    background: $light-background;
+    border-radius: 4px 4px 24px 4px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    -webkit-box-shadow: 0px 16px 24px rgba(149, 150, 153, 0.14),
+      0px 6px 30px rgba(149, 150, 153, 0.12),
+      0px 8px 10px rgba(149, 150, 153, 0.2);
+    box-shadow: 0px 16px 24px rgba(149, 150, 153, 0.14),
+      0px 6px 30px rgba(149, 150, 153, 0.12),
+      0px 8px 10px rgba(149, 150, 153, 0.2);
+  }
+  &-text {
+    margin: 8px 16px 8px 8px;
+    width: 144px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    &-title {
+      width: 144px;
+      font-family: $primary-font;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 18px;
+      color: $gray-text;
+      -o-text-overflow: ellipsis;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+
+      &-selected {
+        width: 144px;
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 18px;
+        color: $base-blue;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+      }
+    }
+
+    &-label {
+      font-family: $primary-font;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 18px;
+      color: $gray-text;
+    }
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .container-item-video {
+    width: 314px;
+    height: 91px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    &-img {
+      margin: 8px;
+      width: 75px;
+      height: 75px;
+      border-radius: 4px 4px 4px 4px;
+    }
+    &-selected {
+      width: 314px;
+      height: 91px;
+      margin-top: 0px;
+      margin-bottom: 16px;
+    }
+    &-text {
+      margin: 15px 16px 8px 8px;
+      width: 199px;
+      &-title {
+        width: 199px;
+        &-selected {
+          width: 199px;
+        }
+      }
+    }
+  }
+}

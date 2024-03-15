@@ -1,0 +1,50 @@
+@import "../../../assets/styles/variables.scss";
+
+.StreetCard_title {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  color: $base-blue;
+  padding: 1.5px 0px;
+}
+
+.StreetCard_content {
+  font-family: $secondary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px 0px;
+}
+
+.StreetCard_content_conatiner {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: $secondary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: $dark-text;
+}
+
+.StreetCard_title_validation {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 25px;
+  color: $base-blue;
+  padding: 1.5px 0px;
+  min-height: 45px;
+}

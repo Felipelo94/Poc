@@ -1,0 +1,73 @@
+@import "../../../assets/styles/variables.scss";
+
+progress {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Get rid of default border in Firefox. */
+  border: none;
+
+  width: 155px;
+  height: 4px;
+
+  /* For IE10 */
+  color: #97d700;
+}
+
+::-webkit-progress-bar {
+  background-color: e2e7ed;
+}
+progress[value]::-webkit-progress-bar {
+  background-color: $light-border;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+progress[value]::-webkit-progress-value {
+  background-image: -webkit-linear-gradient(left, #97d700, #97d700);
+
+  border-radius: 2px;
+  background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+progress[value]::-moz-progress-bar {
+  background-image: -moz-linear-gradient(left, #97d700, #97d700);
+
+  border-radius: 2px;
+  background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+.progress-container {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  float: right;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+
+.progress-container-label {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  /* identical to box height, or 111% */
+
+  text-align: right;
+
+  /* Neutral/900 */
+
+  color: $dark-text;
+}
+
+@media (max-width: $desktop-small-width) {
+  progress {
+    width: 73px;
+  }
+
+  .progress-container {
+    margin-right: 0px;
+  }
+}

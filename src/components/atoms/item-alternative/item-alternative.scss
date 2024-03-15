@@ -1,0 +1,44 @@
+@import "../../../assets/styles/variables.scss";
+.container-item-alternative {
+  &-description {
+    margin-top: 24px;
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;    /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Chrome */
+    display: flex;      
+    &-line {
+      width: 3px;
+      margin: 0px 24px 0px 24px;
+      background: $dark-text;
+    }
+    &-text {
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 22px;
+      color: $gray-text;
+      margin: 0px;
+      margin-right: 20px;
+    }
+  }
+
+  &-btns {
+    display: flex;
+    margin-top: 14px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .container-item-alternative {
+   
+    &-p {
+      & > .container-modal {
+        left: 0;
+      }
+    }
+  }
+}

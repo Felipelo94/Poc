@@ -1,0 +1,48 @@
+@import "../../../assets/styles/variables.scss";
+
+.header-prehome {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+
+  &__top-line {
+    background: $base-yellow;
+    height: 4px;
+    width: 100%;
+  }
+
+  &__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    background: #fff;
+    height: 70px;
+    width: 100%;
+  }
+
+  &__button {
+    background: $base-yellow;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    width: 170px;
+    height: 28px;
+    font-family: $secondary-font;
+    color: $base-blue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 4px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 1024) {
+  .header-prehome__title img {
+    width: 110px;
+    height: 18px;
+  }
+}

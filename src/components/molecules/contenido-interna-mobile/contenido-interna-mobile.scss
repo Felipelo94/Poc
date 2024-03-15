@@ -1,0 +1,39 @@
+@import "../../../assets/styles/variables.scss"; 
+
+.contenido-interna-mobile-0 {
+  border-bottom: 1px solid #eef2f7;
+  padding: 32px 17px;
+}
+.contenido-interna-mobile-1 {
+  padding: 41px 17px;
+}
+
+.contenido-interna-container-call-to-action-mobile {
+  margin-bottom: 48px;
+}
+
+.contenido-interna-mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  &-image {
+    margin-right: 25px;
+  }
+  &-text {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 29px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: $base-blue;
+  }
+}

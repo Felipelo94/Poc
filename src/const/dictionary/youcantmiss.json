@@ -1,0 +1,538 @@
+[
+  {
+    "imagenpequena": {
+      "fluid": {
+        "src": "https://images.ctfassets.net/y3qdch79qxiw/55F4l6GwoH1Vkz4qz6gJhk/dfd89facb57c125bc000c05133c733ed/como-retirar-tus-cesanti__as-para-educacion-min.png?w=800&q=50"
+      }
+    },
+    "urlSeo": "Cesantas/Educacion",
+    "textoCallToActionBite": "Muéstrame cómo",
+    "tituloCorto": "¿Cómo retirar Cesantías?",
+    "textoIntroductorio": "Retiro de Cesantías para Educación",
+    "descripcioncorta": "Como empleado puedes apoyar tus proyectos educativos junto a Protección.",
+    "updatedAt": "2020-03-26T18:58:24.144Z",
+    "categoriaCliente": [{ "descripcion": "Empleado" }],
+    "category": [{ "nombre": "Cesantías" }],
+    "tipoBite": "servicio"
+  },
+  {
+    "imagenpequena": {
+      "fluid": {
+        "src": "https://images.ctfassets.net/y3qdch79qxiw/4ZxqAfFiWXWYYIGpyiB4M9/e4a3ea4633712e21dfa88cdeffb20f25/Para-que__-son-las-cesanti__as.png?w=800&q=50"
+      }
+    },
+    "urlSeo": "cesantias/tus-cesantias-proteccion/para-que-son/cesante",
+    "textoCallToActionBite": "Cuéntame",
+    "tituloCorto": "Cesantías ¿Para qué son?",
+    "textoIntroductorio": "¿Se terminó tu contrato laboral? ¡Aprovecha las Cesantías!",
+    "descripcioncorta": "Si se terminó tu contrato o cambiaste de empleo, te mostramos algunas opciones que te ayudarán a aprovechar tu ahorro.",
+    "updatedAt": "2020-03-20T19:41:49.180Z",
+    "categoriaCliente": [{ "descripcion": "Cesante" }],
+    "category": [{ "nombre": "Cesantías" }],
+    "tipoBite": "servicio"
+  },
+  {
+    "imagenpequena": {
+      "fluid": {
+        "src": "https://images.ctfassets.net/y3qdch79qxiw/4ZxqAfFiWXWYYIGpyiB4M9/e4a3ea4633712e21dfa88cdeffb20f25/Para-que__-son-las-cesanti__as.png?w=800&q=50"
+      }
+    },
+    "urlSeo": "cesantias/tus-cesantias-proteccion/para-que-son/empleado-independiente",
+    "textoCallToActionBite": "Quiero conocer más",
+    "tituloCorto": "Cesantías ¿Para qué son?",
+    "textoIntroductorio": "Conoce aquí la manera correcta de utilizar tus Cesantías",
+    "descripcioncorta": "Conoce aquí la manera correcta de utilizar tus Cesantías",
+    "updatedAt": "2020-03-20T19:41:16.741Z",
+    "categoriaCliente": [
+      { "descripcion": "Independiente" },
+      { "descripcion": "Empleado" }
+    ],
+    "category": [{ "nombre": "Cesantías" }],
+    "tipoBite": "servicio"
+  },
+  {
+    "imagenpequena": {
+      "fluid": {
+        "src": "https://images.ctfassets.net/y3qdch79qxiw/4GeNMRpbqcvjWIIHZEMeBK/70c178a5986fc320b73846a3b328c214/que_son-min.png?w=800&q=50"
+      }
+    },
+    "urlSeo": "cesantias/tus-cesantias-proteccion/que-son",
+    "textoCallToActionBite": " ",
+    "tituloCorto": "¿Qué son las Cesantías?",
+    "textoIntroductorio": "Conoce todo lo que debes saber sobre las Cesantías",
+    "descripcioncorta": "Conoce todo lo que debes saber sobre las Cesantías y comienza a ahorrar junto a Protección.",
+    "updatedAt": "2020-03-20T19:22:41.188Z",
+    "categoriaCliente": [
+      { "descripcion": "Empleado" },
+      { "descripcion": "Cesante" },
+      { "descripcion": "Independiente" }
+    ],
+    "category": [{ "nombre": "Cesantías" }],
+    "tipoBite": "servicio"
+  },
+  {
+    "imagenpequena": {
+      "fluid": {
+        "src": "https://images.ctfassets.net/y3qdch79qxiw/72jxOvoPP9xotRznE4w0EC/32fc70652557f541c305999a8c42e837/como_aprovecharlas_max.png?w=800&q=50"
+      }
+    },
+    "urlSeo": null,
+    "textoCallToActionBite": "Muéstrame",
+    "tituloCorto": "Aprovecha tus Cesantías",
+    "textoIntroductorio": "Conoce aquí cómo sacarle provecho a tus Cesantías",
+    "descripcioncorta": "No basta con saber quién paga tus cesantías; también debes conocer cómo sacarles provecho.",
+    "updatedAt": "2020-03-20T15:54:21.690Z",
+    "categoriaCliente": [
+      { "descripcion": "Cesante" },
+      { "descripcion": "Empleado" }
+    ],
+    "category": [{ "nombre": "Cesantías" }],
+    "tipoBite": "servicio"
+  },
+  {
+    "imagenpequena": {
+      "fluid": {
+        "src": "https://images.ctfassets.net/y3qdch79qxiw/72ecUsgJmJT4qsznkcSKBS/e3e76640f5dc935a8e756d9e1cc93464/Quie__n-hace-los-aportes-Cua__nto-me-deben-consignar-min.png?w=800&q=50"
+      }
+    },
+    "urlSeo": null,
+    "textoCallToActionBite": "Explícamelo",
+    "tituloCorto": null,
+    "textoIntroductorio": null,
+    "descripcioncorta": "Ahora que sabes qué son las Cesantías, debes saber quiénes deben aportar y cómo deben hacerlo. ",
+    "updatedAt": "2020-03-16T14:15:19.732Z",
+    "categoriaCliente": [
+      { "descripcion": "Cesante" },
+      { "descripcion": "Empleado" }
+    ],
+    "category": [{ "nombre": "Cesantías" }],
+    "tipoBite": "servicio"
+  },
+  {
+    "imagenpequena": {
+      "fluid": {
+        "src": "https://images.ctfassets.net/y3qdch79qxiw/1tCiRIzszDECdJHAgsauDN/f0b9e081b2a754fca49711d1f5b3094f/Que__-son-los-intereses-de-las-cesanti__as.png?w=800&q=50"
+      }
+    },
+    "urlSeo": null,
+    "textoCallToActionBite": "Aprende más",
+    "tituloCorto": null,
+    "textoIntroductorio": null,
+    "descripcioncorta": "¿Sabías que este ahorro tiene unos intereses que puedes disfrutar? Conoce más sobre ellos.",
+    "updatedAt": "2020-03-16T14:14:38.973Z",
+    "categoriaCliente": [
+      { "descripcion": "Empleado" },
+      { "descripcion": "Cesante" }
+    ],
+    "category": [{ "nombre": "Cesantías" }],
+    "tipoBite": "servicio"
+  },
+  {
+    "imagenpequena": {
+      "fluid": {
+        "src": "https://images.ctfassets.net/y3qdch79qxiw/40GCbtmfQgOjEHPHVxiPnA/6f2dc87fccaf36bf94c1cfc7c6eacc00/para_que_son-min.png?w=800&q=50"
+      }
+    },
+    "urlSeo": "para-que-retirar-cesantias",
+    "textoCallToActionBite": "Muéstrame",
+    "tituloCorto": null,
+    "textoIntroductorio": null,
+    "descripcioncorta": "Como cesante, las Cesantías pueden servirte para alcanzar tus sueños. Conoce cómo aquí",
+    "updatedAt": "2020-03-11T20:33:38.042Z",
+    "categoriaCliente": [{ "descripcion": "Cesante" }],
+    "category": [{ "nombre": "Cesantías" }],
+    "tipoBite": "producto"
+  },
+  {
+    "imagenpequena": {
+      "fluid": {
+        "src": "https://images.ctfassets.net/y3qdch79qxiw/3JNmbR9Kwsjol4VXNcheQ6/864c92b178bae9d46eeca40a811698c2/Co__mo-ahorrar-para-mi-vivienda.png?w=800&q=50"
+      }
+    },
+    "urlSeo": null,
+    "textoCallToActionBite": "Cuéntame cómo",
+    "tituloCorto": null,
+    "textoIntroductorio": null,
+    "descripcioncorta": "Si tu sueño es tu vivienda, te contamos cómo hacer un plan de ahorro para alcanzarlo.",
+    "updatedAt": "2020-03-11T14:26:21.124Z",
+    "categoriaCliente": [
+      { "descripcion": "Cesante" },
+      { "descripcion": "Independiente" }
+    ],
+    "category": [{ "nombre": "Cesantías" }],
+    "tipoBite": "producto"
+  },
+  {
+    "imagenpequena": {
+      "fluid": {
+        "src": "https://images.ctfassets.net/y3qdch79qxiw/7HgBhf3WEsqR2HRCLwd05/32c743683e092739e2b4721c632bceee/C__mo-declarar-las-cesant__as-como-independiente.png?w=800&q=50"
+      }
+    },
+    "urlSeo": null,
+    "textoCallToActionBite": "Enséñame más",
+    "tituloCorto": null,
+    "textoIntroductorio": null,
+    "descripcioncorta": "Así podrás aprovechar los beneficios tributarios que podrás disfrutar gracias a las cesantías. ",
+    "updatedAt": "2020-03-11T14:07:47.502Z",
+    "categoriaCliente": [
+      { "descripcion": "Cesante" },
+      { "descripcion": "Empleado" },
+      { "descripcion": "Independiente" }
+    ],
+    "category": [{ "nombre": "Cesantías" }],
+    "tipoBite": "producto"
+  },
+  {
+    "imagenpequena": {
+      "fluid": {
+        "src": "https://images.ctfassets.net/y3qdch79qxiw/5WEvPenNhKaDx6Wv4dmmGy/971554684d3d9dc66c3cde08f7f80205/Co__mo-acceder-al-mecanismo-de-proteccio__n-al-cesante.png?w=800&q=50"
+      }
+    },
+    "urlSeo": null,
+    "textoCallToActionBite": "Muéstrame",
+    "tituloCorto": null,
+    "textoIntroductorio": null,
+    "descripcioncorta": "Estos son los requisitos para beneficiarte de este mecanismo mientras encuentras un nuevo empleo. ",
+    "updatedAt": "2020-03-10T22:41:56.244Z",
+    "categoriaCliente": [
+      { "descripcion": "Empleado" },
+      { "descripcion": "Cesante" }
+    ],
+    "category": [{ "nombre": "Cesantías" }],
+    "tipoBite": "producto"
+  },
+  {
+    "imagenpequena": {
+      "fluid": {
+        "src": "https://images.ctfassets.net/y3qdch79qxiw/2MhhxlrR7szESfljlk4pBb/8e5f620d9c3b9129eecd47390a441d61/Cesanti__as-en-la-declaracio__n-de-renta.png?w=800&q=50"
+      }
+    },
+    "urlSeo": null,
+    "textoCallToActionBite": "Ir a allá",
+    "tituloCorto": null,
+    "textoIntroductorio": null,
+    "descripcioncorta": "Conoce el tratamiento tributario de tus Cesantías y cómo deberías declararlas ante la DIAN. ",
+    "updatedAt": "2020-03-10T22:37:15.222Z",
+    "categoriaCliente": [
+      { "descripcion": "Empleado" },
+      { "descripcion": "Independiente" }
+    ],
+    "category": [{ "nombre": "Cesantías" }],
+    "tipoBite": "producto"
+  },
+  {
+    "imagenpequena": {
+      "fluid": {
+        "src": "https://images.ctfassets.net/y3qdch79qxiw/5fq2A2WyEWx86tkHSkSquF/b5dc27e9bb4023c24a546c9e23d0ee26/como-usarlas-para-educacio__n-min.png?w=800&q=50"
+      }
+    },
+    "urlSeo": null,
+    "textoCallToActionBite": "Aprende más",
+    "tituloCorto": null,
+    "textoIntroductorio": null,
+    "descripcioncorta": "Usa tus Cesantías para educación y cumple tus sueños junto a Protección.",
+    "updatedAt": "2020-03-06T16:30:26.222Z",
+    "categoriaCliente": [
+      { "descripcion": "Cesante" },
+      { "descripcion": "Independiente" }
+    ],
+    "category": [{ "nombre": "Cesantías" }],
+    "tipoBite": "producto"
+  },
+  {
+    "imagenpequena": {
+      "fluid": {
+        "src": "https://images.ctfassets.net/y3qdch79qxiw/5fq2A2WyEWx86tkHSkSquF/b5dc27e9bb4023c24a546c9e23d0ee26/como-usarlas-para-educacio__n-min.png?w=800&q=50"
+      }
+    },
+    "urlSeo": null,
+    "textoCallToActionBite": "Muéstrame más",
+    "tituloCorto": null,
+    "textoIntroductorio": null,
+    "descripcioncorta": "Con Protección puedes hacer tus sueños realidad. Conoce aquí cómo puedes usar tus Cesantías para tu educación y la de tu familia.",
+    "updatedAt": "2020-03-06T16:27:30.017Z",
+    "categoriaCliente": [{ "descripcion": "Empleado" }],
+    "category": [{ "nombre": "Cesantías" }],
+    "tipoBite": "producto"
+  },
+  {
+    "imagenpequena": {
+      "fluid": {
+        "src": "https://images.ctfassets.net/y3qdch79qxiw/40teFxlZuEofqt9N1kqyvS/24488ae3798ff6f6e2f8cc571ab79d53/certificados_solicitud-min.png?w=800&q=50"
+      }
+    },
+    "urlSeo": null,
+    "textoCallToActionBite": "Cuéntame",
+    "tituloCorto": null,
+    "textoIntroductorio": null,
+    "descripcioncorta": "¿Perdiste tu empleo? El Estado cuenta con un programa con el que podrás aprovechar tus Cesantías y encaminarte a un nuevo trabajo. ",
+    "updatedAt": "2020-03-06T16:19:07.188Z",
+    "categoriaCliente": [
+      { "descripcion": "Cesante" },
+      { "descripcion": "Empleado" }
+    ],
+    "category": [{ "nombre": "Cesantías" }],
+    "tipoBite": "producto"
+  },
+  {
+    "imagenpequena": {
+      "fluid": {
+        "src": "https://images.ctfassets.net/y3qdch79qxiw/mEyo2dN3yOgL8XDzlffZV/5c4c06b360efcd89478c2780d6ec3bfb/para_que_se_retiran.png?w=800&q=50"
+      }
+    },
+    "urlSeo": null,
+    "textoCallToActionBite": "Aprende más",
+    "tituloCorto": null,
+    "textoIntroductorio": null,
+    "descripcioncorta": "Como empleado, las Cesantías pueden servirte para alcanzar tus sueños. Conoce cómo aquí.",
+    "updatedAt": "2020-03-06T16:14:47.148Z",
+    "categoriaCliente": [{ "descripcion": "Empleado" }],
+    "category": [{ "nombre": "Cesantías" }],
+    "tipoBite": "producto"
+  },
+  {
+    "imagenpequena": {
+      "fluid": {
+        "src": "https://images.ctfassets.net/y3qdch79qxiw/5fq2A2WyEWx86tkHSkSquF/b5dc27e9bb4023c24a546c9e23d0ee26/como-usarlas-para-educacio__n-min.png?w=800&q=50"
+      }
+    },
+    "urlSeo": null,
+    "textoCallToActionBite": "Muéstrame cómo",
+    "tituloCorto": null,
+    "textoIntroductorio": null,
+    "descripcioncorta": "Con Protección puedes hacer tus sueños realidad. Conoce aquí cómo puedes usar tus Cesantías para tu educación y la de tu familia.",
+    "updatedAt": "2020-03-06T15:58:13.020Z",
+    "categoriaCliente": [{ "descripcion": "Empleado" }],
+    "category": [{ "nombre": "Cesantías" }],
+    "tipoBite": "producto"
+  },
+  {
+    "imagenpequena": {
+      "fluid": {
+        "src": "https://images.ctfassets.net/y3qdch79qxiw/55F4l6GwoH1Vkz4qz6gJhk/dfd89facb57c125bc000c05133c733ed/como-retirar-tus-cesanti__as-para-educacion-min.png?w=800&q=50"
+      }
+    },
+    "urlSeo": null,
+    "textoCallToActionBite": "Muéstrame cómo",
+    "tituloCorto": null,
+    "textoIntroductorio": null,
+    "descripcioncorta": "Como independiente y cesante también puedes apoyar tus proyectos educativos junto a Protección. ",
+    "updatedAt": "2020-03-06T15:57:02.458Z",
+    "categoriaCliente": [
+      { "descripcion": "Cesante" },
+      { "descripcion": "Independiente" }
+    ],
+    "category": [{ "nombre": "Cesantías" }],
+    "tipoBite": "producto"
+  },
+  {
+    "imagenpequena": {
+      "fluid": {
+        "src": "https://images.ctfassets.net/y3qdch79qxiw/1WZcOJ5EYotpoEdKogYLjH/fa40c22d9dc06fc46f9b6759ea91ffcf/portafolio-min.png?w=800&q=50"
+      }
+    },
+    "urlSeo": null,
+    "textoCallToActionBite": null,
+    "tituloCorto": null,
+    "textoIntroductorio": null,
+    "descripcioncorta": "¿Sabías que existen dos portafolios para tus Cesantías? Conócelos y elige la mejor forma de administrarlos.",
+    "updatedAt": "2020-03-06T15:52:41.326Z",
+    "categoriaCliente": [
+      { "descripcion": "Cesante" },
+      { "descripcion": "Empleado" },
+      { "descripcion": "Independiente" }
+    ],
+    "category": [{ "nombre": "Cesantías" }],
+    "tipoBite": "producto"
+  },
+  {
+    "imagenpequena": {
+      "fluid": {
+        "src": "https://images.ctfassets.net/y3qdch79qxiw/40teFxlZuEofqt9N1kqyvS/24488ae3798ff6f6e2f8cc571ab79d53/certificados_solicitud-min.png?w=800&q=50"
+      }
+    },
+    "urlSeo": null,
+    "textoCallToActionBite": "Cuéntamelo todo",
+    "tituloCorto": null,
+    "textoIntroductorio": null,
+    "descripcioncorta": "Si quieres usar tus Cesantías para adquirir vivienda, deberás inmovilizarlas. ",
+    "updatedAt": "2020-03-06T15:43:02.600Z",
+    "categoriaCliente": [
+      { "descripcion": "Cesante" },
+      { "descripcion": "Empleado" },
+      { "descripcion": "Independiente" }
+    ],
+    "category": [{ "nombre": "Cesantías" }],
+    "tipoBite": "producto"
+  },
+  {
+    "imagenpequena": {
+      "fluid": {
+        "src": "https://images.ctfassets.net/y3qdch79qxiw/6NW2grKe9KakDqwWzEnE2A/4f3fd3be5de213b4db30a991fe29de7f/Embargo-que-es-y-para-que-min.png?w=800&q=50"
+      }
+    },
+    "urlSeo": null,
+    "textoCallToActionBite": "Quiero saberlo",
+    "tituloCorto": null,
+    "textoIntroductorio": null,
+    "descripcioncorta": "Entérate de las circunstancias que pueden llevar al embargo de tus Cesantías. ",
+    "updatedAt": "2020-03-06T15:24:07.736Z",
+    "categoriaCliente": [
+      { "descripcion": "Cesante" },
+      { "descripcion": "Empleado" },
+      { "descripcion": "Independiente" }
+    ],
+    "category": [{ "nombre": "Cesantías" }],
+    "tipoBite": "producto"
+  },
+  {
+    "imagenpequena": {
+      "fluid": {
+        "src": "https://images.ctfassets.net/y3qdch79qxiw/1FEyXdQi1LFHytoOgH3lHM/aa4f3839cbef921502fdf971a38f6425/PRUEBA-3.png?w=800&q=50"
+      }
+    },
+    "urlSeo": null,
+    "textoCallToActionBite": "Conócelos",
+    "tituloCorto": null,
+    "textoIntroductorio": null,
+    "descripcioncorta": "Conoce los extractos de Cesantías, aprende a leerlos y hazle un seguimiento a este ahorro. ",
+    "updatedAt": "2020-03-06T14:59:48.956Z",
+    "categoriaCliente": [
+      { "descripcion": "Cesante" },
+      { "descripcion": "Empleado" },
+      { "descripcion": "Independiente" }
+    ],
+    "category": [{ "nombre": "Cesantías" }],
+    "tipoBite": "producto"
+  },
+  {
+    "imagenpequena": {
+      "fluid": {
+        "src": "https://images.ctfassets.net/y3qdch79qxiw/3LLpSNtugvFnOxs37JNtZd/6aee390b712b970d0d99f438dc2d827f/Cua__nto-debo-ahorrar-min.png?w=800&q=50"
+      }
+    },
+    "urlSeo": null,
+    "textoCallToActionBite": null,
+    "tituloCorto": null,
+    "textoIntroductorio": null,
+    "descripcioncorta": null,
+    "updatedAt": "2020-03-05T16:40:12.796Z",
+    "categoriaCliente": [
+      { "descripcion": "Empleado" },
+      { "descripcion": "Cesante" },
+      { "descripcion": "Independiente" }
+    ],
+    "category": [{ "nombre": "Cesantías" }],
+    "tipoBite": "producto"
+  },
+  {
+    "imagenpequena": {
+      "fluid": {
+        "src": "https://images.ctfassets.net/y3qdch79qxiw/43qqqfUTmU6hCyHlc3R1qf/1d80df9e98b44d3e8b0266d1f797847a/pignoracion-min.png?w=800&q=50"
+      }
+    },
+    "urlSeo": null,
+    "textoCallToActionBite": "Explícame",
+    "tituloCorto": null,
+    "textoIntroductorio": null,
+    "descripcioncorta": null,
+    "updatedAt": "2020-02-28T14:56:05.042Z",
+    "categoriaCliente": [
+      { "descripcion": "Cesante" },
+      { "descripcion": "Empleado" },
+      { "descripcion": "Independiente" }
+    ],
+    "category": [{ "nombre": "Cesantías" }],
+    "tipoBite": "producto"
+  },
+  {
+    "imagenpequena": {
+      "fluid": {
+        "src": "https://images.ctfassets.net/y3qdch79qxiw/1bIBhCRpmY0JBKbG6aXdzn/dfa3f62aff0d77dad7d98eb79a7b4ad8/como_retirar_cesantias-min.png?w=800&q=50"
+      }
+    },
+    "urlSeo": "cesantias/tus-cesantias-proteccion/como-usarlas/como-retirarlas/empleado",
+    "textoCallToActionBite": "Descúbrelo ahora",
+    "tituloCorto": "¿Cómo retirar Cesantías?",
+    "textoIntroductorio": "¿Decidiste la meta que quieres alcanzar con tus Cesantías?",
+    "descripcioncorta": "¿Ya decidiste la meta a la que le quieres destinar tus Cesantías? Ahora entérate cómo retirarlas",
+    "updatedAt": "2020-03-20T16:00:05.976Z",
+    "categoriaCliente": [{ "descripcion": "Empleado" }],
+    "category": null,
+    "tipoBite": "servicio"
+  },
+  {
+    "imagenpequena": {
+      "fluid": {
+        "src": "https://images.ctfassets.net/y3qdch79qxiw/2gQH3EM6JgkaLdWfDluihV/5d51a62e5c69db94adfe51371b5aa241/Que__-errores-evitar-a-la-hora-de-usar-tus-cesanti__as-para-educacio__n-max.jpeg?w=800&q=50"
+      }
+    },
+    "urlSeo": "cesantias/tus-cesantias-proteccion/como-usarlas/educacion/errores-comunes",
+    "textoCallToActionBite": "Muéstrame cuáles",
+    "tituloCorto": "¡Mira estos consejos!",
+    "textoIntroductorio": "Utiliza correctamente tus Cesantías para educación",
+    "descripcioncorta": "Aprende de las experiencias de las personas que ya han hecho realidad sus sueños. ",
+    "updatedAt": "2020-03-30T13:46:55.843Z",
+    "categoriaCliente": [
+      { "descripcion": "Cesante" },
+      { "descripcion": "Independiente" },
+      { "descripcion": "Empleado" }
+    ],
+    "category": [{ "nombre": "Cesantías" }],
+    "tipoBite": "educativo"
+  },
+  {
+    "imagenpequena": {
+      "fluid": {
+        "src": "https://images.ctfassets.net/y3qdch79qxiw/4tNxOYzenSZDhuvC8AAYSR/0297b33c23c88c090ff0d8d07bfb7a73/Recomendaciones-y-errores-comunes-min.png?w=800&q=50"
+      }
+    },
+    "urlSeo": null,
+    "textoCallToActionBite": "Enséñame cuáles",
+    "tituloCorto": "Cesantías para Vivienda",
+    "textoIntroductorio": "¡Mira estos consejos y utiliza correctamente tus Cesantías!",
+    "descripcioncorta": "En el camino para la adquisición o mejora de vivienda puedes incurrir en algunas equivocaciones. ",
+    "updatedAt": "2020-03-20T15:57:05.704Z",
+    "categoriaCliente": [{ "descripcion": "Empleado" }],
+    "category": [{ "nombre": "Cesantías" }],
+    "tipoBite": "educativo"
+  },
+  {
+    "imagenpequena": {
+      "fluid": {
+        "src": "https://images.ctfassets.net/y3qdch79qxiw/4tNxOYzenSZDhuvC8AAYSR/0297b33c23c88c090ff0d8d07bfb7a73/Recomendaciones-y-errores-comunes-min.png?w=800&q=50"
+      }
+    },
+    "urlSeo": null,
+    "textoCallToActionBite": "Muéstrame cuáles",
+    "tituloCorto": "Cesantías para Vivienda",
+    "textoIntroductorio": "¡Mira estos consejos y utiliza correctamente tus Cesantías!",
+    "descripcioncorta": "El camino a tu vivienda propia puede estar lleno de riesgos. Así podrás evitarlos. ",
+    "updatedAt": "2020-03-20T15:57:02.652Z",
+    "categoriaCliente": [
+      { "descripcion": "Independiente" },
+      { "descripcion": "Cesante" }
+    ],
+    "category": [{ "nombre": "Cesantías" }],
+    "tipoBite": "educativo"
+  },
+  {
+    "imagenpequena": {
+      "fluid": {
+        "src": "https://images.ctfassets.net/y3qdch79qxiw/72jxOvoPP9xotRznE4w0EC/32fc70652557f541c305999a8c42e837/como_aprovecharlas_max.png?w=800&q=50"
+      }
+    },
+    "urlSeo": null,
+    "textoCallToActionBite": "Muéstrame",
+    "tituloCorto": "Aprovecha tus Cesantías",
+    "textoIntroductorio": "Conoce aquí cómo sacarle provecho a tus Cesantías",
+    "descripcioncorta": "No basta con saber quién paga tus cesantías; también debes conocer cómo sacarles provecho.",
+    "updatedAt": "2020-03-20T15:54:21.690Z",
+    "categoriaCliente": [
+      { "descripcion": "Cesante" },
+      { "descripcion": "Empleado" }
+    ],
+    "category": [{ "nombre": "Cesantías" }],
+    "tipoBite": "educativo"
+  }
+]

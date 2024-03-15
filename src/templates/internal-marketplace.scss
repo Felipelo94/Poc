@@ -1,0 +1,27 @@
+@import "../assets/styles/variables.scss";
+@import "../assets/styles/mixins.scss";
+
+.internal-marketplace {
+  background: #fff;
+
+  &__bread-crumb {
+    margin-top: 60px;
+
+    @include from($desktop-small-width) {
+      margin-top: 52px;
+    }
+  }
+
+  &__portfolios {
+    margin: 0;
+
+    @include from($desktop-small-width) {
+      margin: 32px 0;
+    }
+  }
+
+  &__like-share {
+    max-width: 1366px;
+    margin: 40px auto;
+  }
+}

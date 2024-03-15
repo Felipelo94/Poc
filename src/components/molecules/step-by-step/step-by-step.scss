@@ -1,0 +1,310 @@
+@import "../../../assets/styles/variables.scss";
+.step-by-step-header {
+  background: $light-background;
+}
+.container-step-by-step {
+  background: $light-background;
+  &-tags {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0px 91px 17px 91px;
+    &-title-value {
+      background: white;
+      border: none;
+      padding: 0;
+      width: -webkit-fill-available;
+      border-radius: 4px;
+      height: 90px;
+      // max-width: 270px;
+      font-family: $primary-font;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 20px;
+      margin-left: 8px;
+      -webkit-box-shadow: 0px 5px 5px rgba(149, 150, 153, 0.2),
+        0px 3px 14px rgba(149, 150, 153, 0.12),
+        0px 8px 10px rgba(149, 150, 153, 0.14);
+      box-shadow: 0px 5px 5px rgba(149, 150, 153, 0.2),
+        0px 3px 14px rgba(149, 150, 153, 0.12),
+        0px 8px 10px rgba(149, 150, 153, 0.14);
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      &.active {
+        color: $base-blue;
+        position: relative;
+        bottom: 50px;
+        -webkit-animation-name: Realcetitle; /* Safari 4.0 - 8.0 */
+
+        -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+        animation-name: Realcetitle;
+        -webkit-animation-duration: 0.5s;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+        & > .container-step-by-step-tags-title-value-container {
+          & > img {
+            background-repeat: no-repeat;
+            padding: 8px;
+          }
+        }
+      }
+      &.inactive {
+        color: $gray-text;
+        position: relative;
+        bottom: 45px;
+        cursor: pointer;
+      }
+      &-container {
+        &-imagen {
+          margin: 0px 20px;
+          @media (max-width: $desktop-small-width) {
+            margin: 0px 10px;
+          }
+        }
+        &-text {
+          margin-right: 12px;
+        }
+      }
+    }
+  }
+  &-call-to-action {
+    margin-left: 106px;
+  }
+  &-parrafos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0px 110px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: flex-start;
+    justify-content: space-between;
+    &-contenido {
+      top: 0;
+      &.activeTexto {
+        position: relative;
+        -webkit-animation-name: RealceStepStep; /* Safari 4.0 - 8.0 */
+        width: 50%;
+        -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+        animation-name: RealceStepStep;
+        -webkit-animation-duration: 0.5s;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+      }
+      & > p {
+        animation: fadeIn ease 1s;
+        -webkit-animation: fadeIn ease 1s;
+        -moz-animation: fadeIn ease 1s;
+        -o-animation: fadeIn ease 1s;
+        -ms-animation: fadeIn ease 1s;
+      }
+    }
+  }
+}
+
+.container-step-by-step-parrafos-imagenes {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & > img {
+    animation: fadeIn ease 1s;
+    -webkit-animation: fadeIn ease 1s;
+    -moz-animation: fadeIn ease 1s;
+    -o-animation: fadeIn ease 1s;
+    -ms-animation: fadeIn ease 1s;
+  }
+}
+@-webkit-keyframes Realcetitle {
+  from {
+    bottom: 45px;
+  }
+  to {
+    bottom: 65px;
+  }
+}
+
+@keyframes Realcetitle {
+  from {
+    bottom: 45px;
+  }
+  to {
+    bottom: 65px;
+  }
+}
+
+@-webkit-keyframes RealceStepStep {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 50px;
+  }
+}
+
+@keyframes RealceStepStep {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 50px;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#container-step-by-step-tags-0 {
+  margin-left: 0px;
+}
+
+.background-conteful-active {
+  background: $base-yellow;
+  margin-top: 111px;
+  position: relative;
+  min-height: 450px;
+}
+
+.item-conteful-active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  & > svg > path {
+    fill: $base-blue;
+  }
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.mouse_scroll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -40px;
+}
+
+.m_scroll_arrows {
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+  border-right: 2px solid $base-blue;
+  border-bottom: 2px solid $base-blue;
+  width: 16px;
+  height: 16px;
+  &--inversion {
+    border-right: 2px solid $dark-text;
+    border-bottom: 2px solid $dark-text;
+  }
+}
+
+.one {
+  margin-top: 1px;
+  -webkit-animation-delay: 0.1s;
+  -moz-animation-delay: 0.1s;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  animation-delay: alternate;
+}
+
+.one,
+.two,
+.three {
+  -webkit-animation: mouse-scroll 1s infinite;
+  -moz-animation: mouse-scroll 1s infinite;
+  animation: mouse-scroll 1s infinite;
+}
+
+
+.two {
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  -webkit-animation-direction: alternate;
+  animation-delay: 0.2s;
+  animation-direction: alternate;
+  margin-top: -6px;
+}
+
+.three {
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  -webkit-animation-direction: alternate;
+  animation-delay: 0.3s;
+  animation-direction: alternate;
+  margin-top: -6px;
+}
+
+@-webkit-keyframes mouse-scroll {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes mouse-scroll {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes mouse-scroll {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes mouse-scroll {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}

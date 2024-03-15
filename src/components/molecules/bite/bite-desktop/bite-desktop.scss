@@ -1,0 +1,183 @@
+@import "../../../../assets/styles/variables.scss";
+
+@-webkit-keyframes Realce-inv {
+  from {
+    transform: translatey(10px);
+  }
+
+  to {
+    transform: translatey(0);
+  }
+}
+
+@keyframes Realce-inv {
+  from {
+    transform: translatey(10px);
+  }
+
+  to {
+    transform: translatey(0);
+  }
+}
+
+@-webkit-keyframes Realce {
+  from {
+    transform: translatey(0);
+  }
+
+  to {
+    transform: translatey(10px);
+  }
+}
+
+@keyframes Realce {
+  from {
+    transform: translatey(0);
+  }
+
+  to {
+    transform: translatey(10px);
+  }
+}
+
+.bite-desktop-container {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 2px 4px rgba(149, 150, 153, 0.2),
+  0px 1px 10px rgba(149, 150, 153, 0.12),
+  0px 4px 5px rgba(149, 150, 153, 0.14);
+  box-shadow: 0px 2px 4px rgba(149, 150, 153, 0.2),
+  0px 1px 10px rgba(149, 150, 153, 0.12),
+  0px 4px 5px rgba(149, 150, 153, 0.14);
+  background: white;
+  width: 350px;
+  height: 250px;
+  text-decoration: none;
+  border-radius: 4px 4px 24px 4px;
+  position: relative;
+  -webkit-animation-name: Realce-inv; /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+  animation-name: Realce-inv;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+
+  &-image {
+    border-radius: 4px 0px 0px 0px;
+    position: relative;
+    right: 80px;
+    top: 35px;
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+
+    & > .image-container {
+      & > .image-container__box {
+        -webkit-box-shadow: 0px 4px 5px rgba(149, 150, 153, 0.14),
+        0px 1px 10px rgba(149, 150, 153, 0.12),
+        0px 2px 4px rgba(149, 150, 153, 0.2);
+        box-shadow: 0px 4px 5px rgba(149, 150, 153, 0.14),
+        0px 1px 10px rgba(149, 150, 153, 0.12),
+        0px 2px 4px rgba(149, 150, 153, 0.2);
+        border-radius: 4px 4px 24px 4px;
+      }
+    }
+  }
+
+  &-label-new {
+    position: absolute;
+    width: 49px;
+    margin-left: 301px;
+    background: $base-yellow;
+    border-radius: 4px;
+    color: $dark-text;
+    font-family: $secondary-font;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+  }
+
+  &-info {
+    bottom: 123px;
+    margin-left: 91px;
+    position: relative;
+    margin-right: 15px;
+
+    &-title {
+      height: 65px;
+      font-family: $primary-font;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 25px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start;
+      color: $base-blue;
+      margin-bottom: 12px;
+    }
+
+    &-title-dark {
+      height: 65px;
+      font-family: $primary-font;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 25px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start;
+      color: $dark-text;
+      margin-bottom: 12px;
+    }
+
+    &-descripcion {
+      height: 65px;
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 22px;
+      color: $gray-text;
+      margin-bottom: 23px;
+    }
+  }
+}
+
+.bite-desktop-container:hover {
+  -webkit-box-shadow: 0px 12px 15px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 12px 15px rgba(0, 0, 0, 0.16);
+  position: relative;
+  -webkit-animation-name: Realce; /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+  animation-name: Realce;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.bite-desktop-container:hover .button-container__button--secondary {
+  background: $base-blue;
+  color: white;
+}
+
+.bite-desktop-container:hover .button-container__button--secondary-dark {
+  background: $dark-text;
+  color: white;
+}
+
+.bite-desktop-container:hover .image-container__box {
+  -webkit-box-shadow: 0px 16px 24px rgba(149, 150, 153, 0.14),
+  0px 6px 30px rgba(149, 150, 153, 0.12),
+  0px 8px 10px rgba(149, 150, 153, 0.2);
+  box-shadow: 0px 16px 24px rgba(149, 150, 153, 0.14),
+  0px 6px 30px rgba(149, 150, 153, 0.12),
+  0px 8px 10px rgba(149, 150, 153, 0.2);
+}
+

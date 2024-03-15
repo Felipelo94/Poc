@@ -1,0 +1,31 @@
+[
+  {
+    "description": "Bogotá",
+    "number": "(601)744 44 64"
+  },
+  {
+    "description": "Medellín",
+    "number": "(604)510 90 99"
+  },
+  {
+    "description": "Cali",
+    "number": "(602)386 00 80"
+  },
+  {
+    "description": "Barranquilla",
+    "number": "(605)319 79 99"
+  },
+  {
+    "description": "Cartagena",
+    "number": "(605)642 49 99"
+  },
+  {
+    "description": "WhatsApp",
+    "number": "+57 310 220 5575",
+    "compactNumber": "573102205575"
+  },
+  {
+    "description": "Resto del país",
+    "number": "01 8000 52 8000"
+  }
+]

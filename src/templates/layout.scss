@@ -1,0 +1,44 @@
+@import "../assets/styles/variables.scss";
+
+#gatsby-focus-wrapper {
+  height: 100%;
+  background: transparent;
+
+}
+#___gatsby {
+  display: contents;
+  height: 100%;
+  background: transparent;
+
+}
+
+.container-home-internal {
+  background: white;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 100%;
+  }
+}
+@media (max-width: $desktop-small-width) {
+  .home-mobile {
+    background: $light-background;
+  }
+}
+
+@media (min-width: "1280px") {
+  #layout-main {
+    max-width: 1280px;
+    margin: auto;
+    overflow: hidden;
+  }
+}

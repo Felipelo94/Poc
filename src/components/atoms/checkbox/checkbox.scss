@@ -1,0 +1,73 @@
+@import '../../../assets/styles/variables.scss';
+
+.checkbox {
+  display: grid;
+  grid-template-columns: 42px 1fr;
+  margin-left: -11px;
+
+  &__box-container {
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+    display: grid;
+    place-items: center;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.04);
+    }
+  }
+
+  &__box {
+    display: grid;
+    place-items: center;
+    appearance: none;
+    -webkit-appearance: none;
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    background-color: $base-white;
+    border: 2px solid $base-blue;
+    border-radius: 3px;
+    cursor: pointer;
+
+    &::before {
+      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='16px' height='16px' viewBox='0 0 16 16' version='1.1'%3E%3Cg id='surface1'%3E%3Cpath style=' stroke:none;fill-rule:nonzero;fill:rgb(100%25,100%25,100%25);fill-opacity:1;' d='M 16.011719 3.902344 L 6.042969 13.867188 C 5.953125 13.957031 5.8125 13.957031 5.726562 13.867188 L 0.0664062 8.207031 C -0.0234375 8.121094 -0.0234375 7.980469 0.0664062 7.890625 L 1.441406 6.515625 C 1.527344 6.429688 1.671875 6.429688 1.757812 6.515625 L 5.882812 10.640625 L 14.316406 2.207031 C 14.40625 2.121094 14.546875 2.121094 14.636719 2.207031 L 16.011719 3.582031 C 16.097656 3.671875 16.097656 3.8125 16.011719 3.902344 Z M 16.011719 3.902344 '/%3E%3C/g%3E%3C/svg%3E");
+      width: 18px;
+      height: 16px;
+      display: none;
+    }
+
+    &:checked {
+      background-color: $base-blue;
+
+      &::before {
+        display: block;
+      }
+    }
+  }
+
+  &__text {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    color: $dark-text;
+    margin: 9px 0 12px 0;
+  }
+
+  &__error-message {
+    width: 100vh;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #e62323;
+    margin-left: 32px;
+  }
+}

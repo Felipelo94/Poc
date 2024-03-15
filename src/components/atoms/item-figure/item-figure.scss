@@ -1,0 +1,67 @@
+@import "../../../assets/styles/variables.scss";
+
+.container-item-figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 25%;
+  justify-content: center;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  min-width: 225px;
+  &-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    &-value {
+      font-family: $primary-font;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 34px;
+    }
+
+    &-description {
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 22px;
+      width: 160px;
+      height: 65px;
+      margin-top: 9px;
+      color: $gray-text;
+    }
+  }
+  &-img {
+    height: 36px;
+    width: 36px;
+    margin-right: 8px;
+  }
+
+  &-border {
+    border-right-color: $light-border;
+    border-right-style: solid;
+    border-right-width: 1px;
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .container-item-figure {
+    margin: 0px 16px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    &-info {
+      &-description {
+        height: 44px;
+        width: 252px;
+        margin-right: 0px;
+        margin-bottom: 32px;
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@import '../../../assets/styles/mixins.scss';
+
+.update-data-image {
+  width: 225px;
+  height: 200px;
+  margin: 0 auto;
+  
+  @include from(1024px) {
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 91px;
+    width: 422px;
+    height: 375px;
+    margin-left: 16px;
+  }
+
+  &__image {
+    width: 225px;
+    height: 200px;
+    border-radius: 9px;
+
+    @include from(1024px) {
+      width: 422px;
+      height: 375px;
+    }
+  }
+}

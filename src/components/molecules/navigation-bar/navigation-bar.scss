@@ -1,0 +1,131 @@
+@import '../../../assets/styles/variables.scss';
+@import '../../../assets/styles/mixins.scss';
+
+.navigation-bar {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+
+  @include from(1024px) {
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+  }
+
+  &__arrows {
+    @include from(1024px) {
+      background-color: white;
+      border: 0;
+      min-height: 53px;
+      width: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      visibility: visible;
+      border-bottom: 1px solid $light-border;
+
+      &:hover {
+        background-color: $light-background;
+        transition: background-color 150ms ease-in;
+        cursor: pointer;
+      }
+    }
+
+    &--inactive {
+      display: none;
+    }
+  }
+
+  &__left {
+    position: absolute;
+    left: 0;
+  }
+
+  &__right {
+    position: absolute;
+    right: 0;
+  }
+
+  &__button-container {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    width: 100%;
+
+    @include from(1024px) {
+      right: -20px;
+      height: 53px;
+      flex-direction: row;
+      justify-content: center;
+      overflow-x: hidden;
+      width: fit-content;
+    }
+  }
+
+
+  &__button {
+    background: none;
+    border: 0;
+    border-bottom: 1px solid $light-border;
+    padding: 16px 30px;
+    min-height: 53px;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    @include from(1024px) {
+      max-height: 52px;
+      width: fit-content;
+    }
+
+    &--active {
+      background: $light-background;
+      border: 0;
+      border-bottom: 2px solid $base-blue;
+      padding: 16px 30px;
+      min-height: 53px;
+      transition: all 300ms ease-in;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      @include from(1024px) {
+        max-height: 52px;
+        width: fit-content;
+      }
+
+      &-investment {
+        color: $dark-text;
+        border-bottom: 2px solid $base-yellow;
+      }
+    }
+  }
+
+  &__text {
+    font-weight: 500;
+    color: $gray-text;
+    text-decoration: none;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    &--active {
+      color: $base-blue;
+      font-weight: 700;
+      text-decoration: none;
+      font-family: $secondary-font;
+      font-style: normal;
+      font-size: 15px;
+      line-height: 20px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+
+}

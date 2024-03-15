@@ -1,0 +1,1 @@
+export const SET_PAGE_CONTEXT = 'SET_PAGE_CONTEXT'

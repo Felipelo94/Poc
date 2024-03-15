@@ -1,0 +1,14 @@
+@import "../../../../../assets/styles/variables.scss";
+@import "../../../../../assets/styles/global.scss";
+
+.footer-content {
+  &__container-footnote {
+    background-color: $light-background;
+  }
+}
+
+.footer-desktop--dark-mode {
+  .footer-content__container-footnote {
+    background-color: #1b191f;
+  }
+}

@@ -1,0 +1,11 @@
+@import "../../../assets/styles/variables.scss";
+
+.says-expert {
+  margin: 0px 120px;
+}
+
+@media (max-width: $desktop-small-width) {
+  .says-expert {
+    margin: 0px 16px;
+  }
+}

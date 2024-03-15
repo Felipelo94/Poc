@@ -1,0 +1,60 @@
+@import "../../../assets/styles/variables.scss";
+
+.contaianer-news-inversion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 110px 90px 110px;
+  &-actulidad {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left: 16px;
+    margin-top: 24px;
+    &-title {
+      font-family: $primary-font;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 25px;
+      color: $dark-text;
+    }
+
+    &-description {
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      height: 66px;
+      width: 322px;
+      line-height: 22px;
+      color: $gray-text;
+      margin-bottom: 24px;
+      margin-top: 12px;
+    }
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .contaianer-news-inversion {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 0px 0px 48px 0px;
+    &-actulidad {
+      width: auto;
+      margin-top: 48px;
+      margin-left: 19px;
+      margin-right: 19px;
+      &-description {
+        width: auto;
+        height: 100%;
+      }
+    }
+  }
+}

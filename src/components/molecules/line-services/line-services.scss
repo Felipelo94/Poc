@@ -1,0 +1,11 @@
+@import "../../../assets/styles/variables.scss";
+
+.container-line-services {
+  margin: 0px 129px 32px 129px;
+}
+
+@media (max-width: $desktop-small-width) {
+  .container-line-services {
+    margin: 32px 16px 64px 16px;
+  }
+}

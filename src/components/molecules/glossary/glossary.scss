@@ -1,0 +1,54 @@
+@import "../../../assets/styles/internal-pages-global.scss";
+@import "../../../assets/styles/variables.scss";
+
+.glossary-component-container {
+  max-width: 658px;
+  @media (min-width: 1025px) {
+    &--margin-left {
+      margin-left: 25px;
+    }
+  }
+  &-item {
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid $light-border;
+    width: 100%;
+    &:last-child {
+      border-bottom: none;
+    }
+    &-palabra {
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 22px;
+      color: $dark-text;
+    }
+    &-significado {
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 22px;
+      color: $gray-text;
+    }
+  }
+  .glossary-alphabet-container {
+    margin-bottom: 24px;
+  }
+  .heading-letter-selected {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 29px;
+    color: $base-blue;
+    margin-bottom: 16px;
+  }
+}
+
+.container-internal-content-componente {
+  .container-introduction-section-title {
+    color: $base-blue;
+  }
+}

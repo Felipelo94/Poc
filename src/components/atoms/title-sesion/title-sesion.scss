@@ -1,0 +1,242 @@
+@import "../../../assets/styles/variables.scss";
+
+.Onclick {
+  display: inline-block;
+  background-color: #2ec5d6;
+  border-radius: 0px 15px 0px 0px;
+  padding-left: 1.5rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 27px;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 1.5rem;
+}
+
+.Destacados {
+  border-radius: 0px 15px 0px 0px;
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 34px;
+  color: $dark-text;
+  display: inline-block;
+  margin-left: 8px;
+
+  a {
+    color: $dark-text;
+  }
+}
+
+.Destacados-blue {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 38px;
+  color: $base-blue;
+  
+  a {
+    color: $base-blue;
+  }
+}
+
+.Destacados-blue-dark {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 38px;
+  color: white;
+  width: 815px;
+
+  a {
+    color: white;
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .Destacados-blue {
+    text-align: center;
+  }
+
+  .Destacados-blue-dark {
+    text-align: center;
+  }
+}
+
+.NoTePuedesPerder {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 34px;
+  color: $base-blue;
+  padding: 0px 0px 32px 0px;
+}
+
+.NoTePuedesPerder-dark {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 34px;
+  padding: 32px 16px;
+}
+
+.calles-salida {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 38px;
+  color: $base-blue;
+  padding: 20px 0px 7px 0px;
+}
+
+.calles-salida-dark {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 38px;
+  color: #000000;
+  padding: 20px 16px 7px 16px;
+}
+
+.title-internas {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 35px;
+  color: $base-blue;
+  margin: 36px 80px;
+}
+
+.title-bold {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 35px;
+  color: $base-blue;
+}
+
+.default-title {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 27px;
+  color: $dark-text;
+}
+
+.blue-title {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 35px;
+  color: $base-blue;
+}
+
+.text-blue-blod-title {
+  font-family: $primary-font;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 29px;
+  color: $base-blue;
+  margin: 27px 0px 39px 0px;
+}
+
+.title-big {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px !important;
+  line-height: 34px;
+  color: $base-blue;
+
+  & > h2 {
+    margin: 0px;
+    font-size: 30px !important;
+  }
+}
+
+.long-text {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 34px;
+  color: $base-blue;
+  margin-bottom: 32px;
+
+  & > h2 {
+    margin: 0px;
+    font-size: 30px !important;
+  }
+}
+
+.subtitle-internas {
+  & > h2 {
+    font-size: 32px;
+    line-height: 34px;
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .default-title {
+    font-size: 26px;
+    line-height: 29px;
+  }
+
+  .long-text {
+    margin-bottom: 16px;
+  }
+
+  .NoTePuedesPerder {
+    font-size: 26px;
+    line-height: 34px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0px 16px 3px 16px;
+  }
+
+  .NoTePuedesPerder-dark {
+    text-align: center;
+  }
+
+  .NoTePuedesPerderContainer {
+    margin-left: 0px !important;
+  }
+
+  .calles-salida {
+    font-size: 26px;
+    line-height: 29px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0px 7px 0px;
+  }
+
+  #TitleSesion-container-title-big-pre {
+    white-space: pre-wrap;
+  }
+}

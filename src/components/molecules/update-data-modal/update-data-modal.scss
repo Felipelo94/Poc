@@ -1,0 +1,113 @@
+@import '../../../assets/styles/mixins';
+@import '../../../assets/styles/variables';
+
+.update-data-modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  padding: 0 16px;
+  overflow-y: scroll;
+
+  &__container {
+    width: 100%;
+    min-width: 328px;
+    max-width: 562px;
+    background: white;
+    margin: 50px auto;
+  }
+
+  &__header {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 48px 1fr 26px;
+    height: 80px;
+    padding: 0 25px 0 33px;
+  }
+
+  &__title {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: $base-blue;
+  }
+
+  &__close-button {
+    background: none;
+    cursor: pointer;
+    border: 0;
+  }
+
+  &__image {
+    object-fit: cover;
+  }
+
+  &__subtitle {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: $base-blue;
+  }
+
+  &__relevant-info {
+    word-break: break-word;
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 38px;
+    color: $base-blue;
+  }
+
+  &__content, &__links {
+    padding: 16px 24px;
+  }
+
+  &__separator {
+    margin: 0;
+    border: 1px solid #E2E7ED;
+  }
+
+  &__cta {
+    padding: 4px 8px;
+    font-family: $secondary-font;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: $base-blue;
+    text-decoration: none;
+
+    &--primary {
+      background: $base-yellow;
+      border: 1px solid $base-yellow;
+    }
+
+    &--secondary {
+      background: $base-white;
+      border: 1px solid $base-blue;
+    }
+
+    &--both {
+      margin-left: 16px;
+    }
+
+    @include from($tablet) {
+      padding: 8px 16px;
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.5px;
+    }
+  }
+}

@@ -1,0 +1,359 @@
+@import "../../../assets/styles/variables.scss";
+
+.button-container {
+  display: -webkit-box;
+  display: flex;
+  display: -ms-flexbox;
+
+  button:hover {
+    cursor: pointer;
+  }
+
+  &__button- {
+    &-secondary {
+      padding: 10px 26px;
+      cursor: pointer;
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 18px;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end;
+      text-align: center;
+      border: 1px solid $base-blue;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      border-radius: 5px;
+      background: transparent;
+      color: $base-blue;
+    }
+
+
+    &-secondary-dark {
+      padding: 10px 26px;
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 18px;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end;
+      text-align: center;
+      border: 1px solid $dark-text;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      border-radius: 5px;
+      background: transparent;
+      color: $dark-text;
+      cursor: pointer;
+    }
+
+    &-secondary-dark-full {
+      padding: 10px 26px;
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 18px;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end;
+      text-align: center;
+      border: 1px solid $dark-text;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      border-radius: 5px;
+      background: $dark-text;
+      color: white;
+      cursor: pointer;
+    }
+
+    &-welcome {
+      text-decoration: none;
+      padding: 8px 26px;
+      font-family: $secondary-font;
+      font-style: normal;
+      display: -webkit-box;
+      display: flex;
+      display: -ms-flexbox;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end;
+      color: $base-blue;
+      border: 1px solid $base-blue;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      border-radius: 4px;
+      background: $light-background;
+      letter-spacing: 0.5px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    &-primary {
+      text-decoration: none;
+      cursor: pointer;
+      padding: 10px 26px;
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 18px;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end;
+      text-align: center;
+      border-radius: 4px;
+      background: $base-yellow;
+      color: $base-blue;
+      border: none;
+
+      &:hover {
+        background: #f5f548;
+      }
+
+      &:focus {
+        background: #dfde1f;
+      }
+    }
+
+    &-primary-dark {
+      cursor: pointer;
+      font-size: 16px;
+      line-height: 18px;
+      font-style: normal;
+      font-weight: normal;
+      padding: 10px 26px;
+      text-decoration: none;
+      font-family: $secondary-font;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end;
+      text-align: center;
+      border-radius: 4px;
+      background: $base-yellow;
+      color: $dark-text;
+      border: none;
+
+      &:hover {
+        background: #f5f548;
+      }
+
+      &:focus {
+        background: #dfde1f;
+      }
+    }
+
+    &-secondary:hover {
+      background: $base-blue;
+      color: white !important;
+
+
+      &>.button-container__imagen--reverse {
+        -webkit-filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+        filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+      }
+
+      &>.button-container__imagen {
+        -webkit-filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+        filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+      }
+
+    }
+
+    &-secondary-dark:hover {
+      background: $dark-text;
+      color: white;
+
+      &>.imagen-button {
+        filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(194deg) brightness(102%) contrast(100%);
+      }
+    }
+
+    &-secondary-blue {
+      padding: 10px 26px;
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 18px;
+      display: -webkit-box;
+      display: flex;
+      display: -ms-flexbox;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end;
+      text-align: center;
+      border: 1px solid $base-blue;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      border-radius: 5px;
+      background: $base-blue;
+      color: white;
+    }
+
+    &-secondary-border {
+      padding: 10px 26px;
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 18px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end;
+      text-align: center;
+      background: white;
+      border: 1px solid $base-blue;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      border-radius: 25px;
+      color: $base-blue;
+      cursor: pointer;
+    }
+
+    &-secondary-border-dark {
+      padding: 10px 26px;
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 18px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end;
+      text-align: center;
+      background: white;
+      border: 1px solid #000000;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      border-radius: 25px;
+      color: #000000;
+      cursor: pointer;
+    }
+
+    &-secondary-border-active {
+      padding: 10px 26px;
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 18px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end;
+      text-align: center;
+      border: 1px solid $base-blue;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      border-radius: 25px;
+      background: $base-blue;
+      color: white;
+      cursor: pointer;
+    }
+
+    &-secondary-border-dark-active {
+      padding: 10px 26px;
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 18px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end;
+      text-align: center;
+      border: 1px solid #000000;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      border-radius: 25px;
+      background: #000000;
+      color: white;
+      cursor: pointer;
+    }
+
+    &-secondary-border:hover {
+      background: $base-blue;
+      color: white;
+    }
+
+    &-secondary-border-dark:hover {
+      background: #000000;
+      color: white;
+    }
+
+    &-secondary-border-transparent {
+      padding: 10px 26px;
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 18px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end;
+      text-align: center;
+      background: transparent;
+      border: 1px solid $base-blue;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      border-radius: 25px;
+      color: $base-blue;
+    }
+
+    &-secondary-border-transparent:hover {
+      background: $base-blue;
+      color: white;
+    }
+  }
+
+  .button-container__imagen {
+    margin-left: 12px;
+  }
+
+  .button-container__imagen--reverse {
+    margin-right: 12px;
+  }
+
+  @media (max-width: $desktop-small-width) {
+    .button-container {
+      &__button- {
+        &-primary {
+          line-height: 24px;
+          width: 180px;
+          height: 40px;
+          margin: 8px 0px;
+          padding: 0px;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+        }
+      }
+    }
+  }
+}

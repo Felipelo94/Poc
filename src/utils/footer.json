@@ -1,0 +1,260 @@
+[
+  {
+    "id": 1,
+    "title": "Información Legal",
+    "footerOption": [
+      {
+        "id": 1,
+        "nameOption": "Condiciones de Uso de los Canales de Servicio al Cliente",
+        "url": "https://www.proteccion.com/contenidos/condiciones-uso-canales-servicio-cliente/",
+        "nameClass": "gtmHomeInfCondUsoCanServ",
+        "state": "A",
+        "order": 1,
+        "footerCategory": 1
+      },
+      {
+        "id": 2,
+        "nameOption": "Condiciones y Términos de Uso del Sitio www.proteccion.com",
+        "url": "https://www.proteccion.com/contenidos/condiciones-terminos-uso-sitio/",
+        "nameClass": "gtmHomeInfCondTermUsoSitio",
+        "state": "A",
+        "order": 2,
+        "footerCategory": 1
+      },
+      {
+        "id": 3,
+        "nameOption": "PolÍtica de Inversión",
+        "url": "https://www.proteccion.com/wps/portal/proteccion/web/home/corporativo-accionistas/gobierno-corporativo/politicas/politicas-inversion",
+        "nameClass": "gtmHomeInfPoliticaInversion",
+        "state": "A",
+        "order": 3,
+        "footerCategory": 1
+      },
+      {
+        "id": 4,
+        "nameOption": "Consumidor Financiero",
+        "url": "https://www.proteccion.com/contenidos/consumidor-financiero/",
+        "nameClass": "gtmHomeInfConsumFinan",
+        "state": "A",
+        "order": 4,
+        "footerCategory": 1
+      },
+      {
+        "id": 5,
+        "nameOption": "Protección de Datos Personales",
+        "url": "https://www.proteccion.com/contenidos/persona/cesantias/ley-proteccion-datos-personales",
+        "nameClass": "gtmHomeInfProtecDatPers",
+        "state": "A",
+        "order": 5,
+        "footerCategory": 1
+      },
+      {
+        "id": 6,
+        "nameOption": "Información de Productos y Servicios",
+        "url": "https://www.proteccion.com/contenidos/informacion-productos-servicios/",
+        "nameClass": "gtmHomeInfInfoProducServ",
+        "state": "A",
+        "order": 6,
+        "footerCategory": 1
+      },
+      {
+        "id": 8,
+        "nameOption": "Línea Ética y Código de Conducta",
+        "url": "https://proteccion.com/contenidos/persona/cesantias/linea-etica-codigo-conducta",
+        "nameClass": "",
+        "state": "A",
+        "order": 8,
+        "footerCategory": 1
+      },
+      {
+        "id": 9,
+        "nameOption": "Transparencia y Acceso a la Información Pública",
+        "url": "/contenidos/ley-de-transparencia",
+        "nameClass": "",
+        "state": "A",
+        "order": 9,
+        "footerCategory": 1
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Gobierno Corporativo",
+    "footerOption": [
+      {
+        "id": 10,
+        "nameOption": "Información Accionistas",
+        "url": "https://www.proteccion.com/wps/portal/proteccion/web/home/corporativo-accionistas/gobierno-corporativo/accionistas/Ingreso-micrositio-accionistas",
+        "nameClass": "gtmHomeInfInformAccion",
+        "state": "A",
+        "order": 1,
+        "footerCategory": 2
+      },
+      {
+        "id": 11,
+        "nameOption": "Acerca de Protección",
+        "url": "https://www.proteccion.com/wps/portal/proteccion/web/home/corporativo-accionistas/acerca-proteccion/mision-vision-principios",
+        "nameClass": "gtmHomeInfAcercaProte",
+        "state": "A",
+        "order": 2,
+        "footerCategory": 2
+      },
+      {
+        "id": 12,
+        "nameOption": "Gobierno Corporativo",
+        "url": "https://www.proteccion.com/wps/portal/proteccion/web/home/corporativo-accionistas/gobierno-corporativo/estructura-corporativa/junta-directiva",
+        "nameClass": "gtmHomeInfgobCorp",
+        "state": "A",
+        "order": 3,
+        "footerCategory": 2
+      },
+      {
+        "id": 13,
+        "nameOption": "Sostenibilidad",
+        "url": "https://www.proteccion.com/contenidos/sostenibilidad/",
+        "nameClass": "gtmHomeInfRespCorp",
+        "state": "A",
+        "order": 4,
+        "footerCategory": 2
+      },
+      {
+        "id": 14,
+        "nameOption": "Proveedores Protección",
+        "url": "https://www.proteccion.com/contenidos/proveedores-proteccion/",
+        "nameClass": "gtmHomeInfAliaProte",
+        "state": "A",
+        "order": 5,
+        "footerCategory": 2
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Información Personas",
+    "footerOption": [
+      {
+        "id": 15,
+        "nameOption": "Trabaja con Nosotros",
+        "url": "https://empleos.sura-am.com/COLOMBIA-PROTECCION",
+        "nameClass": "gtmHomeInfTrabajConNos",
+        "state": "A",
+        "order": 1,
+        "footerCategory": 3
+      },
+      {
+        "id": 16,
+        "nameOption": "Seguridad Financiera",
+        "url": "https://www.proteccion.com/wps/portal/proteccion/web/home/proteccion-conecta/zona-seguridad",
+        "nameClass": "gtmHomeInfSegurFinan",
+        "state": "A",
+        "order": 2,
+        "footerCategory": 3
+      },
+      {
+        "id": 17,
+        "nameOption": "Fichas Técnicas",
+        "url": "https://www.proteccion.com/contenidos/portafolios-de-inversion/",
+        "nameClass": "gtmHomeInfFichasTecnicas",
+        "state": "A",
+        "order": 3,
+        "footerCategory": 3
+      },
+      {
+        "id": 18,
+        "nameOption": "PQRS",
+        "url": "https://www.proteccion.com/portalafiliados/afiliados/pqrs",
+        "nameClass": "",
+        "state": "A",
+        "order": 4,
+        "footerCategory": 3
+      },
+      {
+        "id": 19,
+        "nameOption": "Mapa del Sitio",
+        "url": "https://www.proteccion.com/contenidos/mapa-del-sitio/",
+        "nameClass": "",
+        "state": "A",
+        "order": 5,
+        "footerCategory": 3
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Información de Contacto",
+    "footerOption": [
+      {
+        "id": 20,
+        "nameOption": "Bogotá: (601) 744 44 64",
+        "url": "tel: (601) 744 44 64",
+        "nameClass": "",
+        "state": "A",
+        "order": 1,
+        "footerCategory": 4
+      },
+      {
+        "id": 21,
+        "nameOption": "Medellín: (604) 510 90 99",
+        "url": "tel: (604) 510 90 99",
+        "nameClass": "",
+        "state": "A",
+        "order": 2,
+        "footerCategory": 4
+      },
+      {
+        "id": 22,
+        "nameOption": "Cali:  (602) 386 00 80",
+        "url": "tel: (602) 386 00 80 ",
+        "nameClass": "",
+        "state": "A",
+        "order": 3,
+        "footerCategory": 4
+      },
+      {
+        "id": 23,
+        "nameOption": "Barranquilla:  (605) 319 79 99",
+        "url": "tel: (605) 319 79 99",
+        "nameClass": "",
+        "state": "A",
+        "order": 4,
+        "footerCategory": 4
+      },
+      {
+        "id": 24,
+        "nameOption": "Cartagena:  (605) 642 49 99",
+        "url": "tel: (605) 642 49 99",
+        "nameClass": "",
+        "state": "A",
+        "order": 5,
+        "footerCategory": 4
+      },
+      {
+        "id": 25,
+        "nameOption": "WhatsApp:  +57 310 220 55 75",
+        "url": "tel: +57 310 220 55 75",
+        "nameClass": "",
+        "state": "A",
+        "order": 6,
+        "footerCategory": 4
+      },
+      {
+        "id": 27,
+        "nameOption": "Videoasesoría: Comunícate desde cualquier país.",
+        "url": "https://www.proteccion.com/contenidos/canales/videoasesoria/?utm_source=nuevoportal&utm_medium=referral&utm_campaign=ServiciosDigitales&utm_term=videoasesoria&utm_content=videoasesoria_footer",
+        "nameClass": "",
+        "state": "A",
+        "order": 7,
+        "footerCategory": 4
+      },
+      {
+        "id": 26,
+        "nameOption": "Resto del país desde una línea fija al:  01 8000 52 8000",
+        "url": "tel: 01 8000 52 8000",
+        "nameClass": "",
+        "state": "A",
+        "order": 8,
+        "footerCategory": 4
+      }
+    ]
+  }
+]

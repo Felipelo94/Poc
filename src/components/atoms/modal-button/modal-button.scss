@@ -1,0 +1,212 @@
+@import "../../../assets/styles/variables.scss";
+
+html.embed {
+  overflow: scroll !important;
+}
+
+.modal-button-container {
+  width: 146px;
+  height: 48px;
+  -webkit-box-shadow: 0px 4px 5px rgba(149, 150, 153, 0.14),
+    0px 1px 10px rgba(149, 150, 153, 0.12), 0px 2px 4px rgba(149, 150, 153, 0.2);
+  box-shadow: 0px 4px 5px rgba(149, 150, 153, 0.14),
+    0px 1px 10px rgba(149, 150, 153, 0.12), 0px 2px 4px rgba(149, 150, 153, 0.2);
+  border-radius: 4px 4px 0px 0px;
+  font-family: $secondary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: $base-blue;
+  position: fixed;
+  right: 379px;
+  bottom: 0;
+  float: left;
+  z-index: 7;
+  visibility: visible;
+  cursor: pointer;
+  &-text {
+    width: 89px;
+  }
+
+  &-sticky {
+    width: 146px;
+    height: 48px;
+    background: white;
+    -webkit-box-shadow: 0px 4px 5px rgba(149, 150, 153, 0.14),
+      0px 1px 10px rgba(149, 150, 153, 0.12),
+      0px 2px 4px rgba(149, 150, 153, 0.2);
+    box-shadow: 0px 4px 5px rgba(149, 150, 153, 0.14),
+      0px 1px 10px rgba(149, 150, 153, 0.12),
+      0px 2px 4px rgba(149, 150, 153, 0.2);
+    border-radius: 4px 4px 0px 0px;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: $base-blue;
+    position: relative;
+    float: right;
+    right: 379px;
+    bottom: 0px;
+    z-index: 7;
+    top: -48px;
+    visibility: visible;
+    cursor: pointer;
+  }
+
+  &-internassticky {
+    width: 146px;
+    height: 48px;
+    background: white;
+    -webkit-box-shadow: 0px 4px 5px rgba(149, 150, 153, 0.14),
+      0px 1px 10px rgba(149, 150, 153, 0.12),
+      0px 2px 4px rgba(149, 150, 153, 0.2);
+    box-shadow: 0px 4px 5px rgba(149, 150, 153, 0.14),
+      0px 1px 10px rgba(149, 150, 153, 0.12),
+      0px 2px 4px rgba(149, 150, 153, 0.2);
+    border-radius: 4px 4px 0px 0px;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: $base-blue;
+    position: absolute;
+    float: right;
+    right: 379px;
+    bottom: 0px;
+    top: -48px;
+    z-index: 7;
+    visibility: visible;
+    cursor: pointer;
+  }
+
+  &-image {
+    margin: 9px;
+  }
+  &-parrafo {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    margin: 0px;
+  }
+}
+.btn-realizar {
+  width: 100%;
+  background: $base-yellow;
+  border-radius: 4px;
+  height: 40px;
+  font-family: $secondary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: $base-blue;
+  border: none;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+@-webkit-keyframes fade-in-button {
+  from {
+    top: 250%;
+  }
+
+  to {
+    top: 83%;
+  }
+}
+
+@keyframes fade-in-button {
+  from {
+    top: 250%;
+  }
+
+  to {
+    top: 83%;
+  }
+}
+
+@-webkit-keyframes fade-out-button {
+  from {
+    bottom: 250px;
+  }
+
+  to {
+    bottom: 2px;
+  }
+}
+
+@keyframes fade-out-button {
+  from {
+    bottom: 250px;
+  }
+
+  to {
+    bottom: 2px;
+  }
+}
+.encuesta-mobile {
+  display: none;
+}
+
+@media (min-width: $desktop-small-width) {
+  .encuesta-mobile-img {
+    display: none;
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .modal-button-container-image {
+    display: none;
+  }
+  .encuesta-mobile {
+    position: fixed;
+    right: 0;
+    bottom: 125px;
+    margin-right: 16px;
+    float: left;
+    display: block;
+    visibility: visible;
+    & > img {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  .modal-button-container-text {
+    display: none;
+  }
+
+  .modal-button-container {
+    display: none;
+    &-sticky {
+      display: none;
+    }
+
+    &-internassticky {
+      display: none;
+    }
+  }
+}

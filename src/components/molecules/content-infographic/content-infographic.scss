@@ -1,0 +1,58 @@
+@import "../../../assets/styles/variables.scss";
+.container-content {
+  &-infographic {
+    margin: 0px 98px;
+    &-img {
+      text-align: center;
+      &-value {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  &-calltoaction {
+    margin: 0px 98px;
+    margin-top: 56px;
+    margin-bottom: 45px;
+    & > .call-to-action-container {
+      width: auto !important;
+    }
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .container-content {
+    &-infographic {
+      margin: 0px;
+      &-img {
+        &-value {
+          width: 768px;
+        }
+      }
+    }
+    &-calltoaction {
+      margin: 32px 16px 45px 16px;
+    }
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .container-content-infographic {
+    &-img {
+      &-value {
+        width: 360px;
+      }
+    }
+  }
+}
+
+@media (max-width: $mobile-small-width) {
+  .container-content-infographic {
+    &-img {
+      &-value {
+        width: 320px;
+      }
+    }
+  }
+}

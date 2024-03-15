@@ -1,0 +1,312 @@
+@import "../../../assets/styles/variables.scss";
+
+.conatiner-best-menu {
+  margin: 17px auto;
+  @media (min-width: "1500px") {
+    margin: auto;
+  }
+
+  & > #tabs-menu-best-inversion {
+    & > .MuiTabs-scroller {
+      & > .MuiTabs-flexContainer {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-left: 104px;
+        margin-right: 104px;
+
+        & > .MuiTab-root {
+          border-bottom: 1px $light-border solid !important;
+          padding: 16px 30px;
+          font-family: $secondary-font !important;
+          font-style: normal !important;
+          font-weight: 500 !important;
+          font-size: 15px;
+          line-height: 20px !important;
+          display: flex !important;
+          display: -webkit-box !important;
+          display: -ms-flexbox !important;
+          -webkit-box-align: center !important;
+          -ms-flex-align: center !important;
+          align-items: center !important;
+          -webkit-align-items: center !important;
+          text-align: center !important;
+          -webkit-box-pack: center !important;
+          -ms-flex-pack: center !important;
+          justify-content: center !important;
+          text-transform: none !important;
+          color: $dark-text !important;
+          min-height: 52px !important;
+          @media (max-width: $desktop-small-width) {
+            min-height: 52px !important;
+          }
+        }
+
+        & > .Mui-selected {
+          padding: 16px 30px;
+          font-family: $secondary-font !important;
+          font-style: normal !important;
+          font-weight: bold !important;
+          font-size: 15px;
+          line-height: 20px !important;
+          -webkit-box-align: center !important;
+          -ms-flex-align: center !important;
+          align-items: center !important;
+          text-align: center !important;
+          color: $dark-text !important;
+          display: flex !important;
+          display: -webkit-box !important;
+          display: -ms-flexbox !important;
+          -webkit-align-items: center !important;
+          -webkit-box-pack: center !important;
+          -ms-flex-pack: center !important;
+          justify-content: center !important;
+          text-transform: none !important;
+          background: $light-background !important;
+          -webkit-box-orient: vertical !important;
+          -webkit-box-direction: normal !important;
+          -ms-flex-direction: column !important;
+          flex-direction: column !important;
+          min-height: 52px !important;
+
+          @media (max-width: $desktop-small-width) {
+            min-height: 52px !important;
+          }
+        }
+      }
+    }
+  }
+  & > .MuiTabs-root {
+    & > .MuiTabs-scroller {
+      & > .MuiTabs-flexContainer {
+        & > .MuiTab-root {
+          border-bottom: 1px $light-border solid !important;
+          padding: 16px 30px;
+          font-family: $secondary-font !important;
+          font-style: normal !important;
+          font-weight: 500 !important;
+          font-size: 15px;
+          line-height: 20px !important;
+          display: flex !important;
+          display: -webkit-box !important;
+          display: -ms-flexbox !important;
+          -webkit-box-align: center !important;
+          -ms-flex-align: center !important;
+          align-items: center !important;
+          -webkit-align-items: center !important;
+          text-align: center !important;
+          -webkit-box-pack: center !important;
+          -ms-flex-pack: center !important;
+          justify-content: center !important;
+          text-transform: none !important;
+          color: $gray-text !important;
+          min-height: 52px !important;
+          @media (max-width: $desktop-small-width) {
+            min-height: 52px !important;
+          }
+        }
+
+        & > .Mui-selected {
+          padding: 16px 30px;
+          font-family: $secondary-font !important;
+          font-style: normal !important;
+          font-weight: bold !important;
+          font-size: 15px;
+          line-height: 20px !important;
+          display: flex !important;
+          display: -webkit-box !important;
+          display: -ms-flexbox !important;
+          -webkit-box-align: center !important;
+          -ms-flex-align: center !important;
+          align-items: center !important;
+          -webkit-align-items: center !important;
+          text-align: center !important;
+          -webkit-box-pack: center !important;
+          -ms-flex-pack: center !important;
+          justify-content: center !important;
+          text-transform: none !important;
+          color: $base-blue !important;
+          background: $light-background !important;
+          -webkit-box-orient: vertical !important;
+          -webkit-box-direction: normal !important;
+          -ms-flex-direction: column !important;
+          flex-direction: column !important;
+          min-height: 52px !important;
+
+          @media (max-width: $desktop-small-width) {
+            min-height: 52px !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+#tabs-menu-best {
+  & > .MuiTabs-fixed {
+    span.MuiTabs-indicator {
+      background-color: transparent !important;
+    }
+  }
+  &-inversion {
+    & > .MuiTabs-fixed {
+      span.MuiTabs-indicator {
+        background-color: $base-yellow !important;
+        width: 0px !important;
+      }
+    }
+    & > .MuiTabs-scroller > .MuiTabs-flexContainer > .Mui-selected {
+      font-family: $secondary-font !important;
+      font-style: normal !important;
+      font-weight: bold !important;
+      font-size: 15px;
+      line-height: 20px !important;
+      display: -webkit-box !important;
+      display: -ms-flexbox !important;
+      display: flex !important;
+      -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+      align-items: center !important;
+      text-align: center !important;
+      color: $dark-text !important;
+    }
+  }
+}
+// Tabs
+.tab-set {
+  padding: 20px;
+  border: 1px solid #a5acb1;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.tab-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.tab-list-item {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 12px;
+  text-align: center;
+  cursor: pointer;
+  opacity: 0.5;
+  -webkit-transition: opacity 180ms ease-out;
+  -o-transition: opacity 180ms ease-out;
+  transition: opacity 180ms ease-out;
+  outline: 0; // add focus state for better accessibility
+
+  &:hover,
+  &.is-active {
+    opacity: 1;
+  }
+}
+
+.MuiTabs-root {
+  background: white;
+}
+
+.MuiBox-root-7 {
+  padding: 0 !important;
+}
+
+.MuiBox-root-6 {
+  padding: 0 !important;
+}
+
+.MuiBox-root {
+  padding: 0 !important;
+}
+
+.jss3 {
+  width: 100%;
+}
+
+.jss8 {
+  width: 100%;
+}
+
+.jss5 {
+  width: 100%;
+}
+
+@media (max-width: $desktop-small-width) {
+  .MuiButtonBase-root {
+    width: 100% !important;
+  }
+  .MuiTabs-flexContainer {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+    margin: 0 !important;
+  }
+
+  .jss3 {
+    width: 100%;
+  }
+
+  .jss8 {
+    width: 100%;
+  }
+
+  .jss5 {
+    width: 100%;
+  }
+
+  #tabs-menu-best {
+    & > .MuiTabs-fixed {
+      & > span {
+        background-color: transparent !important;
+      }
+    }
+  }
+
+  #tabs-menu-best-inversion > .MuiTabs-fixed span.MuiTabs-indicator {
+    background-color: transparent !important;
+  }
+
+  #container-canales {
+    & > #layout-main {
+      & > main {
+        & > #container-canales-bread-best-menu {
+          & > div {
+            & > #tabs-menu-best {
+              & > .MuiTabs-fixed {
+                span.MuiTabs-indicator {
+                  background-color: transparent !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .MuiTab-root {
+    max-width: 100% !important;
+  }
+}
+
+#container-canales {
+  & > #layout-main {
+    & > main {
+      & > #container-canales-bread-best-menu {
+        & > div {
+          & > #tabs-menu-best {
+            & > .MuiTabs-fixed {
+              span.MuiTabs-indicator {
+                background-color: $base-blue !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

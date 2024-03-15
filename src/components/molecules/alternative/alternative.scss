@@ -1,0 +1,45 @@
+@import "../../../assets/styles/variables.scss";
+.container-alternative {
+  display: flex;
+  flex-direction: column;
+  margin: 48px 128px;
+  &-item {
+    &-title {
+      box-sizing: border-box;
+      border-radius: 2px;
+      font-family: $primary-font;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      line-height: 25px;
+      color: $gray-text;
+      padding: 12px 12px;
+      display: flex;
+      cursor: pointer;
+    }
+  }
+  &-item:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .container-alternative {
+    margin: 16px 8px 29px 8px;
+    &-item {
+      &-title {
+        box-sizing: border-box;
+        border-radius: 2px;
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+        color: $gray-text;
+        padding: 10px 12px;
+        display: flex;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,321 @@
+@import "../../../assets/styles/variables.scss";
+
+h1 {
+  margin-bottom: 0px;
+}
+
+.btnNextWelcome {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.titleWelcome {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 38px;
+  color: $base-blue;
+}
+
+.titleWelcome-home {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 38px;
+  color: #000000;
+
+  @media screen and (max-width: $responsive-width) {
+    margin-top: 10px;
+  }
+}
+
+.description {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: $gray-text;
+}
+
+.welcome-alert-info {
+  background: #ebf6fd;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 16px;
+  &__message {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    color: #224b77;
+    margin: 7px 8px;
+  }
+  &__icon {
+    height: 24px;
+    width: 100%;
+    max-width: 24px;
+    margin-top: 5px;
+    margin-left: 5px;
+    & path {
+      fill: #2d6b9c;
+    }
+  }
+}
+
+.subTitle {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 29px;
+  color: $dark-text;
+  margin-top: 0px;
+  margin-bottom: 14px;
+}
+
+.labelWelcome {
+  font-family: $secondary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  color: $gray-text;
+  margin-right: 15px;
+  padding: 10px 0px;
+}
+
+.inputName {
+  width: 359px;
+  height: 40px;
+  background: white;
+  border: 1px solid $light-border;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 2px;
+  padding: 9.5px 15px 12.5px;
+  font-family: $secondary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.inputName:focus {
+  outline: none !important;
+  border-color: $border-blue;
+  -webkit-box-shadow: 0 0 10px $border-blue;
+  box-shadow: 0 0 10px $border-blue;
+}
+
+.inputNameValue {
+  width: 100%;
+}
+
+.inputName::-webkit-input-placeholder {
+  width: 214px;
+  height: 19px;
+  color: $gray-text;
+}
+
+.inputName::-moz-placeholder {
+  width: 214px;
+  height: 19px;
+  color: $gray-text;
+}
+
+.inputName:-ms-input-placeholder {
+  width: 214px;
+  height: 19px;
+  color: $gray-text;
+}
+
+.inputName::-ms-input-placeholder {
+  width: 214px;
+  height: 19px;
+  color: $gray-text;
+}
+
+.inputName::placeholder {
+  width: 214px;
+  height: 19px;
+  color: $gray-text;
+}
+
+.btnType {
+  background-color: transparent;
+  border: none;
+}
+
+.containerType {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 22px;
+}
+
+.errorLabel {
+  font-family: $secondary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #e62323;
+}
+
+.lineaAux {
+  height: 1px;
+  width: 728px;
+  background-color: white;
+}
+
+@media only screen and (max-width: 728px) {
+  .lineaAux {
+    display: none;
+    max-width: 359px;
+  }
+}
+
+.containerWelcomToltip {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.containerWelcomComponent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.conatinerInput {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.containerWelcomButton {
+  margin: 0px 16px;
+}
+
+@media (max-width: $desktop-small-width) {
+  .btnNextWelcome {
+    padding-left: 0px;
+  }
+  .titleWelcome {
+    font-size: 30px;
+    line-height: 34px;
+    padding-bottom: 0px;
+    padding-top: 24px;
+  }
+
+  .containerWelcomComponent {
+    width: 100%;
+  }
+
+  .subTitle {
+    margin-bottom: 24px;
+  }
+
+  .inputName {
+    width: 330px;
+  }
+  .description {
+    margin-bottom: 12px;
+    margin-top: 12px;
+  }
+  .welcome-alert-info {
+    margin-bottom: 24px;
+  }
+  .labelWelcome {
+    width: 100%;
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    margin-bottom: 8px;
+    padding: 0px;
+  }
+
+  .containerType {
+    width: 100%;
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+    margin-bottom: 32px;
+    margin-top: 8px;
+  }
+
+  .conatinerInput {
+    width: 100%;
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+
+  .containerName {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    width: 100%;
+  }
+
+  .containerWelcomButton {
+    margin-top: 20px;
+    margin-left: 0px;
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+    width: 100%;
+  }
+
+  .marginContainer {
+    padding-bottom: 24px;
+  }
+}
+.person-type-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 450px) {
+  .inputName {
+    width: 100%;
+  }
+  .marginContainer {
+    padding-bottom: 0px;
+    & > .labelWelcome {
+      margin-bottom: 4px;
+    }
+  }
+}
+
+#description-welcome {
+  white-space: pre-wrap;
+}

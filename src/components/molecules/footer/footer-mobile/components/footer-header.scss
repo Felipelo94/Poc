@@ -1,0 +1,26 @@
+@import "../../../../../assets/styles/variables.scss";
+@import "../../../../../assets/styles/global.scss";
+
+.footer-mobile {
+  &__header {
+    position: relative;
+    height: 50px;
+    background-color: $base-yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 48px;
+    .footer-socials {
+      height: 24px;
+      width: 24px;
+      margin-right: 56px;
+      &:last-child {
+        margin-right: 0px;
+      }
+      &__img {
+        height: 24px;
+        width: 24px;
+      }
+    }
+  }
+}

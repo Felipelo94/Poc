@@ -1,0 +1,9 @@
+@import "../../../assets/styles/variables.scss";
+
+.container-home {
+  background: $light-background;
+
+  @media screen and (max-width: $responsive-width) {
+    background: #fff;
+  }
+}

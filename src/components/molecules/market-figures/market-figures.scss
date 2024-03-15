@@ -1,0 +1,102 @@
+@import "../../../assets/styles/variables.scss";
+
+.container-market-figures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 8px 100px 32px 120px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  &-list {
+    flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 48px;
+  }
+
+  &-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 16px;
+    &-img {
+      width: 50%;
+      height: 450px;
+    }
+  }
+
+  &-end {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 50%;
+    & > .container-alert {
+      & > .container-alert-titulo {
+        width: 100%;
+        font-family: $secondary-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 22px;
+        color: $dark-text;
+      }
+    }
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .container-market-figures {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 32px 0px 32px 0px;
+    padding: 0px 16px;
+    &-list {
+      height: 100%;
+      margin-bottom: 0px;
+      margin-left: 16px;
+      margin-right: 16px;
+    }
+    &-content {
+      margin-bottom: 0px;
+      &-img {
+        display: none;
+      }
+    }
+    &-end {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      & > .container-alert {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        margin: 0px 16px;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        & > .container-alert-image {
+          & > .container-alert-image-res {
+            & > .container-alert-image-value {
+              margin-right: 16px !important;
+            }
+          }
+        }
+        & > .container-alert-titulo {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+@import "../../../assets/styles/variables.scss";
+
+.call-to-action-container {
+  width: 100%;
+  padding: 48px 0px;
+  &-description {
+    margin-bottom: 26px;
+  }
+  &-link {
+    text-decoration: none;
+  }
+  &-button {
+    display: inline-block;
+  }
+}
+
+.call-to-action-container-superior {
+  padding: 0px !important;
+}
+
+@media (max-width: $desktop-small-width) {
+  .call-to-action-container {
+    margin: 0px;
+    width: 100%;
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */ /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox; /* TWEENER - IE 10 */ /* NEW - Chrome */
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    &-description {
+      margin-bottom: 26px;
+      width: 100%;
+    }
+    &-button {
+      display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */ /* OLD - Firefox 19- (buggy but mostly works) */
+      display: -ms-flexbox; /* TWEENER - IE 10 */ /* NEW - Chrome */
+      display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+    }
+  }
+}

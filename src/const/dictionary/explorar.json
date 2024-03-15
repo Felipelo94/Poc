@@ -1,0 +1,12 @@
+[
+  {
+    "titulo": "Privilegios Protección",
+    "url": "https://www.proteccion.com/wps/portal/proteccion/web/privilegios-proteccion/",
+    "classGtm": "gtmHomeMenuPrivilegiosProteccion"
+  },
+  {
+    "titulo": "Talento Sí Hay",
+    "url": "/talento-si-hay/",
+    "classGtm": "gtmHomeMenuTalentoSiHay"
+  }
+]

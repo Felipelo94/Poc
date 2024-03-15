@@ -1,0 +1,208 @@
+@import "../../../assets/styles/variables.scss";
+
+.content-solutions-container {
+  & > .container-modal {
+    right: 0px;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    & > .container-modal-content {
+      & > .container-modal-content-header {
+        height: 20px;
+        padding: 28px 14px 5px 0;
+      }
+      & > .container-modal-content-body {
+        background: white;
+        padding-top: 0px;
+        padding-left: 56px;
+        padding-right: 56px;
+      }
+    }
+  }
+
+  &-banner {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 19px;
+    position: relative;
+    & > img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &-info {
+    margin-top: 48px;
+    margin-left: 130px;
+    margin-right: 130px;
+    &-descripcion-titulo {
+      font-family: $primary-font;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 34px;
+    }
+    &-descripcion-corta {
+      margin-top: 16px;
+      margin-bottom: 32px;
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 22px;
+    }
+  }
+  &-title {
+    margin-top: 64px;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-bottom: 16px;
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 34px;
+  }
+  &-step-by-step {
+    background: $light-background;
+    background-size: 100%;
+    & > div {
+      margin: 0px 24px;
+    }
+  }
+  &-alert {
+    border-bottom: 1px solid #dfdfdf;
+    padding: 48px 196px;
+  }
+  &-call-to-action {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 48px 131px 32px 131px;
+    border-bottom: 1px solid #dfdfdf;
+    &-text {
+      width: 544px;
+      margin-right: 145px;
+    }
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .content-solutions-container {
+    & > .container-modal {
+      & > .container-modal-content {
+        & > .container-modal-content-header {
+          padding: 14px 0px 5px 0;
+        }
+        & > .container-modal-content-body {
+          padding-left: 16px;
+          padding-right: 16px;
+        }
+      }
+    }
+
+    &-info {
+      margin-top: 32px;
+      margin-left: 17px;
+      margin-right: 17px;
+    }
+    &-video {
+      margin: 0px !important;
+    }
+    &-title {
+      margin-top: 24px;
+      margin-left: 17px;
+      margin-bottom: 24px !important;
+      margin-right: 17px;
+    }
+    &-alert {
+      margin: 0px 16px;
+      padding: 0px;
+      border-bottom: 1px solid transparent;
+      padding-bottom: 48px;
+    }
+    &-call-to-action {
+      padding: 0px;
+      border-bottom: 1px solid transparent;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+      flex-direction: column-reverse;
+      &-text {
+        width: auto;
+        margin-right: 0px;
+        padding: 0px 16px;
+      }
+      &-image {
+        & > img {
+          width: 250px;
+          height: 250px;
+        }
+      }
+    }
+  }
+
+  .content-solutions-container-step-by-step {
+    & > div {
+      margin: 0px;
+    }
+  }
+}
+
+@media (min-width: $desktop-small-width) {
+  .container-alert-titulo-blue {
+    & > div {
+      margin-top: 24px;
+      margin-right: 24px;
+    }
+  }
+}
+.move {
+  -webkit-animation: moveDiv 0.5s ease-in; /* Safari 4+ */ /* Fx 5+ */ /* Opera 12+ */
+  animation: moveDiv 0.5s ease-in;
+}
+@-webkit-keyframes moveDiv {
+  from {
+    right: -789px;
+  }
+  to {
+    right: 0px;
+  }
+}
+
+@keyframes moveDiv {
+  from {
+    right: -789px;
+  }
+  to {
+    right: 0px;
+  }
+}
+@-webkit-keyframes moveDivR {
+  from {
+    right: 0px;
+  }
+  to {
+    right: -789px;
+  }
+}
+
+@keyframes moveDivR {
+  from {
+    right: 0px;
+  }
+  to {
+    right: -789px;
+  }
+}

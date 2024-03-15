@@ -1,0 +1,43 @@
+.like-container-share {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 98px;
+
+  &__share {
+    position: relative;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-share-options {
+    position: absolute;
+    right: 0;
+    bottom: 80px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .like-container-share {
+    margin: 0px 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .like-container-share {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 614px) {
+  .like-container-share {
+    .container-internal-content-componente-share {
+      margin-top: 0;
+    }
+  }
+}

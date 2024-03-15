@@ -1,0 +1,348 @@
+@import '../../../assets/styles/variables.scss';
+
+.table-container {
+  border: 1px solid #e0dede;
+  border-top: 5px solid $base-yellow;
+  border-radius: 7px;
+  padding: 12px;
+  padding-top: 0;
+  margin-bottom: 32px;
+  .col-column-2 {
+    padding: 0;
+    margin-left: 10px;
+  }
+  .table-header {
+    background-color: white;
+    position: sticky;
+    top: 68px;
+    z-index: 3;
+    height: 100px;
+    border-bottom: 1px solid #e0dede;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .title-colum1 {
+    font-size: 0.813rem;
+    font-family: $secondary-font;
+    color: $gray-text;
+    margin-left: 74px;
+    margin-top: 45px;
+  }
+  .title-colum1-fixed {
+    font-size: 0.813rem;
+    font-family: $secondary-font;
+    color: $gray-text;
+    margin-left: 120px;
+    margin-top: 45px;
+  }
+  .title-column2 {
+    text-align: center;
+    margin-bottom: 7px;
+    color: $gray-text;
+    font-size: 0.813rem;
+    font-family: $secondary-font;
+  }
+  .subcolumns-column2 {
+    margin-bottom: 25px;
+    margin-top: 10px;
+    .title-subcolumns-column1 {
+      text-align: center;
+      margin-left: 2px;
+      margin-top: 7px;
+      font-size: 0.813rem;
+      font-family: $secondary-font;
+      color: $gray-text;
+    }
+    .title-subcolumns-column2 {
+      margin-top: 7px;
+      text-align: center;
+      font-size: 0.813rem;
+      font-family: $secondary-font;
+      color: $gray-text;
+    }
+    .title-subcolumns-column3 {
+      text-align: left;
+      font-size: 0.813rem;
+      font-family: $secondary-font;
+      color: $gray-text;
+      padding: 0;
+      margin-left: 20px;
+    }
+  }
+  .title-column3 {
+    font-size: 0.813rem;
+    font-family: $secondary-font;
+    color: $gray-text;
+    text-align: left;
+    margin-top: 25px;
+    .first-title {
+      margin-left: 108px;
+    }
+    .second-title {
+      margin-left: 108px;
+    }
+  }
+  hr {
+    border-top: 1px solid #e0dede;
+  }
+  .table-rentabilidades {
+    max-width: 1240px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 32px;
+    .cells-colum2 {
+      margin-top: 12px;
+      text-align: center;
+      width: 100%;
+    }
+    .cells-table {
+      font-size: 0.938rem;
+      font-family: $secondary-font;
+      color: $dark-text;
+    }
+    svg {
+      path {
+        fill: $dark-gray;
+      }
+    }
+    .table {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+    }
+    .rdt_TableRow:nth-child(odd) {
+      background-color: $light-background;
+    }
+  }
+}
+.card-container{
+  padding: 20px;
+  padding-top: 0;
+  margin-bottom: 32px;
+  .regresar-button{
+    padding: 12px;
+    padding-top: 0;
+    margin-bottom: 32px;
+    width: 100%;
+    border: 1px solid $dark-text;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 40px;
+    background-color: #fff;
+    margin-top: 40px;
+    .button-text{
+      margin-top: 10px;
+      font-size: 16px;
+      font-family: $secondary-font;
+      line-height: 24px;
+    }
+  }
+  .card-container-title{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: $primary-font;
+  }
+  .card-container-description{
+    font-size: 15px;
+    font-family: $secondary-font;
+    line-height: 22px
+  }
+  hr{
+    border-top: 1px solid $light-border;
+    margin-top: 30px;
+    margin-bottom: 30px
+  }
+}
+.wrap {
+  //text-align: left;
+  padding: 20px;
+  position: relative;
+  background-color: $light-background;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.links {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  font-family: $secondary-font;
+  font-size: 0.938rem;
+  line-height: 22px;
+  color: $dark-text;
+  font-weight: normal;
+}
+.dot {
+  width: 2px;
+  height: auto;
+  margin-left: 30px;
+  margin-right: 30px;
+  background: $light-border;
+}
+
+.historic-tooltip {
+  color: #fff !important;
+  font-size: 13px !important;
+  background-color: $dark-text !important;
+  width: 310px;
+  height: 68px;
+  text-align: left;
+}
+
+.benchmark-header-tooltip {
+  color: #fff !important;
+  font-size: 13px !important;
+  background-color: $dark-text !important;
+  width: 320px;
+  height: 70px;
+  text-align: left;
+}
+
+@media (max-width: 1078px) {
+  .table-container {
+    .subcolumns-column2 {
+      .title-subcolumns-column1 {
+        padding: 0;
+      }
+      .title-subcolumns-column3 {
+        margin-left: 10px;
+      }
+    }
+    .title-column3 {
+      .first-title {
+        margin-left: 80px;
+      }
+      .second-title {
+        margin-left: 80px;
+      }
+    }
+  }
+  .wrap {
+    background-color: $light-background;
+    text-align: left;
+    margin: 20px;
+    position: relative;
+  }
+  .links {
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    font-family: $secondary-font;
+    font-size: 0.938rem;
+    line-height: 22px;
+    color: $dark-text;
+    font-weight: normal;
+  }
+  .dot {
+    width: 2px;
+    height: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    background: $light-border;
+  }
+}
+
+@media (min-width: 1500px) {
+  .table-container {
+    max-width: 1280px;
+    margin: auto;
+    width: 100%;
+  }
+  .row-header {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+  }
+}
+
+@media (max-width: 1500px) {
+  .table-container {
+    max-width: 1280px;
+    margin: 0px 98px;
+    .title-colum1 {
+      margin-left: 78px;
+    }
+    .row-header {
+      max-width: 1280px;
+      height: 100%;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .table-container {
+    max-width: 1280px;
+    margin: 0px 15px;
+    .row-header {
+      max-width: 1280px;
+      margin: 0px 15px;
+      height: 100%;
+      //width: 100%;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .card-border-bottom {
+    border-bottom: 1px solid $light-border;
+  }
+  .card-margin-bottom {
+    margin-bottom: 20px;
+  }
+  .title-responsive {
+    color: $dark-text;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    font-family: $secondary-font;
+  }
+  .subtitle-responsive {
+    color: $gray-text;
+    font-weight: 600;
+    line-height: 19px;
+    font-size: 13px;
+    font-family: $secondary-font;
+  }
+
+  .cell-responsive {
+    text-align: right;
+    color: $dark-text;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: $secondary-font;
+    line-height: 19px;
+  }
+
+  .subtitle-link-responsive {
+    margin-top: -5px;
+    color: $dark-text;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    font-family: $secondary-font;
+    text-decoration-line: underline;
+    border: none;
+    background: none;
+    margin-bottom: 11px;
+    margin-left: -6px;
+  }
+  .card-margin-top {
+    margin-top: 18px;
+  }
+}
+
+@media (max-width: 335px) {
+  .historic-tooltip {
+    width: 270px;
+    height: 92px;
+  }
+
+  .benchmark-header-tooltip {
+    width: 270px;
+    height: 100px;
+  }
+}

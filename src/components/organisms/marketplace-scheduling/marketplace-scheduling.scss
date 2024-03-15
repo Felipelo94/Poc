@@ -1,0 +1,26 @@
+@import "../../../assets/styles/variables.scss";
+@import "../../../assets/styles/mixins.scss";
+
+.marketplace-scheduling {
+  padding: 0 113px 56px 113px;
+  max-width: 1366px;
+  margin: -35px auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  column-gap: 32px;
+
+  @include to($responsive-width) {
+    padding: 48px 16px;
+    justify-content: center;
+  }
+
+  &__salesforce {
+    width: 675px;
+  }
+
+  &__salesforce-image {
+    @include to($responsive-width) {
+      display: none;
+    }
+  }
+}

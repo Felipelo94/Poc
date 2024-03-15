@@ -1,0 +1,1758 @@
+{
+  "allContentfulContenido": {
+    "edges": [
+      {
+        "node": {
+          "titulo": "¿Por qué no estoy cumpliendo mi objetivo personal?",
+          "tipoDeCliente": [
+            { "nombre": "Afiliado", "contentful_id": "3XCf8zuzh5bGWNcuvFBuwx" }
+          ],
+          "tituloCorto": "¿Estoy cumpliendo mi objetivo personal?",
+          "textoCierre": null,
+          "categoriaCliente": null,
+          "subtitulo": null,
+          "descripcioncorta": "Cuando hablamos de objetivos financieros que involucran hábitos como el ahorro, es muy fácil perder el rumbo; pues las decisiones de consumo inmediato pueden estropear el cumplimiento de los propósitos futuros. ",
+          "linkCallToAction": "https://www.proteccion.com/contenidos/ahorro-mi-reserva/",
+          "textoCallToActionBite": "Quiero conocer más",
+          "textoCallToAction": "Quiero conocer más",
+          "metatittleSeo": "¿Por qué no estoy cumpliendo mi objetivo personal?",
+          "descripcioncalltoaction": "¡Es momento de poner en marcha tus sueños! Conoce las soluciones que tenemos disponibles en Protección para que inicies con tu ahorro.",
+          "tiempoDeLectura": "4",
+          "contentful_id": "5FpgrPZ37ga7vie2nbq6T4",
+          "imagenes": [
+            {
+              "fluid": {
+                "src": "//images.ctfassets.net/y3qdch79qxiw/4VdJJdUOrEMGbtQMFebdKI/393aa8d1df65a29f6892f9d57ee5ba8d/3_Por_qu___no_estoy_cumpliendo_mi_objetivo_personal.png?w=800&q=50"
+              },
+              "file": {
+                "url": "//images.ctfassets.net/y3qdch79qxiw/4VdJJdUOrEMGbtQMFebdKI/393aa8d1df65a29f6892f9d57ee5ba8d/3_Por_qu___no_estoy_cumpliendo_mi_objetivo_personal.png",
+                "fileName": "3 Por qué no estoy cumpliendo mi objetivo personal.png"
+              }
+            }
+          ],
+          "ImagenMobile": null,
+          "infograficoMobile": null,
+          "infografico": null,
+          "cuerpocontenido": {
+            "json": {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Trazarse un objetivo es como hacer una maratón.  A veces se presentan dificultades en el camino que te impiden llegar en el tiempo que te habías propuesto, y te preguntarás: ",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [{ "type": "italic" }],
+                      "value": "¿entrené lo suficiente?",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": " o, ",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [{ "type": "italic" }],
+                      "value": "¿lograré llegar a la meta? \r",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Algo similar ocurre con los ",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "objetivos financieros",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": ". Te propones una meta y puede ser que en el camino tengas algunos obstáculos; de ahí la importancia de elaborar una hoja de ruta que te permita reconocer el terreno por el que te mueves.\r",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Si olvidaste planificar tus ingresos mes a mes, invertiste en productos o servicios que no necesitabas con urgencia o utilizaste el monto del ahorro en un lujo, tienes que estar alerta porque perdiste la confianza en ti mismo y estás lejos de lograr lo que te habías planteado.\r\nCuando no cumples tus objetivos es porque algo falló en el proceso, pero no debería convertirse en un instante de frustración, sino en una ",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "oportunidad para replantear tus metas y trazar un nuevo recorrido.  \r\n",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "Organiza tus ideas\r",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "\r\n",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "heading-6"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Desde el comienzo es necesario planificar lo que quieres conseguir, ",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "planteando objetivos medibles que estén al alcance de tus capacidades.",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": " Se vale soñar en grande, pero es importante tener presente que invertir tiempo es fundamental para el alcance de tus objetivos.\r",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Es un error querer cumplir en un año un propósito que, de acuerdo con tus posibilidades, puedes lograr en tres; la persistencia puede llevarte a la meta, pero debes saber que se llega paso a paso.\r\n\r\n¡Comienza a escribir los propósitos que tienes en mente teniendo claro tu compromiso y disponibilidad para lograrlos!",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "\n",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "Avanza sin mirar atrás",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "heading-6"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "\r\nLa hoja de ruta para llevar a buen término el cumplimiento de lo que sueñas es la mejor herramienta para progresar. Si en el pasado no cumpliste tus metas, deja de culparte por esto y comienza de nuevo. ",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "Siempre es un buen momento para dar el primer paso.\r",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Focaliza el pensamiento en el éxito de tus objetivos e implementa acciones como:\r",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Seguir la pista de tus gastos:",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": " es momento de dar prioridad a tus necesidades y evaluar los gastos secundarios, si tienes metas debes tener claro hacia dónde estarán dirigidos tus ingresos y cómo están aportando a tus propósitos.",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    }
+                  ],
+                  "nodeType": "unordered-list"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Ahorrar:",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": " mes a mes debes disponer recursos para financiar ese sueño que te planteaste, de la constancia que tengas en el hábito del ahorro depende que sea más sencillo llegar a la meta.\r",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    }
+                  ],
+                  "nodeType": "unordered-list"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Ser persistente:",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": " si en el pasado no lograste conseguir tus objetivos con éxito, concentra tu atención en lograrlo esta vez. Busca un método para organizar tus ingresos y revisa mes a mes tu plan financiero.\r",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    }
+                  ],
+                  "nodeType": "unordered-list"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Mejorar tu productividad: ",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": "si tus recursos actuales no son suficientes para destinar un monto al fondo de ahorro, debes buscar una fuente adicional de ingresos. Revisa tus talentos y utilízalos a favor de tus sueños.\r",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    }
+                  ],
+                  "nodeType": "unordered-list"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Encontrar mentores:",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": " rodearnos de personas que están comprometidas con sus objetivos será una posibilidad de aprender. Pregunta, observa y adapta las experiencias exitosas a tu hoja de ruta.\r",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    }
+                  ],
+                  "nodeType": "unordered-list"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "\n",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "Sin excusas los objetivos se cumplen",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "heading-6"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "\r\n",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Cuando tenemos excusas es más fácil dejar de asumir la responsabilidad de nuestras acciones, pero si se trata de nuestros propósitos personales nos estaríamos engañando a nosotros mismos. ",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "Deja de posponer lo que sueñas y comienza ahora a mejorar tus hábitos financieros",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": ".",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Las excusas más comunes las puedes transformar en oportunidades:\r",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "No tengo claro lo que quiero: ",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": "escribe lo que tanto deseas y déjalo a la vista, los recordatorios generan una señal de alerta constante que te permitirá ir haciendo una autoevaluación de tus aciertos o errores en el proceso hacia el cumplimiento de tus objetivos.\r",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    }
+                  ],
+                  "nodeType": "unordered-list"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "El sueldo no alcanza para mis sueños:",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": " elabora un plan financiero; organizar tus ingresos y destinarlos por porcentajes de acuerdo a tus necesidades, gastos secundarios, ahorro e inversión es un punto positivo.\r",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    }
+                  ],
+                  "nodeType": "unordered-list"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Tardaré mucho tiempo en conseguirlo: ",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": "nadie dijo que de la noche a la mañana lograrás todo lo que quieres, pero si organizas en un cronograma las acciones diarias para conseguirlo tendrás más posibilidades. Si realmente lo deseas, trabaja duro: reduce los gastos en lujos y destina ese dinero a tu fondo de ahorro.\r",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    }
+                  ],
+                  "nodeType": "unordered-list"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "\n",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                }
+              ],
+              "nodeType": "document"
+            }
+          },
+          "listadoVideos": null,
+          "urlSeo": "ahorro/personas/objetivo-personal",
+          "keywordsSeo": {
+            "keywordsSeo": "ahorro, ahorro digital, proteccion, pensiones y cesantias, ahorro en proteccion, soluciones de ahorro, objetivos de ahorro, metas, finanzas personales, metas financieras"
+          },
+          "metadescripcionSeo": {
+            "metadescripcionSeo": "Cuando hablamos de objetivos financieros que involucran hábitos como el ahorro, es muy fácil perder el rumbo; pues las decisiones de consumo inmediato pueden estropear el cumplimiento de los propósitos futuros. Conoce más:"
+          },
+          "nombreCallToActionTextoCierre": null,
+          "linkCallToActionTextoCierre": null
+        }
+      },
+      {
+        "node": {
+          "titulo": "Oferta en canales de atención para tus colaboradores",
+          "tipoDeCliente": [
+            { "nombre": "Empleador", "contentful_id": "7IF4VrReibXT0Vb13iX3rd" }
+          ],
+          "tituloCorto": "Oferta en canales de atención para tus empleados",
+          "textoCierre": null,
+          "categoriaCliente": null,
+          "subtitulo": null,
+          "descripcioncorta": "Acompañamos a tus colaboradores a través de asesoría y facilidad operativa por medio de diferentes canales",
+          "linkCallToAction": "https://www.proteccion.com/contenidos/canales/?c=2vn2SgPCl0kmJMiXjTU58N",
+          "textoCallToActionBite": "Quiero conocer más",
+          "textoCallToAction": "Quiero conocer más",
+          "metatittleSeo": null,
+          "descripcioncalltoaction": "Te invitamos a conocer con más detalle cada uno de los canales de servicio que tenemos disponibles en Protección:",
+          "tiempoDeLectura": "3",
+          "contentful_id": "1sZQrmIgXQoqjbUHuTCcdU",
+          "imagenes": [
+            {
+              "fluid": {
+                "src": "//images.ctfassets.net/y3qdch79qxiw/4s1e0fL73w7QEuvO7hLHmI/2212eaecc81e176738eb8837ef9a44e4/oferta_de_canales_colaboradores.png?w=800&q=50"
+              },
+              "file": {
+                "url": "//images.ctfassets.net/y3qdch79qxiw/4s1e0fL73w7QEuvO7hLHmI/2212eaecc81e176738eb8837ef9a44e4/oferta_de_canales_colaboradores.png",
+                "fileName": "oferta de canales colaboradores.png"
+              }
+            }
+          ],
+          "ImagenMobile": null,
+          "infograficoMobile": null,
+          "infografico": null,
+          "cuerpocontenido": {
+            "json": {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "¡Cuéntales a tus colaboradores las diferentes opciones de servicio y autogestión que tenemos disponible para ellos!",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {
+                    "target": {
+                      "sys": {
+                        "space": {
+                          "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "y3qdch79qxiw"
+                          }
+                        },
+                        "id": "c6HRiGJ7XNuu38k1UbVEWM6",
+                        "type": "Asset",
+                        "createdAt": "2020-09-28T21:44:44.453Z",
+                        "updatedAt": "2020-09-28T21:44:44.454Z",
+                        "environment": {
+                          "sys": {
+                            "id": "master",
+                            "type": "Link",
+                            "linkType": "Environment"
+                          }
+                        },
+                        "revision": 1
+                      },
+                      "fields": {
+                        "title": {
+                          "en-US": "Oferta en canales de atención para tus colaboradores"
+                        },
+                        "file": {
+                          "en-US": {
+                            "url": "//images.ctfassets.net/y3qdch79qxiw/6HRiGJ7XNuu38k1UbVEWM6/0aa25ca2a366b1d06d15231b2da4a958/canales_para_colaboradores.PNG",
+                            "details": {
+                              "size": 35920,
+                              "image": { "width": 855, "height": 509 }
+                            },
+                            "fileName": "canales para colaboradores.PNG",
+                            "contentType": "image/png"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "content": [],
+                  "nodeType": "embedded-asset-block"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    { "data": {}, "marks": [], "value": "", "nodeType": "text" }
+                  ],
+                  "nodeType": "paragraph"
+                }
+              ],
+              "nodeType": "document"
+            }
+          },
+          "listadoVideos": null,
+          "urlSeo": "empresas/oferta-canales-de-servicio-para-tus-colaboradores",
+          "keywordsSeo": null,
+          "metadescripcionSeo": null,
+          "nombreCallToActionTextoCierre": null,
+          "linkCallToActionTextoCierre": null
+        }
+      },
+      {
+        "node": {
+          "titulo": "¿Cómo está tu salud financiera?",
+          "tipoDeCliente": [
+            { "nombre": "Afiliado", "contentful_id": "3XCf8zuzh5bGWNcuvFBuwx" }
+          ],
+          "tituloCorto": "¿Cómo está tu salud financiera?",
+          "textoCierre": null,
+          "categoriaCliente": [
+            {
+              "descripcion": "Ahorro",
+              "contentful_id": "OIt5hRcdoEEWhNaiH2S1B",
+              "lineadenegocio": [{ "nombre": "Pensiones Voluntarias" }]
+            }
+          ],
+          "subtitulo": null,
+          "descripcioncorta": "Este diagnóstico se trata, básicamente, de sumar y restar. No toma mucho tiempo y allí podrás encontrar cosas inesperadas que te permitirán saber cómo está tu situación financiera y qué medidas tomar para tener el control y mejorarla.",
+          "linkCallToAction": "https://www.proteccion.com/contenidos/ahorro-mi-reserva",
+          "textoCallToActionBite": "Quiero conocer más",
+          "textoCallToAction": "Quiero conocerlas",
+          "metatittleSeo": null,
+          "descripcioncalltoaction": "En Protección contamos con expertos que pueden acompañarte para tomar las mejores decisiones. ¡Inicia hoy mismo tu ahorro con Protección! Conoce las diferentes Soluciones que tenemos para ti:",
+          "tiempoDeLectura": "5",
+          "contentful_id": "7pNuC0N7n4dcWs1G2Ien02",
+          "imagenes": [
+            {
+              "fluid": {
+                "src": "//images.ctfassets.net/y3qdch79qxiw/6hcvNN09lYr74ArWkziaA0/87139f759515ee2908067f1243d21894/1129609347-c___mo-est__-tu-situaci___n-finanaciera.png?w=800&q=50"
+              },
+              "file": {
+                "url": "//images.ctfassets.net/y3qdch79qxiw/6hcvNN09lYr74ArWkziaA0/87139f759515ee2908067f1243d21894/1129609347-c___mo-est__-tu-situaci___n-finanaciera.png",
+                "fileName": "1129609347-cขmo-est -tu-situaciขn-finanaciera.png"
+              }
+            }
+          ],
+          "ImagenMobile": null,
+          "infograficoMobile": null,
+          "infografico": null,
+          "cuerpocontenido": {
+            "json": {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "Identifica tus gastos:",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "heading-6"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "El secreto no está en cuánto te ganas, sino en saber cuánto te gastas y cómo administras tu dinero. El primer paso para ",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "tomar el control de tus finanzas",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": " es hacer un diagnóstico detallado de tus decisiones financieras diarias, en el que debes identificar tus ingresos y gastos, y agruparlos en dos categorías: ",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "Vitales",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": " e ",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "Importantes.",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "VITALES:",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Vivienda",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": " ",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [{ "type": "italic" }],
+                              "value": "(arriendo, crédito, admon, predial)",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    },
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Servicios Públicos",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": " ",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [{ "type": "italic" }],
+                              "value": "(electricidad, gas, agua)",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    },
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Servicios Complementarios",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": " ",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [{ "type": "italic" }],
+                              "value": "(internet, teléfono, TV, Netflix)",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    },
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Alimentación",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": " ",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [{ "type": "italic" }],
+                              "value": "(mercado, comidas, domicilios)",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    },
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Transporte",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [{ "type": "italic" }],
+                              "value": " (taxis, gasolina, Soat, seguros, impuestos, pasajes)",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    },
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Celular ",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [{ "type": "italic" }],
+                              "value": "(plan de datos, crédito, cases)",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    },
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Educación",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [{ "type": "italic" }],
+                              "value": " (propia y de los hijos)",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    }
+                  ],
+                  "nodeType": "unordered-list"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "IMPORTANTES:",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Seguros",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": " ",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [{ "type": "italic" }],
+                              "value": "(salud, medicina)",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    },
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Vestuario",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": " (compra de ropa, sastrería)",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    },
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Deporte",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": " ",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [{ "type": "italic" }],
+                              "value": "(gimnasio, juegos)",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    },
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Entretenimiento",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": " ",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [{ "type": "italic" }],
+                              "value": "(licor, cines, centros comerciales, teatros, fútbol)",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    },
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Compromisos sociales",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [{ "type": "italic" }],
+                              "value": " (cumpleaños, matrimonios, grados)",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    },
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Vacaciones",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    }
+                  ],
+                  "nodeType": "unordered-list"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Una vez hecho esto, ",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "suma el valor de cada uno de tus gastos",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": " vitales e importantes, y ten un total. Además, ",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "suma tus ingresos",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": " ",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [{ "type": "italic" }],
+                      "value": "(salarios, comisiones, ganancias, entre otros)",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": " y ",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "le restas ",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "el total obtenido anteriormente de tus gastos.\r\n\r\nCuando tus ",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [{ "type": "underline" }],
+                      "value": "gastos son mayores a tus ingresos,",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": " esto es lo que conocemos como un ",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "DÉFICIT, ",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "es decir, tienes un nivel de vida que no se ajusta a los ingresos que tienes.\r\n\r\nCuando tus ",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [{ "type": "underline" }],
+                      "value": "ingresos son mayores a tus gastos,",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": " esto es lo que conocemos como un ",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "SUPERÁVIT, ",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "es decir, tienes capacidad de ahorro y si no lo estás haciendo corres el riesgo de que tu superávit se vuelva plata de bolsillo. ",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "¡Para ambos escenarios es importante trazar un plan!\r",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "¿Cómo superar el déficit?",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "heading-6"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "\r\nCuando tus gastos son mayores a tus ingresos, ten en cuenta:\r",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": "Analiza detalladamente ",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "en qué estás gastando tu dinero.",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": " Esto te permitirá identificar cómo puedes disminuir gastos.\r",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    }
+                  ],
+                  "nodeType": "unordered-list"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "¿Dónde estás haciendo tus compras?",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": " busca, compara, razona y después actúa. No compres sin planificar.\r",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    }
+                  ],
+                  "nodeType": "unordered-list"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "¿Tienes créditos? ",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": "¿Qué tan informado estás sobre beneficios bancarios vigentes en el país para el pago de estos?",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    }
+                  ],
+                  "nodeType": "unordered-list"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Responsabilidad en el endeudamiento.",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": " Se considera que, en promedio, una persona o familia no debe endeudarse en más del 30% de sus ingresos fijos, esto puede ocasionar un desequilibrio en su economía. Piensa si la deuda es realmente necesaria.",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    }
+                  ],
+                  "nodeType": "unordered-list"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Calcula el precio de las cosas en términos de tiempo.",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": " Antes de comprar algo divide ese precio por el número de veces que lo vas a usar y su duración en el tiempo, esto te da un costo por uso.",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    }
+                  ],
+                  "nodeType": "unordered-list"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": "Optimiza el uso de los servicios públicos que más puedas.",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    }
+                  ],
+                  "nodeType": "unordered-list"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": "Mensualiza los gastos.",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    }
+                  ],
+                  "nodeType": "unordered-list"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Anota todo lo que gastes:",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": " llevar un control diario o semanal te ayudará a encontrar patrones en tus hábitos de consumo e identificar esos llamados gastos hormiga ",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [{ "type": "italic" }],
+                              "value": "(esos gastos que aparentemente no son representativos, pero que cuando los sumamos vemos el impacto en el bolsillo).",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    }
+                  ],
+                  "nodeType": "unordered-list"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": "Controla los gastos de sostenimiento del hogar.",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    }
+                  ],
+                  "nodeType": "unordered-list"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [{ "type": "bold" }],
+                              "value": "Aprovecha beneficios y programas de apoyo",
+                              "nodeType": "text"
+                            },
+                            {
+                              "data": {},
+                              "marks": [{ "type": "italic" }],
+                              "value": " (congelamiento de créditos, ampliación de plazos, compra de cartera, entre otros)",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    }
+                  ],
+                  "nodeType": "unordered-list"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": "Busca la forma de estabilizar o aumentar tus ingresos por medio de tus talentos o los de tu familia. Identifica necesidades del mercado y cosas por las que otros estén dispuestos a pagar.\r\n",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "list-item"
+                    }
+                  ],
+                  "nodeType": "unordered-list"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "¿Cómo optimizar el Superávit?",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "heading-6"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "\r\nEs posible que hoy algunas personas estén optimizando sus gastos habituales, como lo son el transporte, la gasolina, los domicilios, entre otros. Esto puede convertirse en dinero extra que, bien utilizado, permite ",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "fortalecer la salud financiera.",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "1. ",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Define qué quieres hacer con ese dinero que estás ahorrando y cómo te puede ayudar a cumplir metas.\r Una buena opción es realizar ahorros o inversiones con estos excedentes.\r",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                },
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "2.",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": " Si contabas con ahorros que no estés usando en el momento, piensa en el largo plazo como una opción para obtener una ganancia. En Protección contamos con Soluciones de Ahorro a tu medida para que cumplas tus sueños. ",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {
+                        "uri": "https://www.proteccion.com/contenidos/ahorro-mi-reserva"
+                      },
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "hyperlink"
+                    },
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "",
+                      "nodeType": "text"
+                    },
+                    {
+                      "data": {
+                        "uri": "https://www.proteccion.com/afiliacion/ahorro?utm_source=DestacadoNuevoPortal&utm_medium=Portal&utm_campaign=AfiliacionDigitalAhorro"
+                      },
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [{ "type": "bold" }],
+                          "value": "Conoce más aquí.",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "hyperlink"
+                    },
+                    {
+                      "data": {},
+                      "marks": [{ "type": "bold" }],
+                      "value": "",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                }
+              ],
+              "nodeType": "document"
+            }
+          },
+          "listadoVideos": null,
+          "urlSeo": "Ahorro-SaludFinanciera",
+          "keywordsSeo": null,
+          "metadescripcionSeo": null,
+          "nombreCallToActionTextoCierre": null,
+          "linkCallToActionTextoCierre": null
+        }
+      }
+    ]
+  }
+}

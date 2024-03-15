@@ -1,0 +1,444 @@
+[
+  {
+    "pcontquick": 29,
+    "pcontoption": {
+      "pcontoption": 44,
+      "pcontdesciption": "Agenda una cita",
+      "pconturl": "/personas/inversion/agenda-una-cita",
+      "pconticon": 1,
+      "pcontalticon": "Ícono de hoja con una medalla adentro, lleva a formulario en donde podrás agendar una llamada con un asesor de Protección"
+    },
+    "pcontcustomer": 1,
+    "pcontcategory": "Inversión",
+    "pcontsubcategory": "ALL"
+  },
+  {
+    "pcontquick": 30,
+    "pcontoption": {
+      "pcontoption": 50,
+      "pcontdesciption": "Gestión PRO",
+      "pconturl": "https://www.proteccion.com/gestion-pro/",
+      "pconticon": 0,
+      "pcontalticon": "Ícono de hoja con flecha adentro, lleva a la opción de Gestión Pro en donde podrás encontrar una recomendación experta para tus productos"
+    },
+    "pcontcustomer": 1,
+    "pcontcategory": "Inversión",
+    "pcontsubcategory": "ALL"
+  },
+  {
+    "pcontquick": 31,
+    "pcontoption": {
+      "pcontoption": 49,
+      "pcontdesciption": "Actualidad de inversiones",
+      "pconturl": "https://www.proteccion.com/contenidos-persona/inversion/actualidad-inversiones/",
+      "pconticon": 3,
+      "pcontalticon": "Ícono de hoja con una gráfica de barras adentro, lleva a la interna actualidad de inversiones"
+    },
+    "pcontcustomer": 1,
+    "pcontcategory": "Inversión",
+    "pcontsubcategory": "ALL"
+  },
+  {
+    "pcontquick": 2,
+    "pcontoption": {
+      "pcontoption": 30,
+      "pcontdesciption": "Pague Cesantías",
+      "pconturl": "https://www.proteccion.com/wps/proxy/https/portalempresas.proteccion.com.co:10084/liquidar-y-pagar-ces",
+      "pconticon": 2,
+      "pcontalticon": "Ícono de hoja con el signo pesos adentro. Lleva al home de Pague Cesantías, realiza la liquidación y pago de las cesantías de tus empleados"
+    },
+    "pcontcustomer": 1,
+    "pcontcategory": "Cesantías",
+    "pcontsubcategory": "ALL"
+  },
+  {
+    "pcontquick": 3,
+    "pcontoption": {
+      "pcontoption": 37,
+      "pcontdesciption": "Retiro de Cesantías",
+      "pconturl": "https://www.proteccion.com/portalafiliados/afiliados/retirarces",
+      "pconticon": 3,
+      "pcontalticon": "Ícono de hoja con flecha adentro, lleva al home de Retiro de Cesantías, debes seguir 5 pasos para iniciar la solicitud"
+    },
+    "pcontcustomer": 1,
+    "pcontcategory": "Cesantías",
+    "pcontsubcategory": "ALL"
+  },
+  {
+    "pcontquick": 1,
+    "pcontoption": {
+      "pcontoption": 36,
+      "pcontdesciption": "Certifácil",
+      "pconturl": "https://www.proteccion.com/certifacil/#/certificados",
+      "pconticon": 1,
+      "pcontalticon": "Ícono de hoja con medalla adentro, lleva al home de Certifácil donde debes elegir el producto y generar el certificado"
+    },
+    "pcontcustomer": 1,
+    "pcontcategory": "Cesantías",
+    "pcontsubcategory": "ALL"
+  },
+  {
+    "pcontquick": 14,
+    "pcontoption": {
+      "pcontoption": 8,
+      "pcontdesciption": "Afíliate a Pensión",
+      "pconturl": "https://www.proteccion.com/afiliacion/personas?utm_source=nuevoportal&utm_medium=referral&utm_campaign=PensionObligatoria&utm_term=MenuPersonasPensiones",
+      "pconticon": 2,
+      "pcontalticon": "Ícono de hoja con flecha adentro, lleva al home de afiliación o traslado a Pensiones Obligatorias de Protección"
+    },
+    "pcontcustomer": 1,
+    "pcontcategory": "Pensión",
+    "pcontsubcategory": "pension-vejez"
+  },
+  {
+    "pcontquick": 13,
+    "pcontoption": {
+      "pcontoption": 36,
+      "pcontdesciption": "Certifácil",
+      "pconturl": "https://www.proteccion.com/certifacil/#/certificados",
+      "pconticon": 1,
+      "pcontalticon": "Ícono de hoja con medalla adentro, lleva al home de Certifácil donde debes elegir el producto y generar el certificado"
+    },
+    "pcontcustomer": 1,
+    "pcontcategory": "Pensión",
+    "pcontsubcategory": "pension-vejez"
+  },
+  {
+    "pcontquick": 15,
+    "pcontoption": {
+      "pcontoption": 21,
+      "pcontdesciption": "Historia Laboral",
+      "pconturl": "https://www.proteccion.com/wps/portal/proteccion/web/lo-nuevo/afiliados/generar-historia-laboral",
+      "pconticon": 3,
+      "pcontalticon": "Ícono de hoja con una medalla adentro, lleva al home Historia Laboral, genera y aprueba tu Historia Laboral con clave o sin clave"
+    },
+    "pcontcustomer": 1,
+    "pcontcategory": "Pensión",
+    "pcontsubcategory": "pension-vejez"
+  },
+  {
+    "pcontquick": 17,
+    "pcontoption": {
+      "pcontoption": 8,
+      "pcontdesciption": "Afíliate a Pensión",
+      "pconturl": "https://www.proteccion.com/afiliacion/personas?utm_source=nuevoportal&utm_medium=referral&utm_campaign=PensionObligatoria&utm_term=MenuPersonasPensiones",
+      "pconticon": 2,
+      "pcontalticon": "Ícono de hoja con flecha adentro, lleva al home de afiliación o traslado a Pensiones Obligatorias de Protección"
+    },
+    "pcontcustomer": 1,
+    "pcontcategory": "Pensión",
+    "pcontsubcategory": "pension-invalidez"
+  },
+  {
+    "pcontquick": 16,
+    "pcontoption": {
+      "pcontoption": 36,
+      "pcontdesciption": "Certifácil",
+      "pconturl": "https://www.proteccion.com/certifacil/#/certificados",
+      "pconticon": 1,
+      "pcontalticon": "Ícono de hoja con medalla adentro, lleva al home de Certifácil donde debes elegir el producto y generar el certificado"
+    },
+    "pcontcustomer": 1,
+    "pcontcategory": "Pensión",
+    "pcontsubcategory": "pension-invalidez"
+  },
+  {
+    "pcontquick": 18,
+    "pcontoption": {
+      "pcontoption": 21,
+      "pcontdesciption": "Historia Laboral",
+      "pconturl": "https://www.proteccion.com/wps/portal/proteccion/web/lo-nuevo/afiliados/generar-historia-laboral",
+      "pconticon": 3,
+      "pcontalticon": "Ícono de hoja con una medalla adentro, lleva al home Historia Laboral, genera y aprueba tu Historia Laboral con clave o sin clave"
+    },
+    "pcontcustomer": 1,
+    "pcontcategory": "Pensión",
+    "pcontsubcategory": "pension-invalidez"
+  },
+  {
+    "pcontquick": 21,
+    "pcontoption": {
+      "pcontoption": 8,
+      "pcontdesciption": "Afíliate a Pensión",
+      "pconturl": "https://www.proteccion.com/afiliacion/personas?utm_source=nuevoportal&utm_medium=referral&utm_campaign=PensionObligatoria&utm_term=MenuPersonasPensiones",
+      "pconticon": 2,
+      "pcontalticon": "Ícono de hoja con flecha adentro, lleva al home de afiliación o traslado a Pensiones Obligatorias de Protección"
+    },
+    "pcontcustomer": 1,
+    "pcontcategory": "Pensión",
+    "pcontsubcategory": "sobrevivencia"
+  },
+  {
+    "pcontquick": 19,
+    "pcontoption": {
+      "pcontoption": 36,
+      "pcontdesciption": "Certifácil",
+      "pconturl": "https://www.proteccion.com/certifacil/#/certificados",
+      "pconticon": 1,
+      "pcontalticon": "Ícono de hoja con medalla adentro, lleva al home de Certifácil donde debes elegir el producto y generar el certificado"
+    },
+    "pcontcustomer": 1,
+    "pcontcategory": "Pensión",
+    "pcontsubcategory": "sobrevivencia"
+  },
+  {
+    "pcontquick": 22,
+    "pcontoption": {
+      "pcontoption": 21,
+      "pcontdesciption": "Historia Laboral",
+      "pconturl": "https://www.proteccion.com/wps/portal/proteccion/web/lo-nuevo/afiliados/generar-historia-laboral",
+      "pconticon": 3,
+      "pcontalticon": "Ícono de hoja con una medalla adentro, lleva al home Historia Laboral, genera y aprueba tu Historia Laboral con clave o sin clave"
+    },
+    "pcontcustomer": 1,
+    "pcontcategory": "Pensión",
+    "pcontsubcategory": "sobrevivencia"
+  },
+  {
+    "pcontquick": 23,
+    "pcontoption": {
+      "pcontoption": 36,
+      "pcontdesciption": "Certifácil",
+      "pconturl": "https://www.proteccion.com/certifacil/#/certificados",
+      "pconticon": 1,
+      "pcontalticon": "Ícono de hoja con medalla adentro, lleva al home de Certifácil donde debes elegir el producto y generar el certificado"
+    },
+    "pcontcustomer": 1,
+    "pcontcategory": "Pensión",
+    "pcontsubcategory": "pensionado"
+  },
+  {
+    "pcontquick": 25,
+    "pcontoption": {
+      "pcontoption": 21,
+      "pcontdesciption": "Historia Laboral",
+      "pconturl": "https://www.proteccion.com/wps/portal/proteccion/web/lo-nuevo/afiliados/generar-historia-laboral",
+      "pconticon": 3,
+      "pcontalticon": "Ícono de hoja con una medalla adentro, lleva al home Historia Laboral, genera y aprueba tu Historia Laboral con clave o sin clave"
+    },
+    "pcontcustomer": 1,
+    "pcontcategory": "Pensión",
+    "pcontsubcategory": "pensionado"
+  },
+  {
+    "pcontquick": 24,
+    "pcontoption": {
+      "pcontoption": 42,
+      "pcontdesciption": "Siempre Activo",
+      "pconturl": "/activo/",
+      "pconticon": 2,
+      "pcontalticon": "Ícono que lleva a la interna de contenido de nuestra Oferta para Pensionados \"Siempre Activo\""
+    },
+    "pcontcustomer": 1,
+    "pcontcategory": "Pensión",
+    "pcontsubcategory": "pensionado"
+  },
+  {
+    "pcontquick": 7,
+    "pcontoption": {
+      "pcontoption": 36,
+      "pcontdesciption": "Certifácil",
+      "pconturl": "https://www.proteccion.com/certifacil/#/certificados",
+      "pconticon": 1,
+      "pcontalticon": "Ícono de hoja con medalla adentro, lleva al home de Certifácil donde debes elegir el producto y generar el certificado"
+    },
+    "pcontcustomer": 1,
+    "pcontcategory": "Ahorro",
+    "pcontsubcategory": "ALL"
+  },
+  {
+    "pcontquick": 8,
+    "pcontoption": {
+      "pcontoption": 39,
+      "pcontdesciption": "Empezar mi Ahorro",
+      "pconturl": "https://www.proteccion.com/afiliacion/ahorro?utm_source=Personas-Menu&utm_medium=NuevoPortal&utm_campaign=AfiliacionDigitalAhorro&utm_content=EmpezarMiAhorro",
+      "pconticon": 2,
+      "pcontalticon": "Icono de hoja con el signo pesos adentro, lleva al home de ahorro 100% digital"
+    },
+    "pcontcustomer": 1,
+    "pcontcategory": "Ahorro",
+    "pcontsubcategory": "ALL"
+  },
+  {
+    "pcontquick": 9,
+    "pcontoption": {
+      "pcontoption": 40,
+      "pcontdesciption": "Soluciones de Ahorro",
+      "pconturl": "/persona/ahorro/mi-reserva/",
+      "pconticon": 3,
+      "pcontalticon": "Ícono de hoja con flecha adentro, lleva al home de los productos y soluciones de ahorro que tenemos para ti"
+    },
+    "pcontcustomer": 1,
+    "pcontcategory": "Ahorro",
+    "pcontsubcategory": "ALL"
+  },
+  {
+    "pcontquick": 10,
+    "pcontoption": {
+      "pcontoption": 36,
+      "pcontdesciption": "Certifácil",
+      "pconturl": "https://www.proteccion.com/certifacil/#/certificados",
+      "pconticon": 1,
+      "pcontalticon": "Ícono de hoja con medalla adentro, lleva al home de Certifácil donde debes elegir el producto y generar el certificado"
+    },
+    "pcontcustomer": 2,
+    "pcontcategory": "Ahorro",
+    "pcontsubcategory": "ALL"
+  },
+  {
+    "pcontquick": 12,
+    "pcontoption": {
+      "pcontoption": 38,
+      "pcontdesciption": "Clave Empresarial",
+      "pconturl": "https://www.proteccion.com/wps/proxy/https/portalempresas.proteccion.com.co:10084/solicitar-clave",
+      "pconticon": 3,
+      "pcontalticon": "Ícono de hoja con flecha adentro, lleva a la opción para generar la clave transaccional para empresas"
+    },
+    "pcontcustomer": 2,
+    "pcontcategory": "Ahorro",
+    "pcontsubcategory": "ALL"
+  },
+  {
+    "pcontquick": 11,
+    "pcontoption": {
+      "pcontoption": 41,
+      "pcontdesciption": "Planes Institucionales",
+      "pconturl": "/empresa/ahorro/planes-institucionales-empresas/",
+      "pconticon": 2,
+      "pcontalticon": "Icono de hoja con el signo pesos adentro, lleva a interna de contenido de Planes Institucionales"
+    },
+    "pcontcustomer": 2,
+    "pcontcategory": "Ahorro",
+    "pcontsubcategory": "ALL"
+  },
+  {
+    "pcontquick": 5,
+    "pcontoption": {
+      "pcontoption": 30,
+      "pcontdesciption": "Pague Cesantías",
+      "pconturl": "https://www.proteccion.com/wps/proxy/https/portalempresas.proteccion.com.co:10084/liquidar-y-pagar-ces",
+      "pconticon": 2,
+      "pcontalticon": "Ícono de hoja con el signo pesos adentro. Lleva al home de Pague Cesantías, realiza la liquidación y pago de las cesantías de tus empleados"
+    },
+    "pcontcustomer": 2,
+    "pcontcategory": "Cesantías",
+    "pcontsubcategory": "ALL"
+  },
+  {
+    "pcontquick": 4,
+    "pcontoption": {
+      "pcontoption": 36,
+      "pcontdesciption": "Certifácil",
+      "pconturl": "https://www.proteccion.com/certifacil/#/certificados",
+      "pconticon": 1,
+      "pcontalticon": "Ícono de hoja con medalla adentro, lleva al home de Certifácil donde debes elegir el producto y generar el certificado"
+    },
+    "pcontcustomer": 2,
+    "pcontcategory": "Cesantías",
+    "pcontsubcategory": "ALL"
+  },
+  {
+    "pcontquick": 6,
+    "pcontoption": {
+      "pcontoption": 38,
+      "pcontdesciption": "Clave Empresarial",
+      "pconturl": "https://www.proteccion.com/wps/proxy/https/portalempresas.proteccion.com.co:10084/solicitar-clave",
+      "pconticon": 3,
+      "pcontalticon": "Ícono de hoja con flecha adentro, lleva a la opción para generar la clave transaccional para empresas"
+    },
+    "pcontcustomer": 2,
+    "pcontcategory": "Cesantías",
+    "pcontsubcategory": "ALL"
+  },
+  {
+    "pcontquick": 27,
+    "pcontoption": {
+      "pcontoption": 43,
+      "pcontdesciption": "Inconsistencias y Deudas",
+      "pconturl": "https://protecciond2.b2clogin.com/ProteccionD2.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1A_signup_signin&client_id=bd03433b-5f81-4765-996d-1a9b3341f91d&nonce=defaultNonce&redirect_uri=https%3A%2F%2Fwww.proteccion.com%2Fwps%2Fportal%2Fproteccion%2Fweb%2Fhome%2Fingreso-empresas-empleadores&scope=openid&response_type=id_token&prompt=login",
+      "pconticon": 2,
+      "pcontalticon": "Icono de hoja con el signo pesos adentro, lleva a la zona transaccional de empresas"
+    },
+    "pcontcustomer": 2,
+    "pcontcategory": "Pensión",
+    "pcontsubcategory": "ALL"
+  },
+  {
+    "pcontquick": 26,
+    "pcontoption": {
+      "pcontoption": 36,
+      "pcontdesciption": "Certifácil",
+      "pconturl": "https://www.proteccion.com/certifacil/#/certificados",
+      "pconticon": 1,
+      "pcontalticon": "Ícono de hoja con medalla adentro, lleva al home de Certifácil donde debes elegir el producto y generar el certificado"
+    },
+    "pcontcustomer": 2,
+    "pcontcategory": "Pensión",
+    "pcontsubcategory": "ALL"
+  },
+  {
+    "pcontquick": 28,
+    "pcontoption": {
+      "pcontoption": 38,
+      "pcontdesciption": "Clave Empresarial",
+      "pconturl": "https://www.proteccion.com/wps/proxy/https/portalempresas.proteccion.com.co:10084/solicitar-clave",
+      "pconticon": 3,
+      "pcontalticon": "Ícono de hoja con flecha adentro, lleva a la opción para generar la clave transaccional para empresas"
+    },
+    "pcontcustomer": 2,
+    "pcontcategory": "Pensión",
+    "pcontsubcategory": "ALL"
+  },
+  {
+    "pcontquick": 32,
+    "pcontoption": {
+      "pcontoption": 51,
+      "pcontdesciption": "Certifácil",
+      "pconturl": "https://www.proteccion.com/certifacil/#/certificados",
+      "pconticon": 1,
+      "pcontalticon": "Ícono de hoja con medalla adentro, lleva al home de Certifácil donde debes elegir el producto y generar el certificado"
+    },
+    "pcontcustomer": 1,
+    "pcontcategory": "PREHOME",
+    "pcontsubcategory": "ALL"
+  },
+  {
+    "pcontquick": 33,
+    "pcontoption": {
+      "pcontoption": 52,
+      "pcontdesciption": "Pague Cesantías",
+      "pconturl": "https://www.proteccion.com/wps/proxy/https/portalempresas.proteccion.com.co:10084/liquidar-y-pagar-ces",
+      "pconticon": 2,
+      "pcontalticon": "Ícono de hoja con el signo pesos adentro. Lleva al home de Pague Cesantías, realiza la liquidación y pago de las cesantías de tus empleados"
+    },
+    "pcontcustomer": 1,
+    "pcontcategory": "PREHOME",
+    "pcontsubcategory": "ALL"
+  },
+  {
+    "pcontquick": 34,
+    "pcontoption": {
+      "pcontoption": 53,
+      "pcontdesciption": "Afíliate a Pensión",
+      "pconturl": "https://www.proteccion.com/afiliacion/personas?utm_source=nuevoportal&utm_medium=referral&utm_campaign=PensionObligatoria&utm_term=MenuModal&utm_content=perfilacionAfiliateaPension",
+      "pconticon": 3,
+      "pcontalticon": "Ícono de hoja con flecha adentro, lleva al home de afiliación o traslado a Pensiones Obligatorias de Protección"
+    },
+    "pcontcustomer": 1,
+    "pcontcategory": "PREHOME",
+    "pcontsubcategory": "ALL"
+  },
+  {
+    "pcontquick": 35,
+    "pcontoption": {
+      "pcontoption": 54,
+      "pcontdesciption": "Retiro de Cesantías",
+      "pconturl": "https://www.proteccion.com/portalafiliados/afiliados/retirarces",
+      "pconticon": 4,
+      "pcontalticon": "Ícono de hoja con flecha adentro, lleva al home de Retiro de Cesantías, debes seguir 5 pasos para iniciar la solicitud"
+    },
+    "pcontcustomer": 1,
+    "pcontcategory": "PREHOME",
+    "pcontsubcategory": "ALL"
+  }
+]

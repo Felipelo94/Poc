@@ -1,0 +1,10 @@
+[
+  { "name": "pronto", "texto": "Chatea con Pronto", "url": false },
+  {
+    "name": "canales",
+    "texto": "Canales de Servicio",
+    "url": "/canales/sitio-web"
+  },
+  { "name": "lineas-atencion", "texto": "Líneas de Servicio", "url": false },
+  { "name": "whatsapp", "texto": "WhatsApp", "url": false }
+]

@@ -1,0 +1,42 @@
+{
+  "allContentfulMenuPizza": {
+    "edges": [
+      {
+        "node": {
+          "titulo": "Explora",
+          "color": "blue",
+          "more": true,
+          "link": "",
+          "classGtm": "gtmHomeMenuExplora"
+        }
+      },
+      {
+        "node": {
+          "titulo": "Historia Laboral",
+          "color": "green",
+          "more": false,
+          "link": "https://www.proteccion.com/wps/portal/proteccion/web/lo-nuevo/afiliados/generar-historia-laboral",
+          "classGtm": "gtmHomeMenuHistoriaLaboral"
+        }
+      },
+      {
+        "node": {
+          "titulo": "Afíliate a Pensión",
+          "color": "green",
+          "more": false,
+          "link": "https://protecciond1.b2clogin.com/ProteccionD1.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1A_signin&client_id=a73df676-c8c9-48b7-ab28-0c23c676ae4f&redirect_uri=https%3A%2F%2Fwww.proteccion.com%2Fwps%2Fportal%2Fproteccion%2Fweb%2Fhome%2Fingreso-afiliados-pensionados%2F&scope=openid&response_type=id_token&response_mode=form_post&prompt=login",
+          "classGtm": "gtmHomeMenuZonaTransaccional"
+        }
+      },
+      {
+        "node": {
+          "titulo": "Accesos rápidos",
+          "color": "green",
+          "more": true,
+          "link": "",
+          "classGtm": "gtmHomeMenuAccesosRapidos"
+        }
+      }
+    ]
+  }
+}

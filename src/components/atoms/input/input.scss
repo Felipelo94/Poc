@@ -1,0 +1,94 @@
+@import "../../../assets//styles/variables.scss";
+
+.input-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  &-label {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: $gray-text;
+    margin-bottom: 4px;
+    &-error {
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 15px;
+      color: #e62323;
+    }
+  }
+  &-icon {
+    position: absolute;
+    margin-top: 34px;
+    margin-left: 9px;
+  }
+  &-input {
+    width: 321px;
+    height: 40px;
+    background: white;
+    border: 1px solid $light-border;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 8px 12px 8px 12px;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: $gray-text;
+
+    &:focus {
+      outline: none !important;
+      border-color: $border-blue;
+      -webkit-box-shadow: 0 0 10px $border-blue;
+      box-shadow: 0 0 10px $border-blue;
+    }
+
+    &::-webkit-input-placeholder {
+      width: 214px;
+      height: 19px;
+      color: $gray-text;
+    }
+
+    &::-moz-placeholder {
+      width: 214px;
+      height: 19px;
+      color: $gray-text;
+    }
+
+    &:-ms-input-placeholder {
+      width: 214px;
+      height: 19px;
+      color: $gray-text;
+    }
+
+    &::-ms-input-placeholder {
+      width: 214px;
+      height: 19px;
+      color: $gray-text;
+    }
+
+    &::placeholder {
+      width: 214px;
+      height: 19px;
+      color: $gray-text;
+    }
+  }
+}
+
+@media (max-width: 769px) {
+  .input-container {
+    &-input {
+      width: 100%;
+    }
+  }
+}

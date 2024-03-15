@@ -1,0 +1,18 @@
+.internal-page-section-margin {
+  margin-left: 113px;
+  margin-right: 114px;
+}
+
+@media (min-width: 1500px) {
+  .internal-page-section-margin {
+    max-width: 1366px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .internal-page-section-margin {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

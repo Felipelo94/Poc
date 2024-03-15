@@ -1,0 +1,262 @@
+@import "../../../assets/styles/variables.scss";
+
+.header {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  height: 65px;
+  padding: 0px 1.1rem;
+}
+
+.container-modal-salesforce {
+  & > .container-modal {
+    right: 0px;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    & > .container-modal-content {
+      & > .container-modal-content-header {
+        & .container-modal-content-header-close {
+          & path {
+            fill: $dark-gray;
+          }
+        }
+        height: 20px;
+        padding: 28px 14px 5px 0;
+      }
+      & > .container-modal-content-body {
+        & .container-salesforce-title {
+          color: $dark-text;
+        }
+        background: white;
+        padding-top: 0px;
+        padding-left: 56px;
+        padding-right: 56px;
+      }
+    }
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .container-modal-salesforce {
+    & > .container-modal {
+      & > .container-modal-content {
+        & > .container-modal-content-header {
+          padding: 14px 0px 5px 0;
+        }
+        & > .container-modal-content-body {
+          padding-left: 16px;
+          padding-right: 16px;
+        }
+      }
+    }
+  }
+}
+
+.btn-transacciones-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  // margin-right: 94px;
+}
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 65px;
+}
+
+.header-types {
+  @media (min-width: $desktop-small-width) and (max-width: 1040px) {
+    margin: 0 2.37rem !important;
+  }
+  margin: 0 3.37rem;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+}
+
+.header-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header-typePerson {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.header-typeEmpre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-left: 16px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header-titleType {
+  font-family: $secondary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  padding-top: 0.2rem;
+}
+
+.header-titleTyp-empresa {
+  font-family: $secondary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  padding-top: 0.2rem;
+}
+
+.header-bgIcon {
+  -ms-flex-item-align: center;
+  align-self: center;
+  cursor: pointer;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header-empresa {
+  -ms-flex-item-align: center;
+  align-self: center;
+  cursor: pointer;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header-iconPerson {
+  height: 24px;
+  width: 22px;
+}
+
+.type-user-activo {
+  height: 24px;
+  width: 22px;
+}
+
+.type-user-activo:before {
+  content: " ";
+  height: 35px;
+  width: 35px;
+  top: -4px;
+  right: -6px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  background-image: url(../../../assets/images/bg-icono-tipo-publico.svg);
+}
+
+.refresh {
+  padding: 10px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media (max-width: $desktop-small-width) {
+  .header-titleType {
+    font-size: 15px;
+  }
+  .header-titleTyp-empresa {
+    font-size: 15px;
+  }
+  .header-typeEmpre {
+    margin-left: 24px;
+  }
+
+  .lineInital {
+    height: 4px;
+    width: 100%;
+    background-color: $base-yellow;
+  }
+  .lineInital-blue {
+    height: 4px;
+    width: 100%;
+    background-color: $base-blue;
+  }
+
+  .btn-transacciones-header {
+    display: none;
+  }
+}
+
+@media (min-width: $desktop-small-width) {
+  .lineInital {
+    border-top: 4px $base-yellow solid;
+    background: white;
+  }
+  .lineInital-blue {
+    border-top: 4px $base-blue solid;
+    background: white;
+  }
+  .header {
+    border-bottom: 1px $light-border solid;
+    border-top: 1px $light-border solid;
+  }
+}

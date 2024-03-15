@@ -1,0 +1,125 @@
+@import "src/assets/styles/variables.scss";
+@import "src/assets/styles/mixins.scss";
+
+.portfolio-filter {
+  margin: 0 auto;
+  max-width: 1366px;
+  display: flex;
+  flex-direction: column;
+
+  @include from($tablet) {
+    padding: 0 113px;
+  }
+
+  &__title {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 29px;
+    color: $base-blue;
+    margin: 24px 0 0 16px;
+
+    @include from($tablet) {
+      margin: 32px 0 0 0;
+    }
+  }
+
+  &__main {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 0 0 16px;
+    gap: 8px;
+
+    @include from($tablet) {
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 16px;
+      padding: 32px 0;
+      border-bottom: 1px solid $light-border;
+    }
+  }
+
+  &__subtitle {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: $base-blue;
+    margin: 12px 0 8px 0;
+
+    @include from($tablet) {
+      margin: 0;
+    }
+  }
+
+  &__options {
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    gap: 8px;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  &__option {
+    padding: 8px 16px;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: $base-blue;
+    background: none;
+    border: 1px solid $base-blue;
+    border-radius: 50px;
+
+    &:hover {
+      @media (hover: hover) {
+        cursor: pointer;
+        color: $base-white;
+        background: $base-blue;
+      }
+    }
+
+    &--active {
+      cursor: pointer;
+      color: $base-white;
+      background: $base-blue;
+    }
+  }
+
+  &__option-quantity {
+    background: $base-yellow;
+    border-radius: 4px;
+    margin-left: 16px;
+    padding: 1px 4px;
+    color: #000;
+  }
+
+  &__clean-filter {
+    display: flex;
+    gap: 8px;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: start;
+    background-color: $base-white;
+    color: $base-blue;
+    border: 0;
+    cursor: pointer;
+    padding: 0;
+  }
+}
+

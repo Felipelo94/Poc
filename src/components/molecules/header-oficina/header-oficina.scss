@@ -1,0 +1,155 @@
+@import "../../../assets/styles/variables.scss";
+
+.container-header-oficina {
+  width: 100%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  padding-top: 25px;
+  margin-top: 16px;
+  align-items: center;
+  &-container {
+    width: 100%;
+    height: 300px;
+    background: $light-background;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 1500px;
+    &-text {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding: 77px 0px;
+      &-title {
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 38px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        color: $base-blue;
+        width: 546px;
+        height: 30px;
+        margin-bottom: 16px;
+      }
+      &-subtitle {
+        max-width: 546px;
+        min-height: 100px;
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 25px;
+        color: $dark-text;
+      }
+      &-list {
+        width: 472px;
+        height: 130px;
+        font-family: $secondary-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 22px;
+        color: $dark-text;
+        &-items {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          &-icon {
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background: $base-yellow;
+            margin: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: "1500px") {
+  .container-header-oficina {
+    &-container {
+      max-width: 1280px;
+      margin: auto;
+    }
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .container-header-oficina {
+    &-container {
+      &-text {
+        padding: 24px 16px 32px 16px;
+      }
+    } 
+  }
+  
+}
+
+@media (max-width: $responsive-width) {
+  .container-header-oficina {
+    height: 100%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    &-container {
+      height: 100%;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      &-text {
+        width: 100%;
+        
+        &-title {
+          width: 100%;
+          font-size: 34px;
+          line-height: 38px;
+          margin: 24px 0px 16px 0px;
+        }
+        &-subtitle {
+          margin-bottom: 24px;
+          height: auto;
+          width: 100%;
+        }
+        &-list {
+          width: 100%;
+          height: auto;
+        }
+        &-image {
+          width: 100%;
+          margin-bottom: 32px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

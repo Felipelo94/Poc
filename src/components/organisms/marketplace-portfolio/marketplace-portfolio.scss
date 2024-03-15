@@ -1,0 +1,61 @@
+@import '../../../assets/styles/variables.scss';
+@import '../../../assets/styles/mixins.scss';
+
+$card-columns-breakpoint: 610px;
+
+.marketplace-portfolio {
+  margin: 0 auto;
+  max-width: 1366px;
+  padding: 24px 16px;
+
+  @include from($tablet) {
+    padding: 0 113px;
+  }
+  
+  &__title {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 38px;
+    color: $base-blue;
+    margin-bottom: 16px;
+  }
+
+  &__description {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: $gray-text;
+    margin-bottom: 32px;
+  }
+}
+
+.portfolioSliderCarrusel {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: -92px;
+}
+
+.Portfolio-Bannerbite_perder {
+  width: 95%;
+  height: auto;
+  padding: 0px 30px 0px 0px !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-prev {
+  height: 303px;
+  width: 95px;
+  position: relative;
+  left: 0% !important;
+  z-index: 6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,261 @@
+@import "../../../assets/styles/variables.scss";
+
+.container-menu-meal {
+  width: 273px;
+
+
+  & > .MuiTabs-root {
+    & > .MuiTabs-scroller {
+      & > span {
+        left: 0 !important;
+        background-color: $base-blue !important;
+      }
+
+      & > .MuiTabs-flexContainer {
+        margin-left: 0px;
+        margin-right: 0px;
+        -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+        align-items: center !important;
+        width: 273px !important;
+
+        & > .MuiButtonBase-root {
+          width: 350px;
+          padding: 16px !important;
+          font-family: $secondary-font !important;
+          font-style: normal !important;
+          font-weight: 500 !important;
+          font-size: 13px;
+          line-height: 20px !important;
+          display: flex !important;
+          display: -webkit-box !important;
+          display: -ms-flexbox !important;
+          -webkit-box-align: center !important;
+          -ms-flex-align: center !important;
+          align-items: center !important;
+          -webkit-align-items: center !important;
+          text-align: center !important;
+          -webkit-box-pack: center !important;
+          -ms-flex-pack: center !important;
+          justify-content: center !important;
+          text-transform: uppercase !important;
+          color: $gray-text !important;
+          min-height: 52px !important;
+          border-left: 1px solid $light-border;
+
+          & > .MuiTab-wrapper {
+            -webkit-box-align: start !important;
+            -ms-flex-align: start !important;
+            align-items: flex-start !important;
+            min-height: 20px !important;
+          }
+        }
+
+        & > .Mui-selected {
+          padding: 16px !important;
+          font-family: $secondary-font !important;
+          font-style: normal !important;
+          font-weight: bold !important;
+          font-size: 13px;
+          line-height: 20px !important;
+          display: flex !important;
+          display: -webkit-box !important;
+          display: -ms-flexbox !important;
+          -webkit-box-align: center !important;
+          -ms-flex-align: center !important;
+          align-items: center !important;
+          -webkit-align-items: center !important;
+          text-align: center !important;
+          -webkit-box-pack: center !important;
+          -ms-flex-pack: center !important;
+          justify-content: center !important;
+          text-transform: uppercase !important;
+          color: $light-background !important;
+          background: $base-blue !important;
+          -webkit-box-orient: vertical !important;
+          -webkit-box-direction: normal !important;
+          -ms-flex-direction: column !important;
+          flex-direction: column !important;
+          border-left: 2px solid $base-blue;
+
+          @media (max-width: $desktop-small-width) {
+            border-bottom: 2px $base-blue solid !important;
+          }
+          min-height: 52px !important;
+        }
+
+        & > .MuiTab-root {
+          text-transform: none !important;
+          text-align: start !important;
+          min-height: 52px !important;
+          @media (min-width: $desktop-small-width) {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  &-value {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 16px;
+    cursor: pointer;
+
+    &.inactive {
+      border-bottom: solid 1px #f2f2f2;
+      color: #4f4f4f;
+    }
+
+    &.active {
+      border-left: solid 2px $base-blue;
+      color: $base-blue;
+      background: #eef2f7;
+    }
+  }
+
+  &__tab {
+    max-width: 273px !important;
+    width: 273px !important;
+  }
+}
+
+.container-menu-meal-inversion {
+  & > .MuiTabs-root {
+    & > .MuiTabs-scroller {
+      & > span {
+        left: 0 !important;
+        background-color: $base-yellow !important;
+      }
+
+      & > .MuiTabs-flexContainer {
+        margin-left: 0px;
+        margin-right: 0px;
+        -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+        align-items: center !important;
+        width: 100% !important;
+
+        & > .MuiButtonBase-root {
+          width: 350px;
+          padding: 16px !important;
+          font-family: $secondary-font !important;
+          font-style: normal !important;
+          font-weight: 500 !important;
+          font-size: 13px;
+          line-height: 20px !important;
+          display: flex !important;
+          display: -webkit-box !important;
+          display: -ms-flexbox !important;
+          -webkit-box-align: center !important;
+          -ms-flex-align: center !important;
+          align-items: center !important;
+          -webkit-align-items: center !important;
+          text-align: center !important;
+          -webkit-box-pack: center !important;
+          -ms-flex-pack: center !important;
+          justify-content: center !important;
+          text-transform: uppercase !important;
+          color: $gray-text !important;
+          min-height: 52px !important;
+
+          & > .MuiTab-wrapper {
+            -webkit-box-align: start !important;
+            -ms-flex-align: start !important;
+            align-items: flex-start !important;
+            min-height: 20px !important;
+          }
+        }
+
+        & > .Mui-selected {
+          padding: 16px !important;
+          font-family: $secondary-font !important;
+          font-style: normal !important;
+          font-weight: bold !important;
+          font-size: 13px;
+          line-height: 20px !important;
+          display: flex !important;
+          display: -webkit-box !important;
+          display: -ms-flexbox !important;
+          -webkit-box-align: center !important;
+          -ms-flex-align: center !important;
+          align-items: center !important;
+          -webkit-align-items: center !important;
+          text-align: center !important;
+          -webkit-box-pack: center !important;
+          -ms-flex-pack: center !important;
+          justify-content: center !important;
+          text-transform: uppercase !important;
+          color: $dark-text !important;
+          background: $light-background !important;
+          -webkit-box-orient: vertical !important;
+          -webkit-box-direction: normal !important;
+          -ms-flex-direction: column !important;
+          flex-direction: column !important;
+          min-height: 52px !important;
+          border-left: 2px $base-yellow solid !important;
+
+          @media (max-width: $desktop-small-width) {
+            border-bottom: 2px $base-blue solid !important;
+          }
+        }
+
+        & > .MuiTab-root {
+          text-transform: none !important;
+          text-align: start !important;
+          min-height: 52px !important;
+
+          @media (min-width: $desktop-small-width) {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  &-value {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 16px;
+    cursor: pointer;
+
+    &.inactive {
+      border-bottom: solid 1px #f2f2f2;
+      color: $gray-text;
+    }
+
+    &.active {
+      border-left: solid 2px $base-blue;
+      color: $dark-text;
+      background: $light-background;
+    }
+  }
+}
+
+#container-menu-meal {
+  position: sticky;
+  top: 20%;
+  padding-bottom: 100px;
+
+  @media (max-width: "1024px") {
+    padding-bottom: 0px;
+  }
+}

@@ -1,0 +1,453 @@
+{
+  "allContentfulLineaTelefonica": {
+    "edges": [
+      {
+        "node": {
+          "titulo": "Bogotá",
+          "numeroContacto": "744 44 64"
+        }
+      },
+      {
+        "node": {
+          "titulo": "Medellín y Cali",
+          "numeroContacto": "510 90 99"
+        }
+      },
+      {
+        "node": {
+          "titulo": "Barranquilla",
+          "numeroContacto": "319 79 99"
+        }
+      },
+      {
+        "node": {
+          "titulo": "Cartagena",
+          "numeroContacto": "642 49 99"
+        }
+      },
+      {
+        "node": {
+          "titulo": "Resto del país desde una línea fija al",
+          "numeroContacto": "01 8000 52 8000"
+        }
+      }
+    ]
+  },
+  "allContentfulEnlaceInformativo": {
+    "edges": [
+      {
+        "node": {
+          "titulo": "Condiciones de Uso de los Canales de Servicio al Cliente",
+          "classGtm": "gtmHomeInfCondUsoCanServ",
+          "enlace": "https://www.proteccion.com/wps/portal/proteccion/web/home/general/condiciones-uso-canales-servicio",
+          "type": "empresa",
+          "textDecoration": false
+        }
+      },
+      {
+        "node": {
+          "titulo": "Trabaja con Nosotros",
+          "classGtm": "gtmHomeInfTrabajConNos",
+          "enlace": "https://empleos.sura-am.com/COLOMBIA-PROTECCION",
+          "type": "persona",
+          "textDecoration": false
+        }
+      },
+      {
+        "node": {
+          "titulo": "Seguridad Financiera",
+          "classGtm": "gtmHomeInfSegurFinan",
+          "enlace": "https://www.proteccion.com/wps/portal/proteccion/web/home/proteccion-conecta/zona-seguridad",
+          "type": "persona",
+          "textDecoration": false
+        }
+      },
+      {
+        "node": {
+          "titulo": "Condiciones y Términos de Uso del Sitio www.proteccion.com",
+          "classGtm": "gtmHomeInfCondTermUsoSitio",
+          "enlace": "https://www.proteccion.com/wps/portal/proteccion/web/home/general/terminos-condiciones",
+          "type": "empresa",
+          "textDecoration": false
+        }
+      },
+      {
+        "node": {
+          "titulo": "Política de Inversión",
+          "classGtm": "gtmHomeInfPoliticaInversion",
+          "enlace": "https://www.proteccion.com/contenidos/gobierno-corporativo/",
+          "type": "empresa",
+          "textDecoration": false
+        }
+      },
+      {
+        "node": {
+          "titulo": "",
+          "classGtm": "",
+          "enlace": "",
+          "type": "empresa",
+          "textDecoration": false
+        }
+      },
+      {
+        "node": {
+          "titulo": "Consumidor Financiero",
+          "classGtm": "gtmHomeInfConsumFinan",
+          "enlace": "https://www.proteccion.com/wps/portal/proteccion/web/home/proteccion-conecta/consumidor-financiero",
+          "type": "empresa",
+          "textDecoration": false
+        }
+      },
+      {
+        "node": {
+          "titulo": "Protección de Datos Personales",
+          "classGtm": "gtmHomeInfProtecDatPers",
+          "enlace": "https://www.proteccion.com/contenidos/persona/cesantias/ley-proteccion-datos-personales",
+          "type": "empresa",
+          "textDecoration": false
+        }
+      },
+      {
+        "node": {
+          "titulo": "Información de Productos y Servicios",
+          "classGtm": "gtmHomeInfInfoProducServ",
+          "enlace": "https://www.proteccion.com/contenidos/informacion-productos-servicios/",
+          "type": "empresa",
+          "textDecoration": false
+        }
+      },
+      {
+        "node": {
+          "titulo": "",
+          "classGtm": "",
+          "enlace": "",
+          "type": "empresa",
+          "textDecoration": false
+        }
+      },
+      {
+        "node": {
+          "titulo": "Línea Ética y Código de Conducta",
+          "classGtm": "",
+          "enlace": "https://www.proteccion.com/contenidos/persona/cesantias/linea-etica-codigo-conducta",
+          "type": "empresa",
+          "textDecoration": false
+        }
+      },
+      {
+        "node": {
+          "titulo": "Fichas Técnicas",
+          "classGtm": "gtmHomeInfFichasTecnicas",
+          "enlace": "https://proteccion.com/contenidos/portafolios-de-inversion/",
+          "type": "persona",
+          "textDecoration": false
+        }
+      },
+      {
+        "node": {
+          "titulo": "PQRS",
+          "classGtm": "",
+          "enlace": "https://www.proteccion.com/wps/portal/proteccion/web/home/canales-servicios-pqr/registre-solicitud",
+          "type": "persona",
+          "textDecoration": false
+        }
+      },
+      {
+        "node": {
+          "titulo": "Mapa del Sitio",
+          "classGtm": "",
+          "enlace": "https://www.proteccion.com/contenidos/mapa-del-sitio/",
+          "type": "persona",
+          "textDecoration": false
+        }
+      },
+      {
+        "node": {
+          "titulo": "Información Accionistas",
+          "classGtm": "gtmHomeInfInformAccion",
+          "enlace": "https://www.proteccion.com/contenidos/gobierno-corporativo/",
+          "type": "corporativo",
+          "textDecoration": false
+        }
+      },
+      {
+        "node": {
+          "titulo": "Acerca de Protección",
+          "classGtm": "gtmHomeInfAcercaProte",
+          "enlace": "https://www.proteccion.com/contenidos/acerca-proteccion/",
+          "type": "corporativo",
+          "textDecoration": false
+        }
+      },
+      {
+        "node": {
+          "titulo": "Gobierno Corporativo",
+          "classGtm": "gtmHomeInfgobCorp",
+          "enlace": "https://www.proteccion.com/contenidos/gobierno-corporativo/",
+          "type": "corporativo",
+          "textDecoration": false
+        }
+      },
+      {
+        "node": {
+          "titulo": "Sostenibilidad",
+          "classGtm": "gtmHomeInfRespCorp",
+          "enlace": "https://www.proteccion.com/contenidos/sostenibilidad/",
+          "type": "corporativo",
+          "textDecoration": false
+        }
+      },
+      {
+        "node": {
+          "titulo": "Proveedores Protección",
+          "classGtm": "gtmHomeInfAliaProte",
+          "enlace": "https://www.proteccion.com/contenidos/proveedores-proteccion/",
+          "type": "corporativo",
+          "textDecoration": false
+        }
+      }
+    ]
+  },
+  "allContentfulAsset": {
+    "edges": [
+      {
+        "node": {
+          "file": {
+            "url": "footer-btn-up"
+          },
+          "contentful_id": "500rS1be9G2UvPT0dgamkF"
+        }
+      },
+      {
+        "node": {
+          "file": {
+            "url": "footer-btn-down"
+          },
+          "contentful_id": "3MbnFxY5aAmCmZNdIJbxd"
+        }
+      },
+      {
+        "node": {
+          "file": {
+            "url": "footer-close"
+          },
+          "contentful_id": "5KXr1fNwNSoWrTb3E4AqIV"
+        }
+      },
+      {
+        "node": {
+          "file": {
+            "url": "https://images.ctfassets.net/y3qdch79qxiw/YZtfjs6gYCtucJScByKL7/a2748909024d4d9d9f4f6daf4e1cfa9b/modal_lineas_servicio.png"
+          },
+          "contentful_id": "YZtfjs6gYCtucJScByKL7"
+        }
+      }
+    ]
+  },
+  "allContentfulContenidosPaginas": {
+    "edges": [
+      {
+        "node": {
+          "nombreTexto": "titulo-categorias",
+          "valorTexto": {
+            "internal": {
+              "content": "¿Qué quieres hacer hoy?"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "allContentfulEnlace": {
+    "edges": [
+      {
+        "node": {
+          "titulo": {
+            "titulo": "App Store"
+          },
+          "enlace": "https://itunes.apple.com/us/app/app-proteccion-iphone/id1015636587?ls=1&mt=8",
+          "categoria": "App",
+          "jerarquia": 1,
+          "icono": null
+        }
+      },
+      {
+        "node": {
+          "titulo": {
+            "titulo": "Para una mejor visualización al realizar transacciones y consultas, usa los siguientes navegadores: Google Chrome, Firefox o Microsoft Edge. Descarga Google Chrome haciendo"
+          },
+          "enlace": "http://windows.microsoft.com/es-es/internet-explorer/download-ie",
+          "categoria": "Navegador",
+          "jerarquia": 1,
+          "icono": {
+            "file": {
+              "url": "footer-computer"
+            }
+          }
+        }
+      },
+      {
+        "node": {
+          "titulo": {
+            "titulo": "Líneas de Servicio"
+          },
+          "enlace": null,
+          "categoria": "Enlaces Canales de servicio",
+          "classGtm": "gtmHomeInfLineasServicio",
+          "jerarquia": 1,
+          "icono": {
+            "file": {
+              "url": "footer-phone"
+            }
+          }
+        }
+      },
+      {
+        "node": {
+          "titulo": {
+            "titulo": "Facebook"
+          },
+          "enlace": "https://www.facebook.com/proteccionsa",
+          "categoria": "Redes sociales",
+          "jerarquia": 1,
+          "icono": {
+            "file": {
+              "url": "https://images.ctfassets.net/y3qdch79qxiw/2GriKZJybc5SQwgpQgaZ7H/824f318ba4a9a612b558fbdd3cc825f1/Vectorfb__2_.png"
+            }
+          }
+        }
+      },
+      {
+        "node": {
+          "titulo": {
+            "titulo": "Google Play"
+          },
+          "enlace": "https://play.google.com/store/apps/details?id=com.ProteccionApp",
+          "categoria": "App",
+          "jerarquia": 2,
+          "icono": null
+        }
+      },
+      {
+        "node": {
+          "titulo": {
+            "titulo": "Twitter"
+          },
+          "enlace": "https://twitter.com/proteccion",
+          "categoria": "Redes sociales",
+          "jerarquia": 2,
+          "icono": {
+            "file": {
+              "url": "https://images.ctfassets.net/y3qdch79qxiw/4U46MqS0XUZgdAIolJ9LfA/d8fa03ed20123448b0fd4d319c01d21f/Vectortwitter__1_.png"
+            }
+          }
+        }
+      },
+      {
+        "node": {
+          "titulo": {
+            "titulo": "Escritorio"
+          },
+          "enlace": "https://www.proteccion.com/wps/portal/proteccion/web/accesodirecto/app-proteccion",
+          "categoria": "App",
+          "jerarquia": 3,
+          "icono": null
+        }
+      },
+      {
+        "node": {
+          "titulo": {
+            "titulo": "Instagram"
+          },
+          "enlace": "https://www.instagram.com/proteccionsa/",
+          "categoria": "Redes sociales",
+          "jerarquia": 3,
+          "icono": {
+            "file": {
+              "url": "https://images.ctfassets.net/y3qdch79qxiw/4M7g4RAiDvvllykaCy4XN2/da9ac12f9044dc98d583fb299572f64f/instagramig__1_.png"
+            }
+          }
+        }
+      },
+      {
+        "node": {
+          "titulo": {
+            "titulo": "Oficinas de Servicio"
+          },
+          "enlace": "/oficina/",
+          "classGtm": "gtmHomeInfOficinasServicio",
+          "categoria": "Enlaces Canales de servicio",
+          "jerarquia": 3,
+          "icono": {
+            "file": {
+              "url": "footer-gps"
+            }
+          }
+        }
+      },
+      {
+        "node": {
+          "titulo": {
+            "titulo": "Linkedin"
+          },
+          "enlace": "https://www.linkedin.com/in/protecci%C3%B3n-s-a-ba1725aa/",
+          "categoria": "Redes sociales",
+          "jerarquia": 4,
+          "icono": {
+            "file": {
+              "url": "https://images.ctfassets.net/y3qdch79qxiw/5NHmAEUquSt6lO8EOMFh63/897f22fbd81f67d5fddaacfb390eba00/linkedin__1_.png"
+            }
+          }
+        }
+      },
+      {
+        "node": {
+          "titulo": {
+            "titulo": "Descarga la App"
+          },
+          "enlace": null,
+          "categoria": "Enlaces Canales de servicio",
+          "classGtm": "gtmHomeInfDescargaLaApp",
+          "jerarquia": 4,
+          "icono": {
+            "file": {
+              "url": "footer-btn-phone"
+            }
+          }
+        }
+      },
+      {
+        "node": {
+          "titulo": {
+            "titulo": "Directorio Comercial"
+          },
+          "enlace": null,
+          "categoria": "Enlaces Canales de servicio",
+          "classGtm": "gtmHomeInfDirectorioComercial",
+          "jerarquia": 4,
+          "icono": {
+            "file": {
+              "url": "footer-btn-phone"
+            }
+          }
+        }
+      },
+      {
+        "node": {
+          "titulo": {
+            "titulo": "Fondos Voluntarios de Pensión"
+          },
+          "enlace": null,
+          "categoria": "Enlaces Canales de servicio",
+          "classGtm": "",
+          "jerarquia": 4,
+          "icono": {
+            "file": {
+              "url": "footer-btn-phone"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

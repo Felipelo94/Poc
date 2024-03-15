@@ -1,0 +1,48 @@
+@import "../assets/styles/variables.scss";
+
+.container-prehome {
+  width: 50%;
+  margin: 144px auto;
+
+  @media screen and (max-width: $responsive-width) {
+    width: 100%;
+    margin: 120px 0;
+  }
+
+  &__top {
+    background: #fff;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    @media screen and (max-width: $responsive-width) {
+      display: none;
+    }
+  }
+
+  &__globe {
+    margin-left: 25px;
+  }
+
+  &__title {
+    margin-left: 17px;
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+.container-page-home__prehome {
+  background-image: url(../assets/images/mockup/MockupDesktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: scroll;
+  height: 100vh;
+
+  @media screen and (max-width: $responsive-width) {
+    background: #fff;
+  }
+}

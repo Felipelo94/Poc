@@ -1,0 +1,19 @@
+{
+  "title": "Oficinas de servicio",
+  "subtitle": "Al visitar nuestras Oficinas de Servicio, puedes:",
+  "image": "image /static/imageheaderoficinas-9bf25afcdf96cee9940e1f67f6919be5.png",
+  "items": [
+    {
+      "title": "Radicar documentación para tu pensión"
+    },
+    {
+      "title": "Realizar retiros de Pensiones Voluntarias que superen el monto permitido (15 millones de pesos)"
+    },
+    {
+      "title": "Recibir atención pesonalizada sobre tu ahoro en Pensiones y Cesantías."
+    },
+    {
+      "title": "Selecciona tu ciudad y ubica la oficina más cercana a tu casa o lugar de trabajo. "
+    }
+  ]
+}

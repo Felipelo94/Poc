@@ -1,0 +1,63 @@
+@import "../../../assets/styles/variables.scss";
+.container-videoadviser{
+  width: 133px;
+  height: 48px;
+  z-index: 7;
+  display: block;
+  visibility: visible;
+  background: white;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 4px 5px rgba(149, 150, 153, 0.14), 0px 1px 10px rgba(149, 150, 153, 0.12), 0px 2px 4px rgba(149, 150, 153, 0.2);
+  box-shadow: 0px 4px 5px rgba(149, 150, 153, 0.14), 0px 1px 10px rgba(149, 150, 153, 0.12), 0px 2px 4px rgba(149, 150, 153, 0.2);
+  border-radius: 4px 4px 0px 0px;
+
+  &-flotante {
+    position: fixed;
+    right: 234px;
+    float: left;
+    bottom: 0px;
+  }
+  
+  &-no-flotante{
+    position: relative;
+    float: right;
+    right:  140px;
+    bottom: 0;
+    top: -48px;
+  }
+
+  &-no-internasflotante{
+    position: absolute;
+    float: right;
+    right: 234px;
+    bottom: 0px;
+    top: -48px;
+  }
+  &-link{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none;
+  }
+  &-img{
+    margin: 4px 8px 3px 8px;
+  }
+  &-title{
+    font-family: $secondary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  margin-right: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+
+  /* Primary/500 */
+
+  color: $base-blue;
+  }
+}

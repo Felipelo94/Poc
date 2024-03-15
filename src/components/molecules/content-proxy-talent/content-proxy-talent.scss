@@ -1,0 +1,81 @@
+@import "../../../assets/styles/variables.scss";
+.content-proxy-talent {
+  margin: 48px 91px;
+  &-accordions-container {
+    display: flex;
+    &-image {
+      width: 350px;
+      height: 350px;
+    }
+    .item-acordion-container {
+      margin-right: 0;
+      margin-left: 0;
+    }
+    .item-acordion-container-title-width {
+      width: auto;
+      text-transform: none;
+    }
+    .item-acordion-container-title-active {
+      border: 1px solid rgb(0, 51, 160);
+      font-size: 22px;
+      line-height: 25px;
+
+    }
+
+    .container-meal-content-mobile {
+      margin-left: 25px;
+      padding-left: 25px;
+      margin-bottom: 16px;
+      border-left: 1px solid rgb(0, 51, 160);
+    }
+
+    .item-acordion-container-title-inactive {
+      font-size: 22px;
+      line-height: 25px;
+      border: 1px solid $light-border;
+      margin-bottom: 16px;
+    }
+  }
+
+  &-header {
+    &-title {
+      font-family: $primary-font;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 34px;
+      color: $base-blue;
+      margin-bottom: 16px;
+    }
+    &-descripcion {
+      font-family:$secondary-font;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 22px;
+      color: $dark-gray;
+      margin-bottom: 32px;
+    }
+  }
+
+  &--inversion {
+    .content-proxy-talent-header-title {
+      color: $dark-text;
+    }
+    .content-proxy-talent-header-descripcion {
+      color: $gray-text;
+    }
+    .item-acordion-container-title-active {
+      border: 1px solid $dark-text !important;
+    }
+    .container-meal-content-mobile {
+      border-left: 1px solid $dark-text;
+    }
+  }
+}
+
+@media (max-width: "1024px") {
+  .content-proxy-talent {
+    margin: 48px 16px;
+  }
+}

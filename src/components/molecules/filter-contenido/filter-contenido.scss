@@ -1,0 +1,167 @@
+@import "../../../assets/styles/variables.scss";
+.container-filter-contenido {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0px 120px;
+  max-width: 1109px;
+  border-bottom: 1px solid $light-border;
+  padding-bottom: 12px;
+
+  &-active {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: white;
+    background: $base-blue;
+    border: 1px solid $base-blue;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 8px 16px;
+    margin: 12px;
+    cursor: pointer;
+  }
+
+  &-active-dark {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: white;
+    background: #000000;
+    border: 1px solid #000000;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 8px 16px;
+    margin: 12px;
+    cursor: pointer;
+  }
+
+  &-inactive-dark {
+    &:hover {
+      background-color: #000000;
+      color: white;
+    }
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #000000;
+    background: white;
+    border: 1px solid #000000;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 8px 16px;
+    margin: 12px;
+    cursor: pointer;
+  }
+  &-inactive {
+    &:hover {
+      background-color: #335cb3;
+      color: white;
+    }
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: $base-blue;
+    background: white;
+    border: 1px solid $base-blue;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 8px 16px;
+    margin: 12px;
+    cursor: pointer;
+  }
+  &-reset {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: $base-blue;
+    padding: 8px 16px;
+    margin: 12px;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: $desktop-small-width) {
+  .container-filter-contenido {
+    margin: 0px;
+    &-active {
+      margin: 0px;
+    }
+    &-inactive {
+      margin: 0px;
+    }
+    &-reset {
+      margin: 0px 12px;
+    }
+  }
+
+  .container-categoria-internal-filter {
+    & > .slick-slider {
+      & > .slick-list {
+        & > .slick-track {
+          & > .slick-slide {
+            margin: 0px 12px;
+          }
+        }
+      }
+    }
+  }
+}
